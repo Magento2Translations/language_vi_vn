@@ -43,7 +43,6 @@ State/Province,Bang/tỉnh,module,Magento_Checkout
 "My Cart (1 item)","Giỏ hàng của tôi (1 sản phẩm)",module,Magento_Checkout
 "My Cart (%1 items)","Giỏ hàng của tôi (%1 sản phẩm)",module,Magento_Checkout
 "My Cart","Giỏ hàng của tôi",module,Magento_Checkout
-"Minimum order amount is %1","Số lượng đặt hàng tối thiểu là %1",module,Magento_Checkout
 "Customer is already registered","Khách hàng đã được đăng ký",module,Magento_Checkout
 "Your session has expired","Phiên làm việc của bạn đã hết hạn",module,Magento_Checkout
 "You added %1 to your shopping cart.","Bạn đã thêm %1 vào giỏ hàng của bạn.",module,Magento_Checkout
