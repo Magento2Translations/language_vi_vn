@@ -2,22 +2,327 @@
 "Mark as Read","Đánh dấu đã đọc",module,Magento_AdminNotification
 "Are you sure?","Bạn có chắc không?",module,Magento_AdminNotification
 Remove,"Hủy bỏ",module,Magento_AdminNotification
+"Messages Inbox","Hộp thư",module,Magento_AdminNotification
+"You have %1 new system messages","Bạn có %1 hệ thống thư mới",module,Magento_AdminNotification
+"You have %1 new system message","Bạn có %1 hệ thống thư mới",module,Magento_AdminNotification
+"Incoming Message","Thư đến",module,Magento_AdminNotification
+"The message has been marked as Read.","Thư được đánh dấu đã đọc.",module,Magento_AdminNotification
+"Please select messages.","Vui lòng chọn thư.",module,Magento_AdminNotification
+"Total of %1 record(s) have been removed.","Tất cả biên bản %1 đã được xóa.",module,Magento_AdminNotification
+"The message has been removed.","Thư đã được xóa.",module,Magento_AdminNotification
+"Wrong message type","Sai loại tin nhắn",module,Magento_AdminNotification
+"Synchronization of media storages has been completed.","Đồng bộ hóa bộ nhớ phương tiện đã hoàn tất.",module,Magento_AdminNotification
 "Close popup","Đóng popup",module,Magento_AdminNotification
+"Critical System Messages","Hệ thống tin nhắn quan trọng",module,Magento_AdminNotification
+"Major System Messages","Hệ thống tin nhắn chính",module,Magento_AdminNotification
+"System messages","Hệ thống tin nhắn",module,Magento_AdminNotification
 "You created the order.","Bạn đã đặt hàng.",module,Magento_Authorizenet
+"Order saving error: %1","Lỗi lưu đơn hàng: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Chọn một phương thức thanh toán.",module,Magento_Authorizenet
+"Credit Card: xxxx-%1","Thẻ tín dụng: xxxx-%1",module,Magento_Authorizenet
+"amount %1","số tiền %1",module,Magento_Authorizenet
+authorize,"ủy quyền",module,Magento_Authorizenet
+"authorize and capture","Ủy quyền và chấp nhận giao dịch",module,Magento_Authorizenet
+capture,"xác nhận giao dịch",module,Magento_Authorizenet
+refund,"hoàn trả",module,Magento_Authorizenet
+void,hủy,module,Magento_Authorizenet
+"Gateway error: %1","Lỗi cổng thanh toán: %1",module,Magento_Authorizenet
+"Something went wrong in the payment gateway.","Có vấn để ở cổng thanh toán.",module,Magento_Authorizenet
+"Invalid amount for capture.","Số tiền không đúng cho xác nhận giao dịch.",module,Magento_Authorizenet
+"Payment capturing error.","Lỗi xác nhận giao dịch.",module,Magento_Authorizenet
+"Invalid transaction ID.","Giao dịch ID không đúng.",module,Magento_Authorizenet
+"Payment voiding error.","Lỗi hủy thanh toán.",module,Magento_Authorizenet
+"Invalid amount for refund.","Số tiền hoàn trả không đúng.",module,Magento_Authorizenet
+"Payment refunding error.","Lỗi thanh toán hoàn trả.",module,Magento_Authorizenet
+"The transaction was declined because the response hash validation failed.","Giao dịch bị từ chối bởi vì chuỗi xác nhận thất bại.",module,Magento_Authorizenet
+"There was a payment authorization error.","Lỗi ủy quyền thanh toán.",module,Magento_Authorizenet
+"Authorize Only","Chỉ ủy quyền",module,Magento_Authorizenet
+"Authorize and Capture","Ủy quyền và chấp nhận giao dịch",module,Magento_Authorizenet
+"Credit Card Type","Loại thẻ tín dụng",module,Magento_Authorizenet
+"Credit Card Number","Số thẻ tín dụng",module,Magento_Authorizenet
+"Expiration Date","Ngày hết hạn",module,Magento_Authorizenet
+"Card Verification Number","Số xác minh thẻ",module,Magento_Authorizenet
 "Invalid Form Key. Please refresh the page.","Form Key không hợp lệ. Xin vui lòng làm mới trang.",module,Magento_Backend
+"You entered an invalid Secret Key. Please refresh the page.","Bạn điền không đúng khóa bí mật. Vui lòng tải lại trang.",module,Magento_Backend
+"Cache Storage Management","Quản lý bộ nhớ đệm",module,Magento_Backend
+"Flush Magento Cache","Xóa bộ nhớ đệm Magento",module,Magento_Backend
+"Flush Cache Storage","Xóa bộ nhớ đệm",module,Magento_Backend
+Invalidated,"Không có hiệu lực",module,Magento_Backend
+Orders,"Đơn hàng",module,Magento_Backend
+Amounts,"Số tiền",module,Magento_Backend
+Bestsellers,"Sản phẩm bán chạy nhất",module,Magento_Backend
+"Most Viewed Products","Sản phẩm được xem nhiều nhất",module,Magento_Backend
+"New Customers","Khách hàng mới",module,Magento_Backend
+Customers,"Khách hàng",module,Magento_Backend
+Customer,"Khách hàng",module,Magento_Backend
+Guest,Khách,module,Magento_Backend
+Items,"Sản phẩm",module,Magento_Backend
+Total,"Tất cả",module,Magento_Backend
+"Lifetime Sales","Khoảng thời gian doanh số",module,Magento_Backend
+"Average Order","Đơn hàng trung bình",module,Magento_Backend
+Average,"Trung bình",module,Magento_Backend
+Product,"Sản phẩm",module,Magento_Backend
+Price,Giá,module,Magento_Backend
+Quantity,"Số lượng",module,Magento_Backend
+Views,"Lượng xem",module,Magento_Backend
+Revenue,"Doanh thu",module,Magento_Backend
+Tax,Thuế,module,Magento_Backend
+Shipping,"Vận chuyển",module,Magento_Backend
+"Images (.gif, .jpg, .png)","Hình ảnh (.gif, .jpg, .png)",module,Magento_Backend
+"Media (.avi, .flv, .swf)","Phương tiện (.avi, .flv, .swf)",module,Magento_Backend
+"All Files","Tất cả các tệp",module,Magento_Backend
+"Reset to Default","Thiết lập về mặc định",module,Magento_Backend
+"All Store Views","Tất cả lượt xem của cửa hàng",module,Magento_Backend
+"What is this?","Đây là gì?",module,Magento_Backend
+"Save Account","Lưu tài khoản",module,Magento_Backend
+"My Account","Tài khoản của tôi",module,Magento_Backend
+"Account Information","Thông tin tài khoản",module,Magento_Backend
+"User Name","Tên người dùng",module,Magento_Backend
+"First Name",Tên,module,Magento_Backend
+"Last Name",Họ,module,Magento_Backend
+"User Email","Email người dùng",module,Magento_Backend
+"New Password","Mật khẩu mới",module,Magento_Backend
+"Password Confirmation","Xác nhận mật khẩu",module,Magento_Backend
+"Interface Locale","Giao diện ngôn ngữ và khu vực",module,Magento_Backend
+"Current User Identity Verification","Xác minh danh tính người dùng hiện tại",module,Magento_Backend
+"Your Password","Mật khẩu của bạn",module,Magento_Backend
+"Save Cache Settings","Lưu thiết lập đệm",module,Magento_Backend
+"Catalog Rewrites","Viết lại danh mục",module,Magento_Backend
+Refresh,"Tải lại",module,Magento_Backend
+"Images Cache","Hình ảnh Cache",module,Magento_Backend
+Clear,Xóa,module,Magento_Backend
+"Search Index","Tìm chỉ mục",module,Magento_Backend
+Rebuild,"Thiết lập lại",module,Magento_Backend
+"Inventory Stock Status","Tình trạng cổ phiếu tồn",module,Magento_Backend
+"Rebuild Catalog Index","Thiết lập lại danh mục chỉ mục",module,Magento_Backend
+"Rebuild Flat Catalog Category","Thiết lập lại danh mục mặt hàng phẳng",module,Magento_Backend
+"Rebuild Flat Catalog Product","Thiết lập lại danh mục sản phẩm phẳng",module,Magento_Backend
+"Cache Control","Kiểm soát bộ đệm",module,Magento_Backend
+"All Cache","Tất cả bộ đệm",module,Magento_Backend
+"No change","Không thay đổi",module,Magento_Backend
+Disable,"Vô hiệu hóa",module,Magento_Backend
+Enable,"Cho phép",module,Magento_Backend
+"Add Design Change","Thêm thay đổi thiết kế",module,Magento_Backend
+Back,"Trở lại",module,Magento_Backend
+Delete,Xóa,module,Magento_Backend
+"Are you sure?","Bạn có chắc chắn?",module,Magento_Backend
+Save,"Lưu lại",module,Magento_Backend
+"Edit Design Change","Sửa thay đổi thiết kế",module,Magento_Backend
+"New Store Design Change","Cửa hàng thay đổi thiết kế mới",module,Magento_Backend
+"General Settings","Thiết lập chung",module,Magento_Backend
+Store,"Cửa hàng",module,Magento_Backend
+"-- Please Select --","-- Vui lòng chọn --",module,Magento_Backend
+"Custom Design","Thiết kế tùy chỉnh",module,Magento_Backend
+"Date From","Ngày bắt đầu",module,Magento_Backend
+"Date To","Ngày kết thúc",module,Magento_Backend
+"Design Change","Thay đổi thiết kế",module,Magento_Backend
+General,Chung,module,Magento_Backend
+Cancel,"Từ bỏ",module,Magento_Backend
+"Delete %1 '%2'","Xóa %1 '%2'",module,Magento_Backend
+"Delete %1","Xóa %1",module,Magento_Backend
+"Block Information","Thông tin khối nội dung",module,Magento_Backend
+"Backup Options","Tùy chọn sao chép",module,Magento_Backend
+"Create DB Backup","Tạo hệ thống sao lưu DB",module,Magento_Backend
+Yes,Có,module,Magento_Backend
+"Delete Store","Xóa cửa hàng",module,Magento_Backend
+"Delete Web Site","Xóa trang Web",module,Magento_Backend
+"Save Web Site","Lưu trang Web",module,Magento_Backend
+"Save Store","Lưu cửa hàng",module,Magento_Backend
+"Save Store View","Lưu cửa hàng",module,Magento_Backend
+"Delete Store View","Xóa cửa hàng",module,Magento_Backend
+"Edit Web Site","Sửa trang Web",module,Magento_Backend
+"New Web Site","Trang Web mới",module,Magento_Backend
+"Edit Store","Sửa cửa hàng",module,Magento_Backend
+"New Store","Cửa hàng mới",module,Magento_Backend
+"Edit Store View","Sửa thông tin cửa hàng",module,Magento_Backend
+"New Store View","Cửa hàng mới",module,Magento_Backend
+"Store Information","Thông tin cửa hàng",module,Magento_Backend
+"Web Site","Trang Web",module,Magento_Backend
+Name,Tên,module,Magento_Backend
+"Root Category","Mặt hàng gốc",module,Magento_Backend
+"Default Store View","Thông cửa hàng mặc định",module,Magento_Backend
+"Store View Information","Thông tin cửa hàng",module,Magento_Backend
+Code,Mã,module,Magento_Backend
+Status,"Tình trạng",module,Magento_Backend
+Disabled,"Vô hiệu hóa",module,Magento_Backend
+Enabled,"Cho phép",module,Magento_Backend
+"Sort Order","Sắp xếp đơn hàng",module,Magento_Backend
+"Web Site Information","Thông tin trang Web",module,Magento_Backend
+"Default Store","Cửa hàng mặc định",module,Magento_Backend
+"Set as Default","Thiết lập về mặc định",module,Magento_Backend
+Stores,"Cửa hàng",module,Magento_Backend
+"Create Website","Tạo website",module,Magento_Backend
+"Create Store","Tạo cửa hàng",module,Magento_Backend
+"Create Store View","Tạo thông tin cửa hàng",module,Magento_Backend
+Home,"Trang chủ",module,Magento_Backend
+Reset,"Thiết lập lại",module,Magento_Backend
+"Are you sure you want to do this?","Bạn có chắc rằng bạn muốn làm điều đó?",module,Magento_Backend
+"Add New Image","Lưu hình ảnh mới",module,Magento_Backend
+"Reset Filter","Thiết lập lại bộ lọc",module,Magento_Backend
+Search,"Tìm kiếm",module,Magento_Backend
+Any,"Bất kỳ",module,Magento_Backend
+"All Countries","Tất cả quốc gia",module,Magento_Backend
+From,Từ,module,Magento_Backend
+To,Đến,module,Magento_Backend
+"Date selector","Chọn ngày",module,Magento_Backend
+"[ deleted ]","[ xóa ]",module,Magento_Backend
+"Select All","Chọn tất cả",module,Magento_Backend
+"Add New","Thêm sản phẩm mới",module,Magento_Backend
+Export,"Xuất khẩu",module,Magento_Backend
+"Please correct the column format and try again.","Vui lòng sửa dạng cột và thử lại.",module,Magento_Backend
+"Please select items.","Vui lòng chọn sản phẩm.",module,Magento_Backend
+Submit,Gửi,module,Magento_Backend
+"Please correct the tab configuration and try again.","Vui lòng sửa tab thuộc tính và thử lại.",module,Magento_Backend
+"You have logged out.","Bạn đã thoát tài khoản.",module,Magento_Backend
+"The image cache was cleaned.","Hình ảnh bộ đệm đã bị xóa.",module,Magento_Backend
+"An error occurred while clearing the image cache.","Xảy ra lỗi khi xóa ảnh bộ đệm.",module,Magento_Backend
+"The JavaScript/CSS cache has been cleaned.","Bộ đệm JavaScript/CSS đã bị xóa.",module,Magento_Backend
+"An error occurred while clearing the JavaScript/CSS cache.","Xảy ra lỗi khi xóa bộ đệm JavaScript/CSS.",module,Magento_Backend
+"You flushed the cache storage.","Bạn đã xóa bộ nhớ đệm.",module,Magento_Backend
+"The Magento cache storage has been flushed.","Bộ nhớ đệm Magento đã bị xóa.",module,Magento_Backend
+"Cache Management","Quản lý bộ đệm",module,Magento_Backend
+"%1 cache type(s) disabled.","%1 loại bộ đệm đã bị vô hiệu hóa.",module,Magento_Backend
+"An error occurred while disabling cache.","Xảy ra lỗi khi vô hiệu hóa bộ đệm.",module,Magento_Backend
+"%1 cache type(s) enabled.","%1 bộ đệm đã được cho phép.",module,Magento_Backend
+"An error occurred while enabling cache.","Xảy ra lỗi khi cho phép bộ đệm.",module,Magento_Backend
+"%1 cache type(s) refreshed.","%1 loại bộ đệm đã được tải lại.",module,Magento_Backend
+"An error occurred while refreshing cache.","Xảy ra lỗi khi tải lại bộ đệm.",module,Magento_Backend
+Dashboard,"Bảng điều khiển",module,Magento_Backend
+"invalid request","Yêu cầu không đúng",module,Magento_Backend
+"see error log for details","Xem log lỗi để biết thêm chi tiết",module,Magento_Backend
+"Service unavailable: %1","Dịch vụ không tồn tại: %1",module,Magento_Backend
+Error,Lỗi,module,Magento_Backend
+"You need more permissions to do this.","Bạn không đủ quyền để thao tác.",module,Magento_Backend
+"No search modules were registered","Không có mô-đun tìm kiếm được đăng ký",module,Magento_Backend
+"Please make sure that all global admin search modules are installed and activated.","Vui lòng chắc chắn rằng tất cả quản trị mô-đun tìm kiếm được thiết lập và kích hoạt.",module,Magento_Backend
+"You saved the account.","Bạn đã lưu tài khoản.",module,Magento_Backend
+"An error occurred while saving account.","Xảy ra lỗi khi lưu tài khoản.",module,Magento_Backend
+"You deleted the design change.","Bạn đã xóa thay đổi của thiết kế.",module,Magento_Backend
+"Store Design","Cửa hàng thiết kế",module,Magento_Backend
+"Edit Store Design Change","Chỉnh sửa thay đổi thiết kế của cửa hàng",module,Magento_Backend
+"You saved the design change.","Bạn đã lưu thay đổi của thiết kế.",module,Magento_Backend
+System,"Hệ thống",module,Magento_Backend
+"Manage Stores","Quản lý cửa hàng",module,Magento_Backend
+"The database was backed up.","Dữ liệu đã được sao lưu.",module,Magento_Backend
+"Deleting a %1 will not delete the information associated with the %1 (e.g. categories, products, etc.), but the %1 will not be able to be restored. It is suggested that you create a database backup before deleting the %1.","Xóa %1 sẽ không xóa được thông tin kết hợp với %1 (ví dụ danh mục, sản phẩm, v.v...), nhưng %1 sẽ không thể được phục hồi. Bạn nên tạo một bản sao trước khi xóa %1.",module,Magento_Backend
+"This store cannot be deleted.","Không thể xóa cửa hàng này.",module,Magento_Backend
 "Unable to delete store. Please, try again later.","Không thể xóa được cửa hàng. Xin vui lòng thử lại sau.",module,Magento_Backend
+"This store view cannot be deleted.","Không thể xóa cửa hàng.",module,Magento_Backend
+"Store View","Thông tin cửa hàng",module,Magento_Backend
 "Unable to delete store view. Please, try again later.","Không thể xoá bỏ cửa hàng đã xem. Xin vui lòng thử lại sau.",module,Magento_Backend
+"This website cannot be deleted.","Không thể xóa trang web này.",module,Magento_Backend
 "Unable to delete website. Please, try again later.","Không thể xóa trang web. Xin vui lòng thử lại sau.",module,Magento_Backend
+"The website does not exist.","Trang web không tồn tại.",module,Magento_Backend
+"The store does not exist","Cửa hàng không tồn tại",module,Magento_Backend
+"Last 24 Hours","24 giờ cuối",module,Magento_Backend
+"Last 7 Days","7 ngày cuối",module,Magento_Backend
+"Current Month","Tháng hiện tại",module,Magento_Backend
+"You did not sign in correctly or your account is temporarily disabled.","Bạn đăng nhập không đúng cách hoặc tài khoản của bạn tạm thời bị vô hiệu hóa.",module,Magento_Backend
+"Authentication error occurred.","Xảy ra lỗi xác thực.",module,Magento_Backend
+Order,"Đơn hàng",module,Magento_Backend
+"Order #%1","Đơn hàng #%1",module,Magento_Backend
+"Access denied","Truy cập bị từ chối",module,Magento_Backend
+"If you continue to receive this message, please contact the store owner.","Nếu bạn tiếp tục nhận được tin nhắn này, vui lòng liên lạc với chủ cửa hàng.",module,Magento_Backend
+"Welcome, please sign in","Xin chào, vui lòng đăng ký",module,Magento_Backend
+"user name","Tên người dùng",module,Magento_Backend
+password,"mật khẩu",module,Magento_Backend
+"Sign in","Đăng nhập",module,Magento_Backend
+"Select Range:","Chọn khoảng:",module,Magento_Backend
+"No Data Found","Không tìm thấy tài liệu nào",module,Magento_Backend
+"Last Orders","Đơn hàng cuối",module,Magento_Backend
+"Last Search Terms","Từ khóa tìm kiếm cuối cùng",module,Magento_Backend
+"Top Search Terms","Từ khóa tìm kiếm nhiều nhất",module,Magento_Backend
+"There are no search keywords.","Không có từ khóa tìm kiếm.",module,Magento_Backend
+"View Statistics For:","Thông tin số liệu cho:",module,Magento_Backend
+"All Websites","Tất cả trang Web",module,Magento_Backend
+"Reload Data","Tải lại tài liệu",module,Magento_Backend
+"Browse Files...","Xem theo tệp...",module,Magento_Backend
 "Copyright&copy; %1 Magento Commerce Inc. All rights reserved.","Bản quyền thuộc về %1 Magento Commerce Inc.",module,Magento_Backend
+"Magento Admin Panel","Mục quản trị Magento",module,Magento_Backend
+"Account Setting","Thiết lập tài khoản",module,Magento_Backend
+"Customer View","Thông tin tài khoản",module,Magento_Backend
+"Sign Out","Đăng xuất",module,Magento_Backend
+"About the calendar","Về lịch",module,Magento_Backend
+"Go Today","Đến ngày hôm nay",module,Magento_Backend
+Previous,"Trước đó",module,Magento_Backend
+Next,"Tiếp theo",module,Magento_Backend
+Time,"Thời gian",module,Magento_Backend
+Hour,Giờ,module,Magento_Backend
+Minute,Phút,module,Magento_Backend
+"JavaScript may be disabled in your browser.","JavaScript có thể bị hiệu hóa trong trình duyệt của bạn.",module,Magento_Backend
+"To use this website you must first enable JavaScript in your browser.","Để dùng được trang Web, trước tiên, bạn phải kích hoạt JavaScript trong trình duyệt của bạn.",module,Magento_Backend
+"This is only a demo store. You can browse and place orders, but nothing will be processed.","Đây chỉ là cửa hàng dùng thử. Bạn có thể xem theo và đặt đơn hàng, nhưng không có hoạt động nào được thực hiện.",module,Magento_Backend
+"Stores Configuration","Thuộc tính của cửa hàng",module,Magento_Backend
+"Additional Cache Management","Quản lý bộ đệm bổ sung",module,Magento_Backend
+"Flush Catalog Images Cache","Xóa danh mục hình ảnh bộ đệm",module,Magento_Backend
+"Pregenerated product images files","Tệp ảnh sản phẩm đã được tạo",module,Magento_Backend
+"Flush JavaScript/CSS Cache","Xóa bộ đệm JavaScript/CSS",module,Magento_Backend
 "Themes JavaScript and CSS files combined to one file.","Themes JavaScript và các tập tin CSS đã kết hợp vào một file.",module,Magento_Backend
+"Flush Static Files Cache","Xóa thông số tệp của bộ đệm",module,Magento_Backend
+"Preprocessed view files and static files","Xử lý trước thông tin tệp và tệp tĩnh",module,Magento_Backend
+Catalog,"Danh mục",module,Magento_Backend
+"JavaScript/CSS Cache","Bộ đệm JavaScript/CSS",module,Magento_Backend
+"No records found.","Không tìm thấy bản ghi nào.",module,Magento_Backend
+Images,"Hình ảnh",module,Magento_Backend
+"Big Image","Hình ảnh lớn",module,Magento_Backend
+Thumbnail,"Hình ảnh thu nhỏ",module,Magento_Backend
+"Additional Settings","Thiết lập bổ sung",module,Magento_Backend
+"per page","trên một trang",module,Magento_Backend
+"Previous page","trang trước",module,Magento_Backend
+"of %1","của %1",module,Magento_Backend
+"Next page","Trang tiếp theo",module,Magento_Backend
+"Export to:","Xuất khẩu đến:",module,Magento_Backend
+Actions,"Thao tác",module,Magento_Backend
+"Mass Actions","Thao tác hàng loạt",module,Magento_Backend
+"Unselect All","Bỏ chọn tất cả",module,Magento_Backend
+"Select Visible","Chọn hiển thị",module,Magento_Backend
+"Unselect Visible","Bỏ chọn hiển thị",module,Magento_Backend
+"The information in this tab has been changed.","Thông tin trong tab này đã được thay đổi.",module,Magento_Backend
+Loading...,"Đang tải...",module,Magento_Backend
 "System Backup","Sao lưu hệ thống",module,Magento_Backup
 "Database and Media Backup","Cơ sở dữ liệu và phương tiện sao lưu",module,Magento_Backup
 "Database Backup","Sao lưu cơ sở dữ liệu",module,Magento_Backup
+"You need more permissions to activate maintenance mode right now.","Bạn cần thêm quyền để kích hoạt chế độ bảo trì.",module,Magento_Backup
+"You need more free space to create a backup.","Bạn cần thêm dung lượng trống để tạo bản sao lưu.",module,Magento_Backup
+"You need more permissions to create a backup.","Bạn cần thêm quyền để tạo bản sao lưu.",module,Magento_Backup
+Backups,"Bản sao lưu",module,Magento_Backup
+System,"Hệ thống",module,Magento_Backup
+Tools,"Công cụ",module,Magento_Backup
+Backup,"Bản sao lưu",module,Magento_Backup
+failed,"Thất bại",module,Magento_Backup
+successful,"Thành công",module,Magento_Backup
+"Please correct the password.","Vui lòng điền đúng mật khẩu.",module,Magento_Backup
+Database,"Cơ sở dũ liệu",module,Magento_Backup
+"Database and Media","Dữ liệu và phương tiện",module,Magento_Backup
+"System (excluding Media)","Hệ thống (không bao gồm Phương tiện)",module,Magento_Backup
+"Please correct the order of creation for a new backup.","Vui lòng điền đúng thứ tự khởi tạo bản sao lưu mới.",module,Magento_Backup
+"The backup file does not exist.","Tệp sao lưu không tồn tại.",module,Magento_Backup
+"The backup file path was not specified.","Đường dẫn tệp sao lưu chưa được xác nhận.",module,Magento_Backup
+"The backup file handler was unspecified.","Xử lý tệp sao lưu không xác định.",module,Magento_Backup
+"Are you sure you want to continue?","Bạn có chắc rằng bạn muốn tiếp tục?",module,Magento_Backup
+"This may take a few moments.","Nó sẽ mất một thời gian.",module,Magento_Backup
+"Be sure your store is in maintenance mode during backup.","Chắc chắn rằng cửa hàng của bạn đang trong chế độ bảo trì trong quá trình sao lưu.",module,Magento_Backup
+"Backup Name","Tên sao lưu",module,Magento_Backup
+"Please use only letters (a-z or A-Z), numbers (0-9) or spaces in this field.","Vui lòng chỉ dùng các ký tự (a-z or A-Z), số (0-9) hoặc dấu cách trong vùng này.",module,Magento_Backup
+"Maintenance mode","Chế độ bảo trì",module,Magento_Backup
+"Please put your store into maintenance mode during backup.","Vui lòng thiết lập chế độ bảo trì cửa hàng trong khi sao lưu.",module,Magento_Backup
+"Exclude media folder from backup","Ngoại trừ thư mục phương tiện từ sao lưu",module,Magento_Backup
+"Please enter the password to confirm rollback.","Vui lòng điền mật khẩu để xác nhận phục hồi.",module,Magento_Backup
+"This action cannot be undone.","Thao tác này không được thực hiện.",module,Magento_Backup
+"User Password","Mật khẩu người dùng",module,Magento_Backup
+"Please put your store into maintenance mode during rollback processing.","Vui lòng thiết lập chế độ bảo trì cửa hàng trong quá trình phục hồi.",module,Magento_Backup
+"Use FTP Connection","Sử dụng kết nối FTP",module,Magento_Backup
+"FTP credentials","Giấy chứng nhận FTP",module,Magento_Backup
+"FTP Login","Đăng nhập FTP",module,Magento_Backup
+"FTP Password","Mật khẩu FTPsign in",module,Magento_Backup
+"Magento root directory","Thư mục Magento gốc",module,Magento_Backup
+"Create Backup","Tạo sao lưu",module,Magento_Backup
 Country,"Quốc gia",module,Magento_Braintree
 "Allowed Credit Card Types","Các loại thẻ tín dụng được cho phép",module,Magento_Braintree
 "Add Rule","Thêm quy tắc",module,Magento_Braintree
 "Stored Card","Lưu chữ thẻ",module,Magento_Braintree
+"Credit Card Type","Loại thẻ tín dụng",module,Magento_Braintree
+"Credit Card Number","Số thẻ tín dụng",module,Magento_Braintree
 "Credit card successfully added","Đã thêm thẻ tín dụng thành công.",module,Magento_Braintree
 "Delete Credit Card","Xóa thẻ tín dụng",module,Magento_Braintree
 "Credit card successfully deleted","Xóa thẻ thành công",module,Magento_Braintree
@@ -35,12 +340,15 @@ Country,"Quốc gia",module,Magento_Braintree
 "Payment Information","Thông tin thanh toán",module,Magento_Braintree
 "Add new card","Thêm thẻ mới",module,Magento_Braintree
 "Please Select","Vui lòng chọn",module,Magento_Braintree
+"Expiration Date","Ngày hết hạn",module,Magento_Braintree
+"Card Verification Number","Số xác minh thẻ",module,Magento_Braintree
 "Save this card for future use","Lưu thẻ để sử dụng sau này",module,Magento_Braintree
 "Please confirm that you want to delete this credit card","Bạn có chắc chắn muốn xóa thẻ tín dụng này",module,Magento_Braintree
 "Cardholder Name","Tên chủ thẻ",module,Magento_Braintree
 Delete,Xóa,module,Magento_Braintree
 Back,"Quay lại",module,Magento_Braintree
 "* Required Fields","* là nội dung bắt buộc",module,Magento_Braintree
+"What is this?","Đây là gì?",module,Magento_Braintree
 "Make Default","Tạo mặc định",module,Magento_Braintree
 "Billing Address","Địa chỉ thanh toán",module,Magento_Braintree
 "First Name","Họ và tên đệm",module,Magento_Braintree
@@ -51,6 +359,7 @@ State/Province,Huyện,module,Magento_Braintree
 "Please select region, state or province","Vui lòng chọn khu vực",module,Magento_Braintree
 Submit,Gửi,module,Magento_Braintree
 "Add Credit Card","Thêm thẻ tín dụng",module,Magento_Braintree
+Type,Loại,module,Magento_Braintree
 "Is Default","Mặc định",module,Magento_Braintree
 Actions,"Hành động",module,Magento_Braintree
 Yes,Có,module,Magento_Braintree
@@ -59,6 +368,55 @@ Edit,"Chỉnh sửa",module,Magento_Braintree
 "Percent Discount","Phần trăm giảm giá",module,Magento_Bundle
 "-- Select --","- Chọn -",module,Magento_Bundle
 Fixed,"Cố định",module,Magento_Bundle
+"Create New Option","Tạo lựa chọn mới",module,Magento_Bundle
+"Bundle Items","Sản phẩm kết hợp",module,Magento_Bundle
+"Add Products to Option","Thêm sản phẩm để lựa chọn",module,Magento_Bundle
+"Delete Option","Xóa lựa chọn",module,Magento_Bundle
+Product,"Sản phẩm",module,Magento_Bundle
+Price,Giá,module,Magento_Bundle
+Delete,Xóa,module,Magento_Bundle
+"Use Default Value","Dùng giá trị mặc định",module,Magento_Bundle
+"As Low as","Thấp như",module,Magento_Bundle
+"Price Range","Khoảng giá",module,Magento_Bundle
+"Please specify product option(s).","Vui lòng xác định tùy chỉnh sản phẩm.",module,Magento_Bundle
+"The required options you selected are not available.","Tùy chỉnh được yêu cầu bạn lựa chọn không tồn tại.",module,Magento_Bundle
+"Please select all required options.","Vui lòng chọn tất cả các tùy chỉnh được yêu cầu.",module,Magento_Bundle
+"Choose a selection...","Chọn một lựa chọn...",module,Magento_Bundle
+"Ship Bundle Items","Vận chuyển sản phẩm kết hợp",module,Magento_Bundle
+Separately,"Riêng lẻ",module,Magento_Bundle
+Together,"Cùng với",module,Magento_Bundle
+"Option Title","Tiêu đề tùy chọn",module,Magento_Bundle
+"Store View Title","Xem tiêu đề cửa hàng",module,Magento_Bundle
+"Input Type","Loại đầu vào",module,Magento_Bundle
+Required,"Bắt buộc",module,Magento_Bundle
+Position,"Vị trí",module,Magento_Bundle
+"There are no products in this option.","Không có sản phẩm nào trong tùy chọn.",module,Magento_Bundle
+"New Option","Tùy chọn mới",module,Magento_Bundle
+Default,"Mặc định",module,Magento_Bundle
+Name,Tên,module,Magento_Bundle
+"Price Type","Loại giá",module,Magento_Bundle
+"Default Quantity","Số lượng mặc định",module,Magento_Bundle
+"User Defined","Người dùng xác định",module,Magento_Bundle
+Ordered,"Đã đặt hàng",module,Magento_Bundle
+Invoiced,"Hóa đơn",module,Magento_Bundle
+Shipped,"Đã vận chuyển",module,Magento_Bundle
+Refunded,"Đã hoàn trả",module,Magento_Bundle
+Canceled,"Đã hủy bỏ",module,Magento_Bundle
+"As low as","Thấp như",module,Magento_Bundle
+From,Từ,module,Magento_Bundle
+To,Đến,module,Magento_Bundle
+"Buy %1 with %2 discount each","Mua %1 được %2 nhận chiết khấu mỗi loại",module,Magento_Bundle
+"Go back to product details","Quay trở lại chi tiết sản phẩm",module,Magento_Bundle
+"Customize and Add to Cart","Tùy chỉnh và Thêm vào giỏ hàng",module,Magento_Bundle
+"* Required Fields","* Vùng yêu cầu",module,Magento_Bundle
+"Your Customization","Tùy chỉnh của bạn",module,Magento_Bundle
+Availability:,"Tính sẵn có:",module,Magento_Bundle
+"Customize %1","Tùy chỉnh %1",module,Magento_Bundle
+"No options of this product are available.","Lựa chọn sản phẩm không có sẵn .",module,Magento_Bundle
+"Gift Message","Tin nhắn quà tặng",module,Magento_Bundle
+From:,Từ:,module,Magento_Bundle
+To:,Đến:,module,Magento_Bundle
+Message:,"Tin nhắn:",module,Magento_Bundle
 Always,"Luôn chọn",module,Magento_Captcha
 "ALL GROUPS","TẤT CẢ CÁC NHÓM",module,Magento_CatalogInventory
 "Customer Group","Nhóm khách hàng",module,Magento_CatalogInventory
@@ -263,20 +621,204 @@ label,nhãn,module,Magento_Widget
 Choose...,"Lựa chọn...",module,Magento_Widget
 "Wish List","Danh sách mong muốn",module,Magento_Wishlist
 Total:,Tổng:,module,Magento_Checkout
+"Add Products to New Option","Thêm sản phẩm vào Tùy chọn mới",module,Magento_Bundle
+"Add Selected Products","Thêm Sản phẩm được lựa chọn",module,Magento_Bundle
+"Use HTTPS to Get Feed","Dùng HTTPS Để Lấy Nguồn Cấp Dữ Liệu Feed",module,Magento_AdminNotification
+"Update Frequency","Tần Suất Nâng Cấp",module,Magento_AdminNotification
+"Last Update","Lần Nâng Cấp Cuối",module,Magento_AdminNotification
+Severity,"Mức Độ Nghiêm Trọng",module,Magento_AdminNotification
+"Date Added","Ngày Được Thêm",module,Magento_AdminNotification
+Actions,"Thao tác",module,Magento_AdminNotification
+"Authorize.net Direct Post","Phương Thức Thanh Toán Direct Post của Authorize.net",module,Magento_Authorizenet
+Enabled,"Cho phép",module,Magento_Authorizenet
+"Payment Action","Hành động thanh toán",module,Magento_Authorizenet
+Title,"Tiêu đề",module,Magento_Authorizenet
+"API Login ID","ID Đăng Nhập qua API",module,Magento_Authorizenet
+"Transaction Key","Mã Giao Dịch",module,Magento_Authorizenet
+"Merchant MD5","Mã Khóa Merchant MD5",module,Magento_Authorizenet
+"New Order Status","Trạng thái đơn hàng mới",module,Magento_Authorizenet
+"Test Mode","Chế độ dùng thử",module,Magento_Authorizenet
+"Gateway URL","Đường Dẫn URL của Cổng Thanh Toán",module,Magento_Authorizenet
+"Accepted Currency","Tiền Tệ Được Chấp Nhận",module,Magento_Authorizenet
+Debug,"Sửa Lỗi",module,Magento_Authorizenet
+"Email Customer","Địa Chỉ Email Khách Hàng",module,Magento_Authorizenet
+"Merchant's Email","Địa Chỉ Email Người Bán",module,Magento_Authorizenet
+"Credit Card Types","Các Loại Thẻ Tín Dụng",module,Magento_Authorizenet
+"Credit Card Verification","Xác Minh Thẻ Tín Dụng",module,Magento_Authorizenet
+"Payment from Applicable Countries","Thanh Toán từ Các Nước Được Áp Dụng",module,Magento_Authorizenet
+"Payment from Specific Countries","Thanh Toán từ Các Nước Cụ Thể",module,Magento_Authorizenet
+"Minimum Order Total","Giá Trị Đơn Hàng Tối Thiểu",module,Magento_Authorizenet
+"Maximum Order Total","Giá Trị Đơn Hàng Tối Đa",module,Magento_Authorizenet
+"Sort Order","Sắp xếp đơn hàng",module,Magento_Authorizenet
+Services,"Các Dịch Vụ",module,Magento_Backend
+Advanced,"Nâng Cao",module,Magento_Backend
+"Disable Modules Output","Tắt Dữ Liệu Ra của Module",module,Magento_Backend
+"Store Email Addresses","Địa Chỉ Email của Cửa Hàng",module,Magento_Backend
+"Custom Email 1","Email Tùy Biến 1",module,Magento_Backend
+"Sender Email","Email người gửi",module,Magento_Backend
+"Sender Name","Tên người gửi",module,Magento_Backend
+"Custom Email 2","Email Tùy Biến 2",module,Magento_Backend
+"General Contact","Thông Tin Liên Lạc Chung",module,Magento_Backend
+"Sales Representative","Đại Diện Bán Hàng",module,Magento_Backend
+"Customer Support","Bộ Phận Hỗ Trợ Khách Hàng",module,Magento_Backend
+Design,"Thiết kế",module,Magento_Backend
 "Design Theme","Theme thiết kế",module,Magento_Backend
 "User-Agent Exceptions","Lỗi do người dùng",module,Magento_Backend
 "Find a string in client user-agent header and switch to specific design theme for that browser.","Tìm chuỗi kí tự trong header đại lý của người dùng và chuyển sang thames thiết kế cho trình duyệt đó.",module,Magento_Backend
+Pagination,"Phân Chia Trang",module,Magento_Backend
+"Pagination Frame","Khung Phân Chia Trang",module,Magento_Backend
+"How many links to display at once.","Bao nhiêu đường dẫn được hiển thị cùng một lúc",module,Magento_Backend
+"Pagination Frame Skip","Bỏ Qua Khung Phân Chia Tran g",module,Magento_Backend
 "If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.","Nếu ví trị trang hiện tại không bao gồm được phần lớn các trang thì sẽ hiển thị link đã cộng hoặc trừ giá trị vị trí hiện tại.",module,Magento_Backend
+"Anchor Text for Previous","Anchor Text cho Trang Trước",module,Magento_Backend
 "Alternative text for previous link in pagination menu. If empty, default arrow image will used.","Thay text dùng cho link trang trước ở phân trang. Nếu không sẽ sử dụng ảnh mũi tên mặc định.",module,Magento_Backend
+"Anchor Text for Next","Anchor Text cho Trang Sau",module,Magento_Backend
 "Alternative text for next link in pagination menu. If empty, default arrow image will used.","Thay text dùng cho link trang sau ở phân trang. Nếu không sẽ sử dụng ảnh mũi tên mặc định.",module,Magento_Backend
+Developer,"Nhà Phát Triển",module,Magento_Backend
+Debug,"Sửa Lỗi",module,Magento_Backend
+"Enabled Template Path Hints for Storefront","Bật Các Gợi Ý Đường Dẫn đến Mẫu Template cho Website Bán Hàng",module,Magento_Backend
+"Enabled Template Path Hints for Admin","Bật Các Gợi Ý Đường Dẫn đến Mẫu Template cho Quản Trị",module,Magento_Backend
+"Add Block Names to Hints","Thêm Tên Các Khối Block vào Gợi Ý",module,Magento_Backend
+"Template Settings","Các Cấu Hình Mẫu Template",module,Magento_Backend
+"Allow Symlinks","Cho Phép Các Liên Kết Tượng Trưng",module,Magento_Backend
+"Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Cảnh Báo! Bật tính năng này không được khuyến khích cho môi trường bán hàng thực tế do tiềm tàng rủi ro về bảo mật.",module,Magento_Backend
+"Minify Html","Thu Gọn HTML",module,Magento_Backend
+"Translate Inline","Dịch Trực Tiếp Inline",module,Magento_Backend
+"Enabled for Storefront","Bật cho Website Bán Hàng",module,Magento_Backend
+"Enabled for Admin","Bật Cho Quản Trị Viên",module,Magento_Backend
+"Translate, blocks and other output caches should be disabled for both Storefront and Admin inline translations.","Dịch, các khổi block và các dữ liệu ra của bộ nhớ ngoài cache nên được tắt cho cả phiên dịch trực tiếp inline trên web bán hàng và quản trị viên.",module,Magento_Backend
+"JavaScript Settings","Cấu Hình JavaScript",module,Magento_Backend
+"Merge JavaScript Files","Sát Nhập Các File JavaScript",module,Magento_Backend
 "Enable Javascript Bundling","Kích hoạt Javascript Bundling",module,Magento_Backend
+"Minify JavaScript Files","Thu Gọn Các File JavaScript",module,Magento_Backend
+"CSS Settings","Cấu Hình CSS",module,Magento_Backend
+"Merge CSS Files","Sát Nhập Các File CSS",module,Magento_Backend
+"Minify CSS Files","Thu Gọn Các File CSS",module,Magento_Backend
+"Image Processing Settings","Cấu Hình Xử Lý Hình Ảnh",module,Magento_Backend
+"Image Adapter","Bộ Điều Hợp Hình Ảnh",module,Magento_Backend
+"Static Files Settings","Cấu Hình Các Static File Tĩnh",module,Magento_Backend
+"Sign Static Files","Đánh Dấu các Static File Tĩnh",module,Magento_Backend
+"Country Options","Các Lựa Chọn Quốc Gia",module,Magento_Backend
+"Allow Countries","Cho Phép Nhiếu Quốc Gia",module,Magento_Backend
+"Default Country","Quốc Gia Mặc Định",module,Magento_Backend
+"European Union Countries","Các Quốc Gia Liên Minh Châu Âu",module,Magento_Backend
+"Top destinations","Các điểm đến hàng đầu",module,Magento_Backend
+"Locale Options","Tùy Chọn Miền Địa Phương",module,Magento_Backend
+Timezone,"Múi Giờ",module,Magento_Backend
+Locale,"Ngôn ngữ và khu vực",module,Magento_Backend
+"First Day of Week","Ngày Đầu Tiên trong Tuần",module,Magento_Backend
+"Weekend Days","Các Ngày Cuối Tuần",module,Magento_Backend
+"Store Name","Tên cửa hàng",module,Magento_Backend
+"Store Phone Number","Số điện thoại cửa hàng",module,Magento_Backend
+"Store Hours of Operation","Giờ Hoạt Động của Cửa Hàng",module,Magento_Backend
+Country,"Quốc gia",module,Magento_Backend
+Region/State,"Vùng/Khu vực",module,Magento_Backend
+"ZIP/Postal Code","Mã Bưu điện/Bưu chính",module,Magento_Backend
+City,"Thành phố",module,Magento_Backend
+"Street Address","Địa chỉ đường",module,Magento_Backend
+"Street Address Line 2","Địa Chỉ Phố Dòng 2",module,Magento_Backend
+"VAT Number","Số VAT",module,Magento_Backend
+"Single-Store Mode","Chế Độ Một Cửa Hàng",module,Magento_Backend
+"Enable Single-Store Mode","Bật Chế Độ Một Cửa Hàng",module,Magento_Backend
+"This setting will not be taken into account if system has more than one store view.","Thiết lập này sẽ không được tính nếu hệ thống có nhiều hơn một kiểu cửa hàng hiển thị.",module,Magento_Backend
+"Mail Sending Settings","Cấu Hình Gửi Thư",module,Magento_Backend
+"Disable Email Communications","Tắt Các Liên Lạc qua Email",module,Magento_Backend
+Host,"Lưu Trữ",module,Magento_Backend
+"Port (25)","Cổng (25)",module,Magento_Backend
+"Set Return-Path","Thiết Lập Đường Dẫn Quay Lại (Return-Path)",module,Magento_Backend
+"Return-Path Email","Đường Dẫn Quay Lại Email",module,Magento_Backend
+Admin,"Quản trị",module,Magento_Backend
+"Admin User Emails","Các Địa Chỉ Email của Quản Trị Viên",module,Magento_Backend
+"Forgot Password Email Template","Mẫu Template của Email khi Quên Mật Khẩu",module,Magento_Backend
+"Forgot and Reset Email Sender","Người Gửi Email Quên & Tạo Lại Mật Khẩu",module,Magento_Backend
 "Recovery Link Expiration Period (days)","Thời gian hết hạn của liên kết phục hồi (ngày)",module,Magento_Backend
+"Please enter a number 1 or greater in this field.","Hãy điền một số lớn hơn hoặc bằng 1 vào trường này.",module,Magento_Backend
+"Startup Page","Trang Khởi Động",module,Magento_Backend
+"Admin Base URL","Đường Dẫn Cơ Sở (Base URL) của Quản Trị Viên",module,Magento_Backend
+"Use Custom Admin URL","Sử Dụng Đường Dẫn URL Tùy Biến cho Quản Trị Viên",module,Magento_Backend
+"Custom Admin URL","Đường Dẫn URL Tùy Biến cho Quản Trị Viên",module,Magento_Backend
+"Make sure that base URL ends with '/' (slash), e.g. http://yourdomain/magento/","Đảm bảo rằng đường dẫn cơ sở base URL kết thúc bằng '/' (dấu gạch chéo), ví dụ: http://yourdomain/magento/",module,Magento_Backend
+"Use Custom Admin Path","Sử Dụng Đường Dẫn Path Tùy Biến cho Quản Trị Viên",module,Magento_Backend
+"Custom Admin Path","Đường Dẫn Path Tùy Biến cho Quản Trị Viên",module,Magento_Backend
+Security,"Bảo Mật",module,Magento_Backend
+"Add Secret Key to URLs","Thêm Mã Khóa Bí Mật vào Các Đường Dẫn URLs",module,Magento_Backend
+"Login is Case Sensitive","Đăng nhập phân biệt viết hoa và viết thường",module,Magento_Backend
+"Admin Session Lifetime (seconds)","Chu Kì Một Phiên Quản Trị (tính theo giây )",module,Magento_Backend
 "Values less than 60 are ignored.","Giá trị nhỏ hơn 60 được bỏ qua.",module,Magento_Backend
+"Enable Charts","Bật Các Biểu Đồ",module,Magento_Backend
+"Url Options","Các Tùy Chọn của Đường Dẫn URL",module,Magento_Backend
+"Add Store Code to Urls","Thêm Mã Cửa Hàng vào URL",module,Magento_Backend
+"Auto-redirect to Base URL","Tự Động Điều Hướng đến Đường Dẫn Cơ Sở (Base URL)",module,Magento_Backend
+"Search Engine Optimization","Tối Ưu Công Cụ Tìm Kiếm",module,Magento_Backend
+"Use Web Server Rewrites","Sử Dụng Máy Chủ Web Server Ghi Đè",module,Magento_Backend
+"Base URLs","Các Đường Dẫn Cơ Sở URL",module,Magento_Backend
+"Base URL","Đường Dẫn Cơ Sở URL",module,Magento_Backend
+"Specify URL or {{base_url}} placeholder.","Chỉ Định Đường Dẫn URL hoặc Phần Lưu Giữ {{base_url}}.",module,Magento_Backend
+"Base Link URL","Đường Dẫn Cơ Sở Link URL",module,Magento_Backend
+"Base URL for Static View Files","Đường Dẫn Cơ Sở URL dành cho Các File Static View",module,Magento_Backend
+"May be empty or start with {{unsecure_base_url}} placeholder.","Có thể bỏ trống hoặc bắt đầu với phần lưu giữ {{unsecure_base_url}}.",module,Magento_Backend
+"Base URL for User Media Files","Đường Dẫn Cơ Sở URL dành cho Các File User Media",module,Magento_Backend
+"Base URLs (Secure)","Các Đường Dẫn Cơ Sở URL (Bảo Mật)",module,Magento_Backend
+"Secure Base URL","Bảo Mật Đường Dẫn Cơ Sở URL",module,Magento_Backend
+"Specify URL or {{base_url}}, or {{unsecure_base_url}} placeholder.","Chỉ Định Đường Dẫn URL hoặc Phần Lưu Giữ {{base_url}}, hoặc {{unsecure_base_url}}.",module,Magento_Backend
+"Secure Base URL for Static View Files","Bảo Mật Đường Dẫn Cơ Sở URL cho Các File Static View",module,Magento_Backend
+"May be empty or start with {{secure_base_url}}, or {{unsecure_base_url}} placeholder.","Có thể bỏ trống hoặc bắt đầu với phần lưu giữ {{secure_base_url}}, hoặc {{unsecure_base_url}}.",module,Magento_Backend
+"Secure Base URL for User Media Files","Bảo Mật Đường Dẫn Cơ Sở URL cho Các File User Media",module,Magento_Backend
+"Use Secure URLs on Storefront","Sử Dụng Các Đường Dẫn URL Bảo Mật cho Storefront Web Bán Hàng",module,Magento_Backend
+"Use Secure URLs in Admin","Sử Dụng Các Đường Dẫn URL Bảo Mật cho Phần Quản Trị",module,Magento_Backend
+"Offloader header","Giảm Tải Đầu Trang",module,Magento_Backend
+"Default Pages","Các Trang Mặc Định",module,Magento_Backend
+"Default Web URL","Đường Dẫn URL Mặc Định của Web",module,Magento_Backend
+"Default No-route URL","Đường Dẫn URL Không Định Tuyến Mặc Định",module,Magento_Backend
+"Session Validation Settings","Cấu Hình Phiên Xác Nhận",module,Magento_Backend
+"Validate REMOTE_ADDR","Xác Nhận REMOTE_ADDR",module,Magento_Backend
+"Validate HTTP_VIA","Xác Nhận HTTP_VIA",module,Magento_Backend
+"Validate HTTP_X_FORWARDED_FOR","Xác Nhận HTTP_X_FORWARDED_FOR",module,Magento_Backend
+"Validate HTTP_USER_AGENT","Xác Nhận HTTP_USER_AGENT",module,Magento_Backend
+"Use SID on Storefront","Sử Dụng Mã Nhận Diện Bảo Mật (SID) cho Các Đường Dẫn URL Bên Ngoài Web",module,Magento_Backend
+"Allows customers to stay logged in when switching between different stores.","Cho phép khách hàng giữ nguyên trạng thái đăng nhập khi thay đổi giữa các cửa hàng trên web.",module,Magento_Backend
+"Cache Type","Loại Bộ Nhớ Cache",module,Magento_Backend
+Description,"Mô tả",module,Magento_Backend
+Tags,"Các Thẻ Gắn",module,Magento_Backend
+"Community Edition","Phiên Bản dành cho Cộng Đồng",module,Magento_Backend
+"Scheduled Backup Settings","Cấu Hình Hẹn Giờ Sao Lưu Dự Phòng",module,Magento_Backup
+"Enable Scheduled Backup","Bật Hẹn Giờ Sao Lưu Dự Phòng",module,Magento_Backup
+"Backup Type","Loại Sao Lưu Dự Phòng",module,Magento_Backup
+"Start Time","Thời Gian Bắt Đầu",module,Magento_Backup
+Frequency,"Tần Suất",module,Magento_Backup
+"Maintenance Mode","Chế Độ Bảo Dưỡng",module,Magento_Backup
+Delete,Xóa,module,Magento_Backup
+"Are you sure you want to delete the selected backup(s)?","Bạn có chắc chắn là bạn muốn xóa các bản sao lưu dự phòng đã chọn không?",module,Magento_Backup
+Time,"Thời gian",module,Magento_Backup
+Name,Tên,module,Magento_Backup
+Size(bytes),"Dung Lượng(bytes)",module,Magento_Backup
+Type,Loại,module,Magento_Backup
+Download,"Tải về",module,Magento_Backup
+Action,"Thao tác",module,Magento_Backup
+Rollback,"Quay Trở Lại",module,Magento_Backup
+Braintree,"Cổng Thanh Toán Braintree",module,Magento_Braintree
+"Enable this Solution","Kích hoạt giải pháp này",module,Magento_Braintree
+"Enable PayPal through Braintree","Bật Cổng Thanh Toán PayPal qua Braintree",module,Magento_Braintree
+Title,"Tiêu đề",module,Magento_Braintree
+Environment,"Môi Trường",module,Magento_Braintree
+"Merchant Account ID","Mã Nhận Diện Tài Khoản Người Bán",module,Magento_Braintree
+"Merchant ID","Mã Nhận Diện Người Bán",module,Magento_Braintree
+"Public Key","Mã Khóa Công Khai",module,Magento_Braintree
+"Private Key","Mã Khóa Cá Nhân",module,Magento_Braintree
+Debug,"Sửa Lỗi",module,Magento_Braintree
 "Capture action","Nắm bắt hành động",module,Magento_Braintree
 "Use Vault","Sử dụng bảo mật",module,Magento_Braintree
 "Allow Duplicate Cards","Cho phép bản sao thẻ",module,Magento_Braintree
+"CVV Verification","Yêu Cầu Xác Nhận Mã Bảo Mật CVV",module,Magento_Braintree
+"Credit Card Types","Các Loại Thẻ Tín Dụng",module,Magento_Braintree
+"Advanced Fraud Protection","Chống Gian Lận Nâng Cao",module,Magento_Braintree
 "Your Kount ID","ID Kount của bạn",module,Magento_Braintree
 "Use Cache","Sử dụng bộ nhớ đệm",module,Magento_Braintree
+"Payment from Applicable Countries","Thanh Toán từ Các Nước Được Áp Dụng",module,Magento_Braintree
+"Payment from Specific Countries","Thanh Toán từ Các Nước Cụ Thể",module,Magento_Braintree
+"Country Specific Credit Card Types","Các Loại Thẻ Tín Dụng theo Quốc Gia",module,Magento_Braintree
+"3D Secure Verification Settings","Cấu Hình Xác Nhận Cổng Thanh Toán 3D Secure",module,Magento_Braintree
+"3D Secure Verification","Xác Nhận Cổng Thanh Toán 3D Secure",module,Magento_Braintree
 "Display products availability in stock on Storefront.","Hiển thị các sản phẩm sẵn có vào các cổ phiếu trên cửa hàng.",module,Magento_CatalogInventory
 "Watermark Default Size","Kích thước mặc định ảnh mờ",module,Magento_Catalog
 "Watermark Opacity, Percent","Độ mờ, phần trăm của ảnh",module,Magento_Catalog
