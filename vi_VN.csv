@@ -534,6 +534,7 @@ Monthly,"Hàng tháng",module,Magento_Cron
 "Maximum length must be less then %1 symbols","Chiều dài tối đa phải ít hơn %1 ký tự",module,Magento_Customer
 "Invalid input","Dữ liệu không hợp lệ",module,Magento_Customer
 "Please correct this email address: ""%1"".","Xin vui lòng nhập đúng email này: ""%1"".",module,Magento_Customer
+or,hoặc,module,Magento_Customer
 Submit,"Gửi đi",module,Magento_Customer
 Login,"Đăng nhập",module,Magento_Customer
 Kilograms,Kg,module,Magento_Dhl
@@ -577,6 +578,8 @@ Country,"Quốc gia",module,Magento_OfflineShipping
 "We cannot retrieve the payment method model object.","Chúng tôi không thể truy xuất đối tượng mô hình phương thức thanh toán.",module,Magento_Payment
 Month,Tháng,module,Magento_Payment
 Year,Năm,module,Magento_Payment
+"Issue Number","Số phát hành",module,Magento_Payment
+"Start Date","Ngày bắt đầu",module,Magento_Payment
 "Billing Agreements","Thỏa thuận thanh toán",module,Magento_Paypal
 "Last Name",Họ,module,Magento_Paypal
 "PayPal response hasn't required fields.","Trả lời của PayPal không có các mục yêu cầu.",module,Magento_Paypal
@@ -620,6 +623,26 @@ Back,"Quay lại",module,Magento_User
 label,nhãn,module,Magento_Widget
 Choose...,"Lựa chọn...",module,Magento_Widget
 "Wish List","Danh sách mong muốn",module,Magento_Wishlist
+"Wish List Sharing","Chia sẻ danh sách yêu thích",module,Magento_Wishlist
+"My Wish List","Danh sách yêu thích của tôi",module,Magento_Wishlist
+"%1's Wish List","Danh sách yêu thích của %1",module,Magento_Wishlist
+"You added %1 to your shopping cart.","Bạn đã thêm %1 vào giỏ mua hàng của bạn.",module,Magento_Wishlist
+"This product(s) is out of stock.","Sản phẩm này tạm hết.",module,Magento_Wishlist
+"%1 has been moved to your wish list.","%1 đã được chuyển đến danh sách yêu thích của bạn.",module,Magento_Wishlist
+"Message length must not exceed %1 symbols","Độ dài tin nhắn không được vượt quá %1 kí tự",module,Magento_Wishlist
+"Your wish list has been shared.","Danh sách yêu thích của bạn đã được chia sẻ.",module,Magento_Wishlist
+"%1 items","%1 sản phẩm",module,Magento_Wishlist
+"1 item","1 sản phẩm",module,Magento_Wishlist
+Comment,"Bình luận",module,Magento_Wishlist
+"Display number of items in wish list","Hiển thị số lượng sản phẩm trong danh sách yêu thích",module,Magento_Wishlist
+"Display item quantities","Hiển thị số lượng sản phẩm",module,Magento_Wishlist
+"An item option with code %1 already exists.","Một tùy chọn sản phẩm với mã %1 đã tồn tại.",module,Magento_Wishlist
+"Cannot specify product.","Không thể xác định sản phẩm.",module,Magento_Wishlist
+"Invalid item option format.","Tùy chọn định dạng cho sản phẩm không hợp lệ.",module,Magento_Wishlist
+"%1 for ""%2"".","%1 cho ""%2"".",module,Magento_Wishlist
+"%1 product(s) have been added to shopping cart: %2.","%1 sản phẩm đã được thêm vào giỏ mua hàng: %2.",module,Magento_Wishlist
+"The product does not exist.","Sản phẩm không tồn tại.",module,Magento_Wishlist
+"Shop By","Mua sắm bằng",theme,frontend/Magento/luma
 Total:,Tổng:,module,Magento_Checkout
 "Add Products to New Option","Thêm sản phẩm vào Tùy chọn mới",module,Magento_Bundle
 "Add Selected Products","Thêm Sản phẩm được lựa chọn",module,Magento_Bundle
