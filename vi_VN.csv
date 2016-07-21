@@ -571,6 +571,7 @@ Dynamic,Động,module,Magento_GoogleAdwords
 "Grouped Products","Nhóm sản phẩm",module,Magento_GroupedProduct
 Export,"Xuất ra",module,Magento_ImportExport
 "Export Settings","Xuất thiết lập",module,Magento_ImportExport
+"Following Error(s) has been occurred during importing process:","Lỗi sau đây đã xuất hiện trong quá trình xuất nhập dữ liệu:",module,Magento_ImportExport
 "Indexer Management","Quản lý Chỉ mục",module,Magento_Indexer
 Ready,"Sẵn sàng",module,Magento_Indexer
 Integrations,"Tích hợp",module,Magento_Integration
@@ -635,11 +636,48 @@ State,"Tỉnh/Thành phố",module,Magento_TaxImportExport
 Back,"Quay lại",module,Magento_User
 "Delete Role","Xoá vai trò",module,Magento_User
 "Add New Variable","Thêm biến mới",module,Magento_Variable
+message,"tin nhắn",module,Magento_Webapi
+Message,"Tin nhắn",module,Magento_Webapi
 "Add Tax","Thêm thuế",module,Magento_Weee
 "Delete Tax","Xóa bỏ thuế",module,Magento_Weee
 "All Websites","Tất cả các trang web",module,Magento_Weee
+"Including FPT only","Chỉ bao gồm FPT",module,Magento_Weee
+"Including FPT and FPT description","Bao gồm cả FPT và mô tả FPT",module,Magento_Weee
+"Excluding FPT. Including FPT description and final price","Không bao gồm FPT. Bao gồm mô tả FPT và giá cuối cùng",module,Magento_Weee
+"Excluding FPT","Không bao gồm FPT",module,Magento_Weee
+"Fixed Product Tax","Thuế cố định cho sản phẩm",module,Magento_Weee
+"Excl. Tax","Chưa bao gồm thuế",module,Magento_Weee
+Total,Tổng,module,Magento_Weee
+"Incl. Tax","Đã bao gồm thuế",module,Magento_Weee
+"Total Incl. Tax","Tổng số bao gồm cả thuế",module,Magento_Weee
+Country/State,"Quốc gia/Bang",module,Magento_Weee
+Tax,Thuế,module,Magento_Weee
+Action,"Thao tác",module,Magento_Weee
+"Final Price","Giá cuối cùng",module,Magento_Weee
+"Widget Insertion","Tính năng chèn Widget",module,Magento_Widget
+"Insert Widget","Chèn Widget",module,Magento_Widget
 label,nhãn,module,Magento_Widget
 Choose...,"Lựa chọn...",module,Magento_Widget
+Close,"Đóng lại",module,Magento_Widget
+"Not Selected","Không được chọn",module,Magento_Widget
+"Widget Type","Loại widget",module,Magento_Widget
+"-- Please Select --","-- Vui lòng chọn --",module,Magento_Widget
+"Add Widget","Thêm Tiện ích",module,Magento_Widget
+"Save and Continue Edit","Lưu và tiếp tục chỉnh sửa",module,Magento_Widget
+"Custom Layouts","Tuỳ chỉnh bố cục",module,Magento_Widget
+"Page Layouts","Bố cục trang",module,Magento_Widget
+Type,Loại,module,Magento_Widget
+"All Product Types","Tất cả các loại sản phẩm",module,Magento_Widget
+Products,"Sản phẩm",module,Magento_Widget
+"All Pages","Tất cả các trang",module,Magento_Widget
+"Specified Page","Trang được chỉ định",module,Magento_Widget
+name,tên,module,Magento_Widget
+description,"mô tả",module,Magento_Widget
+None,"Không có",module,Magento_Widget
+Template,Mẫu,module,Magento_Widget
+All,"Tất Cả",module,Magento_Widget
+Apply,"Áp dụng",module,Magento_Widget
+Page,Trang,module,Magento_Widget
 "Wish List","Danh sách mong muốn",module,Magento_Wishlist
 "Wish List Sharing","Chia sẻ danh sách yêu thích",module,Magento_Wishlist
 "My Wish List","Danh sách yêu thích của tôi",module,Magento_Wishlist
@@ -666,7 +704,47 @@ Comment,"Bình luận",module,Magento_Wishlist
 "%1 for ""%2"".","%1 cho ""%2"".",module,Magento_Wishlist
 "%1 product(s) have been added to shopping cart: %2.","%1 sản phẩm đã được thêm vào giỏ mua hàng: %2.",module,Magento_Wishlist
 Comment:,"Bình luận:",module,Magento_Wishlist
+"We cannot retrieve the Wish List.","Chúng tôi không thể truy xuất danh sách yêu thích.",module,Magento_Wishlist
 "The product does not exist.","Sản phẩm không tồn tại.",module,Magento_Wishlist
+"Test Phrase","Kiểm tra cụm từ",module,Magento_Wishlist
+message,"tin nhắn",module,Magento_Wishlist
+Message,"Tin nhắn",module,Magento_Wishlist
+error-message,"tin nhắn lỗi",module,Magento_Wishlist
+LocalizedException,"Yếu tố ngoại lệ cho bản địa",module,Magento_Wishlist
+"Product Exception.","Sản phẩm ngoại lệ.",module,Magento_Wishlist
+"Localized Exception.","Yếu tố ngoại lệ cho bản địa.",module,Magento_Wishlist
+"Are you sure you want to remove this item?","Bạn có chắc rằng bạn muốn xóa sản phẩm này?",module,Magento_Wishlist
+"Share Wish List","Chia sẻ danh sách yêu thích",module,Magento_Wishlist
+"Add All to Cart","Thêm tất cả vào giỏ hàng",module,Magento_Wishlist
+"Update Wish List","Cập nhật danh sách yêu thích",module,Magento_Wishlist
+"Move to Wishlist","Chuyển tới danh sách yêu thích",module,Magento_Wishlist
+"View Product","Xem sản phẩm",module,Magento_Wishlist
+Qty,"Số lượng",module,Magento_Wishlist
+"Add to Cart","Thêm vào giỏ hàng",module,Magento_Wishlist
+Availability,"Sẵn có",module,Magento_Wishlist
+"In stock","Còn trong kho",module,Magento_Wishlist
+"Out of stock","Hết hàng",module,Magento_Wishlist
+Edit,"Chỉnh sửa",module,Magento_Wishlist
+"Remove Item","Xóa sản phẩm",module,Magento_Wishlist
+"Remove item","Xóa sản phẩm",module,Magento_Wishlist
+"Add to Compare","Thêm để so sánh",module,Magento_Wishlist
+"This Wish List has no Items","Danh sách yêu thích này không có sản phẩm nào",module,Magento_Wishlist
+"See Details","Xem chi tiết",module,Magento_Wishlist
+"Options Details","Tùy chọn chi tiết",module,Magento_Wishlist
+"RSS link to %1's wishlist","RSS liên kết đến danh sách yêu thích của %1",module,Magento_Wishlist
+"RSS Feed","Nguồn cấp dữ liệu RSS",module,Magento_Wishlist
+Product,"Sản phẩm",module,Magento_Wishlist
+"Add to Wish List","Thêm vào danh sách yêu thích",module,Magento_Wishlist
+Back,"Quay lại",module,Magento_Wishlist
+"Wish List is empty now.","Hiện tại không có sản phẩm nào trong danh sách yêu thích.",module,Magento_Wishlist
+"* Required Fields","* Bắt buộc",module,Magento_Wishlist
+"Sharing Information","Thông tin chia sẻ",module,Magento_Wishlist
+"Email addresses, separated by commas","Địa chỉ email, ngăn cách bởi dấu phẩy",module,Magento_Wishlist
+"Check here to link an RSS feed to your Wish List.","Xem ở đây để liên kết một nguồn cấp dữ liệu RSS vào danh sách yêu thích của bạn.",module,Magento_Wishlist
+"Last Added Items","Sản phẩm được thêm cuối cùng",module,Magento_Wishlist
+"Remove This Item","Loại bỏ mục này",module,Magento_Wishlist
+"Go to Wish List","Đi đến danh sách yêu thích",module,Magento_Wishlist
+"You have no items in your wish list.","Bạn không có sản phẩm nào trong danh sách yêu thích.",module,Magento_Wishlist
 "Now Shopping by","Bây giờ mua sắm bằng",theme,frontend/Magento/luma
 Previous,Trước,theme,frontend/Magento/luma
 Remove,"Hủy bỏ",theme,frontend/Magento/luma
@@ -925,6 +1003,22 @@ Enable,"Kích hoạt",module,Magento_GoogleAnalytics
 Frequency,"Tần suất",module,Magento_ProductAlert
 "Start Time","Thời gian bắt đầu",module,Magento_ProductAlert
 Translations,"Bản dịch",module,Magento_Translation
+"Web API Security","Bảo mật API",module,Magento_WebapiSecurity
+"Allow Anonymous Guest Access","Cho phép khách ẩn danh truy cập",module,Magento_WebapiSecurity
+"Fixed Product Taxes","Thuế cố định cho sản phẩm",module,Magento_Weee
+"Enable FPT","Cho phép FPT",module,Magento_Weee
+"Display Prices In Product Lists","Hiển thị giá trong danh sách sản phẩm",module,Magento_Weee
+"Display Prices On Product View Page","Hiển thị giá trên trang xem sản phẩm",module,Magento_Weee
+"Display Prices In Sales Modules","Hiển thị giá trong mô-đun bán hàng",module,Magento_Weee
+"Display Prices In Emails","Hiển thị giá trong email",module,Magento_Weee
+"Apply Tax To FPT","Áp dụng thuế cho FPT",module,Magento_Weee
+"Include FPT In Subtotal","Bao gồm FPT trong tổng phụ",module,Magento_Weee
+"Orders and Returns","Đơn đặt hàng và trả lại",module,Magento_Widget
+"Link Text","Đường dẫn dạng ký tự chữ",module,Magento_Widget
+Product,"Sản phẩm",module,Magento_Widget
+"Select Product...","Lựa chọn sản phẩm...",module,Magento_Widget
+Conditions,"Điều kiện",module,Magento_Widget
+"Share Options","Tùy chọn Chia sẻ",module,Magento_Wishlist
 Summary,"Tóm tắt",theme,frontend/Magento/blank
 "Account Dashboard","Trang tổng quan tài khoản",theme,frontend/Magento/blank
 "Account Information","Thông tin tài khoản",theme,frontend/Magento/blank
