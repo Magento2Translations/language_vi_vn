@@ -464,6 +464,15 @@ Results,"Kết quả",module,Magento_CatalogSearch
 "Product Attribute","Thuộc tính sản phẩm",module,Magento_CatalogWidget
 "Add to Cart","Thêm vào giỏ",module,Magento_CatalogWidget
 Root,Gốc,module,Magento_Catalog
+"Use All Available Attributes","Sử dụng tất cả các thuộc tính có sẵn",module,Magento_Catalog
+Name,Tên,module,Magento_Catalog
+SKU,"MÃ SẢN PHẨM",module,Magento_Catalog
+Price,Giá,module,Magento_Catalog
+Position,"Vị trí",module,Magento_Catalog
+Day,Ngày,module,Magento_Catalog
+Month,Tháng,module,Magento_Catalog
+Year,Năm,module,Magento_Catalog
+[GLOBAL],"[Toàn hệ thống]",module,Magento_Catalog
 Delete,"Xóa bỏ",module,Magento_Catalog
 Save,"Lưu lại",module,Magento_Catalog
 "Terms and Conditions","Điều khoản và điều kiện",module,Magento_CheckoutAgreements
@@ -534,6 +543,22 @@ Loading...,"Đang tải...",module,Magento_Checkout
 "Your order number is: %1.","Mã số đơn hàng của bạn là: %1.",module,Magento_Checkout
 "Your order # is: <span>%1</span>.","Đơn hàng của bạn # là: <span>%1</span>.",module,Magento_Checkout
 "Static Blocks","Khối tĩnh",module,Magento_Cms
+"Save and Continue Edit","Lưu và tiếp tục chỉnh sửa",module,Magento_Cms
+Identifier,"Định danh",module,Magento_Cms
+"Store View","Thông tin cửa hàng",module,Magento_Cms
+Status,"Tình trạng",module,Magento_Cms
+Enabled,"Cho phép",module,Magento_Cms
+Disabled,"Vô hiệu hóa",module,Magento_Cms
+Title,"Tiêu đề",module,Magento_Cms
+"Manage Pages","Quản lý trang",module,Magento_Cms
+"Add New Page","Thêm trang mới",module,Magento_Cms
+"Save Page","Lưu trang",module,Magento_Cms
+"Delete Page","Xóa trang",module,Magento_Cms
+Layout,"Giao diện",module,Magento_Cms
+Created,"Đã tạo",module,Magento_Cms
+Modified,"Đã sửa",module,Magento_Cms
+Action,"Thao tác",module,Magento_Cms
+Preview,"Xem trước",module,Magento_Cms
 "Default Config","Cấu hình mặc định",module,Magento_Config
 "Save Config","Lưu Config",module,Magento_Config
 "Add configurable attributes to the current Attribute Set (""%1"")","Thêm thuộc tính cấu hình các hiện tại thuộc tính thiết lập (""%1"")",module,Magento_ConfigurableProduct
@@ -546,6 +571,29 @@ Monthly,"Hàng tháng",module,Magento_Cron
 "Please specify a website.","Hãy chỉ ra một trang web.",module,Magento_CustomerImportExport
 "Sign Out","Đăng xuất",module,Magento_Customer
 "Sign In","Đăng nhập",module,Magento_Customer
+"Address Book","Sổ địa chỉ",module,Magento_Customer
+"Edit Address","Sửa địa chỉ",module,Magento_Customer
+"Add New Address","Thêm địa chỉ mới",module,Magento_Customer
+region,"khu vực",module,Magento_Customer
+"Create Order","Tạo đơn hàng",module,Magento_Customer
+"Save Customer","Lưu khách hàng",module,Magento_Customer
+"Delete Customer","Xóa khách hàng",module,Magento_Customer
+"Reset Password","Đặt lại mật khẩu",module,Magento_Customer
+"Force Sign-In","Bắt buộc đăng nhập",module,Magento_Customer
+"New Customer","Khách hàng mới",module,Magento_Customer
+"Save and Continue Edit","Lưu và tiếp tục chỉnh sửa",module,Magento_Customer
+Back,"Trở lại",module,Magento_Customer
+"Please select","Vui lòng chọn",module,Magento_Customer
+Reset,"Thiết lập lại",module,Magento_Customer
+Product,"Sản phẩm",module,Magento_Customer
+SKU,"MÃ SẢN PHẨM",module,Magento_Customer
+Quantity,"Số lượng",module,Magento_Customer
+Price,Giá,module,Magento_Customer
+Total,Tổng,module,Magento_Customer
+Action,"Thao tác",module,Magento_Customer
+Configure,"Cấu hình",module,Magento_Customer
+Delete,Xóa,module,Magento_Customer
+Newsletter,"Bản tin",module,Magento_Customer
 "Cannot switch into given mode ""%1""","Không thể chuyển thành chế độ nhất định ""%1""",module,Magento_Deploy
 "Format for IDE '%1' is not supported","Định dạng cho IDE '%1' không được hỗ trợ",module,Magento_Developer
 "Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds %1 %2.","Tùy chọn này cho phép DHL để tối ưu hóa chi phí vận chuyển bằng cách chia tách đơn đặt hàng nếu nó vượt quá %1 %2.",module,Magento_Dhl
@@ -561,6 +609,18 @@ Error,Lỗi,module,Magento_DownloadableImportExport
 "Provided sample information is invalid.","Thông tin mẫu được cung cấp không hợp lệ.",module,Magento_Downloadable
 "Provided downloadable sample is not related to given product.","Mẫu được cung cấp không liên quan cho sản phẩm.",module,Magento_Downloadable
 "Attribute Properties","Thuộc tính attribute",module,Magento_Eav
+Yes,Có,module,Magento_Eav
+No,Không,module,Magento_Eav
+System,"Hệ thống",module,Magento_Eav
+None,"Không có",module,Magento_Eav
+"Decimal Number","Số thập phân",module,Magento_Eav
+"Integer Number","Số nguyên",module,Magento_Eav
+"Letters (a-z, A-Z) or Numbers (0-9)","Chữ cái (a-z, A-Z) hoặc số (0-9)",module,Magento_Eav
+Date,Ngày,module,Magento_Eav
+"Multiple Select","Nhiều lựa chọn",module,Magento_Eav
+"Cannot save attributeGroup","Không thể lưu nhóm thuộc tính",module,Magento_Eav
+"Cannot save attribute","Không thể lưu thuộc tính",module,Magento_Eav
+"Cannot delete attribute.","Không thể xóa thuộc tính.",module,Magento_Eav
 "Add New Template","Thêm mẫu mới",module,Magento_Email
 Back,"Quay lại",module,Magento_Email
 "Change Encryption Key","Thay đổi mã khóa",module,Magento_EncryptionKey
@@ -630,11 +690,150 @@ Code,Mã,module,Magento_TaxImportExport
 Country,Nước,module,Magento_TaxImportExport
 State,"Tỉnh/Thành phố",module,Magento_TaxImportExport
 "Zip/Post Code","Mã bưu chính",module,Magento_TaxImportExport
+"Tax Rate Information","Thông tin về tỷ lệ thuế",module,Magento_Tax
+"Tax Identifier","Định danh thuế",module,Magento_Tax
 "Zip/Post Code","Mã bưu chính",module,Magento_Tax
+State,Bang,module,Magento_Tax
+Country,"Quốc gia",module,Magento_Tax
+"Rate Percent","Tỷ lệ phần trăm",module,Magento_Tax
+"Tax Titles","Tiêu đề thuế",module,Magento_Tax
+"Add New Tax Rate","Thêm tỷ lệ thuế mới",module,Magento_Tax
+Back,"Trở lại",module,Magento_Tax
+Reset,"Thiết lập lại",module,Magento_Tax
+"Delete Rate","Xóa các tỷ lệ",module,Magento_Tax
+"Are you sure you want to do this?","Bạn có chắc rằng bạn muốn làm điều này?",module,Magento_Tax
+"Save Rate","Lưu tỷ lệ",module,Magento_Tax
+"Manage Tax Rules","Quản lý quy tắc thuế",module,Magento_Tax
+"Add New Tax Rule","Thêm quy tắc thuế mới",module,Magento_Tax
+"Save Rule","Lưu quy tắc",module,Magento_Tax
+"Delete Rule","Xoá quy tắc",module,Magento_Tax
+"Save and Continue Edit","Lưu và tiếp tục chỉnh sửa",module,Magento_Tax
+"Tax Rule Information","Thông tin về quy tắc thuế",module,Magento_Tax
+Name,Tên,module,Magento_Tax
+Themes,"Giao diện",module,Magento_Theme
+"Save and Continue Edit","Lưu và tiếp tục chỉnh sửa",module,Magento_Theme
+"Are you sure you want to delete this theme?","Bạn có chắc bạn muốn xoá bỏ chủ đề này?",module,Magento_Theme
+"Theme: %1","Chủ đề: %1",module,Magento_Theme
+"New Theme","Chủ đề mới",module,Magento_Theme
+"Theme CSS","Chủ đề CSS",module,Magento_Theme
+"Custom CSS","CSS tùy biến",module,Magento_Theme
+"Invalid type","Loại không hợp lệ",module,Magento_Theme
+label,nhãn,module,Magento_Theme
+"-- Please Select --","-- Vui lòng chọn --",module,Magento_Theme
+Copy,"Sao chép",module,Magento_Theme
+Message,"Tin nhắn",module,Magento_Theme
+Phrase,"Cụm từ",module,Magento_Theme
 "Dictionary (Translation on Storefront side)","Từ điển (dịch bên cửa hàng)",module,Magento_Translation
+"Condition type ""%1"" is not allowed","Điều kiện loại ""%1"" là không được phép",module,Magento_Ui
+"Remove %1","Loại bỏ %1",module,Magento_Ui
+"Add New %1","Thêm mới %1",module,Magento_Ui
+"New %1","Mới %1",module,Magento_Ui
+"Please select item(s).","Vui lòng chọn sản phẩm.",module,Magento_Ui
+Next,"Tiếp theo",module,Magento_Ui
+Back,"Trở lại",module,Magento_Ui
+Cancel,Hủy,module,Magento_Ui
 "UPS Second Day Air","UPS 2nd Day Air",module,Magento_Ups
+Category:,Nhóm:,module,Magento_UrlRewrite
+Product:,"Sản phẩm:",module,Magento_UrlRewrite
+"Skip Category Selection","Bỏ qua lựa chọn nhóm",module,Magento_UrlRewrite
+Name,Tên,module,Magento_UrlRewrite
+SKU,"MÃ SẢN PHẨM",module,Magento_UrlRewrite
+Status,"Tình trạng",module,Magento_UrlRewrite
+"CMS page:","Trang CMS:",module,Magento_UrlRewrite
+Title,"Tiêu đề",module,Magento_UrlRewrite
+"Store View","Thông tin cửa hàng",module,Magento_UrlRewrite
+"Edit URL Rewrite","Chỉnh sửa URL",module,Magento_UrlRewrite
+"Add New URL Rewrite","Thêm chỉnh sửa URL mới",module,Magento_UrlRewrite
+Reset,"Thiết lập lại",module,Magento_UrlRewrite
+Back,"Trở lại",module,Magento_UrlRewrite
+Delete,Xóa,module,Magento_UrlRewrite
+"Are you sure you want to do this?","Bạn có chắc rằng bạn muốn làm điều này?",module,Magento_UrlRewrite
+Save,"Lưu lại",module,Magento_UrlRewrite
+"Request Path","Đường dẫn yêu cầu",module,Magento_UrlRewrite
+"Target Path","Con đường mục tiêu",module,Magento_UrlRewrite
+"Redirect Type","Loại chuyển hướng",module,Magento_UrlRewrite
+Description,"Mô tả",module,Magento_UrlRewrite
+Store,"Cửa hàng",module,Magento_UrlRewrite
+"URL Rewrite Management","Quản lý viết lại mã URL",module,Magento_UrlRewrite
+"Add URL Rewrite","Thêm chỉnh sửa URL",module,Magento_UrlRewrite
+Custom,"Tùy chỉnh",module,Magento_UrlRewrite
+"For category","Đối với nhóm",module,Magento_UrlRewrite
+"For product","Đối với sản phẩm",module,Magento_UrlRewrite
+"For CMS page","Đối với trang CMS",module,Magento_UrlRewrite
+"Create URL Rewrite:","Tạo chỉnh sửa URL:",module,Magento_UrlRewrite
+"URL Rewrites","Viết lại URL",module,Magento_UrlRewrite
+No,Không,module,Magento_UrlRewrite
+"Temporary (302)","Tạm thời (302)",module,Magento_UrlRewrite
+"Permanent (301)","Vĩnh viễn (301)",module,Magento_UrlRewrite
+"Request Path for Specified Store","Yêu cầu đường dẫn cho các cửa hàng được chỉ định",module,Magento_UrlRewrite
+"URL key for specified store already exists.","URL key cho cửa hàng được chỉ định đã tồn tại.",module,Magento_UrlRewrite
+"Custom storage message","Tùy chỉnh lưu trữ tin nhắn",module,Magento_UrlRewrite
+"Select Category","Chọn nhóm",module,Magento_UrlRewrite
 Back,"Quay lại",module,Magento_User
+Reset,"Thiết lập lại",module,Magento_User
 "Delete Role","Xoá vai trò",module,Magento_User
+"Are you sure you want to do this?","Bạn có chắc rằng bạn muốn làm điều này?",module,Magento_User
+"Save Role","Lưu vai trò",module,Magento_User
+Roles,"Vai trò",module,Magento_User
+"Add New Role","Thêm vai trò mới",module,Magento_User
+"Role Information","Thông tin vai trò",module,Magento_User
+"Role Users","Vai trò người dùng",module,Magento_User
+"User ID","ID người dùng",module,Magento_User
+"User Name","Tên người dùng",module,Magento_User
+"First Name",Tên,module,Magento_User
+"Last Name",Họ,module,Magento_User
+Status,"Tình trạng",module,Magento_User
+Active,"Kích hoạt",module,Magento_User
+Inactive,"Không hoạt động",module,Magento_User
+"Role Resources","Tài nguyên vai trò",module,Magento_User
+"Role Info","Thông tin vai trò",module,Magento_User
+"Role Name","Tên vai trò",module,Magento_User
+"Add New User","Thêm người dùng mới",module,Magento_User
+Users,"Người dùng",module,Magento_User
+"Save User","Lưu người dùng",module,Magento_User
+"Delete User","Xóa người dùng",module,Magento_User
+"Force Sign-In","Bắt buộc đăng nhập",module,Magento_User
+"Edit User '%1'","Chỉnh sửa người dùng '%1'",module,Magento_User
+"New User","Người dùng mới",module,Magento_User
+"Account Information","Thông tin tài khoản",module,Magento_User
+"User Email","Email người dùng",module,Magento_User
+Password,"Mật khẩu",module,Magento_User
+"New Password","Mật khẩu mới",module,Magento_User
+"Password Confirmation","Xác nhận mật khẩu",module,Magento_User
+"Interface Locale","Giao diện ngôn ngữ và khu vực",module,Magento_User
+"This account is","Tài khoản này",module,Magento_User
+"Account Status","Trạng thái tài khoản",module,Magento_User
+"Current User Identity Verification","Xác minh danh tính người dùng hiện tại",module,Magento_User
+"Your Password","Mật khẩu của bạn",module,Magento_User
+"User Roles Information","Thông tin vai trò người dùng",module,Magento_User
+Assigned,"Chỉ định",module,Magento_User
+Role,"Quyền hạn",module,Magento_User
+"User Information","Thông tin người dùng",module,Magento_User
+"User Info","Thông tin người dùng",module,Magento_User
+"User Role","Vai trò người dùng",module,Magento_User
+"Please correct the password reset token.","Xin vui lòng sửa lại chính xác mã thay đổi mật khẩu.",module,Magento_User
+"Locked Users","Người dùng đã bị khóa",module,Magento_User
+"Reset Password","Đặt lại mật khẩu",module,Magento_User
+"Roles Resources","Tài nguyên vai trò",module,Magento_User
+"Resource Access","Truy cập tài nguyên",module,Magento_User
+Custom,"Tùy chỉnh",module,Magento_User
+All,"Tất Cả",module,Magento_User
+Resources,"Tài nguyên",module,Magento_User
+Letter,Thư,module,Magento_Usps
+Parcel,"Bưu kiện",module,Magento_Usps
+Variable,Biến,module,Magento_Usps
+Regular,"Thông thường",module,Magento_Usps
+Large,Lớn,module,Magento_Usps
+Yes,Có,module,Magento_Usps
+No,Không,module,Magento_Usps
+"Not Required","Không bắt buộc",module,Magento_Usps
+Required,"Bắt buộc",module,Magento_Usps
+Sample,Mẫu,module,Magento_Usps
+Gift,"Quà tặng",module,Magento_Usps
+Documents,"Tài liệu",module,Magento_Usps
+Return,"Quay trở lại",module,Magento_Usps
+Other,Khác,module,Magento_Usps
+None,"Không có",module,Magento_Usps
 "Add New Variable","Thêm biến mới",module,Magento_Variable
 message,"tin nhắn",module,Magento_Webapi
 Message,"Tin nhắn",module,Magento_Webapi
@@ -763,6 +962,9 @@ Total:,Tổng:,module,Magento_Checkout
 "Shipping Method:","Phương thức vận chuyển:",module,Magento_Checkout
 "Payment Method:","Phương thức thanh toán:",module,Magento_Checkout
 "Date & Time:","Ngày & Giờ:",module,Magento_Checkout
+"%customer_name wants to share this Wish List from %store_name with you:","%customer_name muốn chia sẻ danh sách yêu thích này từ %store_name với bạn:",module,Magento_Wishlist
+"Message from %customer_name:","Tin nhắn từ %customer_name:",module,Magento_Wishlist
+"View all Wish List items","Xem tất cả các sản phẩm trong danh sách yêu thích",module,Magento_Wishlist
 "Welcome to %store_name.","Chào mừng đến với %store_name.",theme,frontend/Magento/luma
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Để đăng nhập vào trang web của chúng tôi, sử dụng các thông tin đăng nhập khi checkout hoặc trên trang<a href=""%customer_url""> Tài khoản của tôi</a>:",theme,frontend/Magento/luma
 Password:,"Mật khẩu:",theme,frontend/Magento/luma
@@ -800,6 +1002,15 @@ Password:,"Mật khẩu:",theme,frontend/Magento/luma
 "We could not detect a size.","Chúng tôi không xác định một kích thước.",module,Magento_Backend
 "Add Products to New Option","Thêm sản phẩm vào Tùy chọn mới",module,Magento_Bundle
 "Add Selected Products","Thêm Sản phẩm được lựa chọn",module,Magento_Bundle
+"Go to Details Page","Đi tới trang chi tiết",module,Magento_Ui
+"Please enter more or equal than {0} symbols.","Vui lòng nhập nhiều hơn hoặc bằng {0} biểu tượng.",module,Magento_Ui
+"Please enter less or equal than {0} symbols.","Vui lòng nhập ít hơn hoặc bằng {0} biểu tượng.",module,Magento_Ui
+"Please enter {0} words or less.","Vui lòng nhập {0} từ hoặc ít hơn.",module,Magento_Ui
+"Please enter at least {0} words.","Vui lòng nhập ít nhất {0} từ.",module,Magento_Ui
+Attention,"Chú ý",module,Magento_Ui
+OK,"Đồng ý",module,Magento_Ui
+Close,"Đóng lại",module,Magento_Ui
+Ok,"đồng ý",module,Magento_Ui
 "Use HTTPS to Get Feed","Dùng HTTPS Để Lấy Nguồn Cấp Dữ Liệu Feed",module,Magento_AdminNotification
 "Update Frequency","Tần Suất Nâng Cấp",module,Magento_AdminNotification
 "Last Update","Lần Nâng Cấp Cuối",module,Magento_AdminNotification
@@ -994,15 +1205,22 @@ Debug,"Sửa Lỗi",module,Magento_Braintree
 "Allow to Edit Shipping Address Entered During Checkout on PayPal Side","Cho Phép Thay Đổi Địa Chỉ Giao Hàng Đã Nhập Khi Đang Thanh Toán trên cCổng PayPal",module,Magento_Braintree
 "3D Secure Verification Settings","Cấu Hình Xác Nhận Cổng Thanh Toán 3D Secure",module,Magento_Braintree
 "3D Secure Verification","Xác Nhận Cổng Thanh Toán 3D Secure",module,Magento_Braintree
+Font,"Phông chữ",module,Magento_Captcha
+Forms,"Mẫu đơn",module,Magento_Captcha
+"Case Sensitive","Trường hợp nhạy cảm",module,Magento_Captcha
 "Shipping Address","Địa chỉ giao hàng",module,Magento_Checkout
 Cancel,"Hủy bỏ",module,Magento_Checkout
 "We received your order!","Chúng tôi đã nhận được đơn hàng của bạn!",module,Magento_Checkout
 "Thank you for your purchase!","Cảm ơn bạn đã mua hàng!",module,Magento_Checkout
 Enable,"Kích hoạt",module,Magento_GoogleAnalytics
 "Account Number","Số tài khoản",module,Magento_GoogleAnalytics
+"Access list","Danh sách truy cập",module,Magento_PageCache
 Frequency,"Tần suất",module,Magento_ProductAlert
 "Start Time","Thời gian bắt đầu",module,Magento_ProductAlert
 Translations,"Bản dịch",module,Magento_Translation
+Action,"Thao tác",module,Magento_Ui
+Action,"Thao tác",module,Magento_UrlRewrite
+Edit,"Chỉnh sửa",module,Magento_UrlRewrite
 "Web API Security","Bảo mật API",module,Magento_WebapiSecurity
 "Allow Anonymous Guest Access","Cho phép khách ẩn danh truy cập",module,Magento_WebapiSecurity
 "Fixed Product Taxes","Thuế cố định cho sản phẩm",module,Magento_Weee
@@ -1019,6 +1237,27 @@ Product,"Sản phẩm",module,Magento_Widget
 "Select Product...","Lựa chọn sản phẩm...",module,Magento_Widget
 Conditions,"Điều kiện",module,Magento_Widget
 "Share Options","Tùy chọn Chia sẻ",module,Magento_Wishlist
+"Email Sender","Người gửi Email",module,Magento_Wishlist
+"Email Template","Mẫu email",module,Magento_Wishlist
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Mẫu Email được lựa chọn dựa trên chủ đề dự phòng khi tùy chọn ""Mặc định"" được chọn.",module,Magento_Wishlist
+"Max Emails Allowed to be Sent","Số lượng email lớn nhất được cho phép gửi",module,Magento_Wishlist
+"Email Text Length Limit","Giới hạn độ dài văn bản email",module,Magento_Wishlist
+"General Options","Tùy chọn chung",module,Magento_Wishlist
+Enabled,"Cho phép",module,Magento_Wishlist
+"My Wish List Link","Liên kết danh sách yêu thích của tôi",module,Magento_Wishlist
+"Display Wish List Summary","Hiện thị tóm tắt danh sách yêu thích",module,Magento_Wishlist
+"Enable RSS","Cho phép RSS",module,Magento_Wishlist
+"No Items Found","Không tìm thấy sản phẩm nào",module,Magento_Wishlist
+"Product Name","Tên sản phẩm",module,Magento_Wishlist
+"User Description","Mô tả người dùng",module,Magento_Wishlist
+Quantity,"Số lượng",module,Magento_Wishlist
+"Add Locale","Thêm địa điểm",module,Magento_Wishlist
+"Add Date","Thêm ngày",module,Magento_Wishlist
+"Days in Wish List","Ngày trong danh sách yêu thích",module,Magento_Wishlist
+Action,"Thao tác",module,Magento_Wishlist
+Configure,"Cấu hình",module,Magento_Wishlist
+Delete,Xóa,module,Magento_Wishlist
+"Product Details and Comment","Chi tiết và bình luận về sản phẩm",module,Magento_Wishlist
 Summary,"Tóm tắt",theme,frontend/Magento/blank
 "Account Dashboard","Trang tổng quan tài khoản",theme,frontend/Magento/blank
 "Account Information","Thông tin tài khoản",theme,frontend/Magento/blank
