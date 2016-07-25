@@ -334,6 +334,7 @@ Country,"Quốc gia",module,Magento_Braintree
 "Credit card type is not allowed for this payment method.","Loại thẻ tín dụng này không sử dụng được trong phương thức thanh toán này.",module,Magento_Braintree
 "Selected payment type is not allowed for billing country.","Hình thức thanh toán này không sử dụng được trong quốc gia thanh toán.",module,Magento_Braintree
 "Please try again later","Xin vui lòng thử lại sau",module,Magento_Braintree
+"This refund is for a partial amount but the Transaction has not settled.","Phần hoàn trả này dành cho một số thanh toán, nhưng các giao dịch đã không được giải quyết.",module,Magento_Braintree
 "Please wait 24 hours before trying to issue a partial refund.","Xin vui lòng chờ 24 giờ trước khi cố gắng để thực hiện hoàn trả lại một phần.",module,Magento_Braintree
 "Some transactions are already settled or voided and cannot be voided.","Một số giao dịch đã được thực hiện hoặc đã bị hủy nên không thể hủy bỏ được.",module,Magento_Braintree
 "Invalid Customer ID provided","ID khách hàng không hợp lệ",module,Magento_Braintree
