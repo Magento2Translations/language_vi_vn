@@ -598,6 +598,13 @@ Preview,"Xem trước",module,Magento_Cms
 "Save Config","Lưu Config",module,Magento_Config
 "Add configurable attributes to the current Attribute Set (""%1"")","Thêm thuộc tính cấu hình các hiện tại thuộc tính thiết lập (""%1"")",module,Magento_ConfigurableProduct
 "Page not found.","Không tìm thấy trang.",module,Magento_Contact
+"* Required Fields","* Bắt buộc",module,Magento_Contact
+"Write Us","Viết cho chúng tôi",module,Magento_Contact
+"Jot us a note and we’ll get back to you as quickly as possible.","Gửi một lưu ý cho chúng tôi và chúng tôi sẽ trả lời bạn nhanh nhất có thể.",module,Magento_Contact
+Name,Tên,module,Magento_Contact
+"Phone Number","Số Điện thoại",module,Magento_Contact
+"What’s on your mind?","Bạn đang nghĩ gì?",module,Magento_Contact
+Submit,Gửi,module,Magento_Contact
 "Invalid domain name: %1","Tên miền không hợp lệ: %1",module,Magento_Cookie
 Daily,"Hàng ngày",module,Magento_Cron
 Weekly,"Hằng tuần",module,Magento_Cron
@@ -697,7 +704,17 @@ Synchronize,"Đồng bộ hóa",module,Magento_MediaStorage
 "Synchronizing %1 to %2","Đồng bộ hóa %1 và %2",module,Magento_MediaStorage
 "To see product price, add this item to your cart. You can always remove it later.","Để xem sản phẩm giá, thêm mục này vào giỏ hàng của bạn. Bạn luôn luôn có thể xóa nó sau này.",module,Magento_Msrp
 "See price before order confirmation.","Xem giá trước khi xác nhận đặt hàng.",module,Magento_Msrp
+"On Gesture","Bằng cử chỉ",module,Magento_Msrp
 "In Cart","Trong giỏ hàng",module,Magento_Msrp
+"Before Order Confirmation","Trước khi xác nhận đặt hàng",module,Magento_Msrp
+"Use config","Sử dụng cấu hình",module,Magento_Msrp
+"Click for price","Nhấp vào để xem giá",module,Magento_Msrp
+"What's this?","Đây là gì?",module,Magento_Msrp
+"Order total will be displayed before you submit the order","Tất cả các đơn đặt hàng sẽ được hiển thị trước khi bạn gửi đơn đặt hàng",module,Magento_Msrp
+"You will see the order total before you submit the order.","Bạn sẽ thấy tổng đơn hàng trước khi bạn gửi đơn đặt hàng.",module,Magento_Msrp
+Price,Giá,module,Magento_Msrp
+"Actual Price","Giá thực tế",module,Magento_Msrp
+"Add to Cart","Thêm vào giỏ hàng",module,Magento_Msrp
 "Change Billing Address","Thay đổi địa chỉ thanh toán",module,Magento_Multishipping
 "Ship to Multiple Addresses","Chuyển đến nhiều địa chỉ",module,Magento_Multishipping
 "Billing Information - %1","Thông tin thanh toán - %1",module,Magento_Multishipping
@@ -821,6 +838,7 @@ Catalog,"Danh mục",module,Magento_SalesRule
 Auto,"Tự động",module,Magento_SalesRule
 "Update the Product","Cập nhật sản phẩm",module,Magento_SalesRule
 "Entity Sequence profile not added to meta active profile","Hồ sơ tổ chức không được thêm vào meta cấu hình hoạt động",module,Magento_SalesSequence
+"Not enough arguments","Đối số không đủ",module,Magento_SalesSequence
 "Credit Memos","Hoàn trả đơn hàng",module,Magento_Sales
 Orders,"Đơn hàng",module,Magento_Sales
 Invoices,"Hoá đơn",module,Magento_Sales
@@ -1080,22 +1098,64 @@ Role,"Quyền hạn",module,Magento_User
 Custom,"Tùy chỉnh",module,Magento_User
 All,"Tất Cả",module,Magento_User
 Resources,"Tài nguyên",module,Magento_User
+"First-Class Mail Large Envelope","Thư phong bì lớn hạng nhất",module,Magento_Usps
+"First-Class Mail Letter","Thư hạng nhất",module,Magento_Usps
+"First-Class Mail Parcel","Bưu kiện thư hạng nhất",module,Magento_Usps
+"First-Class Mail Postcards","Bưu thiếp hạng nhất",module,Magento_Usps
+"Priority Mail","Mail Ưu tiên",module,Magento_Usps
+"Priority Mail Express Hold For Pickup","Ưu tiên Mail nhận giữ để chọn",module,Magento_Usps
+"Priority Mail Express","Mail Express Ưu tiên",module,Magento_Usps
+"Retail Ground","Phần bán lẻ",module,Magento_Usps
+"Media Mail","Phương tiện thư",module,Magento_Usps
+"Library Mail","Thư viện Mail",module,Magento_Usps
+"Priority Mail Express Flat Rate Envelope","Phong bì tỷ lệ cố định mail express",module,Magento_Usps
+"First-Class Mail Large Postcards","Bưu thiếp lớn hạng nhất",module,Magento_Usps
+"Priority Mail Flat Rate Envelope","Ưu tiên phong bì thư tỷ lệ cố định",module,Magento_Usps
+"Priority Mail Medium Flat Rate Box","Hộp ưu tiên tỷ lệ cố định thư loại vừa",module,Magento_Usps
+"Priority Mail Large Flat Rate Box","Hộp ưu tiên tỷ lệ cố định thư loại lớn",module,Magento_Usps
+"Priority Mail Express Sunday/Holiday Delivery","Ưu tiên Mail nhận giao hàng ngày Chủ Nhật/ngày lễ",module,Magento_Usps
+"Priority Mail Express Sunday/Holiday Delivery Flat Rate Envelope","Phong bì Ưu tiên thư nhận chủ nhật/Lễ giao tỷ lệ cố định",module,Magento_Usps
+"USPS GXG Envelopes","USPS GXG phong bì",module,Magento_Usps
 Letter,Thư,module,Magento_Usps
+Flat,Gốc,module,Magento_Usps
 Parcel,"Bưu kiện",module,Magento_Usps
 Variable,Biến,module,Magento_Usps
+"Flat-Rate Box","Hộp tỷ lệ cố định",module,Magento_Usps
+"Flat-Rate Envelope","Phong bì tỷ lệ cố định",module,Magento_Usps
+Rectangular,"Hình chữ nhật",module,Magento_Usps
+Non-rectangular,"Không phải hình chữ nhật",module,Magento_Usps
 Regular,"Thông thường",module,Magento_Usps
 Large,Lớn,module,Magento_Usps
 Yes,Có,module,Magento_Usps
 No,Không,module,Magento_Usps
 "Not Required","Không bắt buộc",module,Magento_Usps
 Required,"Bắt buộc",module,Magento_Usps
+"Empty response","Không có hồi đáp",module,Magento_Usps
+Merchandise,"Hàng hóa",module,Magento_Usps
 Sample,Mẫu,module,Magento_Usps
 Gift,"Quà tặng",module,Magento_Usps
 Documents,"Tài liệu",module,Magento_Usps
 Return,"Quay trở lại",module,Magento_Usps
 Other,Khác,module,Magento_Usps
 None,"Không có",module,Magento_Usps
+"Custom Variables","Biến tùy chỉnh",module,Magento_Variable
 "Add New Variable","Thêm biến mới",module,Magento_Variable
+"Save and Continue Edit","Lưu và tiếp tục chỉnh sửa",module,Magento_Variable
+"Custom Variable ""%1""","Tuỳ biến ""%1""",module,Magento_Variable
+"New Custom Variable","Biến tùy chỉnh mới",module,Magento_Variable
+Variable,Biến,module,Magento_Variable
+"Variable Code","Thay đổi mã",module,Magento_Variable
+"Variable Name","Thay đổi tên",module,Magento_Variable
+"Use Default Variable Values","Sử dụng giá trị biến mặc định",module,Magento_Variable
+No,Không,module,Magento_Variable
+Yes,Có,module,Magento_Variable
+"Variable HTML Value","Thay đổi giá trị HTML",module,Magento_Variable
+"Variable Plain Value","Thay đổi giá trị Plain",module,Magento_Variable
+"You deleted the custom variable.","Bạn đã xoá các biến tuỳ.",module,Magento_Variable
+"You saved the custom variable.","Bạn đã lưu các tuỳ biến.",module,Magento_Variable
+"Variable Code must be unique.","Mã thay đổi phải là duy nhất.",module,Magento_Variable
+"Validation has failed.","Xác nhận đã thất bại.",module,Magento_Variable
+"Insert Variable...","Chèn biến...",module,Magento_Variable
 "Operation allowed only in HTTPS","Hoạt động chỉ cho phép HTTPS",module,Magento_Webapi
 "Request does not match any route.","Yêu cầu không phù hợp với bất kỳ tuyến nào.",module,Magento_Webapi
 "Not allowed parameters: %1. Please use only %2 and %3.","Tham số không được phép: %1. Vui lòng chỉ sử dụng %2 và %3.",module,Magento_Webapi
@@ -1260,6 +1320,9 @@ Total:,Tổng:,module,Magento_Checkout
 "Shipping Method:","Phương thức vận chuyển:",module,Magento_Checkout
 "Payment Method:","Phương thức thanh toán:",module,Magento_Checkout
 "Date & Time:","Ngày & Giờ:",module,Magento_Checkout
+"Name: %name","Tên: %name",module,Magento_Contact
+"Phone Number: %telephone","Số điện thoại: %telephone",module,Magento_Contact
+"Comment: %comment","Bình luận: %comment",module,Magento_Contact
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name muốn chia sẻ danh sách yêu thích này từ %store_name với bạn:",module,Magento_Wishlist
 "Message from %customer_name:","Tin nhắn từ %customer_name:",module,Magento_Wishlist
 "View all Wish List items","Xem tất cả các sản phẩm trong danh sách yêu thích",module,Magento_Wishlist
@@ -1511,8 +1574,21 @@ Forms,"Mẫu đơn",module,Magento_Captcha
 Cancel,"Hủy bỏ",module,Magento_Checkout
 "We received your order!","Chúng tôi đã nhận được đơn hàng của bạn!",module,Magento_Checkout
 "Thank you for your purchase!","Cảm ơn bạn đã mua hàng!",module,Magento_Checkout
+Contacts,"Liên hệ",module,Magento_Contact
+"Contact Us","Liên hệ với chúng tôi",module,Magento_Contact
+"Enable Contact Us","Cho phép liên hệ với chúng tôi",module,Magento_Contact
+"Email Options","Tùy chọn email",module,Magento_Contact
+"Send Emails To","Gửi email đến",module,Magento_Contact
+"Email Sender","Người gửi Email",module,Magento_Contact
+"Email Template","Mẫu email",module,Magento_Contact
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Mẫu Email được lựa chọn dựa trên chủ đề dự phòng khi tùy chọn ""Mặc định"" được chọn.",module,Magento_Contact
 Enable,"Kích hoạt",module,Magento_GoogleAnalytics
 "Account Number","Số tài khoản",module,Magento_GoogleAnalytics
+"Minimum Advertised Price","Giá quảng cáo Tối thiểu",module,Magento_Msrp
+"Enable MAP","Cho phép MAP",module,Magento_Msrp
+"Display Actual Price","Hiển thị giá thực tế",module,Magento_Msrp
+"Default Popup Text Message","Tin nhắn văn bản mặc định Popup",module,Magento_Msrp
+"Default ""What's This"" Text Message","Mặc định ""Đây là gì?"" tin nhắn văn bản",module,Magento_Msrp
 "Access list","Danh sách truy cập",module,Magento_PageCache
 Frequency,"Tần suất",module,Magento_ProductAlert
 "Start Time","Thời gian bắt đầu",module,Magento_ProductAlert
@@ -1535,8 +1611,29 @@ Translations,"Bản dịch",module,Magento_Translation
 Action,"Thao tác",module,Magento_Ui
 Action,"Thao tác",module,Magento_UrlRewrite
 Edit,"Chỉnh sửa",module,Magento_UrlRewrite
+"Enabled for Checkout","Được áp dụng cho thanh toán",module,Magento_Usps
+"Gateway URL","Đường Dẫn URL của Cổng Thanh Toán",module,Magento_Usps
+"Secure Gateway URL","Bảo vệ cổng URL",module,Magento_Usps
+Title,"Tiêu đề",module,Magento_Usps
+"User ID","ID người dùng",module,Magento_Usps
+Password,"Mật khẩu",module,Magento_Usps
+Mode,"Chế độ",module,Magento_Usps
+"Packages Request Type","Loại Gói yêu cầu",module,Magento_Usps
+Container,"Nơi lưu trữ",module,Magento_Usps
+Size,"Kích cỡ",module,Magento_Usps
+Width,"Chiều rộng",module,Magento_Usps
+Length,"Chiều dài",module,Magento_Usps
+Height,"Chiều cao",module,Magento_Usps
+Girth,"Chu vi",module,Magento_Usps
+Machinable,"Có thể gia cụ được",module,Magento_Usps
+"Handling Applied","Xử lý ứng dụng",module,Magento_Usps
+"Handling Fee","Lệ phí xử lý",module,Magento_Usps
+"Allowed Methods","Cho phép các phương pháp",module,Magento_Usps
+"Free Method","Phương pháp miễn phí",module,Magento_Usps
 Debug,"Sửa Lỗi",module,Magento_Usps
 "Sort Order","Thứ tự sắp xếp",module,Magento_Usps
+"Variable ID","ID có thể thay đổi",module,Magento_Variable
+Name,Tên,module,Magento_Variable
 "Web API Security","Bảo mật API",module,Magento_WebapiSecurity
 "Allow Anonymous Guest Access","Cho phép khách ẩn danh truy cập",module,Magento_WebapiSecurity
 "SOAP Settings","Cài đặt SOAP",module,Magento_Webapi
