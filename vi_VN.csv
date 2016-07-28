@@ -428,28 +428,85 @@ Always,"Luôn chọn",module,Magento_Captcha
 "Custom options have different types.","Tùy chọn tùy chỉnh có các loại khác nhau.",module,Magento_CatalogImportExport
 "ALL GROUPS","TẤT CẢ CÁC NHÓM",module,Magento_CatalogInventory
 "Customer Group","Nhóm khách hàng",module,Magento_CatalogInventory
+"Minimum Qty","Số lượng tối thiểu",module,Magento_CatalogInventory
+"Add Minimum Qty","Thêm số lượng tối thiểu",module,Magento_CatalogInventory
+"Allow Qty Below 0","Cho phép Số lượng dưới 0",module,Magento_CatalogInventory
+"Allow Qty Below 0 and Notify Customer","Cho phép Số lượng dưới 0 và thông báo cho khách hàng",module,Magento_CatalogInventory
+"In Stock","Còn hàng",module,Magento_CatalogInventory
+"Out of Stock","Tạm hết hàng",module,Magento_CatalogInventory
+"Catalog Price Rule","Catalog Price Rules",module,Magento_CatalogRule
+"Add New Rule","Thêm quy tắc mới",module,Magento_CatalogRule
+"Apply Rules","Áp dụng quy tắc",module,Magento_CatalogRule
 "Save and Apply","Lưu và áp dụng",module,Magento_CatalogRule
+"Save and Continue Edit","Lưu và tiếp tục chỉnh sửa",module,Magento_CatalogRule
 "Edit Rule '%1'","Sửa quy tắc '%1'",module,Magento_CatalogRule
+"New Rule","Quy tắc mới",module,Magento_CatalogRule
+"Rule Information","Thông tin quy tắc",module,Magento_CatalogRule
+Actions,"Thao tác",module,Magento_CatalogRule
 Apply,"Áp dụng thay đổi",module,Magento_CatalogRule
 "Discount Amount","Giảm giá số tiền",module,Magento_CatalogRule
 "Subproduct discounts","Giảm giá sản phẩm con",module,Magento_CatalogRule
+No,Không,module,Magento_CatalogRule
+Yes,Có,module,Magento_CatalogRule
 "Discard subsequent rules","Loại bỏ các quy tắc",module,Magento_CatalogRule
+Conditions,"Điều kiện",module,Magento_CatalogRule
 "General Information","Thông tin chung",module,Magento_CatalogRule
 "Rule Name","Tên quy tắc",module,Magento_CatalogRule
 Description,"Mô tả",module,Magento_CatalogRule
+Status,"Trạng thái",module,Magento_CatalogRule
+Active,"Kích hoạt",module,Magento_CatalogRule
+Inactive,"Không hoạt động",module,Magento_CatalogRule
 Websites,"Các trang web",module,Magento_CatalogRule
 "Customer Groups","Nhóm khách hàng",module,Magento_CatalogRule
 From,Từ,module,Magento_CatalogRule
 To,Đến,module,Magento_CatalogRule
 Priority,"Độ ưu tiên",module,Magento_CatalogRule
+Type,Loại,module,Magento_CatalogRule
+"Attribute Set","Thiết lập thuộc tính",module,Magento_CatalogRule
+SKU,"MÃ SẢN PHẨM",module,Magento_CatalogRule
+Product,"Sản phẩm",module,Magento_CatalogRule
+Promotions,"Khuyến mãi",module,Magento_CatalogRule
+"This rule no longer exists.","Quy tắc này không còn tồn tại.",module,Magento_CatalogRule
+"New Catalog Price Rule","Quy tắc Catalog Price mới",module,Magento_CatalogRule
+"Edit Rule","Sửa quy tắc",module,Magento_CatalogRule
+Catalog,"Danh mục",module,Magento_CatalogRule
 "Wrong rule specified.","Sai quy tắc chỉ định.",module,Magento_CatalogRule
+Promo,"Quảng cáo",module,Magento_CatalogRule
+"Percentage discount should be between 0 and 100.","Tỷ lệ phần trăm giảm giá nên giữa 0 và 100.",module,Magento_CatalogRule
+"Discount value should be 0 or greater.","Giá trị giảm giá nên bằng 0 hoặc lớn hơn.",module,Magento_CatalogRule
+"Unknown action.","Thao tác không rõ.",module,Magento_CatalogRule
+"Update the Product","Cập nhật sản phẩm",module,Magento_CatalogRule
+"Rule price","Quy luật giá",module,Magento_CatalogRule
+"To Fixed Value","Đến giá trị cố định",module,Magento_CatalogRule
+"To Percentage","Để tỷ lệ phần trăm",module,Magento_CatalogRule
+"By Fixed value","Bởi giá trị cố định",module,Magento_CatalogRule
+"By Percentage","Bởi Tỷ lệ phần trăm",module,Magento_CatalogRule
+"Update product's %1 %2: %3","Cập nhật sản phẩm của %1 %2: %3",module,Magento_CatalogRule
+"Conditions Combination","Điều kiện kết hợp",module,Magento_CatalogRule
+"Product Attribute","Thuộc tính sản phẩm",module,Magento_CatalogRule
 Home,"Trang chủ",module,Magento_CatalogSearch
 "Go to Home Page","Đi đến trang chủ",module,Magento_CatalogSearch
+"Catalog Advanced Search","Danh mục tìm kiếm nâng cao",module,Magento_CatalogSearch
 All,"Tất Cả",module,Magento_CatalogSearch
 Yes,"Đồng ý",module,Magento_CatalogSearch
 No,Không,module,Magento_CatalogSearch
 Results,"Kết quả",module,Magento_CatalogSearch
+Grid,Lưới,module,Magento_CatalogSearch
+List,"Danh sách",module,Magento_CatalogSearch
+Relevance,"Mức độ liên quan",module,Magento_CatalogSearch
+"Search results for: '%1'","Kết quả tìm kiếm: '%1'",module,Magento_CatalogSearch
+"Minimum Search query length is %1","Chiều dài công cụ tìm kiếm tối thiểu là %1",module,Magento_CatalogSearch
+"Please specify at least one search term.","Hãy chỉ ra ít nhất một tìm kiếm.",module,Magento_CatalogSearch
+"%1 and greater","%1 và cao hơn",module,Magento_CatalogSearch
+"up to %1","lên đến %1",module,Magento_CatalogSearch
+"Search Settings","Cài đặt tìm kiếm",module,Magento_CatalogSearch
+Search,"Tìm kiếm",module,Magento_CatalogSearch
+"Advanced Search","Tìm kiếm nâng cao",module,Magento_CatalogSearch
+"<strong>%1 item</strong> were found using the following search criteria","<strong>%1 sản phẩm</strong> đã được tìm thấy bằng cách sử dụng các tiêu chí tìm kiếm sau đây",module,Magento_CatalogSearch
+"<strong>%1 items</strong> were found using the following search criteria","<strong>%1 sản phẩm</strong> đã được tìm thấy bằng cách sử dụng các tiêu chí tìm kiếm sau đây",module,Magento_CatalogSearch
 "Modify your search","Thay đổi tìm kiếm của bạn",module,Magento_CatalogSearch
+name,tên,module,Magento_CatalogSearch
+"Don't see what you're looking for?","Không tìm được những gì bạn đang tìm kiếm?",module,Magento_CatalogSearch
 Root,Gốc,module,Magento_Catalog
 "Save Category","Lưu danh mục",module,Magento_Catalog
 "Delete Category","Xóa Danh Mục",module,Magento_Catalog
@@ -693,6 +750,22 @@ Created,"Đã tạo",module,Magento_Cms
 Modified,"Đã sửa",module,Magento_Cms
 Action,"Thao tác",module,Magento_Cms
 Preview,"Xem trước",module,Magento_Cms
+Configuration,"Cấu hình",module,Magento_Config
+"New attribute set name","đặt tên thuộc tính mới",module,Magento_ConfigurableProduct
+"Choose an Option...","Chọn một tùy chọn...",module,Magento_ConfigurableProduct
+"Associated Products","Sản phẩm liên kết",module,Magento_ConfigurableProduct
+"Sort Variations","Sắp xếp các biến thể",module,Magento_ConfigurableProduct
+Select,Chọn,module,Magento_ConfigurableProduct
+Price,Giá,module,Magento_ConfigurableProduct
+Quantity,"Số lượng",module,Magento_ConfigurableProduct
+Image,"Hình ảnh",module,Magento_ConfigurableProduct
+Name,Tên,module,Magento_ConfigurableProduct
+SKU,"MÃ SẢN PHẨM",module,Magento_ConfigurableProduct
+Weight,"Trọng lượng",module,Magento_ConfigurableProduct
+"Upload Image","Tải hình",module,Magento_ConfigurableProduct
+"No Image","Không có hình ảnh",module,Magento_ConfigurableProduct
+Confirm,"Xác nhận",module,Magento_ConfigurableProduct
+Cancel,"Từ bỏ",module,Magento_ConfigurableProduct
 "* Required Fields","* Bắt buộc",module,Magento_Contact
 Name,Tên,module,Magento_Contact
 Submit,Gửi,module,Magento_Contact
@@ -700,7 +773,19 @@ Daily,"Hàng ngày",module,Magento_Cron
 Weekly,"Hằng tuần",module,Magento_Cron
 Monthly,"Hàng tháng",module,Magento_Cron
 "Save Currency Rates","Tiết kiệm tỷ giá ngoại tệ",module,Magento_CurrencySymbol
+Reset,"Thiết lập lại",module,Magento_CurrencySymbol
+Import,Nhập,module,Magento_CurrencySymbol
+"Manage Currency Rates","Quản lý các tỷ giá ngoại tệ",module,Magento_CurrencySymbol
+"Import Service","Dịch vụ nhập khẩu",module,Magento_CurrencySymbol
+"Save Currency Symbols","Lưu ký hiệu tiền tệ",module,Magento_CurrencySymbol
+"Currency Symbols","Ký hiệu tiền tệ",module,Magento_CurrencySymbol
+"Use Standard","Sử dụng tiêu chuẩn",module,Magento_CurrencySymbol
+"Please specify a correct Import Service.","Hãy chỉ ra các dịch vụ nhập khẩu chính xác.",module,Magento_CurrencySymbol
+"Currency Rates","Tỷ giá ngoại tệ",module,Magento_CurrencySymbol
 "Please correct the input data for %1 => %2 rate","Xin vui lòng chính xác các dữ liệu đầu vào cho tỷ lệ %1 => %2",module,Magento_CurrencySymbol
+"All valid rates have been saved.","Tất cả giá hợp lệ đã được lưu.",module,Magento_CurrencySymbol
+System,"Hệ thống",module,Magento_CurrencySymbol
+"Old rate:","Giá cũ:",module,Magento_CurrencySymbol
 "Address Book","Sổ địa chỉ",module,Magento_Customer
 "Edit Address","Sửa địa chỉ",module,Magento_Customer
 "Add New Address","Thêm địa chỉ mới",module,Magento_Customer
@@ -728,9 +813,38 @@ Newsletter,"Bản tin",module,Magento_Customer
 or,hoặc,module,Magento_Customer
 Submit,"Gửi đi",module,Magento_Customer
 Login,"Đăng nhập",module,Magento_Customer
+"Client side less compilation","Phía khách hàng ít tổng hợp hơn",module,Magento_Developer
+"Server side less compilation","Phía máy chủ ít tổng hợp hơn",module,Magento_Developer
+"Wrong Content Type","Loại nội dung sai",module,Magento_Dhl
+Pounds,"Bảng Anh",module,Magento_Dhl
 Kilograms,Kg,module,Magento_Dhl
 Inches,Inch,module,Magento_Dhl
+Centimeters,Cm,module,Magento_Dhl
+Height,"Chiều cao",module,Magento_Dhl
+Depth,"Chiều sâu",module,Magento_Dhl
+Width,"Chiều rộng",module,Magento_Dhl
+Regular,"Thông thường",module,Magento_Dhl
+Specific,"đặt biệt",module,Magento_Dhl
+"Easy shop","Cửa hàng dễ dàng",module,Magento_Dhl
+Sprintline,"đường in",module,Magento_Dhl
+Secureline,"đường an toàn",module,Magento_Dhl
+"Express easy","Express dễ dàng",module,Magento_Dhl
+"Express worldwide","Nhận trên toàn thế giới",module,Magento_Dhl
+"Express 9:00","Nhận 9:00",module,Magento_Dhl
+"Express 10:30","Nhận 10:30",module,Magento_Dhl
+"Domestic economy select","Chọn nền kinh tế trong nước",module,Magento_Dhl
+"Economy select","Chọn nền kinh tế",module,Magento_Dhl
+"Break bulk economy","Phá vỡ nền kinh tế với số lượng lớn",module,Magento_Dhl
+Others,Khác,module,Magento_Dhl
+"Same day","Cùng một ngày",module,Magento_Dhl
+"Customer services","Dịch vụ khách hàng",module,Magento_Dhl
+Jetline,"đường bay",module,Magento_Dhl
+"Freight worldwide","Vận chuyển hàng hóa trên toàn cầu",module,Magento_Dhl
+"Jumbo box","Hộp giấy",module,Magento_Dhl
+"Error #%1 : %2","Lỗi #%1: %2",module,Magento_Dhl
 "Please, specify origin country","Hãy cho biết quốc gia ban đầu",module,Magento_Dhl
+"Non documents","Không tài liệu",module,Magento_Dhl
+None,"Không cái nào",module,Magento_Dhl
 State/Province,Bang/tỉnh,module,Magento_Directory
 "--Please Select--","---Xin vui lòng chọn---",module,Magento_Directory
 "Please correct the target currency.","Xin vui lòng chính xác tiền tệ mục tiêu.",module,Magento_Directory
@@ -806,24 +920,69 @@ Shipped,"Đã vận chuyển",module,Magento_Downloadable
 Canceled,"Đã hủy bỏ",module,Magento_Downloadable
 Refunded,"Đã hoàn trả",module,Magento_Downloadable
 "Attribute Properties","Thuộc tính attribute",module,Magento_Eav
+"Default label","Nhãn mặc định",module,Magento_Eav
+"Attribute Code","Mã thuộc tính",module,Magento_Eav
+"Catalog Input Type for Store Owner","Danh mục các loại đầu vào cho các chủ cửa hàng",module,Magento_Eav
+"Values Required","Giá trị bắt buộc",module,Magento_Eav
+"Default Value","Giá trị mặc định",module,Magento_Eav
+"Unique Value","Giá trị duy nhất",module,Magento_Eav
+"Unique Value (not shared with other products)","Giá trị duy nhất (không được chia sẻ với các sản phẩm khác)",module,Magento_Eav
 "Not shared with other products","Không được chia sẽ với các sản phẩm khác",module,Magento_Eav
+"Input Validation for Store Owner","Xác nhận đầu vào cho các chủ cửa hàng",module,Magento_Eav
+Required,"Bắt buộc",module,Magento_Eav
 Yes,Có,module,Magento_Eav
 No,Không,module,Magento_Eav
 System,"Hệ thống",module,Magento_Eav
 None,"Không có",module,Magento_Eav
 "Decimal Number","Số thập phân",module,Magento_Eav
 "Integer Number","Số nguyên",module,Magento_Eav
+Letters,"Chữ cái",module,Magento_Eav
 "Letters (a-z, A-Z) or Numbers (0-9)","Chữ cái (a-z, A-Z) hoặc số (0-9)",module,Magento_Eav
+"Text Field","Trường văn bản",module,Magento_Eav
+"Text Area","Khu vực văn bản",module,Magento_Eav
 Date,Ngày,module,Magento_Eav
+Yes/No,Có/không,module,Magento_Eav
 "Multiple Select","Nhiều lựa chọn",module,Magento_Eav
+Dropdown,"Trình đơn xổ dọc",module,Magento_Eav
+"Invalid default decimal value","Giá trị thập phân mặc định không hợp lệ",module,Magento_Eav
+"Invalid default date","Ngày mặc định Không hợp lệ",module,Magento_Eav
 "Add New Template","Thêm mẫu mới",module,Magento_Email
 Back,"Quay lại",module,Magento_Email
 "Change Encryption Key","Thay đổi mã khóa",module,Magento_EncryptionKey
+"Encryption Key","Khoá mật mã",module,Magento_EncryptionKey
+"New Encryption Key","Khoá mật mã mới",module,Magento_EncryptionKey
+"The encryption key is used to protect passwords and other sensitive data.","Khoá mật mã được sử dụng để bảo vệ mật khẩu và dữ liệu nhạy cảm khác.",module,Magento_EncryptionKey
+"Auto-generate a Key","Tự động tạo ra một chìa khóa",module,Magento_EncryptionKey
+No,Không,module,Magento_EncryptionKey
+Yes,Có,module,Magento_EncryptionKey
+"The generated key will be displayed after changing.","Chìa khóa được tạo ra sẽ được hiển thị sau khi thay đổi.",module,Magento_EncryptionKey
+"New Key","Khoá mới",module,Magento_EncryptionKey
+"Please enter an encryption key.","Vui lòng nhập một mã khóa mã hóa.",module,Magento_EncryptionKey
+"The encryption key has been changed.","Mã khóa đã được thay đổi.",module,Magento_EncryptionKey
 "Europe First Priority","Europe ưu tiên hàng đầu",module,Magento_Fedex
 "2 Day","2 ngày",module,Magento_Fedex
 Dynamic,Động,module,Magento_GoogleAdwords
 "Product View Optimization","Tối ưu Sản phẩm",module,Magento_GoogleOptimizer
+"Page View Optimization","Tối ưu hóa Xem trang",module,Magento_GoogleOptimizer
+"Google Analytics Content Experiments Code","Mã nội dung thí nghiệm Google Analytics",module,Magento_GoogleOptimizer
+"Experiment Code","Mã Thử nghiệm",module,Magento_GoogleOptimizer
+"Category View Optimization","Tối ưu hóa xem nhóm",module,Magento_GoogleOptimizer
 "Grouped Products","Nhóm sản phẩm",module,Magento_GroupedProduct
+"Please specify the quantity of product(s).","Hãy chỉ ra số lượng sản phẩm.",module,Magento_GroupedProduct
+"Associated Products","Sản phẩm liên kết",module,Magento_GroupedProduct
+Availability:,"Tính sẵn có:",module,Magento_GroupedProduct
+"Out of stock","Hết hàng",module,Magento_GroupedProduct
+SKU,"MÃ SẢN PHẨM",module,Magento_GroupedProduct
+"Product Name","Tên sản phẩm",module,Magento_GroupedProduct
+Price,Giá,module,Magento_GroupedProduct
+Qty,"Số lượng",module,Magento_GroupedProduct
+"No options of this product are available.","Lựa chọn sản phẩm không có sẵn.",module,Magento_GroupedProduct
+"There are no grouped products.","Không có sản phẩm được thêm nhóm.",module,Magento_GroupedProduct
+Name,Tên,module,Magento_GroupedProduct
+"Default Qty","Số lượng Mặc định",module,Magento_GroupedProduct
+Availability,"Tính sẵn có",module,Magento_GroupedProduct
+"In stock","Còn trong kho",module,Magento_GroupedProduct
+"Grouped product items","Nhóm sản phẩm",module,Magento_GroupedProduct
 Export,"Xuất ra",module,Magento_ImportExport
 "Export Settings","Xuất thiết lập",module,Magento_ImportExport
 "Export File Format","Định dạng tập tin xuất khẩu",module,Magento_ImportExport
@@ -852,7 +1011,26 @@ Inactive,"Không hoạt động",module,Magento_Integration
 "Filterable (with results)","Có thể lọc (với kết quả)",module,Magento_LayeredNavigation
 "Filterable (no results)","Có thể lọc (không kết quả)",module,Magento_LayeredNavigation
 No,Không,module,Magento_LayeredNavigation
+"Use in Layered Navigation","Dùng trong Layered Navigation",module,Magento_LayeredNavigation
+"Can be used only with catalog input type Dropdown, Multiple Select and Price","Có thể được sử dụng chỉ với danh mục loại đầu vào Dropdown, chọn nhiều và giá cả",module,Magento_LayeredNavigation
+Position,"Vị trí",module,Magento_LayeredNavigation
+"Position in Layered Navigation","Vị trí trong Layered Navigation",module,Magento_LayeredNavigation
 "Position of attribute in layered navigation block","Vị trí của các thuộc tính trong khối danh mục chính",module,Magento_LayeredNavigation
+Previous,"Trước đó",module,Magento_LayeredNavigation
+"Remove This Item","Loại bỏ sản phẩm này",module,Magento_LayeredNavigation
+"Shop By","Mua sắm bằng",module,Magento_LayeredNavigation
+"Clear All","Xóa tất cả",module,Magento_LayeredNavigation
+"Shopping Options","Lựa chọn mua sắm",module,Magento_LayeredNavigation
+"Platinum Partners","Các đối tác bạch kim",module,Magento_Marketplace
+"Featured Platinum Partners","Nổi bật các đối tác bạch kim",module,Magento_Marketplace
+"Partner search","Tìm kiếm đối tác",module,Magento_Marketplace
+"Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","Magento có một hệ sinh thái phát triển mạnh mẽ cho công nghệ đối tác để giúp các thương gia và thương hiệu cung cấp cho khách hàng kinh nghiệm tốt nhất có thể. Họ được công nhận là chuyên gia trong thương mại điện tử, tìm kiếm, tiếp thị email, các khoản thanh toán, thuế, gian lận, tối ưu hóa và phân tích, thực hiện, và nhiều hơn nữa. Truy cập vào thư mục đối tác Magento để xem tất cả các đối tác đáng tin cậy.",module,Magento_Marketplace
+"More Partners","Thêm đối tác",module,Magento_Marketplace
+"Extensions and Themes are an essential component of the Magento Ecosystem. Please visit the Magento Marketplace to see the latest innovations that developers have created to enhance your Magento Store.","Tiện ích mở rộng và chủ đề là một thành phần thiết yếu của hệ sinh thái Magento. Hãy truy cập thị trường Magento để xem các sáng kiến mới nhất mà các nhà phát triển đã tạo ra để nâng cao cửa hàng Magento của bạn.",module,Magento_Marketplace
+"Visit Magento Marketplaces","Truy cập vào thị trường Magento",module,Magento_Marketplace
+"Read More","Đọc Thêm",module,Magento_Marketplace
+"Partner Page","Trang đối tác",module,Magento_Marketplace
+"No partners were found","Không có đối tác đã được tìm thấy",module,Magento_Marketplace
 "File %1 does not exist","Tập tin %1 không tồn tại",module,Magento_MediaStorage
 "File %1 is not readable","Tập tin %1 không thể đọc được",module,Magento_MediaStorage
 "Parent directory does not exist: %1","Thư mục mẹ không tồn tại: %1",module,Magento_MediaStorage
@@ -1206,24 +1384,121 @@ Quantity,"Số lượng",module,Magento_Sales
 "Update Changes","Cập Nhật thay đổi",module,Magento_Sales
 "Shopping Cart","Giỏ mua hàng",module,Magento_Sales
 "Are you sure you want to delete all items from shopping cart?","Bạn có chắc bạn muốn xóa tất cả sản phẩm khỏi giỏ hàng?",module,Magento_Sales
+"The link to a friend was sent.","Các liên kết đến một người bạn đã được gửi.",module,Magento_SendFriend
+"We found some problems with the data.","Chúng tôi tìm thấy một số vấn đề với dữ liệu.",module,Magento_SendFriend
 "Some emails were not sent.","Một số email chưa được gửi.",module,Magento_SendFriend
+"Invalid Sender Email","Email người gửi không hợp lệ",module,Magento_SendFriend
+"Please enter a correct recipient email address.","Vui lòng nhập một địa chỉ email người nhận chính xác.",module,Magento_SendFriend
+"No more than %1 emails can be sent at a time.","Không có nhiều hơn %1 email có thể được gửi tại một thời điểm.",module,Magento_SendFriend
+"Invalid Sender Information","Thông tin người gửi không hợp lệ",module,Magento_SendFriend
+Name,Tên,module,Magento_SendFriend
+"* Required Fields","* Bắt buộc",module,Magento_SendFriend
+"Maximum %1 email addresses allowed.","Địa chỉ email %1 tối đa cho phép.",module,Magento_SendFriend
+"Send Email","Gửi Email",module,Magento_SendFriend
+Back,"Trở lại",module,Magento_SendFriend
+"New Shipment for Order #%1","Các lô hàng mới cho đơn đặt hàng #%1",module,Magento_Shipping
+"Submit Shipment","Gửi hàng",module,Magento_Shipping
+"Add Tracking Number","Thêm số theo dõi",module,Magento_Shipping
 "Custom Value","Tuỳ chỉnh các giá trị",module,Magento_Shipping
 Add,Thêm,module,Magento_Shipping
 "Send Tracking Information","Gửi thông tin theo dõi",module,Magento_Shipping
 Print,In,module,Magento_Shipping
+"Create Shipping Label...","Tạo vận nhãn chuyển...",module,Magento_Shipping
+"Print Shipping Label","In nhãn vận chuyển",module,Magento_Shipping
+"Show Packages","Hiển thị các gói",module,Magento_Shipping
+"About Your Shipment","Về lô hàng của bạn",module,Magento_Shipping
+"Order # %1","Đơn hàng #%1",module,Magento_Shipping
+"Back to My Orders","Quay lại đơn đặt hàng của tôi",module,Magento_Shipping
+"View Another Order","Xem một đơn đặt hàng",module,Magento_Shipping
+"Cannot add new comment.","Không thể bình luận.",module,Magento_Shipping
+"Please specify a carrier.","Hãy chỉ ra một tàu sân bay.",module,Magento_Shipping
+"Please enter a tracking number.","Vui lòng nhập một số theo dõi.",module,Magento_Shipping
+Shipments,"Lô hàng",module,Magento_Shipping
+"Cannot add tracking number.","Không thể thêm số theo dõi.",module,Magento_Shipping
+"You sent the shipment.","Bạn gửi hàng.",module,Magento_Shipping
 "All Allowed Countries","Cho phép tất cả các quốc gia",module,Magento_Shipping
 "Specific Countries","Quốc gia cụ thể",module,Magento_Shipping
+Development,"Phát triển",module,Magento_Shipping
+Live,"Trực tiếp",module,Magento_Shipping
+"Divide to equal weight (one request)","Phân chia để trọng lượng bằng nhau (một yêu cầu)",module,Magento_Shipping
+"Use origin weight (few requests)","Sử dụng trọng lượng gốc (vài yêu cầu)",module,Magento_Shipping
+Packages,Gói,module,Magento_Shipping
+Package,Gói,module,Magento_Shipping
+Type,Loại,module,Magento_Shipping
+Length,"Chiều dài",module,Magento_Shipping
+"Signature Confirmation","Xác nhận chữ ký",module,Magento_Shipping
+"Customs Value","Tuỳ chỉnh các giá trị",module,Magento_Shipping
 Width,"Chiều rộng",module,Magento_Shipping
 Contents,"Nội dung",module,Magento_Shipping
 "Total Weight","Tổng trọng lượng",module,Magento_Shipping
 Height,"Chiều cao",module,Magento_Shipping
 Size,"Kích cỡ",module,Magento_Shipping
 Girth,"Chu vi",module,Magento_Shipping
+"Items in the Package","Các mặt hàng trong gói",module,Magento_Shipping
 Product,"Sản phẩm",module,Magento_Shipping
 Weight,"Trọng lượng",module,Magento_Shipping
+"Qty Ordered","Số lượng đặt hàng",module,Magento_Shipping
 Qty,"Số lượng",module,Magento_Shipping
+"No detail for number ""%1""","Không có chi tiết cho số ""%1""",module,Magento_Shipping
+"Per Order","Một đơn đặt hàng",module,Magento_Shipping
+"Per Package","Mỗi gói phần mềm",module,Magento_Shipping
+Fixed,"Cố định",module,Magento_Shipping
+Percent,"Phần trăm",module,Magento_Shipping
+"Tracking information is unavailable.","Theo dõi thông tin không có sẵn.",module,Magento_Shipping
+"Payment Information","Thông tin thanh toán",module,Magento_Shipping
+"Create Shipping Label","Tạo vận nhãn chuyển",module,Magento_Shipping
+"Append Comments","Thêm bình luận",module,Magento_Shipping
+"Email Copy of Shipment","Email bản sao của lô hàng",module,Magento_Shipping
+"Invalid value(s) for Qty to Ship","Giá trị không hợp lệ cho số lượng vận chuyển",module,Magento_Shipping
+"Select All","Chọn tất cả",module,Magento_Shipping
+"Product Name","Tên sản phẩm",module,Magento_Shipping
+Delete,Xóa,module,Magento_Shipping
+"Create Packages","Tạo ra các gói",module,Magento_Shipping
+Cancel,"Từ bỏ",module,Magento_Shipping
+"Add Package","Thêm gói",module,Magento_Shipping
+"Add Selected Product(s) to Package","Thêm sản phẩm được lựa chọn vào gói",module,Magento_Shipping
+in,trong,module,Magento_Shipping
+"Delete Package","Xóa gói",module,Magento_Shipping
+Explanation,"Lời giải thích",module,Magento_Shipping
+Carrier,"Nhà mạng",module,Magento_Shipping
+Title,"Tiêu đề",module,Magento_Shipping
+Number,Số,module,Magento_Shipping
+Action,"Thao tác",module,Magento_Shipping
+"Are you sure?","Bạn chắc chứ?",module,Magento_Shipping
+SKU,"MÃ SẢN PHẨM",module,Magento_Shipping
 "Save & Generate","Lưu trữ & tạo",module,Magento_Sitemap
+"Edit Sitemap","Chỉnh sửa sơ đồ trang web",module,Magento_Sitemap
+"New Sitemap","Sơ đồ trang web mới",module,Magento_Sitemap
+"Sitemap Information","Thông tin Sơ đồ trang web",module,Magento_Sitemap
 Sitemap,"Sơ đồ trang web",module,Magento_Sitemap
+Filename,"Tên file",module,Magento_Sitemap
+"example: sitemap.xml","ví dụ: sitemap.xml",module,Magento_Sitemap
+Path,"Đường dẫn",module,Magento_Sitemap
+"Store View","Cửa hàng",module,Magento_Sitemap
+Generate,"Tạo ra",module,Magento_Sitemap
+"XML Sitemap","Sơ đồ trang web XML",module,Magento_Sitemap
+"Add Sitemap","Thêm sơ đồ trang web",module,Magento_Sitemap
+Catalog,"Danh mục",module,Magento_Sitemap
+"This sitemap no longer exists.","Sơ đồ trang web này không còn tồn tại.",module,Magento_Sitemap
+"Site Map","Bản đồ trang web",module,Magento_Sitemap
+"New Site Map","Bản đồ trang web mới",module,Magento_Sitemap
+"The sitemap ""%1"" has been generated.","Sơ đồ trang web ""%1"" đã được tạo ra.",module,Magento_Sitemap
+"The priority must be between 0 and 1.","Ưu tiên phải giữa 0 và 1.",module,Magento_Sitemap
+Always,"Luôn chọn",module,Magento_Sitemap
+Hourly,"Hàng giờ",module,Magento_Sitemap
+Daily,"Hàng ngày",module,Magento_Sitemap
+Weekly,"Hằng tuần",module,Magento_Sitemap
+Monthly,"Hàng tháng",module,Magento_Sitemap
+Yearly,"Hàng năm",module,Magento_Sitemap
+Never,"Không bao giờ",module,Magento_Sitemap
+"File handler unreachable","Xử lý tập tin không thể kết nối",module,Magento_Sitemap
+"Please define a correct path.","Xin vui lòng xác định một đường dẫn chính xác.",module,Magento_Sitemap
+"Please create the specified folder ""%1"" before saving the sitemap.","Hãy tạo ra các thư mục được chỉ định ""%1"" trước khi lưu sơ đồ trang web.",module,Magento_Sitemap
+"Please make sure that ""%1"" is writable by the web-server.","Hãy chắc chắn rằng ""%1"" được ghi bởi các máy chủ web.",module,Magento_Sitemap
+"Please use only letters (a-z or A-Z), numbers (0-9) or underscores (_) in the filename. No spaces or other characters are allowed.","Xin vui lòng chỉ sử dụng chữ cái (a-z hoặc A-Z), số (0-9) hoặc dấu gạch dưới (_) trong tên tập tin. Không có dấu cách hoặc ký tự khác được cho phép.",module,Magento_Sitemap
+None,"Không cái nào",module,Magento_Sitemap
+"Base Only","Chỉ dựa trên",module,Magento_Sitemap
+All,"Tất Cả",module,Magento_Sitemap
 "Store with the same code","Cửa hàng với mã giống nhau",module,Magento_Store
 "Website with the same code","Các trang web với cùng mã",module,Magento_Store
 "Name is required","Tên là bắt buộc",module,Magento_Store
@@ -1511,6 +1786,8 @@ Total:,Tổng:,module,Magento_Checkout
 "Add Products to New Option","Thêm sản phẩm vào Tùy chọn mới",module,Magento_Bundle
 "Add Selected Products","Thêm Sản phẩm được lựa chọn",module,Magento_Bundle
 Cancel,Hủy,module,Magento_Catalog
+"Add Products to Group","Thêm sản phẩm vào nhóm",module,Magento_GroupedProduct
+"Add Selected Products","Thêm Sản phẩm được lựa chọn",module,Magento_GroupedProduct
 "Use HTTPS to Get Feed","Dùng HTTPS Để Lấy Nguồn Cấp Dữ Liệu Feed",module,Magento_AdminNotification
 "Update Frequency","Tần Suất Nâng Cấp",module,Magento_AdminNotification
 "Last Update","Lần Nâng Cấp Cuối",module,Magento_AdminNotification
@@ -1721,6 +1998,13 @@ Forms,"Mẫu đơn",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Cho phép CAPTCHA trên Storefront",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA cho hình thức ""tạo người dùng"" và ""Quên mật khẩu""luôn luôn được kích hoạt nếu được lựa chọn.",module,Magento_Captcha
 "Display products availability in stock on Storefront.","Hiển thị các sản phẩm sẵn có vào các cổ phiếu trên cửa hàng.",module,Magento_CatalogInventory
+Rule,"Quy tắc",module,Magento_CatalogRule
+"Web Site","Trang Web",module,Magento_CatalogRule
+"Popular Search Terms","Cụm từ Tìm kiếm phổ biến",module,Magento_CatalogSearch
+"Catalog Search","Tfm kiếm danh mục",module,Magento_CatalogSearch
+"Minimal Query Length","Chiều dài truy vấn tối thiểu",module,Magento_CatalogSearch
+"Maximum Query Length","Chiều dài truy vấn tối đa",module,Magento_CatalogSearch
+"Rebuild Catalog product fulltext search index","Xây dựng lại các chỉ mục tìm kiếm toàn văn danh mục sản phẩm",module,Magento_CatalogSearch
 "Watermark Default Size","Kích thước mặc định ảnh mờ",module,Magento_Catalog
 "Watermark Opacity, Percent","Độ mờ, phần trăm của ảnh",module,Magento_Catalog
 Watermark,"Đóng dấu ảnh",module,Magento_Catalog
@@ -1749,6 +2033,7 @@ Watermark,"Đóng dấu ảnh",module,Magento_Catalog
 "Cart Subtotal","Tổng phụ giỏ hàng",module,Magento_Checkout
 "Not yet calculated","Chưa tính",module,Magento_Checkout
 "Thank you for your purchase!","Cảm ơn bạn đã mua hàng!",module,Magento_Checkout
+"Configurable Product Image","Cấu hình sản phẩm hình ảnh",module,Magento_ConfigurableProduct
 Contacts,"Liên hệ",module,Magento_Contact
 "Contact Us","Liên hệ với chúng tôi",module,Magento_Contact
 "Enable Contact Us","Cho phép liên hệ với chúng tôi",module,Magento_Contact
@@ -1760,6 +2045,20 @@ Contacts,"Liên hệ",module,Magento_Contact
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.","Để các URL được tạo ra trong khi chạy cron là đúng thì hãy chắc chắn rằng Web > Secure và Unsecure base URL được thiết lập một cách rõ ràng.",module,Magento_Cron
 "Recovery Link Expiration Period (days)","Thời gian hết hạn của liên kết phục hồi (ngày)",module,Magento_Customer
 "Front-end development workflow","Quy trình làm việc phát triển front-end",module,Magento_Developer
+"Workflow type","Loại hình công việc",module,Magento_Developer
+"Not available in production mode","Không có sẵn trong chế độ sản xuất",module,Magento_Developer
+"Developer Client Restrictions","Giới hạn tính năng khách hàng của nhà phát triển",module,Magento_Developer
+"Allowed IPs (comma separated)","Cho phép IP (phân cách bằng dấu phẩy)",module,Magento_Developer
+"Leave empty for access from any location.","Để trống để cho phép truy cập từ vị trí bất kỳ.",module,Magento_Developer
+"Enabled for Checkout","Được áp dụng cho thanh toán",module,Magento_Dhl
+"Gateway URL","Đường Dẫn URL của Cổng Thanh Toán",module,Magento_Dhl
+Title,"Tiêu đề",module,Magento_Dhl
+"Access ID","Truy cập ID",module,Magento_Dhl
+Password,"Mật khẩu",module,Magento_Dhl
+"Account Number","Số tài khoản",module,Magento_Dhl
+"Content Type","Loại nội dung",module,Magento_Dhl
+"Weight Unit","Đơn vị trọng lượng",module,Magento_Dhl
+Size,"Kích cỡ",module,Magento_Dhl
 "Currency Setup","Thiết lập tiền tệ",module,Magento_Directory
 "Currency Options","Lựa chọn tiền tệ",module,Magento_Directory
 "Base Currency","Tiền tệ cơ sở",module,Magento_Directory
@@ -1792,8 +2091,19 @@ Service,"Dịch vụ",module,Magento_Directory
 "Entity types declaration cache.","Bộ nhớ đệm khai báo các loại thực thể.",module,Magento_Eav
 Enable,"Kích hoạt",module,Magento_GoogleAnalytics
 "Account Number","Số tài khoản",module,Magento_GoogleAnalytics
+"Enable Content Experiments","Cho phép nội dung thí nghiệm",module,Magento_GoogleOptimizer
+"Grouped Product Image","Nhóm sản phẩm hình ảnh",module,Magento_GroupedProduct
 "Integration configuration file.","Các tập tin cấu hình tích hợp.",module,Magento_Integration
 "No Integrations Found","Không có tích hợp nào được tìm thấy",module,Magento_Integration
+"Display Product Count","Hiển thị sản phẩm số",module,Magento_LayeredNavigation
+"Price Navigation Step Calculation","Giá Navigation bước tính toán",module,Magento_LayeredNavigation
+"Default Price Navigation Step","Mặc định giá bước chuyển hướng",module,Magento_LayeredNavigation
+"Maximum Number of Price Intervals","Số lượng khoảng giá tối đa",module,Magento_LayeredNavigation
+"Maximum number of price intervals is 100","Số lượng giá khoảng tối đa là 100",module,Magento_LayeredNavigation
+"Display Price Interval as One Price","Hiển thị giá khoảng thời gian như là một mức giá",module,Magento_LayeredNavigation
+"This setting will be applied when all prices in the specific price interval are equal.","Thiết đặt này sẽ được áp dụng khi giá cả trong khoảng thời gian cụ thể giá là bình đẳng.",module,Magento_LayeredNavigation
+"Interval Division Limit","Khoảng thời gian phân chia giới hạn",module,Magento_LayeredNavigation
+"Please specify the number of products, that will not be divided into subintervals.","Hãy chỉ ra số lượng sản phẩm, mà sẽ không được chia thành khoảng.",module,Magento_LayeredNavigation
 "Multishipping Settings","Cài đặt đa vận chuyển",module,Magento_Multishipping
 Options,"Tùy chọn",module,Magento_Multishipping
 "Allow Shipping to Multiple Addresses","Cho phép vận chuyển đến nhiều địa chỉ",module,Magento_Multishipping
@@ -1830,6 +2140,36 @@ Frequency,"Tần suất",module,Magento_ProductAlert
 Active,"Kích hoạt",module,Magento_Review
 Inactive,"Không hoạt động",module,Magento_Review
 "Search Engine","Công cụ tìm kiếm",module,Magento_Search
+"Email to a Friend","Email cho bạn bè",module,Magento_SendFriend
+"Email Templates","Mẫu email",module,Magento_SendFriend
+Enabled,"Cho phép",module,Magento_SendFriend
+"Select Email Template","Chọn mẫu Email",module,Magento_SendFriend
+"Allow for Guests","Cho phép cho khách",module,Magento_SendFriend
+"Max Recipients","Người nhận tối đa",module,Magento_SendFriend
+"Max Products Sent in 1 Hour","Tối đa số sản phẩm gửi trong 1 giờ",module,Magento_SendFriend
+"Limit Sending By","Giới hạn gửi bởi",module,Magento_SendFriend
+"Categories Options","Tùy chọn nhóm",module,Magento_Sitemap
+Frequency,"Tần Suất",module,Magento_Sitemap
+Priority,"Độ ưu tiên",module,Magento_Sitemap
+"Valid values range from 0.0 to 1.0.","Giá trị hợp lệ nằm trong khoảng từ 0.0 đến 1.0.",module,Magento_Sitemap
+"Products Options","Lựa chọn sản phẩm",module,Magento_Sitemap
+"Add Images into Sitemap","Thêm hình ảnh vào các sơ đồ trang web",module,Magento_Sitemap
+"CMS Pages Options","CMS trang tùy chọn",module,Magento_Sitemap
+"Generation Settings","Cài đặt thế hệ",module,Magento_Sitemap
+Enabled,"Cho phép",module,Magento_Sitemap
+"Error Email Recipient","Lỗi Email người nhận",module,Magento_Sitemap
+"Error Email Sender","Lỗi Email người gửi",module,Magento_Sitemap
+"Error Email Template","Lỗi Email mẫu",module,Magento_Sitemap
+"Start Time","Thời Gian Bắt Đầu",module,Magento_Sitemap
+"Sitemap File Limits","Giới hạn tệp sơ đồ trang web",module,Magento_Sitemap
+"Maximum No of URLs Per File","Đa số các URL cho mỗi tập tin",module,Magento_Sitemap
+"Maximum File Size","Kích thước tối đa",module,Magento_Sitemap
+"File size in bytes.","Kích thước tập tin theo byte.",module,Magento_Sitemap
+"Search Engine Submission Settings","Tìm kiếm trình cài đặt",module,Magento_Sitemap
+"Enable Submission to Robots.txt","Sử trình Robots.txt",module,Magento_Sitemap
+"Link for Google","Liên kết cho Google",module,Magento_Sitemap
+"Last Generated","Lần Cuối tạo ra",module,Magento_Sitemap
+Action,"Thao tác",module,Magento_Sitemap
 Layouts,"Bố trí giao diện",module,Magento_Store
 "Layout building instructions.","Hướng dẫn xây dựng bố cục.",module,Magento_Store
 "Blocks HTML output","đầu ra HTML",module,Magento_Store
