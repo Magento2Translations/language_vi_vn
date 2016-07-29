@@ -743,7 +743,13 @@ Scope,"Phạm vi",module,Magento_Catalog
 "Use in Search","Sử dụng trong tìm kiếm",module,Magento_Catalog
 "Visible in Advanced Search","Được nhìn thấy trong tìm kiếm nâng cao",module,Magento_Catalog
 "Comparable on Storefront","So sánh trên Storefront",module,Magento_Catalog
+"Use for Promo Rule Conditions","Sử dụng cho điều kiện của quy định quảng cáo",module,Magento_Catalog
+"Enable WYSIWYG","Sử dụng WYSIWYG",module,Magento_Catalog
+"Allow HTML Tags on Storefront","Cho phép các thẻ HTML trên Storefront",module,Magento_Catalog
+"Visible on Catalog Pages on Storefront","Có thể nhìn thấy trên các trang danh mục trên Storefront",module,Magento_Catalog
+"Used in Product Listing","Được sử dụng trong danh sách sản phẩm",module,Magento_Catalog
 "Depends on design theme","Phụ thuộc thiết kế giao diện",module,Magento_Catalog
+"Used for Sorting in Product Listing","Được sử dụng để phân loại trong danh sách sản phẩm",module,Magento_Catalog
 "Media Image","Phương tiện truyền thông hình ảnh",module,Magento_Catalog
 Gallery,"Bộ sưu tập",module,Magento_Catalog
 "System Properties","Thuộc tính hệ thống",module,Magento_Catalog
@@ -766,8 +772,10 @@ Comparable,"Có thể so sánh",module,Magento_Catalog
 "Add New","Thêm sản phẩm mới",module,Magento_Catalog
 Back,"Trở lại",module,Magento_Catalog
 Delete,"Xóa bỏ",module,Magento_Catalog
+"You are about to delete all products in this attribute set. Are you sure you want to do that?","Bạn đang định xóa bỏ tất cả các sản phẩm trong này thiết lập thuộc tính. Bạn có chắc bạn muốn làm điều đó?",module,Magento_Catalog
 Save,"Lưu lại",module,Magento_Catalog
 "New Set Name","đặt tên mới",module,Magento_Catalog
+"Edit Attribute Set '%1'","Chỉnh sửa thiết lập thuộc tính '%1'",module,Magento_Catalog
 Empty,Trống,module,Magento_Catalog
 "Add Attribute","Thêm thuộc tính",module,Magento_Catalog
 "Add New Group","Thêm nhóm mới",module,Magento_Catalog
@@ -782,24 +790,45 @@ Empty,Trống,module,Magento_Catalog
 "New Product","Sản phẩm mới",module,Magento_Catalog
 "Save & Edit","Lưu & chỉnh sửa",module,Magento_Catalog
 "Save & New","Lưu & mới",module,Magento_Catalog
+"Save & Duplicate","Lưu & trùng lặp",module,Magento_Catalog
 "Save & Close","Lưu & đóng",module,Magento_Catalog
 Attributes,"Thuộc tính",module,Magento_Catalog
 Change,"Thay đổi",module,Magento_Catalog
+"Advanced Inventory","Hàng tồn kho cao cấp",module,Magento_Catalog
+Websites,"Các trang web",module,Magento_Catalog
+"Products Information","Thông tin sản phẩm",module,Magento_Catalog
+"Category Name","Tên danh mục",module,Magento_Catalog
+"Parent Category","Danh mục cha",module,Magento_Catalog
+"If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products > Categories</a>.","Nếu không có danh mục cha, xin vui lòng sử dụng các danh mục cha mặc định. Bạn có thể gán các loại tại bất kỳ thời điểm nào trong <a href=""%1"" target=""_blank""> Products > Categoriesi</a>.",module,Magento_Catalog
 "We saved the price alert subscription.","Chúng tôi đã lưu các thuê bao thông báo giá.",module,Magento_Catalog
 "We saved the stock notification.","Chúng tôi đã lưu thông báo về kho hàng.",module,Magento_Catalog
+"There are no customers for this alert.","Không có khách hàng này cảnh báo.",module,Magento_Catalog
 "First Name",Tên,module,Magento_Catalog
 "Last Name",Họ,module,Magento_Catalog
 "Subscribe Date","Ngày đăng ký",module,Magento_Catalog
 "Last Notified","Thông báo cuối",module,Magento_Catalog
+"Send Count","Gửi Tổng số",module,Magento_Catalog
 "New Attribute","Thuộc tính mới",module,Magento_Catalog
 Type,Loại,module,Magento_Catalog
+"Attribute Set","Thiết lập thuộc tính",module,Magento_Catalog
 Status,"Trạng thái",module,Magento_Catalog
 Visibility,"Hiển thị",module,Magento_Catalog
+"Add New Option","Thêm lựa chọn mới",module,Magento_Catalog
+"Import Options","Nhập tùy chọn",module,Magento_Catalog
+"Use Default","Sử dụng mặc định",module,Magento_Catalog
+Import,Nhập,module,Magento_Catalog
+"Add New Row","Thêm hàng mới",module,Magento_Catalog
+"Delete Row","Xóa hàng",module,Magento_Catalog
+"Tier Pricing","Giá theo bậc",module,Magento_Catalog
+"Default Price","Giá mặc định",module,Magento_Catalog
+"All Websites","Tất cả các trang web",module,Magento_Catalog
 "ALL GROUPS","TẤT CẢ CÁC NHÓM",module,Magento_Catalog
 "Add Price","Thêm giá",module,Magento_Catalog
 "Default Values","Giá trị mặc định",module,Magento_Catalog
 "Related Products","Sản phẩm liên quan",module,Magento_Catalog
 "Size for %1","Kích thước %1",module,Magento_Catalog
+"Watermark File for %1","Tệp chìm khoảng %1",module,Magento_Catalog
+"Position of Watermark for %1","Vị trí của tệp chìm khoảng %1",module,Magento_Catalog
 "Name in %1","Tên %1",module,Magento_Catalog
 Quantity,"Số lượng",module,Magento_Catalog
 Edit,"Chỉnh sửa",module,Magento_Catalog
@@ -816,6 +845,9 @@ Edit,"Chỉnh sửa",module,Magento_Catalog
 "Inc. Tax","Bao gồm thuế",module,Magento_Catalog
 "Does this have a weight?","Sản phẩm này có trọng lượng không?",module,Magento_Catalog
 Product,"Sản phẩm",module,Magento_Catalog
+"Notify Low Stock RSS","Thông báo tồn kho thấp",module,Magento_Catalog
+"Low Stock Products","Sản phẩm tồn kho thấp",module,Magento_Catalog
+"%1 has reached a quantity of %2.","%1 đã đạt một số lượng %2.",module,Magento_Catalog
 Home,"Trang chủ",module,Magento_Catalog
 "Go to Home Page","Đi đến trang chủ",module,Magento_Catalog
 "Subscribe to RSS Feed","Đăng ký RSS Feed",module,Magento_Catalog
@@ -829,18 +861,42 @@ None,"Không cái nào",module,Magento_Catalog
 "New Products","Sản phẩm mới",module,Magento_Catalog
 "%1 - Special Products","%1 - sản phẩm đặc biệt",module,Magento_Catalog
 "Click for price","Nhấp vào để xem giá",module,Magento_Catalog
+"Special Expires On: %1","Hạn đặc biệt vào ngày: %1",module,Magento_Catalog
+"Price: %1","Giá: %1",module,Magento_Catalog
+"Special Price: %1","Giá đặc biệt: %1",module,Magento_Catalog
+"Special Products","Sản phẩm đặc biệt",module,Magento_Catalog
+"You deleted the category.","Bạn đã xoá mục này.",module,Magento_Catalog
+"Something went wrong while trying to delete the category.","Một điều gì đó đã đi sai trong khi đang cố gắng để xóa mục này.",module,Magento_Catalog
 Categories,Nhóm,module,Magento_Catalog
+"Manage Catalog Categories","Quản lý những loại danh mục",module,Magento_Catalog
+"Manage Categories","Quản lý danh mục",module,Magento_Catalog
+"Category is not available for requested store.","Mục không có sẵn cho các cửa hàng được yêu cầu.",module,Magento_Catalog
+"There was a category move error.","Đã có một lỗi di chuyển mục.",module,Magento_Catalog
+"There was a category move error. %1","Đã có một lỗi di chuyển mục. %1",module,Magento_Catalog
+"You moved the category","Bạn di chuyển mục này",module,Magento_Catalog
 "Attribute ""%1"" is required.","Thuộc tính ""%1"" là bắt buộc.",module,Magento_Catalog
+"Something went wrong while saving the category.","Một điềugì đó đã sai trong khi lưu mục này.",module,Magento_Catalog
+"You saved the category.","Bạn đã lưu mục này.",module,Magento_Catalog
 "We can't delete the attribute.","Chúng ta không thể xóa bỏ các thuộc tính.",module,Magento_Catalog
 "We can't find an attribute to delete.","Chúng tôi không tim thấy thuộc tính để xóa.",module,Magento_Catalog
 "An attribute set named '%1' already exists.","Một bộ thuộc tính tên '%1' đã tồn tại.",module,Magento_Catalog
 "We can't update the attribute.","Chúng tôi không thể Cập Nhật thuộc tính.",module,Magento_Catalog
 "This product no longer exists.","Sản phẩm này không còn tồn tại.",module,Magento_Catalog
 "We can't delete this set right now.","Chúng ta không thể xóa thiết lập này ngay bây giờ.",module,Magento_Catalog
+"Make sure the To Date is later than or the same as the From Date.","Đảm bảo Ngày Đến muộn hơn hoặc tương tự như Ngày Bắt Đầu.",module,Magento_Catalog
 "Sorry, but we can't find the new parent category you selected.","Xin lỗi, chúng tôi không tìm thấy danh mục cha mà bạn đã chọn.",module,Magento_Catalog
 "Sorry, but we can't find the new category you selected.","Xin lỗi, nhưng chúng tôi không thể tìm thấy các thể loại mới mà bạn đã chọn.",module,Magento_Catalog
 "We can't move the category because the parent category name matches the child category name.","Chúng tôi không thể di chuyển các loại vì tên thể loại phụ huynh phù hợp với tên thể loại của trẻ em.",module,Magento_Catalog
 "Can't delete root category.","Không thể xoá mục gốc.",module,Magento_Catalog
+"The value of attribute ""%1"" must be unique.","Giá trị của thuộc tính ""%1"" phải là duy nhất.",module,Magento_Catalog
+"No layout updates","Không có giao diện cập nhật",module,Magento_Catalog
+"Products only","Chỉ sản phẩm",module,Magento_Catalog
+"Static block only","Khối tĩnh",module,Magento_Catalog
+"Static block and products","Khối tĩnh và các sản phẩm",module,Magento_Catalog
+"Please select a static block.","Vui lòng chọn một khối tĩnh.",module,Magento_Catalog
+"Could not save product ""%1"" with position %2 to category %3","Không thể lưu sản phẩm ""%1"" với vị trí %2 trong mục %3",module,Magento_Catalog
+"Category does not contain specified product","Mục không chứa được chỉ định sản phẩm",module,Magento_Catalog
+"Could not save product ""%product"" with position %position to category %category","Không thể lưu sản phẩm ""%product"" với vị trí %position trong thể loại %category",module,Magento_Catalog
 "%1 doesn't extends \Magento\Framework\Model\AbstractModel","%1 không mở rộng \Magento\Framework\Model\AbstractModel",module,Magento_Catalog
 "We can't rebuild the index for an undefined product.","Chúng tôi không thể xây dựng lại các chỉ số cho một sản phẩm không xác định.",module,Magento_Catalog
 "%1 doesn't extend \Magento\Catalog\Model\Layer\Filter\Dynamic\AlgorithmInterface","%1 không mở rộng \Magento\Catalog\Model\Layer\Filter\Dynamic\AlgorithmInterface",module,Magento_Catalog
@@ -2836,6 +2892,7 @@ Password:,"Mật khẩu:",theme,frontend/Magento/luma
 "Add Selected Products","Thêm Sản phẩm được lựa chọn",module,Magento_Bundle
 Cancel,Hủy,module,Magento_Catalog
 "We don't recognize or support this file extension type.","Chúng tôi không nhận diện được hoặc định dạng tập tin không được hỗ trợ.",module,Magento_Catalog
+"Create Category","Tạo danh mục",module,Magento_Catalog
 "Select Associated Product","Lựa chọn sản phẩm liên quan",module,Magento_ConfigurableProduct
 Done,"Đã thực hiện",module,Magento_ConfigurableProduct
 "Please, fill correct values","Hãy điền giá trị đúng",module,Magento_ConfigurableProduct
