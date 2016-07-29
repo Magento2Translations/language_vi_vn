@@ -554,7 +554,11 @@ Website,"Trang web",module,Magento_Catalog
 Global,"Toàn cầu",module,Magento_Catalog
 Scope,"Phạm vi",module,Magento_Catalog
 "Declare attribute value saving scope","Khai báo giá trị thuộc tính phạm vi lưu",module,Magento_Catalog
+"Use for Promo Rule Conditions","Sử dụng cho điều kiện của quy định quảng cáo",module,Magento_Catalog
+"Enable WYSIWYG","Sử dụng WYSIWYG",module,Magento_Catalog
+"Used in Product Listing","Được sử dụng trong danh sách sản phẩm",module,Magento_Catalog
 "Depends on design theme","Phụ thuộc thiết kế giao diện",module,Magento_Catalog
+"Used for Sorting in Product Listing","Được sử dụng để phân loại trong danh sách sản phẩm",module,Magento_Catalog
 "Media Image","Phương tiện truyền thông hình ảnh",module,Magento_Catalog
 Gallery,"Bộ sưu tập",module,Magento_Catalog
 "System Properties","Thuộc tính hệ thống",module,Magento_Catalog
@@ -579,6 +583,7 @@ Back,"Trở lại",module,Magento_Catalog
 Delete,"Xóa bỏ",module,Magento_Catalog
 Save,"Lưu lại",module,Magento_Catalog
 "New Set Name","đặt tên mới",module,Magento_Catalog
+"Edit Attribute Set '%1'","Chỉnh sửa thiết lập thuộc tính '%1'",module,Magento_Catalog
 Empty,Trống,module,Magento_Catalog
 "Add Attribute","Thêm thuộc tính",module,Magento_Catalog
 "Add New Group","Thêm nhóm mới",module,Magento_Catalog
@@ -591,24 +596,44 @@ Empty,Trống,module,Magento_Catalog
 "New Product","Sản phẩm mới",module,Magento_Catalog
 "Save & Edit","Lưu & chỉnh sửa",module,Magento_Catalog
 "Save & New","Lưu & mới",module,Magento_Catalog
+"Save & Duplicate","Lưu & trùng lặp",module,Magento_Catalog
 "Save & Close","Lưu & đóng",module,Magento_Catalog
 Attributes,"Thuộc tính",module,Magento_Catalog
 Change,"Thay đổi",module,Magento_Catalog
+"Advanced Inventory","Hàng tồn kho cao cấp",module,Magento_Catalog
+Websites,"Các trang web",module,Magento_Catalog
+"Products Information","Thông tin sản phẩm",module,Magento_Catalog
+"Category Name","Tên danh mục",module,Magento_Catalog
+"Parent Category","Danh mục cha",module,Magento_Catalog
 "We saved the price alert subscription.","Chúng tôi đã lưu các thuê bao thông báo giá.",module,Magento_Catalog
 "We saved the stock notification.","Chúng tôi đã lưu thông báo về kho hàng.",module,Magento_Catalog
+"There are no customers for this alert.","Không có khách hàng này cảnh báo.",module,Magento_Catalog
 "First Name",Tên,module,Magento_Catalog
 "Last Name",Họ,module,Magento_Catalog
 "Subscribe Date","Ngày đăng ký",module,Magento_Catalog
 "Last Notified","Thông báo cuối",module,Magento_Catalog
+"Send Count","Gửi Tổng số",module,Magento_Catalog
 "New Attribute","Thuộc tính mới",module,Magento_Catalog
 Type,Loại,module,Magento_Catalog
+"Attribute Set","Thiết lập thuộc tính",module,Magento_Catalog
 Status,"Trạng thái",module,Magento_Catalog
 Visibility,"Hiển thị",module,Magento_Catalog
+"Add New Option","Thêm lựa chọn mới",module,Magento_Catalog
+"Import Options","Nhập tùy chọn",module,Magento_Catalog
+"Use Default","Sử dụng mặc định",module,Magento_Catalog
+Import,Nhập,module,Magento_Catalog
+"Add New Row","Thêm hàng mới",module,Magento_Catalog
+"Delete Row","Xóa hàng",module,Magento_Catalog
+"Tier Pricing","Giá theo bậc",module,Magento_Catalog
+"Default Price","Giá mặc định",module,Magento_Catalog
+"All Websites","Tất cả các trang web",module,Magento_Catalog
 "ALL GROUPS","TẤT CẢ CÁC NHÓM",module,Magento_Catalog
 "Add Price","Thêm giá",module,Magento_Catalog
 "Default Values","Giá trị mặc định",module,Magento_Catalog
 "Related Products","Sản phẩm liên quan",module,Magento_Catalog
 "Size for %1","Kích thước %1",module,Magento_Catalog
+"Watermark File for %1","Tệp chìm khoảng %1",module,Magento_Catalog
+"Position of Watermark for %1","Vị trí của tệp chìm khoảng %1",module,Magento_Catalog
 "Name in %1","Tên %1",module,Magento_Catalog
 Quantity,"Số lượng",module,Magento_Catalog
 Edit,"Chỉnh sửa",module,Magento_Catalog
@@ -623,6 +648,7 @@ Edit,"Chỉnh sửa",module,Magento_Catalog
 "Inc. Tax","Bao gồm thuế",module,Magento_Catalog
 "Does this have a weight?","Sản phẩm này có trọng lượng không?",module,Magento_Catalog
 Product,"Sản phẩm",module,Magento_Catalog
+"Notify Low Stock RSS","Thông báo tồn kho thấp",module,Magento_Catalog
 Home,"Trang chủ",module,Magento_Catalog
 "Go to Home Page","Đi đến trang chủ",module,Magento_Catalog
 "Products Comparison List","Danh sách sản phẩm so sánh",module,Magento_Catalog
@@ -633,9 +659,21 @@ PM,Chiều,module,Magento_Catalog
 None,"Không cái nào",module,Magento_Catalog
 "New Products","Sản phẩm mới",module,Magento_Catalog
 "Click for price","Nhấp vào để xem giá",module,Magento_Catalog
+"You deleted the category.","Bạn đã xoá mục này.",module,Magento_Catalog
+"Something went wrong while trying to delete the category.","Một điều gì đó đã đi sai trong khi đang cố gắng để xóa mục này.",module,Magento_Catalog
 Categories,Nhóm,module,Magento_Catalog
+"Manage Catalog Categories","Quản lý những loại danh mục",module,Magento_Catalog
+"Manage Categories","Quản lý danh mục",module,Magento_Catalog
+"There was a category move error.","Đã có một lỗi di chuyển mục.",module,Magento_Catalog
 "Attribute ""%1"" is required.","Thuộc tính ""%1"" là bắt buộc.",module,Magento_Catalog
+"You saved the category.","Bạn đã lưu mục này.",module,Magento_Catalog
 "This product no longer exists.","Sản phẩm này không còn tồn tại.",module,Magento_Catalog
+"The value of attribute ""%1"" must be unique.","Giá trị của thuộc tính ""%1"" phải là duy nhất.",module,Magento_Catalog
+"No layout updates","Không có giao diện cập nhật",module,Magento_Catalog
+"Products only","Chỉ sản phẩm",module,Magento_Catalog
+"Static block only","Khối tĩnh",module,Magento_Catalog
+"Static block and products","Khối tĩnh và các sản phẩm",module,Magento_Catalog
+"Please select a static block.","Vui lòng chọn một khối tĩnh.",module,Magento_Catalog
 "Are you sure you want to delete this category?","Bạn có chắc chắn muốn xoá danh mục này?",module,Magento_Catalog
 "Set root category for this store in the <a href=""%1"">configuration</a>.","Thiết lập gốc thể loại cho các cửa hàng này trong <a href=""%1""> cấu hình</a>.",module,Magento_Catalog
 "Manage Options (values of your attribute)","Quản lý tuỳ chọn (giá trị của thuộc tính của bạn)",module,Magento_Catalog
@@ -1786,6 +1824,7 @@ Total:,Tổng:,module,Magento_Checkout
 "Add Products to New Option","Thêm sản phẩm vào Tùy chọn mới",module,Magento_Bundle
 "Add Selected Products","Thêm Sản phẩm được lựa chọn",module,Magento_Bundle
 Cancel,Hủy,module,Magento_Catalog
+"Create Category","Tạo danh mục",module,Magento_Catalog
 "Add Products to Group","Thêm sản phẩm vào nhóm",module,Magento_GroupedProduct
 "Add Selected Products","Thêm Sản phẩm được lựa chọn",module,Magento_GroupedProduct
 "Use HTTPS to Get Feed","Dùng HTTPS Để Lấy Nguồn Cấp Dữ Liệu Feed",module,Magento_AdminNotification
