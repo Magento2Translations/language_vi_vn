@@ -589,6 +589,7 @@ Name,Tên,module,Magento_Catalog
 SKU,"MÃ SẢN PHẨM",module,Magento_Catalog
 Price,Giá,module,Magento_Catalog
 Position,"Vị trí",module,Magento_Catalog
+"Category Products","Danh mục sản phẩm",module,Magento_Catalog
 "Add Subcategory","Thêm nhóm nhỏ",module,Magento_Catalog
 "Add Root Category","Thêm danh mục gốc",module,Magento_Catalog
 Day,Ngày,module,Magento_Catalog
@@ -716,6 +717,8 @@ Edit,"Chỉnh sửa",module,Magento_Catalog
 "Are you sure?","Bạn chắc chứ?",module,Magento_Catalog
 "Change Status","Thay đổi Trạng thái",module,Magento_Catalog
 "Update Attributes","Cập Nhật thuộc tính",module,Magento_Catalog
+"Delete image","Xóa hình ảnh",module,Magento_Catalog
+Hidden,Ẩn,module,Magento_Catalog
 "start typing to search category","bắt đầu nhập để tìm nhóm",module,Magento_Catalog
 "New Category","Nhóm mới",module,Magento_Catalog
 "Images (.gif, .jpg, .png)","Hình ảnh (.gif, .jpg, .png)",module,Magento_Catalog
@@ -803,6 +806,7 @@ All,"Tất cả",module,Magento_Catalog
 "Bad controller interface for showing product","Giao diện điều khiển không tốt cho việc hiển thị sản phẩm",module,Magento_Catalog
 "Make sure the To Date is later than or the same as the From Date.","Đảm bảo Ngày Đến muộn hơn hoặc tương tự như Ngày Bắt Đầu.",module,Magento_Catalog
 "The value of attribute ""%1"" must be unique.","Giá trị của thuộc tính ""%1"" phải là duy nhất.",module,Magento_Catalog
+"Default Product Listing Sort by does not exist in Available Product Listing Sort By.","Danh sách sắp xếp sản phẩm mặc định không tồn tại trong danh sách sắp xếp các sản phẩm sẵn có.",module,Magento_Catalog
 "No layout updates","Không có giao diện cập nhật",module,Magento_Catalog
 "Products only","Chỉ sản phẩm",module,Magento_Catalog
 "Static block only","Khối tĩnh",module,Magento_Catalog
@@ -811,8 +815,49 @@ All,"Tất cả",module,Magento_Catalog
 "Could not save product ""%1"" with position %2 to category %3","Không thể lưu sản phẩm ""%1"" với vị trí %2 trong mục %3",module,Magento_Catalog
 "Category does not contain specified product","Mục không chứa được chỉ định sản phẩm",module,Magento_Catalog
 "Could not save product ""%product"" with position %position to category %category","Không thể lưu sản phẩm ""%product"" với vị trí %position trong thể loại %category",module,Magento_Catalog
+"Operation do not allow to move a parent category to any of children category","Chiến dịch không cho phép để di chuyển thể loại cha với bất kỳ thể loại con",module,Magento_Catalog
+"Could not move category","Không thể di chuyển danh mục",module,Magento_Catalog
+"Could not save category: %1","Không thể lưu mục: %1",module,Magento_Catalog
+"Cannot delete category with id %1","Không thể xoá các danh mục với id %1",module,Magento_Catalog
+"-- Please Select a Category --","--Vui lòng chọn danh mục--",module,Magento_Catalog
+"Grid Only","Chỉ lưới",module,Magento_Catalog
+"List Only","Chỉ liệt kê",module,Magento_Catalog
+"Grid (default) / List","Lưới (mặc định) / danh sách",module,Magento_Catalog
+"List (default) / Grid","Danh sách (mặc định) / lưới",module,Magento_Catalog
+"Automatic (equalize price ranges)","Tự động (cân bằng khoảng giá)",module,Magento_Catalog
+"Automatic (equalize product counts)","Tự động (cân bằng số lần sản phẩm)",module,Magento_Catalog
+Manual,"Thủ công",module,Magento_Catalog
+Fixed,"Cố định",module,Magento_Catalog
+Percent,"Phần trăm",module,Magento_Catalog
+"-- Please select --","--Vui lòng chọn--",module,Magento_Catalog
+"Product Thumbnail Itself","Sản phẩm thu nhỏ của nó",module,Magento_Catalog
+"Parent Product Thumbnail","Sản phẩm cha thu nhỏ",module,Magento_Catalog
+Stretch,Căng,module,Magento_Catalog
+Tile,Ngói,module,Magento_Catalog
+Top/Left,"Trên cùng/trái",module,Magento_Catalog
+Top/Right,"Trên cùng/phải",module,Magento_Catalog
+Bottom/Left,"Dưới cùng, bên trái",module,Magento_Catalog
+Bottom/Right,"Dưới cùng, bên phải",module,Magento_Catalog
+Center,"Trung tâm",module,Magento_Catalog
+"Bad value was supplied.","Giá trị không tốt được cung cấp.",module,Magento_Catalog
+"The Flat Catalog module has a limit of %2$d filterable and/or sortable attributes.Currently there are %1$d of them.Please reduce the number of filterable/sortable attributes in order to use this module","Các mô-đun Flat Catalog có một giới hạn của %2\$ d có thể lọc và/hoặc sắp xếp thuộc tính. "" ""Hiện đang có %1\$ d của họ."" ""Vui lòng giảm bớt số lượng các thuộc tính có thể lọc/sắp xếp để sử dụng module này",module,Magento_Catalog
+"Unsupported product type ""%1"".","Sản phẩm không được hỗ trợ kiểu ""%1"".",module,Magento_Catalog
+"Please correct the category.","Xin vui lòng chỉnh sửa đúng các loại.",module,Magento_Catalog
+"Must be category model instance or its id.","Phải là thể loại mô hình ví dụ hoặc id của nó.",module,Magento_Catalog
+"The attribute model is not defined.","Các thuộc tính mô hình không được xác định.",module,Magento_Catalog
+Category,"Thể loại",module,Magento_Catalog
+"%1 was not found in algorithms","%1 không được tìm thấy trong các thuật toán",module,Magento_Catalog
+"The filter must be an object. Please set the correct filter.","Bộ lọc phải là một đối tượng. Xin vui lòng thiết lập bộ lọc chính xác.",module,Magento_Catalog
+"Clear Price","Giá rõ ràng",module,Magento_Catalog
+"%1 and above","%1 và cao hơn",module,Magento_Catalog
+"The filters must be an array.","Các bộ lọc phải là một mảng.",module,Magento_Catalog
 "The image does not exist.","Hình ảnh không tồn tại.",module,Magento_Catalog
 "Please correct the image file type.","Xin vui lòng sửa đúng các loại tập tin hình ảnh.",module,Magento_Catalog
+"Group price must be a number greater than 0.","Giá nhóm phải là một số lớn hơn 0.",module,Magento_Catalog
+"Media Gallery converter should be an instance of EntryConverterInterface.","Chuyển đổi thư viện phương tiện truyền thông nên một thể hiện của mục chuyển đổi giao diện.",module,Magento_Catalog
+"There is no MediaGalleryEntryConverter for given type","Không có mục chuyển đổi giao diện cho loại có sẵn",module,Magento_Catalog
+"Please enter a number 0 or greater in this field.","Hãy điền một số lớn hơn hoặc bằng 0 vào trường này.",module,Magento_Catalog
+"The value of attribute ""%1"" must be set","Phải được đặt là giá trị của thuộc tính ""%1""",module,Magento_Catalog
 "SKU length should be %1 characters maximum.","Độ dài mã sản phẩm nên là %1 ký tự tối đa.",module,Magento_Catalog
 "Please enter a valid number in this field.","Vui lòng nhập một số hợp lệ trong lĩnh vực này.",module,Magento_Catalog
 "We found a duplicate website, tier price, customer group and quantity.","Chúng tôi tìm thấy một trang web trùng lặp, tầng giá, khách hàng nhóm và số lượng.",module,Magento_Catalog
@@ -823,6 +868,7 @@ All,"Tất cả",module,Magento_Catalog
 Enabled,"Đã được bật",module,Magento_Catalog
 Disabled,"Vô hiệu hóa",module,Magento_Catalog
 "Attribute Set already exists.","Thiết lập thuộc tính đã tồn tại.",module,Magento_Catalog
+"Requested product does not support images.","Sản phẩm được yêu cầu không hỗ trợ hình ảnh.",module,Magento_Catalog
 "The image content is not valid.","Nội dung hình ảnh không hợp lệ.",module,Magento_Catalog
 "Cannot save product.","Không thể lưu sản phẩm.",module,Magento_Catalog
 "Failed to save new media gallery entry.","Thất bại trong việc lưu phương tiện nhập bộ sưu tập mới.",module,Magento_Catalog
@@ -858,12 +904,36 @@ Disabled,"Vô hiệu hóa",module,Magento_Catalog
 "Something went wrong while processing the request.","Điều gì đó đã sai trong khi xử lý yêu cầu.",module,Magento_Catalog
 "Not Visible Individually","Không thể nhìn thấy cá nhân",module,Magento_Catalog
 Search,"Tìm kiếm",module,Magento_Catalog
+"Catalog, Search","Danh mục, tìm kiếm",module,Magento_Catalog
+"Something went wrong while removing products from the websites.","Điều gì đó đã sai trong khi loại bỏ các sản phẩm từ các trang web.",module,Magento_Catalog
+"Something went wrong while adding products to websites.","Điều gì đó đã sai trong khi thêm sản phẩm đến các trang web.",module,Magento_Catalog
+"Group with id ""%1"" does not exist.","Nhóm với id ""%1"" không tồn tại.",module,Magento_Catalog
+"Attribute group that contains system attributes can not be deleted","Nhóm thuộc tính có chứa thuộc tính hệ thống không thể xóa",module,Magento_Catalog
+"Collection provider is not registered","Bộ sưu tập nhà cung cấp không được đăng ký",module,Magento_Catalog
+"Unknown link type: %1","Dạng liên kết không rõ ràng: %1",module,Magento_Catalog
+"Provided link type ""%1"" does not exist","Kiểu liên kết được cung cấp ""%1"" không tồn tại",module,Magento_Catalog
+"Invalid data provided for linked products","Dữ liệu không hợp lệ được cung cấp cho các sản phẩm liên kết",module,Magento_Catalog
+"Product with SKU %1 is not linked to product with SKU %2","Sản phẩm với mã %1 không được liên kết đến các sản phẩm với mã %2",module,Magento_Catalog
+"Product with SKU ""%1"" does not exist","Sản phẩm với mã ""%1"" không tồn tại",module,Magento_Catalog
+"Invalid product data: %1","Dữ liệu sản phẩm không hợp lệ: %1",module,Magento_Catalog
+"Unable to remove product %1","Không thể loại bỏ các sản phẩm %1",module,Magento_Catalog
+"There are not websites for assign to product","Không có trang web để gán cho sản phẩm",module,Magento_Catalog
+"Could not assign product ""%1"" to websites ""%2""","Không thể gán cho sản phẩm ""%1"" cho trang web ""%2""",module,Magento_Catalog
+"Could not save product ""%1"" with websites %2","Không thể lưu sản phẩm ""%1"" với các trang web %2",module,Magento_Catalog
+"Do not change the scope. %1","Không thay đổi phạm vi. %1",module,Magento_Catalog
+"A product type is not defined for the indexer.","Một loại sản phẩm không phải xác định cho các indexer.",module,Magento_Catalog
+"Multiple Select","Nhiều lựa chọn",module,Magento_Catalog
+Dropdown,"Trình đơn xổ dọc",module,Magento_Catalog
+"As low as","Thấp nhất như",module,Magento_Catalog
+message,"tin nhắn",module,Magento_Catalog
+Select...,"Lựa chọn...",module,Magento_Catalog
 "This operation can take a long time","Thao tác này có thể mất một thời gian dài",module,Magento_Catalog
 "Collapse All","Thu gọn tất cả",module,Magento_Catalog
 "Expand All","Mở rộng tất cả",module,Magento_Catalog
 "Use Default Value","Sử dụng giá trị mặc định",module,Magento_Catalog
 "Manage Titles (Size, Color, etc.)","Quản lý danh hiệu (kích thước, màu sắc, vv)",module,Magento_Catalog
 "Is Default","Mặc định",module,Magento_Catalog
+"Add Option","Thêm tùy chọn",module,Magento_Catalog
 "Sort Option","Tùy chọn sắp xếp",module,Magento_Catalog
 Groups,Nhóm,module,Magento_Catalog
 "Double click on a group to rename it.","Nhấp đúp vào một nhóm để đổi tên nó.",module,Magento_Catalog
@@ -880,11 +950,56 @@ Groups,Nhóm,module,Magento_Catalog
 "Maximum number of characters:","Số lượng ký tự tối đa:",module,Magento_Catalog
 "start typing to search template","bắt đầu nhập tìm kiếm mẫu",module,Magento_Catalog
 "Product online","Sản phẩm trực tuyến",module,Magento_Catalog
+"Product offline","Sản phẩm ngoại tuyến",module,Magento_Catalog
+"Product online status","Trạng thái sản phẩm trực tuyến",module,Magento_Catalog
+"Manage Stock","Quản lý kho",module,Magento_Catalog
+Qty,"Số lượng",module,Magento_Catalog
+"Out-of-Stock Threshold","Ngưỡng hết hàng",module,Magento_Catalog
+"Minimum Qty Allowed in Shopping Cart","Số lượng tối thiểu được cho phép trong giỏ hàng",module,Magento_Catalog
+"Maximum Qty Allowed in Shopping Cart","Số lượng tối đa được cho phép trong giỏ hàng",module,Magento_Catalog
+"Qty Uses Decimals","Số lượng sử dụng số thập phân",module,Magento_Catalog
+Backorders,"Đơn hàng tồn đọng",module,Magento_Catalog
+"Notify for Quantity Below","Thông báo cho số lượng dưới đây",module,Magento_Catalog
+"Enable Qty Increments","Cho phép gia thêm số lượng",module,Magento_Catalog
+"Qty Increments","Gia thêm số lượng",module,Magento_Catalog
+"Stock Availability","Tình trạng hàng",module,Magento_Catalog
+"In Stock","Còn hàng",module,Magento_Catalog
+"Out of Stock","Hết hàng",module,Magento_Catalog
+"Add Product To Websites","Thêm sản phẩm vào trang web",module,Magento_Catalog
+"Remove Product From Websites","Loại bỏ các sản phẩm từ trang web",module,Magento_Catalog
+"To hide an item in catalog or search results, set the status to ""Disabled"".","Để ẩn một mục trong kết quả tìm kiếm hoặc danh mục, đặt tình trạng ""Vô hiệu hóa"".",module,Magento_Catalog
+"Delete Custom Option","Xóa bỏ lựa chọn tùy chỉnh",module,Magento_Catalog
+"Sort Custom Options","Sắp xếp tùy chỉnh tùy chọn",module,Magento_Catalog
+"Option Title","Tiêu đề tùy chọn",module,Magento_Catalog
+"Input Type","Loại đầu vào",module,Magento_Catalog
+Required,"Bắt buộc",module,Magento_Catalog
+"Price Type","Loại giá",module,Magento_Catalog
 "Compatible File Extensions","Phần tệp mở rộng tương thích",module,Magento_Catalog
 "Maximum Image Size","Kích cỡ hình ảnh tối đa",module,Magento_Catalog
 "Please leave blank if it is not an image.","Xin vui lòng để trống nếu nó không phải là một hình ảnh.",module,Magento_Catalog
+Title,"Tiêu đề",module,Magento_Catalog
+"Sort Custom Option","Sắp xếp tùy chỉnh tùy chọn",module,Magento_Catalog
 "Max Characters","Ký tự tối đa",module,Magento_Catalog
+"Customer Group","Nhóm khách hàng",module,Magento_Catalog
+"Item Price","Mục giá",module,Magento_Catalog
+Action,"Hành động",module,Magento_Catalog
+"and above","và ở trên",module,Magento_Catalog
+"Delete Tier","Xóa Tier",module,Magento_Catalog
+"Product In Websites","Các sản phẩm trong trang web",module,Magento_Catalog
+"(Copy data from: %1)","(Sao chép dữ liệu từ: %1)",module,Magento_Catalog
+"Alt Text","Văn bản thay thế",module,Magento_Catalog
+Role,"Vai trò",module,Magento_Catalog
+"Hide from Product Page","Giấu khỏi trang sản phẩm",module,Magento_Catalog
+"Product Alerts","Cảnh báo sản phẩm",module,Magento_Catalog
+"start typing to search attribute","bắt đầu nhập tìm kiếm thuộc tính",module,Magento_Catalog
+"Basic Settings","Cài đặt cơ bản",module,Magento_Catalog
+"Advanced Settings","Cài đặt nâng cao",module,Magento_Catalog
+"Changes have been made to this section that have not been saved.","Những thay đổi đã được thực hiện cho phần này không được lưu.",module,Magento_Catalog
+"This tab contains invalid data. Please resolve this before saving.","Tab này chứa dữ liệu không hợp lệ. Xin vui lòng giải quyết điều này trước khi tiết kiệm.",module,Magento_Catalog
 Actions,"Thao tác",module,Magento_Catalog
+"Mass Actions","Thao tác hàng loạt",module,Magento_Catalog
+"Select All","Chọn tất cả",module,Magento_Catalog
+"Unselect All","Bỏ chọn tất cả",module,Magento_Catalog
 "Unselect Visible","Bỏ chọn Hiển thị",module,Magento_Catalog
 "Special Price","Giá đặc biệt",module,Magento_Catalog
 "Regular Price","Giá thông thường",module,Magento_Catalog
@@ -1200,6 +1315,8 @@ Stores,"Cửa hàng",module,Magento_Config
 "Add configurable attributes to the current Attribute Set (""%1"")","Thêm thuộc tính cấu hình các hiện tại thuộc tính thiết lập (""%1"")",module,Magento_ConfigurableProduct
 "Add configurable attributes to the new Attribute Set based on current","Thêm các thuộc tính cấu hình thiết lập thuộc tính mới dựa trên hiện tại",module,Magento_ConfigurableProduct
 "New attribute set name","đặt tên thuộc tính mới",module,Magento_ConfigurableProduct
+"Add configurable attributes to the existing Attribute Set","Thêm thuộc tính cấu hình bộ thuộc tính hiện có",module,Magento_ConfigurableProduct
+"Choose existing Attribute Set","Chọn bộ thuộc tính hiện có",module,Magento_ConfigurableProduct
 Configurations,"Cấu hình",module,Magento_ConfigurableProduct
 "Attribute Values","Giá trị thuộc tính",module,Magento_ConfigurableProduct
 "Bulk Images &amp; Price","Hàng loạt hình ảnh &amp; giá",module,Magento_ConfigurableProduct
@@ -1207,6 +1324,11 @@ Configurations,"Cấu hình",module,Magento_ConfigurableProduct
 "Select Attributes","Chọn thuộc tính",module,Magento_ConfigurableProduct
 Summary,"Tóm tắt",module,Magento_ConfigurableProduct
 "Choose an Option...","Chọn một tùy chọn...",module,Magento_ConfigurableProduct
+"This attribute is used in configurable products.","Thuộc tính này được sử dụng trong sản phẩm cấu hình.",module,Magento_ConfigurableProduct
+"Product has been already attached","Sản phẩm đã được đính kèm",module,Magento_ConfigurableProduct
+"Product with specified sku: %1 is not a configurable product","Sản phẩm với chỉ định mã sản phẩm: %1 không phải là một sản phẩm cấu hình",module,Magento_ConfigurableProduct
+"Cannot delete variations from product: %1","Không thể xóa biến thể từ sản phẩm: %1",module,Magento_ConfigurableProduct
+"Cannot delete option with id: %1","Không thể xóa các lựa chọn với id: %1",module,Magento_ConfigurableProduct
 "Option with id ""%1"" not found","Các tùy chọn với id ""%1"" không tìm thấy",module,Magento_ConfigurableProduct
 "Something went wrong while saving option.","Một cái gì đó đã đi sai trong khi lưu tùy chọn.",module,Magento_ConfigurableProduct
 "Only implemented for configurable product: %1","Chỉ thực hiện đối với cấu hình sản phẩm: %1",module,Magento_ConfigurableProduct
@@ -1216,8 +1338,13 @@ Summary,"Tóm tắt",module,Magento_ConfigurableProduct
 "Value index is not specified for an option.","Chỉ số giá trị không được chỉ định cho một lựa chọn.",module,Magento_ConfigurableProduct
 "Product with id ""%1"" does not contain required attribute ""%2"".","Sản phẩm với id ""%1"" không chứa thuộc tính yêu cầu ""%2"".",module,Magento_ConfigurableProduct
 "You need to choose options for your item.","Bạn cần chọn tùy chọn cho sản phẩm của bạn.",module,Magento_ConfigurableProduct
+"Some product variations fields are not valid.","Một số lĩnh vực biến thể sản phẩm là không hợp lệ.",module,Magento_ConfigurableProduct
+"Configuration must have specified attributes","Cấu hình phải có chỉ định thuộc tính",module,Magento_ConfigurableProduct
+"This group contains attributes used in configurable products. Please move these attributes to another group and try again.","Nhóm này chứa các thuộc tính được sử dụng trong cấu hình sản phẩm. Xin vui lòng di chuyển các thuộc tính cho nhóm khác và thử lại.",module,Magento_ConfigurableProduct
+"This attribute is used in configurable products. You cannot remove it from the attribute set.","Thuộc tính này được sử dụng trong cấu hình sản phẩm. Bạn không thể gỡ bỏ nó từ các thiết lập thuộc tính.",module,Magento_ConfigurableProduct
 "Associated Products","Sản phẩm liên kết",module,Magento_ConfigurableProduct
 "Step 2: Attribute Values","Bước 2: Tính giá trị",module,Magento_ConfigurableProduct
+"Select values from each attribute to include in this product. Each unique combination of values creates a unigue product SKU.","Chọn giá trị mỗi thuộc tính bao gồm trong sản phẩm này. Mỗi sự kết hợp độc đáo của giá trị tạo ra một độc đáo sản phẩm.",module,Magento_ConfigurableProduct
 "Sort Variations","Sắp xếp các biến thể",module,Magento_ConfigurableProduct
 Options,"Tùy chọn",module,Magento_ConfigurableProduct
 "Select All","Chọn tất cả",module,Magento_ConfigurableProduct
@@ -1225,6 +1352,10 @@ Options,"Tùy chọn",module,Magento_ConfigurableProduct
 "Remove Attribute","Loại bỏ thuộc tính",module,Magento_ConfigurableProduct
 "Save Option","Lưu tùy chọn",module,Magento_ConfigurableProduct
 "Remove Option","Hủy bỏ tùy chọn",module,Magento_ConfigurableProduct
+"Create New Value","Tạo ra giá trị mới",module,Magento_ConfigurableProduct
+Images,"Hình ảnh",module,Magento_ConfigurableProduct
+"Apply single set of images to all SKUs","Áp dụng bộ hình ảnh duy nhất cho tất cả SKUs",module,Magento_ConfigurableProduct
+"Apply unique images by attribute to each SKU","Áp dụng những hình ảnh độc đáo bởi thuộc tính cho từng Mã sản phẩm",module,Magento_ConfigurableProduct
 "Skip image uploading at this time","Bỏ qua hình ảnh tải lên vào thời gian này",module,Magento_ConfigurableProduct
 "Browse Files...","Xem theo tệp...",module,Magento_ConfigurableProduct
 "Browse to find or drag image here","Tìm hoặc kéo hình ảnh ở đây",module,Magento_ConfigurableProduct
@@ -1237,8 +1368,21 @@ Role,"Quyền hạn",module,Magento_ConfigurableProduct
 Select,Chọn,module,Magento_ConfigurableProduct
 Price,Giá,module,Magento_ConfigurableProduct
 "Apply single price to all SKUs","Áp dụng đơn giá cho tất cả mã sản phẩm",module,Magento_ConfigurableProduct
+"Apply unique prices by attribute to each SKU","Áp dụng giá duy nhất bởi thuộc tính cho từng Mã sản phẩm",module,Magento_ConfigurableProduct
+"Skip price at this time","Bỏ qua giá tại thời điểm này",module,Magento_ConfigurableProduct
 Quantity,"Số lượng",module,Magento_ConfigurableProduct
+"Apply single quantity to each SKUs","Số lượng đơn áp dụng cho các SKUs mỗi",module,Magento_ConfigurableProduct
+"Apply unique quantity by attribute to each SKU","Áp dụng số lượng duy nhất bởi thuộc tính cho từng Mã sản phẩm",module,Magento_ConfigurableProduct
+"Skip quantity at this time","Bỏ qua số lượng tại thời điểm này",module,Magento_ConfigurableProduct
+"Step 1: Select Attributes","Bước 1: Chọn thuộc tính",module,Magento_ConfigurableProduct
+"Selected Attributes:","Các thuộc tính đã chọn:",module,Magento_ConfigurableProduct
+"Step 4: Summary","Bước 4: Tóm tắt",module,Magento_ConfigurableProduct
+"Configurable products allow customers to choose options (Ex: shirt color).
+            You need to create a simple product for each configuration (Ex: a product for each color).","Cấu hình sản phẩm cho phép khách hàng lựa chọn (ví dụ: màu áo sơ mi). Bạn cần phải tạo ra một sản phẩm đơn giản cho mỗi cấu hình (ví dụ: một sản phẩm cho mỗi màu).",module,Magento_ConfigurableProduct
 "Edit Configurations","Chỉnh sửa cấu hình",module,Magento_ConfigurableProduct
+"Create Configurations","Tạo cấu hình",module,Magento_ConfigurableProduct
+"Add Products Manually","Thêm sản phẩm bằng cách thủ công",module,Magento_ConfigurableProduct
+"Current Variations","Hiện tại các biến thể",module,Magento_ConfigurableProduct
 Image,"Hình ảnh",module,Magento_ConfigurableProduct
 Name,Tên,module,Magento_ConfigurableProduct
 SKU,"MÃ SẢN PHẨM",module,Magento_ConfigurableProduct
@@ -1250,6 +1394,7 @@ Actions,"Thao tác",module,Magento_ConfigurableProduct
 "Choose a different Product","Chọn một sản phẩm khác",module,Magento_ConfigurableProduct
 "Remove Product","Loại bỏ sản phẩm",module,Magento_ConfigurableProduct
 "Create Product Configurations","Tạo cấu hình sản phẩm",module,Magento_ConfigurableProduct
+"Choose Affected Attribute Set","Chọn bộ thuộc tính bị ảnh hưởng",module,Magento_ConfigurableProduct
 Confirm,"Xác nhận",module,Magento_ConfigurableProduct
 Cancel,"Từ bỏ",module,Magento_ConfigurableProduct
 "Page not found.","Không tìm thấy trang.",module,Magento_Contact
@@ -1301,6 +1446,9 @@ System,"Hệ thống",module,Magento_CurrencySymbol
 "Please enter a password with a valid length.","Vui lòng nhập một mật khẩu với chiều dài hợp lệ.",module,Magento_CustomerImportExport
 "Sign Out","Đăng xuất",module,Magento_Customer
 "Sign In","Đăng nhập",module,Magento_Customer
+"You subscribe to our newsletter.","Bạn đăng ký để nhận bản tin của chúng tôi.",module,Magento_Customer
+"You have not set a default shipping address.","Bạn không có thiết lập địa chỉ vận chuyển mặc định.",module,Magento_Customer
+"You have not set a default billing address.","Bạn không có thiết lập địa chỉ vận chuyển mặc định.",module,Magento_Customer
 "Address Book","Sổ địa chỉ",module,Magento_Customer
 "Edit Address","Sửa địa chỉ",module,Magento_Customer
 "Add New Address","Thêm địa chỉ mới",module,Magento_Customer
@@ -1323,7 +1471,33 @@ Total,Tổng,module,Magento_Customer
 Action,"Thao tác",module,Magento_Customer
 Configure,"Cấu hình",module,Magento_Customer
 Delete,Xóa,module,Magento_Customer
+"Shopping Cart from %1","Giỏ mua hàng từ %1",module,Magento_Customer
 Newsletter,"Bản tin",module,Magento_Customer
+"Newsletter Information","Đăng ký nhận thông tin",module,Magento_Customer
+"Subscribed to Newsletter","Đăng ký nhận bản tin",module,Magento_Customer
+"Last Date Subscribed","Đăng ký ngày cuối cùng",module,Magento_Customer
+"Last Date Unsubscribed","Bỏ đăng ký vào ngày cuối cùng",module,Magento_Customer
+"No Newsletter Found","Bản tin không tìm thấy",module,Magento_Customer
+"Start date","Ngày bắt đầu",module,Magento_Customer
+"End Date","Ngày kết thúc",module,Magento_Customer
+"Receive Date","Ngày nhận",module,Magento_Customer
+Subject,"Chủ đề",module,Magento_Customer
+Status,"Tình trạng",module,Magento_Customer
+Sent,"Đã gửi",module,Magento_Customer
+Cancel,"Hủy bỏ",module,Magento_Customer
+"Not Sent","Không gửi",module,Magento_Customer
+Sending,"Đang gửi",module,Magento_Customer
+Paused,"Tạm dừng",module,Magento_Customer
+View,"Hiển thị",module,Magento_Customer
+Unknown,"Không xác định",module,Magento_Customer
+Order,"Đặt hàng",module,Magento_Customer
+Purchased,"Đã mua",module,Magento_Customer
+"Bill-to Name","Tên người thanh toán",module,Magento_Customer
+"Ship-to Name","Tên người vận chuyển đến",module,Magento_Customer
+"Order Total","Tổng đơn đặt hàng",module,Magento_Customer
+"Purchase Point","Điểm mua",module,Magento_Customer
+"Customer View","Thông tin tài khoản",module,Magento_Customer
+Qty,"Số lượng",module,Magento_Customer
 "Cannot switch into given mode ""%1""","Không thể chuyển thành chế độ nhất định ""%1""",module,Magento_Deploy
 "Format for IDE '%1' is not supported","Định dạng cho IDE '%1' không được hỗ trợ",module,Magento_Developer
 "Client side less compilation","Phía khách hàng ít tổng hợp hơn",module,Magento_Developer
@@ -2688,13 +2862,19 @@ Submit,Gửi,module,Magento_Catalog
 OK,Ok,module,Magento_Catalog
 "Select type of option.","Chọn loại tùy chọn.",module,Magento_Catalog
 "Please add rows to option.","Xin vui lòng thêm dòng để lựa chọn.",module,Magento_Catalog
+"New Option","Lựa chọn mới",module,Magento_Catalog
+"Select Product","Chọn sản phẩm",module,Magento_Catalog
 "Please select items.","Vui lòng chọn mục.",module,Magento_Catalog
 "Choose existing category.","Chọn thể loại hiện có.",module,Magento_Catalog
 "Create Category","Tạo danh mục",module,Magento_Catalog
 "Image Detail","Hình ảnh chi tiết",module,Magento_Catalog
 "We could not detect a size.","Chúng tôi không thể xác định kích thước.",module,Magento_Cms
+"Incl. Tax","Đã bao gồm thuế",module,Magento_ConfigurableProduct
 "Select Associated Product","Lựa chọn sản phẩm liên quan",module,Magento_ConfigurableProduct
 Done,"Đã thực hiện",module,Magento_ConfigurableProduct
+"For better results, add attributes and attribute values to your products.","Cho kết quả tốt hơn, thêm thuộc tính và giá trị thuộc tính sản phẩm của bạn.",module,Magento_ConfigurableProduct
+"An attribute has been removed. This attribute will no longer appear in your configurations.","Một thuộc tính đã được gỡ bỏ. Thuộc tính này sẽ không còn xuất hiện trong các cấu hình của bạn.",module,Magento_ConfigurableProduct
+"Select options for all attributes or remove unused attributes.","Chọn các tùy chọn cho tất cả các thuộc tính hoặc loại bỏ không sử dụng các thuộc tính.",module,Magento_ConfigurableProduct
 "We could not detect a size.","Chúng tôi không xác định một kích thước.",module,Magento_ConfigurableProduct
 "Generate Products","Tạo ra sản phẩm",module,Magento_ConfigurableProduct
 "We could not detect a size.","Chúng tôi không xác định một kích thước.",module,Magento_Downloadable
@@ -2977,6 +3157,46 @@ Template,Mẫu,module,Magento_CatalogWidget
 "86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 bởi mặc định, nếu không thiết lập. Làm mới ngay lập tức, hãy xóa khối đầu ra bộ nhớ cache HTML.",module,Magento_CatalogWidget
 Conditions,"Điều kiện",module,Magento_CatalogWidget
 Thumbnail,"Hình ảnh thu nhỏ",module,Magento_Catalog
+"Category Flat Data","Danh mục dữ liệu bằng phẳng",module,Magento_Catalog
+"Indexed category/products association","Hiệp hội được đánh chỉ mục danh mục/sản phẩm",module,Magento_Catalog
+"Product Categories","Những danh mục sản phẩm",module,Magento_Catalog
+"Indexed product/categories association","Hiệp hội sản phẩm/mục được đánh chỉ mục",module,Magento_Catalog
+"Product Price","Giá sản phẩm",module,Magento_Catalog
+"Index product prices","Chỉ số giá sản phẩm",module,Magento_Catalog
+"Product EAV","Sản phẩm EAV",module,Magento_Catalog
+"Index product EAV","Sản phẩm chỉ số EAV",module,Magento_Catalog
+"Catalog New Products List","Danh sách sản phẩm mới",module,Magento_Catalog
+"List of Products that are set as New","Danh sách các sản phẩm được thiết lập như mới",module,Magento_Catalog
+"Display Type","Loại hiển thị",module,Magento_Catalog
+"All products - recently added products, New products - products marked as new","Tất cả sản phẩm - mới thêm vào sản phẩm, sản phẩm mới - sản phẩm được đánh dấu như mới",module,Magento_Catalog
+"All products","Tất cả sản phẩm",module,Magento_Catalog
+"New products","Sản phẩm mới",module,Magento_Catalog
+"Display Page Control","Hiển thị trang điều khiển",module,Magento_Catalog
+"Number of Products per Page","Số sản phẩm mỗi trang",module,Magento_Catalog
+"Number of Products to Display","Số lượng sản phẩm để hiển thị",module,Magento_Catalog
+Template,Mẫu,module,Magento_Catalog
+"New Products Grid Template","Mẫu lưới sản phẩm mới",module,Magento_Catalog
+"New Products List Template","Mẫu danh sách sản phẩm mới",module,Magento_Catalog
+"New Products Images and Names Template","Tên mẫu và hình ảnh sản phẩm mới",module,Magento_Catalog
+"New Products Names Only Template","Sản phẩm tên duy nhất mẫu mới",module,Magento_Catalog
+"New Products Images Only Template","Mẫu hình ảnh duy nhất cho sản phẩm mới",module,Magento_Catalog
+"Cache Lifetime (Seconds)","Dòng đời Bộ nhớ cache (giây)",module,Magento_Catalog
+"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 bởi mặc định, nếu không thiết lập. Làm mới ngay lập tức, hãy xóa khối đầu ra bộ nhớ cache HTML.",module,Magento_Catalog
+"Catalog Product Link","Link danh mục sản phẩm",module,Magento_Catalog
+"Link to a Specified Product","Liên kết đến một sản phẩm được chỉ định",module,Magento_Catalog
+"Select Product...","Lựa chọn sản phẩm...",module,Magento_Catalog
+"Anchor Custom Text","Anchor văn bản tuỳ chỉnh",module,Magento_Catalog
+"If empty, we'll use the product name here.","Nếu bỏ trống, chúng tôi sẽ sử dụng tên sản phẩm ở đây.",module,Magento_Catalog
+"Anchor Custom Title","Tiêu đề tùy chỉnh Anchor",module,Magento_Catalog
+"Product Link Block Template","Khối mẫu liên kết sản phẩm",module,Magento_Catalog
+"Product Link Inline Template","Mẫu liên kết sản phẩm nội tuyến",module,Magento_Catalog
+"Catalog Category Link","Liên kết danh mục chủng loại",module,Magento_Catalog
+"Link to a Specified Category","Liên kết đến một thể loại cụ thể",module,Magento_Catalog
+"Select Category...","Chọn danh mục...",module,Magento_Catalog
+"If empty, we'll use the category name here.","Nếu bỏ trống, chúng tôi sẽ sử dụng tên thể loại ở đây.",module,Magento_Catalog
+"Category Link Block Template","Khối mẫu liên kết danh mục",module,Magento_Catalog
+"Category Link Inline Template","Mẫu liên kết danh mục nội tuyến",module,Magento_Catalog
+Set,"Thiết lập",module,Magento_Catalog
 "Enable Terms and Conditions","Kích hoạt điều khoản và điều kiện",module,Magento_CheckoutAgreements
 "Checkout Options","Tùy chọn thanh toán",module,Magento_Checkout
 "Enable Onepage Checkout","Cho phép Onepage checkout",module,Magento_Checkout
