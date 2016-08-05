@@ -2251,6 +2251,7 @@ Availability,"Tính sẵn có",module,Magento_GroupedProduct
 "Grouped product items","Nhóm sản phẩm",module,Magento_GroupedProduct
 Export,"Xuất ra",module,Magento_ImportExport
 "Export Settings","Xuất thiết lập",module,Magento_ImportExport
+"Entity Type","Loại thực thể",module,Magento_ImportExport
 "Export File Format","Định dạng tập tin xuất khẩu",module,Magento_ImportExport
 From,Từ,module,Magento_ImportExport
 To,Đến,module,Magento_ImportExport
@@ -2258,12 +2259,60 @@ Exclude,"Ngoại trừ",module,Magento_ImportExport
 "Attribute Label","Nhãn hiệu thuộc tính",module,Magento_ImportExport
 "Attribute Code","Mã thuộc tính",module,Magento_ImportExport
 Filter,"Bộ lọc",module,Magento_ImportExport
+"Unknown attribute filter type","Loại bộ lọc thuộc tính không xác định",module,Magento_ImportExport
 Download,"Tải về",module,Magento_ImportExport
 "Check Data","Kiểm tra dữ liệu",module,Magento_ImportExport
 Import,Nhập,module,Magento_ImportExport
+"Import Settings","Nhập thiết lập",module,Magento_ImportExport
+"Import Behavior","Thao tác nhập",module,Magento_ImportExport
+"Allowed Errors Count","Được cho phép lỗi số",module,Magento_ImportExport
+"Please specify number of errors to halt import process","Hãy chỉ định số lỗi để ngăn chặn quá trình nhập",module,Magento_ImportExport
+"Field separator","Tách trường",module,Magento_ImportExport
+"Multiple value separator","Tách đa giá trị",module,Magento_ImportExport
+"File to Import","Tệp để nhập",module,Magento_ImportExport
+"Select File to Import","Chọn tệp để nhập",module,Magento_ImportExport
+"Images File Directory","Hình ảnh tập tin thư mục",module,Magento_ImportExport
+"For Type ""Local Server"" use relative path to Magento installation,
+                                e.g. var/export, var/import, var/export/some/dir","Đối với loại ""Local Server"" sử dụng các đường dẫn tương đối để Magento cài đặt, ví dụ như xuất khẩu var, var, nhập khẩu, var/xuất khẩu/một số/thư mục",module,Magento_ImportExport
+"Download Sample File","Tải tệp tin mẫu",module,Magento_ImportExport
+"Please correct the data sent value.","Hãy sửa giá trị dữ liệu được gửi.",module,Magento_ImportExport
+Import/Export,Nhập/Xuất,module,Magento_ImportExport
+History,"Lịch sử",module,Magento_ImportExport
+"Import History","Nhập lịch sử",module,Magento_ImportExport
+"Import history","Nhập lịch sử",module,Magento_ImportExport
+"There is no sample file for this entity.","Có là không có tệp mẫu cho tổ chức này.",module,Magento_ImportExport
+Status,"Tình trạng",module,Magento_ImportExport
+"Maximum error count has been reached or system error is occurred!","Đã đạt đến số lượng tối đa lỗi hoặc hệ thống có lỗi!",module,Magento_ImportExport
+"Import successfully done","Nhập khẩu thực hiện thành công",module,Magento_ImportExport
+"This file is empty. Please try another one.","Tập tin này là trống rỗng. Hãy thử cái khác.",module,Magento_ImportExport
+"File is valid! To start import process press ""Import"" button","Tập tin là hợp lệ! Để bắt đầu quá trình nhập, ấn nút ""Import""",module,Magento_ImportExport
+"Checked rows: %1, checked entities: %2, invalid rows: %3, total errors: %4","Kiểm tra hàng: %1, kiểm tra thực thể: %2, hàng không hợp lệ: %3, tất cả lỗi: %4",module,Magento_ImportExport
+"The file was not uploaded.","Các tập tin không được tải lên.",module,Magento_ImportExport
+"Sorry, but the data is invalid or the file is not uploaded.","Xin lỗi, nhưng các dữ liệu không hợp lệ hoặc các tập tin không được tải lên.",module,Magento_ImportExport
+"Show more","Hiển thị thêm",module,Magento_ImportExport
+"Additional data","Dữ liệu bổ sung",module,Magento_ImportExport
 "Following Error(s) has been occurred during importing process:","Lỗi sau đây đã xuất hiện trong quá trình xuất nhập dữ liệu:",module,Magento_ImportExport
+"Download full report","Tải về báo cáo đầy đủ",module,Magento_ImportExport
+"Created: %1, Updated: %2, Deleted: %3","Tạo: %1, Cập Nhật: %2, đã xóa: %3",module,Magento_ImportExport
+"Please enter a correct entity model.","Vui lòng nhập một mô hình thực thể chính xác.",module,Magento_ImportExport
+"The entity adapter object must be an instance of %1 or %2.","Tổ chức bộ điều hợp đối tượng phải là một thể hiện của %1 hoặc %2.",module,Magento_ImportExport
 "Indexer Management","Quản lý Chỉ mục",module,Magento_Indexer
+"Update by Schedule","Cập Nhật theo lịch biểu",module,Magento_Indexer
+"Update on Save","Cập Nhật ngày lưu",module,Magento_Indexer
+"Reindex required","Lập chỉ mục lại yêu cầu",module,Magento_Indexer
 Ready,"Sẵn sàng",module,Magento_Indexer
+Processing,"Đang tiến hành",module,Magento_Indexer
+Never,"Không bao giờ",module,Magento_Indexer
+"Index Management","Quản lý chỉ mục",module,Magento_Indexer
+"Please select indexers.","Vui lòng chọn chỉ mục.",module,Magento_Indexer
+"%1 indexer(s) are in ""Update by Schedule"" mode.","%1 chỉ mục đang ở chế độ ""Cập Nhật bởi lịch trình"".",module,Magento_Indexer
+"We couldn't change indexer(s)' mode because of an error.","Chúng tôi không thể thay đổi chế độ chỉ mục vì một lỗi.",module,Magento_Indexer
+"%1 indexer(s) are in ""Update on Save"" mode.","%1 chỉ mục đang ở chế độ ""Cập Nhật ngày tiết kiệm"".",module,Magento_Indexer
+"One or more <a href=""%1"">indexers are invalid</a>. Make sure your <a href=""%2"" target=""_blank"">Magento cron job</a> is running.","Một hoặc nhiều <a href=""%1""> indexers là không hợp lệ</a>. Đảm bảo rằng <a href=""%2"" target=""_blank""> công việc cron Magento</a> đang chạy.",module,Magento_Indexer
+"State for the same indexer","Nhà nước cho các chỉ mục giống nhau",module,Magento_Indexer
+"State for the same view","Các tiểu bang để xem cùng một",module,Magento_Indexer
+"Some Exception Message","Một số thông báo ngoại lệ",module,Magento_Indexer
+"Test Phrase","Kiểm tra cụm từ",module,Magento_Indexer
 Integrations,"Tích hợp",module,Magento_Integration
 "Add New Integration","Thêm tích hợp mới",module,Magento_Integration
 Save,"Lưu lại",module,Magento_Integration
@@ -2793,6 +2842,8 @@ Tax,Thuế,module,Magento_Quote
 error123,lỗi123,module,Magento_Quote
 error345,lỗi345,module,Magento_Quote
 "New Accounts","Tài khoản mới",module,Magento_Reports
+"Customers by number of orders","Khách hàng bằng số lượng đơn đặt hàng",module,Magento_Reports
+"Customers by Orders Total","Khách hàng theo tổng cộng đơn đặt hàng",module,Magento_Reports
 Filter,"Bộ lọc",module,Magento_Reports
 "Date Used","Ngày sử dụng",module,Magento_Reports
 Day,Ngày,module,Magento_Reports
@@ -2804,8 +2855,153 @@ To,Đến,module,Magento_Reports
 Yes,Có,module,Magento_Reports
 No,Không,module,Magento_Reports
 "Empty Rows","Hàng trống",module,Magento_Reports
+"Invalid date specified","Ngày không hợp lệ được chỉ định",module,Magento_Reports
+Refresh,"Tải lại",module,Magento_Reports
+"Show Reviews","Hiển thị giá",module,Magento_Reports
+"Products Report","Báo cáo sản phẩm",module,Magento_Reports
+Downloads,"Tải về",module,Magento_Reports
+Product,"Sản phẩm",module,Magento_Reports
+Link,"Liên kết",module,Magento_Reports
+SKU,"MÃ SẢN PHẨM",module,Magento_Reports
+Purchases,"Mua hàng",module,Magento_Reports
+Unlimited,"Không giới hạn",module,Magento_Reports
+"Low stock","Còn ít hàng",module,Magento_Reports
+"Products Ordered","Sản phẩm đặt hàng",module,Magento_Reports
+"Most Viewed","Được xem nhiều nhất",module,Magento_Reports
+"Show Report","Hiển thị báo cáo",module,Magento_Reports
+Interval,"Khoảng thời gian",module,Magento_Reports
+Total,Tổng,module,Magento_Reports
+Price,Giá,module,Magento_Reports
+Views,"Lượng xem",module,Magento_Reports
+"Refresh Statistics","Làm mới các số liệu thống kê",module,Magento_Reports
+"Customers Reviews","Khách hàng đánh giá",module,Magento_Reports
+"Reviews for %1","Nhận xét về %1",module,Magento_Reports
+Customer,"Khách hàng",module,Magento_Reports
+Title,"Tiêu đề",module,Magento_Reports
+Detail,"Chi tiết",module,Magento_Reports
+Created,"Đã tạo",module,Magento_Reports
+"Products Reviews","Đánh giá sản phẩm",module,Magento_Reports
+"Products Bestsellers Report","Báo cáo Sản phẩm bán chạy nhất",module,Magento_Reports
+"Order Quantity","Số lượng đơn đặt hàng",module,Magento_Reports
+"Coupons Usage Report","Báo cáo Phiếu giảm giá sử dụng",module,Magento_Reports
+Subtotal,"Tổng phụ",module,Magento_Reports
+"Coupon Code","Mã Phiếu giảm giá",module,Magento_Reports
+"Price Rule","Quy luật giá",module,Magento_Reports
+Uses,"Số Lần Sử Dụng",module,Magento_Reports
+"Sales Subtotal","Tổng phụ doanh thu",module,Magento_Reports
+"Sales Discount","Bán hàng giảm giá",module,Magento_Reports
+"Sales Total","Tổng số doanh thu",module,Magento_Reports
+Discount,"Chiết khấu",module,Magento_Reports
+"Total Invoiced vs. Paid Report","Tổng số lập hoá đơn so với báo cáo thanh toán",module,Magento_Reports
+Orders,"Đơn hàng",module,Magento_Reports
+"Invoiced Orders","Đơn đặt hàng được lập hoá đơn",module,Magento_Reports
+"Total Invoiced","Tổng số lập hoá đơn",module,Magento_Reports
+"Paid Invoices","Thanh toán hóa đơn",module,Magento_Reports
+"Unpaid Invoices","Hoá đơn chưa thanh toán",module,Magento_Reports
+"Total Refunded Report","Báo cáo Tổng số trả lại",module,Magento_Reports
+"Refunded Orders","Hoàn trả các đơn đặt hàng",module,Magento_Reports
+"Total Refunded","Tổng số trả lại",module,Magento_Reports
 "Online Refunds","Hoàn lại tiền trực tuyến",module,Magento_Reports
+"Offline Refunds","Khoản tiền hoàn lại ngoại tuyến",module,Magento_Reports
+"Total Ordered Report","Báo cáo tổng đơn hàng",module,Magento_Reports
+"Sales Items","Sản phẩm khuyến mại",module,Magento_Reports
+Items,"Sản phẩm",module,Magento_Reports
+Revenue,"Doanh thu",module,Magento_Reports
+Profit,"Lợi nhuận",module,Magento_Reports
+Invoiced,"Đã lập hoá đơn",module,Magento_Reports
+Paid,"Đã trả",module,Magento_Reports
+Refunded,"Đã hoàn trả",module,Magento_Reports
+"Sales Tax","Thuế bán hàng",module,Magento_Reports
 Tax,Thuế,module,Magento_Reports
+"Sales Shipping","Bán hàng vận chuyển",module,Magento_Reports
+Shipping,"Vận chuyển",module,Magento_Reports
+Canceled,"Đã hủy bỏ",module,Magento_Reports
+"Total Shipped Report","Báo cáo Tổng vận chuyển",module,Magento_Reports
+Carrier/Method,"Tàu sân bay/phương pháp",module,Magento_Reports
+"Total Sales Shipping","Tất cả các vận chuyển đang khuyến mại",module,Magento_Reports
+"Total Shipping","Tổng vận chuyển",module,Magento_Reports
+"Order Taxes Report Grouped by Tax Rate","Thứ tự báo cáo thuế được nhóm lại theo mức thuế suất",module,Magento_Reports
+Rate,"Đánh giá",module,Magento_Reports
+"Tax Amount","Số tiền thuế",module,Magento_Reports
+"Abandoned carts","Giỏ hàng bị bỏ rơi",module,Magento_Reports
+Products,"Các sản phẩm",module,Magento_Reports
+Quantity,"Số lượng",module,Magento_Reports
+"Applied Coupon","Áp dụng các phiếu giảm giá",module,Magento_Reports
+Updated,"Đã cập nhật",module,Magento_Reports
+"IP Address","Địa chỉ IP",module,Magento_Reports
+Customers,"Khách hàng",module,Magento_Reports
+"First Name",Tên,module,Magento_Reports
+"Last Name",Họ,module,Magento_Reports
+"Items in Cart","Sản phẩm trong giỏ",module,Magento_Reports
+"Products in carts","Sản phẩm trong giỏ hàng",module,Magento_Reports
+Carts,"Giỏ hàng",module,Magento_Reports
+Name,Tên,module,Magento_Reports
+"Wish Lists","Danh sách yêu thích",module,Magento_Reports
+"Wish List Purchase","Mua hàng trong danh sách yêu thích",module,Magento_Reports
+"Wish List vs. Regular Order","Danh sách yêu thích so với đơn hàng thông thường",module,Magento_Reports
+"Times Deleted","Thời gian đã xóa",module,Magento_Reports
+"Index type is not valid","Chỉ số loại là không hợp lệ",module,Magento_Reports
+Reports,"Báo cáo",module,Magento_Reports
+"New Accounts Report","Báo cáo tài khoản mới",module,Magento_Reports
+"Customers by Number of Orders","Khách hàng bằng số lượng đơn đặt hàng",module,Magento_Reports
+"Order Count Report","Báo cáo số lượng đặt hàng",module,Magento_Reports
+"Order Total Report","Báo cáo tổng đơn hàng",module,Magento_Reports
+"Downloads Report","Tải báo cáo",module,Magento_Reports
+"Low Stock","Còn ít hàng",module,Magento_Reports
+"Low Stock Report","Báo cáo Còn ít hàng",module,Magento_Reports
+"Ordered Products Report","Báo cáo đơn đặt hàng Sản phẩm",module,Magento_Reports
+"Products Most Viewed Report","Báo cáo sản phẩm xem nhiều nhất",module,Magento_Reports
+"Product Views Report","Báo cáo lượt xem Sản phẩm",module,Magento_Reports
+"An error occurred while showing the product views report. Please review the log and try again.","Lỗi xảy ra trong khi hiển thị báo cáo lượt xem sản phẩm. Xin vui lòng xem lại các bản ghi và thử lại.",module,Magento_Reports
+Review,"Đánh giá",module,Magento_Reports
+Reviews,"Các đánh giá",module,Magento_Reports
+"Customers Report","Báo cáo khách hàng",module,Magento_Reports
+"Customer Reviews Report","Báo cáo đánh giá Khách hàng",module,Magento_Reports
+"Product Reviews Report","Báo cáo đánh giá Sản phẩm",module,Magento_Reports
+"Product Reviews","Đánh giá sản phẩm",module,Magento_Reports
+Details,"Chi tiết",module,Magento_Reports
+Sales,"Doanh số",module,Magento_Reports
+Coupons,"Phiếu giảm giá",module,Magento_Reports
+"Coupons Report","Báo cáo phiếu giảm giá",module,Magento_Reports
+"Invoice Report","Báo cáo hóa đơn",module,Magento_Reports
+"Refunds Report","Báo cáo hoàn lại tiền",module,Magento_Reports
+"Sales Report","Báo cáo doanh số",module,Magento_Reports
+"Shipping Report","Báo cáo vận chuyển",module,Magento_Reports
+"Tax Report","Báo cáo thuế",module,Magento_Reports
+"Shopping Cart","Giỏ mua hàng",module,Magento_Reports
+"Abandoned Carts","Giỏ hàng bị bỏ rơi",module,Magento_Reports
+"Customer Shopping Carts","Giỏ hàng của Khách hàng",module,Magento_Reports
+"Products in Carts","Sản phẩm trong giỏ hàng",module,Magento_Reports
+Statistics,"Thống kê",module,Magento_Reports
+"No report code is specified.","Không có mã số báo cáo được quy định.",module,Magento_Reports
+"You refreshed lifetime statistics.","Bạn làm mới đời sống số liệu thống kê.",module,Magento_Reports
+"Recent statistics have been updated.","Thống kê gần đây đã được Cập Nhật.",module,Magento_Reports
+"The product type filter specified is incorrect.","Bộ lọc loại sản phẩm được chỉ định là không chính xác.",module,Magento_Reports
+"Order Taxes Report Grouped by Tax Rates","Thứ tự báo cáo thuế được nhóm lại theo mức thuế suất",module,Magento_Reports
+"Total Invoiced VS Paid Report","Tổng số lập hoá đơn so với báo cáo thanh toán",module,Magento_Reports
+"Promotion Coupons Usage Report","Báo cáo việc sử dụng phiếu giảm giá khuyến mãi",module,Magento_Reports
+Bestsellers,"Sản phẩm bán chạy nhất",module,Magento_Reports
+"Most Viewed Products Report","Báo cáo sản phẩm được xem nhiều nhất",module,Magento_Reports
+"An error occurred while showing the product views report. Please review the log and try again.","Lỗi xảy ra trong khi hiển thị báo cáo lượt xem sản phẩm. Xin vui lòng xem lại các bản ghi và thử lại.",module,Magento_Reports
+Error,Lỗi,module,Magento_Reports
+"Show By","Hiển thị bằng",module,Magento_Reports
+"Select Date","Chọn ngày",module,Magento_Reports
+"Customers that have Wish List: %1","Khách hàng có danh sách yêu thích: %1",module,Magento_Reports
+"Number of Wish Lists: %1","Số lượng danh sách yêu thích: %1",module,Magento_Reports
+"Number of items bought from a Wish List: %1","Số lượng mặt hàng mua từ một danh sách yêu thích: %1",module,Magento_Reports
+"Number of times Wish Lists have been shared (emailed): %1","Số lần danh sách yêu thích được chia sẻ (qua email): %1",module,Magento_Reports
+"Number of Wish List referrals: %1","Số lượng danh sách yêu thích được giới thiệu: %1",module,Magento_Reports
+"Number of Wish List conversions: %1","Số lượng chuyển đổi danh sách yêu thích: %1",module,Magento_Reports
+"Show Report For:","Hiển thị các báo cáo cho:",module,Magento_Reports
+"All Websites","Tất cả trang Web",module,Magento_Reports
+"Recently Viewed","Xem gần đây",module,Magento_Reports
+"Add to Cart","Thêm vào giỏ hàng",module,Magento_Reports
+"In stock","Còn trong kho",module,Magento_Reports
+"Out of stock","Tạm hết hàng",module,Magento_Reports
+"Add to Wish List","Thêm vào danh sách yêu thích",module,Magento_Reports
+"Add to Compare","Thêm vào so sánh",module,Magento_Reports
+"Recently Compared","So sánh gần đây",module,Magento_Reports
+"Learn More","Tìm hiểu thêm",module,Magento_Reports
 "Save Review","Lưu nhận xét",module,Magento_Review
 "New Review","Đánh giá mới",module,Magento_Review
 "Review Details","Xem chi tiết",module,Magento_Review
@@ -2961,11 +3157,21 @@ Category,Nhóm,module,Magento_Rule
 "Open Chooser","Chọn mở",module,Magento_Rule
 "Unknown condition operator","Không rõ tình trạng Nhà điều hành",module,Magento_Rule
 "There is no information about associated entity type ""%1"".","Có là không có thông tin về loại hình liên kết thực thể ""%1"".",module,Magento_Rule
-"Cart Price Rules","Quy luật giá trong giỏ hàng",module,Magento_SalesRule
 "Add New Rule","Thêm quy tắc mới",module,Magento_SalesRule
 "Save and Continue Edit","Lưu và tiếp tục chỉnh sửa",module,Magento_SalesRule
 "New Rule","Quy tắc mới",module,Magento_SalesRule
+"Rule Information","Thông tin quy tắc",module,Magento_SalesRule
 Actions,"Thao tác",module,Magento_SalesRule
+Apply,"Áp dụng",module,Magento_SalesRule
+"Percent of product price discount","Phần trăm sản phẩm giảm giá",module,Magento_SalesRule
+"Fixed amount discount","Giảm giá số tiền cố định",module,Magento_SalesRule
+"Fixed amount discount for whole cart","Giảm giá số tiền cố định cho toàn bộ giỏ hàng",module,Magento_SalesRule
+"Buy X get Y free (discount amount is Y)","Có được mua X Y miễn phí (số tiền chiết khấu là Y)",module,Magento_SalesRule
+"Discount Amount","Lượng chiết khấu",module,Magento_SalesRule
+"Maximum Qty Discount is Applied To","Số lượng giảm giá tối đa là áp dụng cho",module,Magento_SalesRule
+"Discount Qty Step (Buy X)","Bước số lượng giảm giá (mua X)",module,Magento_SalesRule
+"Apply to Shipping Amount","Áp dụng cho số lượng vận chuyển",module,Magento_SalesRule
+"Discard subsequent rules","Loại bỏ các quy tắc",module,Magento_SalesRule
 Yes,Có,module,Magento_SalesRule
 No,Không,module,Magento_SalesRule
 "Apply the rule only to cart items matching the following conditions (leave blank for all items).","Chỉ áp dụng các quy tắc cho giỏ hàng phù hợp với các điều kiện sau (để trống cho tất cả các mục).",module,Magento_SalesRule
@@ -2989,7 +3195,25 @@ Uses,"Số Lần Sử Dụng",module,Magento_SalesRule
 Delete,"Xóa bỏ",module,Magento_SalesRule
 "Are you sure you want to delete the selected coupon(s)?","Bạn có chắc bạn muốn xóa phiếu giảm giá được chọn không?",module,Magento_SalesRule
 Labels,Nhãn,module,Magento_SalesRule
+"Default Rule Label for All Store Views","Nhãn hiệu quy tắc mặc định cho tất cả các cửa hàng lượt xem",module,Magento_SalesRule
+"Store View Specific Labels","Cửa hàng xem nhãn cụ thể",module,Magento_SalesRule
+"Rule Name","Tên quy tắc",module,Magento_SalesRule
+Description,"Mô tả",module,Magento_SalesRule
 Status,"Trạng thái",module,Magento_SalesRule
+Active,"Kích hoạt",module,Magento_SalesRule
+Inactive,"Không hoạt động",module,Magento_SalesRule
+Websites,"Các trang web",module,Magento_SalesRule
+"Customer Groups","Nhóm khách hàng",module,Magento_SalesRule
+"Use Auto Generation","Sử dụng thế hệ tự động",module,Magento_SalesRule
+"If you select and save the rule you will be able to generate multiple coupon codes.","Nếu bạn chọn và lưu quy tắc, bạn sẽ có thể tạo ra nhiều mã phiếu mua hàng.",module,Magento_SalesRule
+"Uses per Coupon","Số lần sử dụng một phiếu giảm giá",module,Magento_SalesRule
+"Uses per Customer","Số lần sử dụng cho mỗi khách hàng",module,Magento_SalesRule
+"Usage limit enforced for logged in customers only.","Cách sử dụng giới hạn áp dụng chỉ cho khách hàng đã đăng nhập.",module,Magento_SalesRule
+From,Từ,module,Magento_SalesRule
+To,Đến,module,Magento_SalesRule
+Priority,"Độ ưu tiên",module,Magento_SalesRule
+"Public In RSS Feed","Các khu vực trong RSS Feed",module,Magento_SalesRule
+"Cart Price Rule","Cart Price Rules",module,Magento_SalesRule
 Rule,"Quy tắc",module,Magento_SalesRule
 Start,"Bắt đầu",module,Magento_SalesRule
 End,"Kết thúc",module,Magento_SalesRule
@@ -3002,10 +3226,67 @@ Promotions,"Khuyến mãi",module,Magento_SalesRule
 "New Cart Price Rule","Quy tắc Cart Price mới",module,Magento_SalesRule
 "Rule is not defined","Quy tắc không xác định",module,Magento_SalesRule
 "Invalid data provided","Dữ liệu được cung cấp không hợp lệ",module,Magento_SalesRule
+"%1 coupon(s) have been generated.","%1 coupon đã được tạo ra.",module,Magento_SalesRule
+"Something went wrong while generating coupons. Please review the log and try again.","Một cái gì đó đã đi sai trong khi tạo ra các phiếu giảm giá. Xin vui lòng xem lại các bản ghi và thử lại.",module,Magento_SalesRule
 Catalog,"Danh mục",module,Magento_SalesRule
 "The wrong rule is specified.","Các quy tắc sai được chỉ định.",module,Magento_SalesRule
+"You saved the rule.","Bạn đã lưu quy tắc.",module,Magento_SalesRule
+"Something went wrong while saving the rule data. Please review the error log.","Một cái gì đó đã đi sai trong khi lưu dữ liệu quy tắc. Vui lòng xem xét lỗi đăng nhập.",module,Magento_SalesRule
+Alphanumeric,"Chữ số",module,Magento_SalesRule
+Alphabetical,"Bảng chữ cái",module,Magento_SalesRule
+Numeric,Số,module,Magento_SalesRule
+"We cannot create the requested Coupon Qty. Please check your settings and try again.","Chúng tôi không thể tạo yêu cầu số lượng mã giảm giá. Hãy kiểm tra cài đặt của bạn và thử lại.",module,Magento_SalesRule
+"Specified rule does not allow coupons","Quy tắc được chỉ định không cho phép các phiếu giảm giá",module,Magento_SalesRule
+"Specified rule only allows auto generated coupons","Quy định được chỉ định chỉ cho phép tự động tạo ra phiếu giảm giá",module,Magento_SalesRule
+"Specified rule does not allow auto generated coupons","Quy tắc được chỉ định không cho phép tự động tạo ra phiếu giảm giá",module,Magento_SalesRule
+"Error occurred when saving coupon: %1","Lỗi xuất hiện khi lưu phiếu giảm giá: %1",module,Magento_SalesRule
+"Discount (%1)","Giảm giá (%1)",module,Magento_SalesRule
+Discount,"Chiết khấu",module,Magento_SalesRule
+"Coupon with the same code","Phiếu mua hàng với cùng mã",module,Magento_SalesRule
+"No Coupon","Không có phiếu giảm giá",module,Magento_SalesRule
+"Specific Coupon","Phiếu mua hàng cụ thể",module,Magento_SalesRule
 Auto,"Tự động",module,Magento_SalesRule
 "Update the Product","Cập nhật sản phẩm",module,Magento_SalesRule
+"Special Price","Giá đặc biệt",module,Magento_SalesRule
+"To Fixed Value","Đến giá trị cố định",module,Magento_SalesRule
+"To Percentage","Để tỷ lệ phần trăm",module,Magento_SalesRule
+"By Fixed value","Bởi giá trị cố định",module,Magento_SalesRule
+"By Percentage","Bởi Tỷ lệ phần trăm",module,Magento_SalesRule
+"Update product's %1 %2: %3","Cập nhật sản phẩm của %1 %2: %3",module,Magento_SalesRule
+Subtotal,"Tổng phụ",module,Magento_SalesRule
+"Total Items Quantity","Số lượng tất cả các mục",module,Magento_SalesRule
+"Total Weight","Tổng trọng lượng",module,Magento_SalesRule
+"Payment Method","Phương thức thanh toán",module,Magento_SalesRule
+"Shipping Method","Phương thức vận chuyển",module,Magento_SalesRule
+"Shipping Postcode","Mã bưu chính Vận chuyển",module,Magento_SalesRule
+"Shipping Region","Khu vực Vận chuyển",module,Magento_SalesRule
+"Shipping State/Province","Tiểu bang/tỉnh Vận chuyển",module,Magento_SalesRule
+"Shipping Country","Vận chuyển quốc gia",module,Magento_SalesRule
+"Product attribute combination","Sản phẩm thuộc tính tổ hợp",module,Magento_SalesRule
+"Products subselection","Sản phẩm cận chọn",module,Magento_SalesRule
+"Conditions combination","Kết hợp Điều kiện",module,Magento_SalesRule
+"Cart Attribute","Thuộc Tính Giỏ hàng",module,Magento_SalesRule
+"Quantity in cart","Số lượng trong giỏ hàng",module,Magento_SalesRule
+"Price in cart","Giá trong giỏ hàng",module,Magento_SalesRule
+"Row total in cart","Hàng tổng trong giỏ hàng",module,Magento_SalesRule
+"Conditions Combination","Kết hợp Điều kiện",module,Magento_SalesRule
+"Cart Item Attribute","Thuộc tính sản phẩm trong Giỏ hàng",module,Magento_SalesRule
+"Product Attribute","Thuộc tính sản phẩm",module,Magento_SalesRule
+FOUND,"TÌM THẤY",module,Magento_SalesRule
+"NOT FOUND","KHÔNG TÌM THẤY",module,Magento_SalesRule
+"If an item is %1 in the cart with %2 of these conditions true:","Nếu một mục là %1 trong giỏ hàng với %2 của điều kiện đúng:",module,Magento_SalesRule
+"total quantity","số lượng tổng số",module,Magento_SalesRule
+"total amount","tiền hàng",module,Magento_SalesRule
+is,là,module,Magento_SalesRule
+"is not","không phải là",module,Magento_SalesRule
+"equals or greater than","bằng hoặc lớn hơn",module,Magento_SalesRule
+"equals or less than","bằng hoặc ít hơn",module,Magento_SalesRule
+"greater than","lớn hơn",module,Magento_SalesRule
+"less than","nhỏ hơn",module,Magento_SalesRule
+"is one of","là một trong",module,Magento_SalesRule
+"is not one of","không phải là một trong",module,Magento_SalesRule
+"If %1 %2 %3 for a subselection of items in cart matching %4 of these conditions:","Nếu %1 %2 %3 cho một cận chọn của các mục trong giỏ hàng %4 phù hợp với các điều kiện sau:",module,Magento_SalesRule
+"Specified rule does not allow automatic coupon generation","Quy tắc được chỉ định không cho phép thế hệ tự động mã giảm giá",module,Magento_SalesRule
 "Entity Sequence profile not added to meta active profile","Hồ sơ tổ chức không được thêm vào meta cấu hình hoạt động",module,Magento_SalesSequence
 "Not enough arguments","Đối số không đủ",module,Magento_SalesSequence
 "Credit Memos","Hoàn trả đơn hàng",module,Magento_Sales
@@ -3017,8 +3298,10 @@ Shipping,"Vận chuyển",module,Magento_Sales
 Billing,"Thanh toán",module,Magento_Sales
 "Edit Order %1 %2 Address","Chỉnh sửa địa chỉ %1%2",module,Magento_Sales
 "Order Address Information","Thông tin địa chỉ đặt hàng",module,Magento_Sales
+"Please correct the parent block for this block.","Xin vui lòng nhập chính xác khối mẹ dành cho khối này.",module,Magento_Sales
 "Submit Comment","Gửi bình luận",module,Magento_Sales
 "Submit Order","Gửi đơn đặt hàng",module,Magento_Sales
+"Are you sure you want to cancel this order?","Bạn có chắc bạn muốn hủy bỏ đơn đặt hàng này?",module,Magento_Sales
 Cancel,Hủy,module,Magento_Sales
 "Billing Address","Địa chỉ thanh toán",module,Magento_Sales
 "Payment Method","Phương thức thanh toán",module,Magento_Sales
@@ -3038,8 +3321,15 @@ Message,"Tin nhắn",module,Magento_Sales
 "This product is disabled.","Sản phẩm này bị vô hiệu hóa.",module,Magento_Sales
 "Buy %1 for price %2","Mua %1 cho giá %2",module,Magento_Sales
 "Item ordered qty","Số lượng hàng được yêu cầu",module,Magento_Sales
+"%1 with %2 discount each","%1 với %2 giảm giá mỗi",module,Magento_Sales
 "%1 for %2","%1 cho %2",module,Magento_Sales
+"* - Enter custom price including tax","* - Nhập tùy chỉnh giá bao gồm thuế",module,Magento_Sales
+"* - Enter custom price excluding tax","* - Nhập tùy chỉnh giá chưa bao gồm thuế",module,Magento_Sales
 Configure,"Cấu hình",module,Magento_Sales
+"This product does not have any configurable options","Sản phẩm này không có bất kỳ tùy chọn cấu hình nào",module,Magento_Sales
+"Newsletter Subscription","Đăng ký nhận bản tin",module,Magento_Sales
+"Please select products","Vui lòng chọn sản phẩm",module,Magento_Sales
+"Add Selected Product(s) to Order","Thêm sản phẩm được lựa chọn để đặt hàng",module,Magento_Sales
 Product,"Sản phẩm",module,Magento_Sales
 SKU,"MÃ SẢN PHẨM",module,Magento_Sales
 Price,Giá,module,Magento_Sales
@@ -3050,6 +3340,162 @@ Quantity,"Số lượng",module,Magento_Sales
 "Update Changes","Cập Nhật thay đổi",module,Magento_Sales
 "Shopping Cart","Giỏ mua hàng",module,Magento_Sales
 "Are you sure you want to delete all items from shopping cart?","Bạn có chắc bạn muốn xóa tất cả sản phẩm khỏi giỏ hàng?",module,Magento_Sales
+"Clear Shopping Cart","Xóa giỏ hàng",module,Magento_Sales
+"Products in Comparison List","Sản phẩm trong danh sách so sánh",module,Magento_Sales
+"Recently Compared Products","Sản phẩm so sánh Gần đây",module,Magento_Sales
+"Recently Viewed Products","Sản phẩm mới xem",module,Magento_Sales
+"Last Ordered Items","Sản phẩm đặt hàng cuối cùng",module,Magento_Sales
+"Recently Viewed","Xem gần đây",module,Magento_Sales
+"Wish List","Danh sách yêu thích",module,Magento_Sales
+"Please select a store","Vui lòng chọn một cửa hàng",module,Magento_Sales
+"Order Totals","Tổng số đơn hàng",module,Magento_Sales
+"Shipping Incl. Tax (%1)","Vận chuyển bao gồm cả thuế (%1)",module,Magento_Sales
+"Shipping Excl. Tax (%1)","Vận chuyển chưa bao gồm thuế (%1)",module,Magento_Sales
+"New Credit Memo for Invoice #%1","Ghi nhớ tín dụng mới cho hoá đơn #%1",module,Magento_Sales
+"New Credit Memo for Order #%1","Ghi nhớ tín dụng mới cho đơn đặt hàng #%1",module,Magento_Sales
+"Refund Shipping (Incl. Tax)","Hoàn lại tiền vận chuyển (bao gồm cả thuế)",module,Magento_Sales
+"Refund Shipping (Excl. Tax)","Hoàn lại tiền vận chuyển (chưa bao gồm thuế)",module,Magento_Sales
+"Refund Shipping","Vận chuyển hoàn trả",module,Magento_Sales
+Refund,"Hoàn lại tiền",module,Magento_Sales
+"Refund Offline","Hoàn phí ngoại tuyến",module,Magento_Sales
+"Paid Amount","Số tiền thanh toán",module,Magento_Sales
+"Refund Amount","Số tiền Hoàn trả",module,Magento_Sales
+"Shipping Amount","Phí vận chuyển",module,Magento_Sales
+"Shipping Refund","Hoàn trả Vận chuyển",module,Magento_Sales
+"Order Grand Total","Tổng đơn hàng",module,Magento_Sales
+"Adjustment Refund","Điều chỉnh hoàn trả",module,Magento_Sales
+"Adjustment Fee","Chi phí Điều chỉnh",module,Magento_Sales
+"Send Email","Gửi Email",module,Magento_Sales
+"Are you sure you want to send a credit memo email to customer?","Bạn có chắc bạn muốn gửi một email ghi nhớ tín dụng cho khách hàng?",module,Magento_Sales
+Void,"Khoảng trống",module,Magento_Sales
+Print,In,module,Magento_Sales
+"The credit memo email was sent.","Credit memo email đã được gửi.",module,Magento_Sales
+"Credit Memo #%1 | %3 | %2 (%4)","Ghi nhớ Tín dụng #%1 | %3 | %2 (%4)",module,Magento_Sales
+"Total Refund","Tổng hoàn trả",module,Magento_Sales
+"New Invoice and Shipment for Order #%1","Hóa đơn mới và vận chuyển cho đơn đặt hàng #%1",module,Magento_Sales
+"New Invoice for Order #%1","Các hóa đơn mới cho các đơn đặt hàng #%1",module,Magento_Sales
+"Submit Invoice and Shipment","Gửi hoá đơn và vận chuyển",module,Magento_Sales
+"Submit Invoice","Gửi hoá đơn",module,Magento_Sales
+"Are you sure you want to send an invoice email to customer?","Bạn có chắc bạn muốn gửi email hóa đơn cho khách hàng?",module,Magento_Sales
+"Credit Memo","Ghi nhớ tín dụng",module,Magento_Sales
+Capture,"Nắm bắt",module,Magento_Sales
+"The invoice email was sent.","Email hóa đơn đã được gửi.",module,Magento_Sales
+"Invoice #%1 | %2 | %4 (%3)","Hoá đơn #%1 | %2 | %4 (%3)",module,Magento_Sales
+"Invalid parent block for this block","Khối này có khối mẹ không hợp lệ",module,Magento_Sales
+"Order Statuses","Trạng thái đơn hàng",module,Magento_Sales
+"Create New Status","Tạo trạng thái mới",module,Magento_Sales
+"Assign Status to State","Chỉ định trạng thái cho bang",module,Magento_Sales
+"Save Status Assignment","Lưu tình trạng chuyển nhượng",module,Magento_Sales
+"Assign Order Status to State","Chỉ định trạng thái đơn đặt hàng cho bang",module,Magento_Sales
+"Assignment Information","Thông tin chuyển nhượng",module,Magento_Sales
+"Order Status","Tình trạng đơn hàng",module,Magento_Sales
+"Order State","Trạng thái đơn đặt hàng",module,Magento_Sales
+"Use Order Status As Default","Tình trạng đơn hàng sử dụng như mặc định",module,Magento_Sales
+"Visible On Storefront","Có thể nhìn thấy trên Storefront",module,Magento_Sales
+"Edit Order Status","Chỉnh sửa tình trạng đơn hàng",module,Magento_Sales
+"Save Status","Lưu trạng thái",module,Magento_Sales
+"New Order Status","Trạng thái đơn hàng mới",module,Magento_Sales
+"Order Status Information","Thông tin trạng đơn hàng",module,Magento_Sales
+"Status Code","Mã trạng thái",module,Magento_Sales
+"Status Label","Tình trạng nhãn",module,Magento_Sales
+"Store View Specific Labels","Cửa hàng xem nhãn cụ thể",module,Magento_Sales
+"Total Paid","Tổng số trả tiền",module,Magento_Sales
+"Total Refunded","Tổng số trả lại",module,Magento_Sales
+"Total Due","Tất cả do",module,Magento_Sales
+Edit,"Chỉnh sửa",module,Magento_Sales
+"Are you sure you want to send an order email to customer?","Bạn có chắc bạn muốn gửi một email đặt hàng cho khách hàng?",module,Magento_Sales
+"This will create an offline refund. To create an online refund, open an invoice and create credit memo for it. Do you want to continue?","Điều này sẽ tạo ra sự hoàn lại tiền ngoại tuyến. Để tạo ra sự hoàn lại tiền trực tuyến, mở một hóa đơn và tạo ra các bản ghi nhớ tín dụng cho nó. Bạn có muốn tiếp tục?",module,Magento_Sales
+"Are you sure you want to void the payment?","Bạn có chắc bạn muốn để trống việc thanh toán?",module,Magento_Sales
+Hold,Giữ,module,Magento_Sales
+hold,giữ,module,Magento_Sales
+Unhold,"Bỏ giữ",module,Magento_Sales
+unhold,"bỏ giữ",module,Magento_Sales
+"Are you sure you want to accept this payment?","Bạn có chắc bạn muốn chấp nhận các khoản thanh toán này không?",module,Magento_Sales
+"Accept Payment","Chấp nhận thanh toán",module,Magento_Sales
+"Are you sure you want to deny this payment?","Bạn có chắc bạn muốn từ chối thanh toán này không?",module,Magento_Sales
+"Deny Payment","Từ chối thanh toán",module,Magento_Sales
+"Get Payment Update","Có Cập Nhật thanh toán",module,Magento_Sales
+"Invoice and Ship","Hóa đơn và vận chuyển",module,Magento_Sales
+Invoice,"Hóa đơn bán lẻ",module,Magento_Sales
+Ship,"Vận chuyển",module,Magento_Sales
+Reorder,"Đặt lại",module,Magento_Sales
+"Order # %1 %2 | %3","Đặt hàng # %1 %2 | %3",module,Magento_Sales
+"This order contains (%1) items and therefore cannot be edited through the admin interface. If you wish to continue editing, the (%2) items will be removed,  the order will be canceled and a new order will be placed.","Đơn hàng này chứa các sản phẩm (%1) và do đó không thể sửa thông qua giao diện quản trị. '' Nếu bạn muốn tiếp tục chỉnh sửa, các mặt hàng (%2) sẽ được gỡ bỏ, đơn đặt hàng sẽ bị hủy bỏ và một đơn hàng mới sẽ được đặt.",module,Magento_Sales
+"Are you sure? This order will be canceled and a new one will be created instead.","Bạn có chắc không? Đơn hàng này sẽ bị hủy bỏ và một đơn mới sẽ được tạo ra để thay thế.",module,Magento_Sales
+"Save Gift Message","Lưu tin nhắn Quà tặng",module,Magento_Sales
+"Order Credit Memos","Tín dụng ghi nhớ đơn Đặt hàng",module,Magento_Sales
+"Credit memo #%1 created","Ghi nhớ tín dụng #%1được tạo",module,Magento_Sales
+"Credit memo #%1 comment added","Bình luận Ghi nhớ tín dụng #%1 được thêm",module,Magento_Sales
+"Shipment #%1 created","Lô hàng #%1 được tạo",module,Magento_Sales
+"Shipment #%1 comment added","Nhận xét Lô hàng #%1 được thêm",module,Magento_Sales
+"Invoice #%1 created","Hoá đơn #%1được tạo",module,Magento_Sales
+"Invoice #%1 comment added","Nhận xét hóa đơn #%1 được thêm",module,Magento_Sales
+"Tracking number %1 for %2 assigned","Số Theo dõi %1 cho %2 được giao",module,Magento_Sales
+"Comments History","Lịch sử bình luận",module,Magento_Sales
+"Order History","Lịch sử đặt hàng",module,Magento_Sales
+Information,"Thông tin",module,Magento_Sales
+"Order Information","Thông tin đặt hàng",module,Magento_Sales
+"Order Invoices","Hoá đơn đơn hàng",module,Magento_Sales
+Shipments,"Lô hàng",module,Magento_Sales
+"Order Shipments","Các lô hàng của đơn hàng",module,Magento_Sales
+Transactions,"Sổ giao dịch",module,Magento_Sales
+"Order View","Xem đơn hàng",module,Magento_Sales
+Any,"Bất kỳ",module,Magento_Sales
+Specified,"Quy định",module,Magento_Sales
+"Applies to Any of the Specified Order Statuses except canceled orders","Áp dụng cho bất kỳ của các trạng thái đơn đặt hàng chỉ định ngoại trừ hủy bỏ các đơn đặt hàng",module,Magento_Sales
+Yes,Có,module,Magento_Sales
+No,Không,module,Magento_Sales
+"Show Actual Values","Hiển thị giá trị thực tế",module,Magento_Sales
+"New Order RSS","Trật tự RSS mới",module,Magento_Sales
+Subtotal,"Tổng phụ",module,Magento_Sales
+"Shipping & Handling","Vận chuyển & xử lý",module,Magento_Sales
+"Discount (%1)","Giảm giá (%1)",module,Magento_Sales
+Discount,"Chiết khấu",module,Magento_Sales
+"Grand Total","Tổng số",module,Magento_Sales
+Back,"Trở lại",module,Magento_Sales
+Fetch,Lấy,module,Magento_Sales
+"Transaction # %1 | %2","Giao dịch # %1 | %2",module,Magento_Sales
+N/A,"Không xác định",module,Magento_Sales
+Key,"Từ khoá",module,Magento_Sales
+Value,"Giá trị",module,Magento_Sales
+"We found an invalid entity model.","Chúng tôi tìm thấy một mô hình thực thể không hợp lệ.",module,Magento_Sales
+"Order # %1","Đơn hàng #%1",module,Magento_Sales
+"Back to My Orders","Quay lại đơn đặt hàng của tôi",module,Magento_Sales
+"View Another Order","Xem một đơn đặt hàng",module,Magento_Sales
+"About Your Refund","Về hoàn phí của bạn",module,Magento_Sales
+"My Orders","Đơn đặt hàng của tôi",module,Magento_Sales
+"Subscribe to Order Status","Theo dõi tình trạng đơn hàng",module,Magento_Sales
+"About Your Invoice","Về hoá đơn của bạn",module,Magento_Sales
+"Print Order # %1","In đơn đặt hàng # %1",module,Magento_Sales
+"Grand Total to be Charged","Tổng số được tính phí",module,Magento_Sales
+Unassign,"Bỏ chỉ định",module,Magento_Sales
+"You sent the message.","Bạn gửi thư.",module,Magento_Sales
+Sales,"Doanh số",module,Magento_Sales
+"This order no longer exists.","Lệnh này không còn tồn tại.",module,Magento_Sales
+"Please enter a comment.","Hãy nhập nội dung bình chú.",module,Magento_Sales
+"We cannot add order history.","Chúng tôi không thể thêm lịch sử đơn hàng.",module,Magento_Sales
+"You updated the order address.","Bạn cập nhật địa chỉ đơn hàng.",module,Magento_Sales
+"You have not canceled the item.","Bạn không hủy bỏ khoản mục.",module,Magento_Sales
+"You canceled the order.","Bạn hủy bỏ đơn đặt hàng.",module,Magento_Sales
+"""%1"" coupon code was not applied. Do not apply discount is selected for item(s)","phiếu mua hàng ""%1"" không được áp dụng. Không áp dụng giảm giá là lựa chọn cho sản phẩm",module,Magento_Sales
+"""%1"" coupon code is not valid.","phiếu mua hàng ""%1"" là không hợp lệ.",module,Magento_Sales
+"The coupon code has been accepted.","Mã số phiếu giảm giá đã được chấp nhận.",module,Magento_Sales
+"Quote item id is not received.","Không nhận được mã sản phẩm được báo giá.",module,Magento_Sales
+"Quote item is not loaded.","Không thể tải Sản phẩm được báo giá.",module,Magento_Sales
+"New Order","Đơn đặt hàng mới",module,Magento_Sales
+"You created the order.","Bạn đã đặt hàng.",module,Magento_Sales
+"Order saving error: %1","Lỗi lưu đơn hàng: %1",module,Magento_Sales
+"Cannot add new comment.","Không thể bình luận.",module,Magento_Sales
+"The credit memo has been canceled.","Ghi nhớ tín dụng đã bị hủy bỏ.",module,Magento_Sales
+"Credit memo has not been canceled.","Ghi nhớ tín dụng đã không bị hủy.",module,Magento_Sales
+"New Memo for #%1","Ghi nhớ Mới cho #%1",module,Magento_Sales
+"New Memo","Ghi nhớ Mới",module,Magento_Sales
+"Cannot create online refund for Refund to Store Credit.","Không thể tạo hoàn trả trực tuyến cho cửa hàng tín dụng.",module,Magento_Sales
+"You created the credit memo.","Bạn tạo ra các bản ghi nhớ tín dụng.",module,Magento_Sales
+"View Memo for #%1","Xem bản ghi nhớ cho #%1",module,Magento_Sales
+"View Memo","Xem bản ghi nhớ",module,Magento_Sales
+"You voided the credit memo.","Bạn bỏ ghi nhớ tín dụng.",module,Magento_Sales
+"Invoice capturing error","Hoá đơn bắt lỗi",module,Magento_Sales
 "Search Term","Cụm từ tìm kiếm",module,Magento_Search
 Uses,"Số Lần Sử Dụng",module,Magento_Search
 "Search Terms","Cụm từ tìm kiếm",module,Magento_Search
@@ -3412,16 +3858,26 @@ Show,"Hiển thị",module,Magento_Theme
 Close,"Đóng lại",module,Magento_Theme
 "Dictionary (Translation on Storefront side)","Từ điển (dịch bên cửa hàng)",module,Magento_Translation
 "Condition type ""%1"" is not allowed","Điều kiện loại ""%1"" là không được phép",module,Magento_Ui
+"The configuration parameter ""formElement"" is a required for ""%1"" field.","Các tham số cấu hình ""Yếu tố chính"" là một yêu cầu dành cho trường ""%1"".",module,Magento_Ui
 "Remove %1","Loại bỏ %1",module,Magento_Ui
 "Add New %1","Thêm mới %1",module,Magento_Ui
 "New %1","Mới %1",module,Magento_Ui
 "Please select item(s).","Vui lòng chọn sản phẩm.",module,Magento_Ui
+"Unsupported bookmark action.","Hành động không được hỗ trợ đánh dấu.",module,Magento_Ui
+"Bookmark with id ""%1"" does not exist.","Đánh dấu với id ""%1"" không tồn tại.",module,Magento_Ui
 Next,"Tiếp theo",module,Magento_Ui
 Back,"Trở lại",module,Magento_Ui
 Cancel,Hủy,module,Magento_Ui
 "UPS Second Day Air","UPS 2nd Day Air",module,Magento_Ups
+"UPS Worldwide Express","Vận chuyển toàn cầu UPS",module,Magento_Ups
+"UPS Worldwide Expedited","Giải quyết nhanh UPS toàn cầu",module,Magento_Ups
+"UPS Standard","UPS tiêu chuẩn",module,Magento_Ups
+"UPS Three-Day Select","Lựa chọn UPS ba ngày",module,Magento_Ups
 "UPS Worldwide 25 kilo","UPS toàn cầu 25 kg",module,Magento_Ups
 "UPS Worldwide 10 kilo","UPS toàn cầu 10 kg",module,Magento_Ups
+"Small Express Box","Nhận hộp nhỏ",module,Magento_Ups
+"Medium Express Box","Nhận hộp vừa",module,Magento_Ups
+"Large Express Box","Nhận hộp lớn",module,Magento_Ups
 Residential,"Khu dân cư",module,Magento_Ups
 Commercial,"Thương mại",module,Magento_Ups
 Pounds,"Bảng Anh",module,Magento_Ups
@@ -3908,6 +4364,57 @@ Delete,Xóa,module,Magento_ProductVideo
 "Please enter less or equal than {0} symbols.","Vui lòng nhập ít hơn hoặc bằng {0} biểu tượng.",module,Magento_Ui
 "Please enter {0} words or less.","Vui lòng nhập {0} từ hoặc ít hơn.",module,Magento_Ui
 "Please enter at least {0} words.","Vui lòng nhập ít nhất {0} từ.",module,Magento_Ui
+"Please enter between {0} and {1} words.","Vui lòng nhập giữa {0} và {1} từ.",module,Magento_Ui
+"Letters or punctuation only please","Xin vui lòng chỉ dùng Chữ cái hoặc các dấu chấm câu",module,Magento_Ui
+"Letters, numbers, spaces or underscores only please","Xin vui lòng chỉ dùng Chữ cái, số, dấu cách trống hoặc gạch chân",module,Magento_Ui
+"Letters only please","Xin vui lòng chỉ dùng Chữ cái",module,Magento_Ui
+"No white space please","Xin vui lòng Không dùng cách trống",module,Magento_Ui
+"Your ZIP-code must be in the range 902xx-xxxx to 905-xx-xxxx","Mã vùng của bạn phải ở trong phạm vi 902xx-xxxx đến 905-xx-xxxx",module,Magento_Ui
+"A positive or negative non-decimal number please","Xin vui lòng nhập Một số không có phần thập phân âm hoặc dương",module,Magento_Ui
+"The specified vehicle identification number (VIN) is invalid.","Số nhận dạng đã chỉ định phương tiện (VIN) là không hợp lệ.",module,Magento_Ui
+"Please enter a correct date","Vui lòng nhập đúng ngày",module,Magento_Ui
+"Please enter a valid time, between 00:00 and 23:59","Vui lòng nhập một thời gian hợp lệ, từ 00:00 đến 23:59",module,Magento_Ui
+"Please enter a valid time, between 00:00 am and 12:00 pm","Vui lòng nhập một thời gian hợp lệ, từ 00:00 am đến 12:00 pm",module,Magento_Ui
+"Please specify a valid phone number","Hãy chỉ định số điện thoại hợp lệ",module,Magento_Ui
+"Please specify a valid mobile number","Hãy chỉ ra một số điện thoại di động hợp lệ",module,Magento_Ui
+"Please enter at least {0} characters","Vui lòng nhập ít nhất {0} ký tự",module,Magento_Ui
+"Please enter a valid credit card number.","Vui lòng nhập một số thẻ tín dụng hợp lệ.",module,Magento_Ui
+"Please enter a valid IP v4 address.","Vui lòng nhập một địa chỉ IP v4 hợp lệ.",module,Magento_Ui
+"Please enter a valid IP v6 address.","Vui lòng nhập một địa chỉ IP v6 hợp lệ.",module,Magento_Ui
+"Invalid format.","Định dạng không hợp lệ.",module,Magento_Ui
+"HTML tags are not allowed.","Thẻ HTML không được phép.",module,Magento_Ui
+"Please select an option.","Xin vui lòng chọn một tùy chọn.",module,Magento_Ui
+"Empty Value.","Giá trị trống.",module,Magento_Ui
+"Please use only letters (a-z or A-Z), numbers (0-9) or spaces only in this field.","Vui lòng chỉ dùng các ký tự (a-z or A-Z), số (0-9) hoặc dấu cách trong vùng này.",module,Magento_Ui
+"Please use only letters (a-z or A-Z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Xin vui lòng sử dụng chỉ chữ cái (a-z or A-Z), số (0-9) hoặc gạch chân(_) trong trường này, ký tự đầu tiên nên là một chữ cái.",module,Magento_Ui
+"Please use only letters (a-z or A-Z), numbers (0-9), spaces and ""#"" in this field.","Xin vui lòng chỉ sử dụng chữ cái (a-z hoặc A-Z), số (0-9), cách trống và ""#"" trong trường này.",module,Magento_Ui
+"Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.","Vui lòng nhập một số điện thoại hợp lệ. ví dụ: (123) 456-7890 hoặc 123-456-7890.",module,Magento_Ui
+"Please enter a valid fax number (Ex: 123-456-7890).","Vui lòng nhập một số fax hợp lệ (ví dụ: 123-456-7890).",module,Magento_Ui
+"Please enter a valid email address (Ex: johndoe@domain.com).","Vui lòng nhập một địa chỉ email hợp lệ (ví dụ: johndoe@domain.com).",module,Magento_Ui
+"Please enter 7 or more characters, using both numeric and alphabetic.","Xin vui lòng nhập 7 ký tự hoặc nhiều hơn, bằng cách sử dụng cả số và chữ.",module,Magento_Ui
+"Please enter a valid URL. Protocol is required (http://, https:// or ftp://).","Vui lòng nhập một URL hợp lệ. Giao thức là bắt buộc (http://, https:// hoặc ftp: / /).",module,Magento_Ui
+"Please enter a valid URL. For example http://www.example.com or www.example.com.","Vui lòng nhập một URL hợp lệ. ví dụ http://www.example.com hoặc www.example.com.",module,Magento_Ui
+"Please enter a valid XML-identifier (Ex: something_1, block5, id-4).","Vui lòng nhập một nhận dạng XML hợp lệ (ví dụ: something_1, block5, id-4).",module,Magento_Ui
+"Please enter a valid social security number (Ex: 123-45-6789).","Vui lòng nhập một số an sinh xã hội hợp lệ (ví dụ: 123-45-6789).",module,Magento_Ui
+"Please enter a valid zip code (Ex: 90602 or 90602-1234).","Vui lòng nhập mã zip hợp lệ (ví dụ: 90602 hoặc 90602-1234).",module,Magento_Ui
+"Please use this date format: dd/mm/yyyy. For example 17/03/2006 for the 17th of March, 2006.","Xin vui lòng sử dụng định dạng ngày tháng này: dd/mm/yyyy. Ví dụ: 17/03/2006 cho 17 Tháng ba, 2006.",module,Magento_Ui
+"Please enter a valid $ amount. For example $100.00.","Vui lòng nhập một số tiền hợp lệ. Ví dụ: 100,00 $.",module,Magento_Ui
+"Please enter a number 0 or greater in this field.","Hãy điền một số lớn hơn hoặc bằng 0 vào trường này.",module,Magento_Ui
+"Please enter a number greater than 0 in this field.","Vui lòng nhập một số lớn hơn 0 trong trường này.",module,Magento_Ui
+"Please input a valid CSS-length (Ex: 100px, 77pt, 20em, .5ex or 50%).","Hãy nhập vào CSS hợp lệ, chiều dài (ví dụ: 100px, 77pt, 20em, .5ex hoặc 50%).",module,Magento_Ui
+"Please enter a valid number in this field.","Vui lòng nhập một số hợp lệ trong lĩnh vực này.",module,Magento_Ui
+"The value is not within the specified range.","Giá trị không phải là trong phạm vi được chỉ định.",module,Magento_Ui
+"Please use letters only (a-z or A-Z) in this field.","Xin vui lòng chỉ sử dụng chữ cái (a-z hoặc A-Z) trong trường này.",module,Magento_Ui
+"Please use only letters (a-z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Xin vui lòng sử dụng chỉ chữ cái (a-z), số (0-9) hoặc gạch chân(_) trong trường này, ký tự đầu tiên nên là một chữ cái.",module,Magento_Ui
+"Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.","Xin vui lòng chỉ sử dụng chữ cái (a-z hoặc A-Z) hoặc số (0-9) trong trường này. Không có dấu cách hoặc ký tự khác được cho phép.",module,Magento_Ui
+"Please enter a valid date.","Vui lòng nhập ngày hợp lệ.",module,Magento_Ui
+"Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Vui lòng nhập một URL key hợp lệ (ví dụ: ""trang ví dụ"", ""ví dụ-page.html"" hoặc ""anotherlevel/ví dụ-trang"").",module,Magento_Ui
+"Please enter a valid zip code.","Vui lòng nhập mã zip hợp lệ.",module,Magento_Ui
+"Please select State/Province.","Vui lòng chọn tiểu bang/tỉnh.",module,Magento_Ui
+"Please enter issue number or start date for switch/solo card type.","Hãy nhập số hoặc ngày bắt đầu cho loại thẻ switch/solo.",module,Magento_Ui
+"This is a required field.","Đây là trường bắt buộc.",module,Magento_Ui
+"Please enter positive number in this field.","Vui lòng nhập số dương trong trường này.",module,Magento_Ui
+"Please enter a valid value, ex: 10,20,30","Vui lòng nhập một giá trị hợp lệ, ví dụ: 10,20,30",module,Magento_Ui
 Attention,"Chú ý",module,Magento_Ui
 OK,"Đồng ý",module,Magento_Ui
 Close,"Đóng lại",module,Magento_Ui
@@ -4568,6 +5075,11 @@ Enable,"Kích hoạt",module,Magento_GoogleAnalytics
 "Account Number","Số tài khoản",module,Magento_GoogleAnalytics
 "Enable Content Experiments","Cho phép nội dung thí nghiệm",module,Magento_GoogleOptimizer
 "Grouped Product Image","Nhóm sản phẩm hình ảnh",module,Magento_GroupedProduct
+Indexer,"Chỉ mục",module,Magento_Indexer
+Description,"Mô tả",module,Magento_Indexer
+Mode,"Chế độ",module,Magento_Indexer
+Status,"Trạng thái",module,Magento_Indexer
+Updated,"Đã cập nhật",module,Magento_Indexer
 "Display Product Count","Hiển thị sản phẩm số",module,Magento_LayeredNavigation
 "Price Navigation Step Calculation","Giá Navigation bước tính toán",module,Magento_LayeredNavigation
 "Default Price Navigation Step","Mặc định giá bước chuyển hướng",module,Magento_LayeredNavigation
@@ -4719,9 +5231,55 @@ Frequency,"Tần suất",module,Magento_ProductAlert
 "Autostart base video","Tự khởi động cơ sở video",module,Magento_ProductVideo
 "Show related video","Hiển thị video liên quan",module,Magento_ProductVideo
 "Auto restart video","Tự động khởi động lại video",module,Magento_ProductVideo
+"Recently Viewed/Compared Products","Mới xem/so sánh sản phẩm",module,Magento_Reports
+"Show for Current","Hiển thị đối với hiện tại",module,Magento_Reports
+"Default Recently Viewed Products Count","Mặc định tính số lượng sản phẩm mới xem",module,Magento_Reports
+"Default Recently Compared Products Count","Thứ tự sản phẩm so sánh gần đây Mặc định",module,Magento_Reports
+Dashboard,"Bảng điều khiển",module,Magento_Reports
+"Year-To-Date Starts","Bắt đầu năm đến ngày",module,Magento_Reports
+"Current Month Starts","Bắt đầu Tháng hiện tại",module,Magento_Reports
+"Select day of the month.","Chọn ngày tháng.",module,Magento_Reports
+"Recently Viewed Products","Sản phẩm mới xem",module,Magento_Reports
+"List of Products Recently Viewed by Visitor","Danh sách các sản phẩm mới xem bởi khách truy cập",module,Magento_Reports
+"Number of Products to display","Số lượng sản phẩm để hiển thị",module,Magento_Reports
+"Viewed Products Grid Template","Xem các sản phẩm lưới tiêu bản",module,Magento_Reports
+"Viewed Products List Template","Sản phẩm xem danh sách mẫu",module,Magento_Reports
+"Viewed Products Images and Names Template","Xem Tên mẫu và hình ảnh sản phẩm",module,Magento_Reports
+"Viewed Products Names Only Template","Mẫu chỉ xem được tên sản phẩm",module,Magento_Reports
+"Viewed Products Images Only Template","Mẫu chỉ xem được tên sản phẩm",module,Magento_Reports
+"Recently Compared Products","Sản phẩm so sánh Gần đây",module,Magento_Reports
+"List of Products Recently Compared and Removed from the Compare List by Visitor","Danh sách các sản phẩm mới so sánh và rút khỏi danh sách so sánh bởi khách truy cập",module,Magento_Reports
+"Compared Products Grid Template","So với các sản phẩm lưới tiêu bản",module,Magento_Reports
+"Compared Products List Template","So sánh mẫu danh sách sản phẩm",module,Magento_Reports
+"Compared Products Images and Names Template","Tên mẫu và hình ảnh so sánh sản phẩm",module,Magento_Reports
+"Compared Product Names Only Template","Mẫu chỉ so sánh tên sản phẩm",module,Magento_Reports
+"Compared Product Images Only Template","Mẫu chỉ so sánh hình ảnh sản phẩm",module,Magento_Reports
+Average,"Trung bình",module,Magento_Reports
+"Stock Quantity","Số lượng trong kho",module,Magento_Reports
+"Ordered Quantity","Số lượng đặt hàng",module,Magento_Reports
+"For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.","Để báo cáo chính xác, hãy chắc chắn để làm mới dòng đời số liệu thống kê mỗi khi bạn thay đổi múi giờ.",module,Magento_Reports
+Guest,Khách,module,Magento_Reports
+Action,"Thao tác",module,Magento_Reports
+"Average (Approved)","Trung bình (chấp nhận)",module,Magento_Reports
+"Last Review","Nhận xét cuối cùng",module,Magento_Reports
+"Order Created","Tạo đơn hàng",module,Magento_Reports
+"Order Updated","Cập Nhật đơn hàng",module,Magento_Reports
+"The Order Updated report is created in real time and does not require a refresh.","Hàng Cập Nhật báo cáo được tạo ra trong thời gian thực và không yêu cầu làm mới.",module,Magento_Reports
+"Last Invoice Created Date","Ngày Cập Nhật Hóa đơn cuối cùng",module,Magento_Reports
+"Last Credit Memo Created Date","Ngày tạo ghi nhớ tín dụng cuối cùng",module,Magento_Reports
+"First Invoice Created Date","Ngày cập nhật Hóa đơn đầu tiên",module,Magento_Reports
+"Refresh Lifetime Statistics","Làm mới đời sống số liệu thống kê",module,Magento_Reports
+"Are you sure you want to refresh lifetime statistics right now? This operation may slow down your customers' shopping experience.","Bạn có chắc bạn muốn làm mới đời sống số liệu thống kê ngay bây giờ? Thao tác này có thể làm chậm trải nghiệm mua sắm của khách hàng.",module,Magento_Reports
+"Refresh Statistics for the Last Day","Làm mới các số liệu thống kê cho ngày cuối cùng",module,Magento_Reports
+"Are you sure you want to refresh statistics for the last day?","Bạn có chắc bạn muốn làm mới các số liệu thống kê cho ngày cuối cùng?",module,Magento_Reports
+Report,"Báo cáo",module,Magento_Reports
+Description,"Mô tả",module,Magento_Reports
+undefined,"không xác định",module,Magento_Reports
 "Allow Guests to Write Reviews","Cho phép khách viết đánh giá",module,Magento_Review
 Active,"Kích hoạt",module,Magento_Review
 Inactive,"Không hoạt động",module,Magento_Review
+"Auto Generated Specific Coupon Codes","Tự động tạo ra mã số phiếu giảm giá cụ thể",module,Magento_SalesRule
+"Web Site","Trang Web",module,Magento_SalesRule
 "Search Engine","Công cụ tìm kiếm",module,Magento_Search
 Hits,"Lượt truy cập",module,Magento_Search
 Delete,Xóa,module,Magento_Search
@@ -4771,6 +5329,8 @@ Layouts,"Bố trí giao diện",module,Magento_Store
 "Database DDL operations","Hoạt động cơ sở dữ liệu DDL",module,Magento_Store
 "HTML Head","HTML đầu",module,Magento_Theme
 Translations,"Bản dịch",module,Magento_Translation
+"Log JS Errors to Session Storage","Nhật ký lỗi JS để lưu trữ phiên làm việc",module,Magento_Ui
+"Log JS Errors to Session Storage Key","Nhật ký lỗi JS để lưu trữ Key",module,Magento_Ui
 Action,"Thao tác",module,Magento_Ui
 Action,"Thao tác",module,Magento_UrlRewrite
 Edit,"Chỉnh sửa",module,Magento_UrlRewrite
