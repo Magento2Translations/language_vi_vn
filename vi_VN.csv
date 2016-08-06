@@ -2323,6 +2323,9 @@ Save,"Lưu lại",module,Magento_Integration
 General,Chung,module,Magento_Integration
 Name,Tên,module,Magento_Integration
 "Callback URL","URL Gọi lại",module,Magento_Integration
+"Enter URL where Oauth credentials can be sent when using Oauth for token exchange. We strongly recommend using https://.","Nhập ủy nhiệm URL Oauth có thể được gửi khi sử dụng Oauth token Exchange. Chúng tôi vô cùng khuyến khích bạn sử dụng https://.",module,Magento_Integration
+"Identity link URL","Danh tính liên kết URL",module,Magento_Integration
+"URL to redirect user to link their 3rd party account with this Magento integration credentials.","URL chuyển hướng người sử dụng để liên kết tài khoản bên thứ 3 với Magento tích hợp thông tin đăng nhập này.",module,Magento_Integration
 "Integration Details","Chi tiết tích hợp",module,Magento_Integration
 "Basic Settings","Cài đặt cơ bản",module,Magento_Integration
 "Integration Tokens for Extensions","Tích hợp thẻ tiện ích mở rộng",module,Magento_Integration
@@ -2330,10 +2333,17 @@ Name,Tên,module,Magento_Integration
 "Consumer Secret","Bí mật người tiêu dùng",module,Magento_Integration
 "Access Token","Access token",module,Magento_Integration
 "Access Token Secret","Access Token bí mật",module,Magento_Integration
+"Uninstall the extension to remove this integration","Gỡ cài đặt tiện ích mở rộng để loại bỏ tích hợp này",module,Magento_Integration
 Remove,"Hủy bỏ",module,Magento_Integration
 View,"Hiển thị",module,Magento_Integration
 Edit,"Chỉnh sửa",module,Magento_Integration
 Activate,"Kích hoạt",module,Magento_Integration
+Reauthorize,"Tái ủy quyền",module,Magento_Integration
+"Uninstall the extension to remove integration '%1'.","Gỡ cài đặt tiện ích mở rộng để loại bỏ tích hợp '%1'.",module,Magento_Integration
+"This integration no longer exists.","Tích hợp này không còn tồn tại.",module,Magento_Integration
+"The integration '%1' has been deleted.","Tích hợp '%1' đã bị xoá.",module,Magento_Integration
+"Integration ID is not specified or is invalid.","ID Tích hợp không xác định hoặc không hợp lệ.",module,Magento_Integration
+"Internal error. Check exception log for details.","Lỗi nội bộ. Kiểm tra Nhật ký ngoại lệ để biết chi tiết.",module,Magento_Integration
 "View ""%1"" Integration","Xem ""%1"" tích hợp",module,Magento_Integration
 "Edit ""%1"" Integration","Chỉnh sửa tích hợp ""%1""",module,Magento_Integration
 "Warning! Integrations not using HTTPS are insecure and potentially expose private or personally identifiable information","Cảnh báo! Tích hợp không sử dụng HTTPS là không an toàn và có khả năng lộ thông tin cá nhân",module,Magento_Integration
@@ -2344,8 +2354,52 @@ Activate,"Kích hoạt",module,Magento_Integration
 "Integration '%1' has been sent for activation.","Tích hợp '%1' đã được gửi để kích hoạt.",module,Magento_Integration
 "You did not sign in correctly or your account is temporarily disabled.","Bạn đăng nhập không đúng cách hoặc tài khoản của bạn tạm thời bị vô hiệu hóa.",module,Magento_Integration
 "This user has no tokens.","Người dùng này không có thẻ token.",module,Magento_Integration
+"The tokens could not be revoked.","Các thẻ không thể bị thu hồi.",module,Magento_Integration
+"Sorry, something went wrong granting permissions. You can find out more in the exceptions log.","Xin lỗi, có gì đó đã đi sai khi cấp quyền truy cập. Bạn có thể tìm hiểu thêm trong Nhật ký ngoại lệ.",module,Magento_Integration
+"Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.","Một cái gì đó đã đi sai trong khi xoá vai trò và quyền. Bạn có thể tìm hiểu thêm trong Nhật ký ngoại lệ.",module,Magento_Integration
+"This customer has no tokens.","Khách hàng này không có thẻ.",module,Magento_Integration
 Inactive,"Không hoạt động",module,Magento_Integration
+Active,"Kích hoạt",module,Magento_Integration
+"Invalid Callback URL","Gọi lại URL không hợp lệ",module,Magento_Integration
+"Invalid Rejected Callback URL","URL bị từ chối gọi lại không hợp lệ",module,Magento_Integration
+"Incorrect timestamp value in the oauth_timestamp parameter","Giá trị thời gian hiển thị không chính xác trong tham số oauth_timestamp",module,Magento_Integration
+"The nonce is already being used by the consumer with ID %1","Nonce đã được sử dụng bởi người tiêu dùng với ID %1",module,Magento_Integration
+"An error occurred validating the nonce","Lỗi soát hợp thức nonce",module,Magento_Integration
+"Cannot convert to access token due to token is not request type","Không thể chuyển đổi đến access token do mã token là loại không yêu cầu",module,Magento_Integration
+"Consumer key has expired","Người tiêu dùng key đã hết hạn",module,Magento_Integration
+"Cannot create request token because consumer token is not a verifier token","Không thể tạo mã thông báo yêu cầu vì mã thông báo người tiêu dùng không phải là một mã thông báo được xác nhận",module,Magento_Integration
+"Request token is not associated with the specified consumer","Token Yêu cầu không phải là liên kết với người tiêu dùng được chỉ định",module,Magento_Integration
+"Token is already being used","Token đã được sử dụng",module,Magento_Integration
+"Cannot get access token because consumer token is not a request token","Không thể nhận được quyền truy cập mã token vì token người tiêu dùng không phải là một mã token yêu cầu",module,Magento_Integration
+"Token is not associated with the specified consumer","Token không liên kết với người tiêu dùng được chỉ định",module,Magento_Integration
+"Token is not an access token","Mã thông báo không phải là một mã thông báo truy cập",module,Magento_Integration
+"Access token has been revoked","Access token đã bị thu hồi",module,Magento_Integration
+"Consumer key is not the correct length","Từ khóa khách hàng không phải là chiều dài chính xác",module,Magento_Integration
+"A consumer having the specified key does not exist","Khách hàng với từ khóa được chỉ định không tồn tại",module,Magento_Integration
+"Verifier is invalid","Verifier là không hợp lệ",module,Magento_Integration
+"Verifier is not the correct length","Verifier không phải là chiều dài chính xác",module,Magento_Integration
+"Token verifier and verifier token do not match","Token verifier và verifier token không khớp",module,Magento_Integration
+"A consumer with the ID %1 does not exist","Một người tiêu dùng với ID %1 không tồn tại",module,Magento_Integration
+"Token is not the correct length","Token có không chính xác độ dài",module,Magento_Integration
+"Specified token does not exist","Mã thông báo đã chỉ rõ không tồn tại",module,Magento_Integration
+"A token with consumer ID %1 does not exist","Một mã thông báo với người tiêu dùng ID %1 không tồn tại",module,Magento_Integration
+"Unexpected error. Unable to create oAuth consumer account.","Lỗi bất ngờ. Không thể tạo tài khoản người tiêu dùng oAuth.",module,Magento_Integration
+"Unexpected error. Unable to load oAuth consumer account.","Lỗi bất ngờ. Không thể tải tài khoản người tiêu dùng oAuth.",module,Magento_Integration
 "A consumer with ID %1 does not exist","Một người tiêu dùng với ID %1 không tồn tại",module,Magento_Integration
+"Unable to post data to consumer due to an unexpected error","Không thể để gửi dữ liệu đến người tiêu dùng do lỗi bất ngờ",module,Magento_Integration
+"Invalid token to except","Mã thông báo không hợp lệ để trừ",module,Magento_Integration
+"Integration with ID '%1' doesn't exist.","Tích hợp với ID '%1' không tồn tại.",module,Magento_Integration
+"A token with consumer ID 0 does not exist","Một mã thông báo với người tiêu dùng ID 0 không tồn tại",module,Magento_Integration
+"The integration you selected asks you to approve access to the following:","Tích hợp bạn chọn sẽ yêu cầu bạn phải chấp nhận quyền truy cập sau đây:",module,Magento_Integration
+"No permissions requested","Không có yêu cầu quyền truy cập nào",module,Magento_Integration
+"Are you sure ?","Bạn chắc chứ ?",module,Magento_Integration
+"Are you sure you want to delete this integration? You can't undo this action.","Bạn có chắc bạn muốn xóa bỏ tích hợp này? Bạn không thể hoàn tác hành động này.",module,Magento_Integration
+"Please setup or sign in into your 3rd party account to complete setup of this integration.","Xin vui lòng thiết lập hoặc đăng nhập vào tài khoản của bên thứ 3 để hoàn tất thiết lập tích hợp này.",module,Magento_Integration
+"Available APIs","API có sẵn",module,Magento_Integration
+"Resource Access","Truy cập tài nguyên",module,Magento_Integration
+Custom,"Tùy chỉnh",module,Magento_Integration
+All,"Tất cả",module,Magento_Integration
+Resources,"Tài nguyên",module,Magento_Integration
 "Filterable (with results)","Có thể lọc (với kết quả)",module,Magento_LayeredNavigation
 "Filterable (no results)","Có thể lọc (không kết quả)",module,Magento_LayeredNavigation
 No,Không,module,Magento_LayeredNavigation
@@ -2723,11 +2777,17 @@ Sales,"Doanh số",module,Magento_Paypal
 "Your payment has been declined. Please try again.","Thanh toán của bạn đã bị từ chối. Xin vui lòng thử lại.",module,Magento_Paypal
 "Requested payment method does not match with order.","Thanh toán Được yêu cầu không phù hợp với các đơn đặt hàng.",module,Magento_Paypal
 "PayPal response hasn't required fields.","Trả lời của PayPal không có các mục yêu cầu.",module,Magento_Paypal
+"Something went wrong while processing your order.","Một cái gì đó đã đi sai trong khi xử lý đơn hàng của bạn.",module,Magento_Paypal
+"PayPal gateway has rejected request. %1","Cửa ngõ PayPal đã từ chối yêu cầu. %1",module,Magento_Paypal
+"The PayPal gateway rejected the request. %1","Cổng vào PayPal từ chối yêu cầu. %1",module,Magento_Paypal
+"The payment method code is not set.","Mã phương pháp thanh toán không được thiết lập.",module,Magento_Paypal
 "The reference ID is not set.","ID tham khảo không được thiết lập.",module,Magento_Paypal
 "Unable to save Billing Agreement:","Không thể lưu các thỏa thuận thanh toán:",module,Magento_Paypal
 Active,"Kích hoạt",module,Magento_Paypal
 Canceled,"Đã hủy bỏ",module,Magento_Paypal
 "The customer ID is not set.","ID khách hàng không được thiết lập.",module,Magento_Paypal
+"The Billing Agreement status is not set.","Tình trạng thanh toán hợp đồng không được thiết lập.",module,Magento_Paypal
+"The PayPal certificate does not exist.","Giấy chứng nhận PayPal không tồn tại.",module,Magento_Paypal
 "We prefer PayPal (150 X 60)","Chúng tôi thích PayPal (150 X 60)",module,Magento_Paypal
 "We prefer PayPal (150 X 40)","Chúng tôi thích PayPal (150 X 40)",module,Magento_Paypal
 "Now accepting PayPal (150 X 60)","Bây giờ chấp nhận PayPal (150 X 60)",module,Magento_Paypal
@@ -2751,6 +2811,13 @@ Never,"Không bao giờ",module,Magento_Paypal
 "IPN (Instant Payment Notification) Only","Chỉ IPN (thanh toán ngay lập tức thông báo)",module,Magento_Paypal
 "API Signature","Chữ ký API",module,Magento_Paypal
 "API Certificate","Chứng chỉ API",module,Magento_Paypal
+"The ordering amount of %1 is pending approval on the payment gateway.","Số lượng đặt hàng %1 đang chờ phê duyệt trên cổng thanh toán.",module,Magento_Paypal
+"Ordered amount of %1","Số lượng đặt hàng %1",module,Magento_Paypal
+"The authorized amount is %1.","Số tiền được ủy quyền là %1.",module,Magento_Paypal
+"The maximum number of child authorizations is reached.","Số lượng ủy quyền tối đa là đạt.",module,Magento_Paypal
+"A payer is not identified.","Một người nộp tiền không được xác định.",module,Magento_Paypal
+"Cannot get secure form URL from PayPal","Không thể có được hình thức an toàn URL từ PayPal",module,Magento_Paypal
+"Last Transaction ID","ID giao dịch cuối cùng",module,Magento_Paypal
 "Payer ID","ID Người nộp tiền",module,Magento_Paypal
 "Payer Email","Email Người nộp tiền",module,Magento_Paypal
 "Payer Status","Tình trạng người nộp tiền",module,Magento_Paypal
@@ -2827,17 +2894,29 @@ Subtotal,"Tổng phụ",module,Magento_Quote
 "Something went wrong during the item options declaration.","Một cái gì đó đi sai trong tuyên ngôn lựa chọn sản phẩm.",module,Magento_Quote
 "We found an item options declaration error.","Chúng tôi tìm thấy lỗi tuyên bố lựa chọn sản phẩm.",module,Magento_Quote
 "Some of the selected options are not currently available.","Một số tùy chọn đã chọn hiện nay không có sẵn.",module,Magento_Quote
+"Selected option(s) or their combination is not currently available.","Tùy chọn được chọn hoặc sự kết hợp đó không có sẵn.",module,Magento_Quote
+"Some item options or their combination are not currently available.","Một số tùy chọn mục hoặc sự kết hợp của họ không có sẵn bây giờ.",module,Magento_Quote
 "Could not save quote","Không thể lưu trích dẫn",module,Magento_Quote
 "Could not remove item from quote","Không thể loại bỏ sản phẩm từ các báo",module,Magento_Quote
 "The qty value is required to update quote item.","Số lượng giá trị là bắt buộc để cập nhật sản phẩm báo giá.",module,Magento_Quote
 "Invalid customer id %1","Id Khách hàng không hợp lệ %1",module,Magento_Quote
 "Invalid address id %1","Địa chỉ id không hợp lệ %1",module,Magento_Quote
 "Cannot create quote","Không thể tạo trích dẫn",module,Magento_Quote
+"Cannot assign customer to the given cart. The cart belongs to different store.","Không thể chỉ định khách hàng vào giỏ hàng nhất định. Giỏ hàng thuộc cửa hàng khác nhau.",module,Magento_Quote
+"Cannot assign customer to the given cart. The cart is not anonymous.","Không thể chỉ định khách hàng vào giỏ hàng nhất định. Giỏ hàng không phải là vô danh.",module,Magento_Quote
+"Cannot assign customer to the given cart. Customer already has active cart.","Không thể chỉ định khách hàng vào giỏ hàng nhất định. Khách hàng đã kích hoạt giỏ hàng.",module,Magento_Quote
+"This item price or quantity is not valid for checkout.","Giá hoặc số lượng sản phẩm này là không hợp lệ để thanh toán.",module,Magento_Quote
+"Please check the shipping address information. %1","Vui lòng kiểm tra thông tin địa chỉ vận chuyển. %1",module,Magento_Quote
+"Please specify a shipping method.","Hãy chỉ ra một phương pháp vận chuyển.",module,Magento_Quote
+"Please check the billing address information. %1","Vui lòng kiểm tra thông tin địa chỉ thanh toán. %1",module,Magento_Quote
+"Please select a valid payment method.","Xin vui lòng chọn phương thức thanh toán hợp lệ.",module,Magento_Quote
 "Store Credit","Tiền trong store",module,Magento_Quote
 Discount,"Chiết khấu",module,Magento_Quote
 Tax,Thuế,module,Magento_Quote
 "Cart contains virtual product(s) only. Shipping address is not applicable.","Giỏ hàng chỉ có sản phẩm thực. Địa chỉ vận chuyển không thể áp dụng.",module,Magento_Quote
 "Shipping address not set.","Địa chỉ vận chuyển không được thiết lập.",module,Magento_Quote
+"Shipping method is not applicable for empty cart","Phương pháp Vận chuyển không áp dụng cho giỏ hàng rỗng",module,Magento_Quote
+"Cart contains virtual product(s) only. Shipping method is not applicable.","Giỏ hàng chỉ có sản phẩm thực. Phương thức vận chuyển không thể áp dụng.",module,Magento_Quote
 "Cannot set shipping method. %1","Không thể đặt vận phương pháp chuyển. %1",module,Magento_Quote
 error123,lỗi123,module,Magento_Quote
 error345,lỗi345,module,Magento_Quote
@@ -3124,6 +3203,9 @@ Summary,"Tóm tắt",module,Magento_Review
 "Product Review (submitted on %1):","Đánh giá sản phẩm (đã gửi trên %1):",module,Magento_Review
 "Back to Product Reviews","Quay lại đánh giá sản phẩm",module,Magento_Review
 "Page not found.","Không tìm thấy trang.",module,Magento_Rss
+Feed,"Nguồn dữ liệu",module,Magento_Rss
+"Miscellaneous Feeds","Nguồn cấp dữ liệu khác",module,Magento_Rss
+"Get Feed","Nhận được nguồn cấp dữ liệu",module,Magento_Rss
 Apply,"Áp dụng thay đổi",module,Magento_Rule
 "Please choose a valid discount amount.","Hãy chọn một số tiền giảm giá hợp lệ.",module,Magento_Rule
 "End Date must follow Start Date.","Ngày kết thúc phải sau ngày bắt đầu.",module,Magento_Rule
@@ -3287,6 +3369,10 @@ is,là,module,Magento_SalesRule
 "is not one of","không phải là một trong",module,Magento_SalesRule
 "If %1 %2 %3 for a subselection of items in cart matching %4 of these conditions:","Nếu %1 %2 %3 cho một cận chọn của các mục trong giỏ hàng %4 phù hợp với các điều kiện sau:",module,Magento_SalesRule
 "Specified rule does not allow automatic coupon generation","Quy tắc được chỉ định không cho phép thế hệ tự động mã giảm giá",module,Magento_SalesRule
+"Error occurred when generating coupons: %1","Lỗi xảy ra khi tạo ra các phiếu giảm giá: %1",module,Magento_SalesRule
+"Some coupons are invalid.","Một số phiếu giảm giá là không hợp lệ.",module,Magento_SalesRule
+"Item totals are not set for the rule.","Tổng số sản phẩm không được đặt cho quy tắc.",module,Magento_SalesRule
+"%1 Cart Price Rules based on ""%2"" attribute have been disabled.","%1 Cart Price Rules dựa trên thuộc tính ""%2"" đã bị vô hiệu.",module,Magento_SalesRule
 "Entity Sequence profile not added to meta active profile","Hồ sơ tổ chức không được thêm vào meta cấu hình hoạt động",module,Magento_SalesSequence
 "Not enough arguments","Đối số không đủ",module,Magento_SalesSequence
 "Credit Memos","Hoàn trả đơn hàng",module,Magento_Sales
@@ -3495,7 +3581,92 @@ Sales,"Doanh số",module,Magento_Sales
 "View Memo for #%1","Xem bản ghi nhớ cho #%1",module,Magento_Sales
 "View Memo","Xem bản ghi nhớ",module,Magento_Sales
 "You voided the credit memo.","Bạn bỏ ghi nhớ tín dụng.",module,Magento_Sales
+"The order no longer exists.","Lệnh này không còn tồn tại.",module,Magento_Sales
+"Edit Order","Chỉnh sửa đơn đặt hàng",module,Magento_Sales
+"You sent the order email.","Bạn đã gửi email đặt hàng.",module,Magento_Sales
+"You have not put the order on hold.","Bạn không giữ đơn đặt hàng.",module,Magento_Sales
+"You put the order on hold.","Bạn đã giữ đơn đặt hàng.",module,Magento_Sales
+"You canceled the invoice.","Bạn đã hủy hoá đơn.",module,Magento_Sales
+"Invoice canceling error","Huỷ Hoá đơn bị lỗi",module,Magento_Sales
+"The invoice has been captured.","Hóa đơn đã được chụp.",module,Magento_Sales
 "Invoice capturing error","Hoá đơn bắt lỗi",module,Magento_Sales
+"The order does not allow an invoice to be created.","Đơn hàng không cho phép tạo ra hóa đơn.",module,Magento_Sales
+"New Invoice","Hóa đơn mới",module,Magento_Sales
+"The invoice and the shipment  have been created. The shipping label cannot be created now.","Hóa đơn và lô hàng đã được tạo ra. Nhãn vận chuyển không thể tạo ra bây giờ.",module,Magento_Sales
+"You created the invoice and shipment.","Bạn đã tạo hóa đơn và vận chuyển.",module,Magento_Sales
+"The invoice has been created.","Hoá đơn đã được tạo ra.",module,Magento_Sales
+"Cannot update item quantity.","Không thể cập nhật số lượng mặt hàng.",module,Magento_Sales
+"The invoice has been voided.","Hoá đơn đã được bỏ trống.",module,Magento_Sales
+"Invoice voiding error","Hoá đơn bỏ trống bị lỗi",module,Magento_Sales
+"%1 order(s) cannot be canceled.","%1 đơn hàng không thể bị hủy bỏ.",module,Magento_Sales
+"You cannot cancel the order(s).","Bạn không thể hủy bỏ các đơn hàng.",module,Magento_Sales
+"We canceled %1 order(s).","Chúng tôi hủy bỏ %1 đơn hàng.",module,Magento_Sales
+"%1 order(s) were not put on hold.","%1 đơn hàng đã không được giữ.",module,Magento_Sales
+"No order(s) were put on hold.","Không có đơn hàng nào được giữ.",module,Magento_Sales
+"You have put %1 order(s) on hold.","Bạn giữ %1 đơn hàng.",module,Magento_Sales
+"%1 order(s) were not released from on hold status.","%1 đơn hàng đã không được phát hành từ trạng thái giữ.",module,Magento_Sales
+"No order(s) were released from on hold status.","Không có đơn hàng nào được phát hành từ trạng thái giữ.",module,Magento_Sales
+"%1 order(s) have been released from on hold status.","%1 đơn hàng đã được phát hành từ trạng thái giữ.",module,Magento_Sales
+"There are no printable documents related to selected orders.","Không có tài liệu không thể in mà liên quan đến đơn đặt hàng đã chọn.",module,Magento_Sales
+"The payment has been accepted.","Các khoản thanh toán đã được chấp nhận.",module,Magento_Sales
+"The payment has been denied.","Các khoản thanh toán đã bị từ chối.",module,Magento_Sales
+"Transaction has been approved.","Giao dịch đã được phê duyệt.",module,Magento_Sales
+"Transaction has been voided/declined.","Giao dịch đã bị để trống/từ chối.",module,Magento_Sales
+"There is no update for the transaction.","Không có bản Cập Nhật nào cho các giao dịch.",module,Magento_Sales
+"You assigned the order status.","Bạn chỉ định trạng thái đơn đặt hàng.",module,Magento_Sales
+"Something went wrong while assigning the order status.","Một cái gì đó đã đi sai trong khi gán tình trạng đơn hàng.",module,Magento_Sales
+"Create New Order Status","Tạo trạng thái đơn đặt hàng mới",module,Magento_Sales
+"We found another order status with the same order status code.","Chúng tôi tìm thấy một tình trạng đơn hàng với mã trạng thái đơn đặt hàng tương tự.",module,Magento_Sales
+"You saved the order status.","Bạn đã lưu trạng thái đơn hàng.",module,Magento_Sales
+"You have unassigned the order status.","Bạn đã bỏ chỉ định trạng thái đơn đặt hàng.",module,Magento_Sales
+"Something went wrong while unassigning the order.","Một cái gì đó đã đi sai trong khi bỏ chỉ định đơn hàng.",module,Magento_Sales
+"You released the order from holding status.","Bạn phát hành đơn hàng từ trạng thái Giữ.",module,Magento_Sales
+"The order was not on hold.","đơn hàng đã không giữ lại.",module,Magento_Sales
+"Exception occurred during order load","Ngoại lệ xảy ra trong khi tải đơn hàng",module,Magento_Sales
+"Something went wrong while saving the gift message.","Một cái gì đó đã đi sai trong khi lưu thông điệp món quà.",module,Magento_Sales
+"You saved the gift card message.","Bạn lưu thông báo thẻ quà tặng.",module,Magento_Sales
+"The payment has been voided.","Các khoản thanh toán đã bị để trống.",module,Magento_Sales
+"Please correct the transaction ID and try again.","Xin vui lòng sửa ID giao dịch và thử lại.",module,Magento_Sales
+"The transaction details have been updated.","Các chi tiết giao dịch đã được Cập Nhật.",module,Magento_Sales
+"Orders and Returns","Đơn đặt hàng và trả lại",module,Magento_Sales
+"You entered incorrect data. Please try again.","Bạn đã nhập dữ liệu không chính xác. Xin vui lòng thử lại.",module,Magento_Sales
+Home,"Trang chủ",module,Magento_Sales
+"Go to Home Page","Đi đến trang chủ",module,Magento_Sales
+"Please specify order items.","Xin vui lòng chỉ ra khoản mục đặt hàng.",module,Magento_Sales
+"Please specify a shipping method.","Hãy chỉ ra một phương pháp vận chuyển.",module,Magento_Sales
+"Please specify a payment method.","Xin vui lòng chỉ rõ phương thức thanh toán.",module,Magento_Sales
+"This payment method is not available.","Phương thức thanh toán này không có sẵn.",module,Magento_Sales
+"Validation is failed.","Xác nhận đã thất bại.",module,Magento_Sales
+"You did not email your customer. Please check your email settings.","Bạn đã không gửi email cho khách hàng của bạn. Hãy kiểm tra cài đặt email của bạn.",module,Magento_Sales
+"Id required","Id bắt buộc",module,Magento_Sales
+"You cannot remove the hold.","Bạn không thể loại bỏ phần giữ.",module,Magento_Sales
+"We cannot cancel this order.","Chúng tôi không thể hủy bỏ đơn đặt hàng này.",module,Magento_Sales
+Guest,Khách,module,Magento_Sales
+"Please enter the first name.","Vui lòng nhập tên.",module,Magento_Sales
+"Please enter the last name.","Vui lòng nhập họ.",module,Magento_Sales
+"Please enter the street.","Vui lòng nhập tên đường.",module,Magento_Sales
+"Please enter the city.","Vui lòng nhập thành phố.",module,Magento_Sales
+"Please enter the phone number.","Vui lòng nhập số điện thoại.",module,Magento_Sales
+"Please enter the zip/postal code.","Vui lòng nhập mã bưu chính.",module,Magento_Sales
+"Please enter the country.","Vui lòng nhập quốc gia.",module,Magento_Sales
+"Please enter the state/province.","Vui lòng nhập tiểu bang/tỉnh.",module,Magento_Sales
+"Could not delete order address","Không thể xóa bỏ địa chỉ đơn hàng",module,Magento_Sales
+"Could not save order address","Không thể lưu địa chỉ đơn hàng",module,Magento_Sales
+Pending,"Đợi duyệt",module,Magento_Sales
+Refunded,"Đã hoàn trả",module,Magento_Sales
+Canceled,"Đã hủy bỏ",module,Magento_Sales
+"Unknown State","Không rõ bang",module,Magento_Sales
+Paid,"Đã trả",module,Magento_Sales
+"We cannot register an existing invoice","Chúng tôi không thể đăng ký hóa đơn hiện tại",module,Magento_Sales
+"ID required","Id bắt buộc",module,Magento_Sales
+"Unknown Status","Không rõ trạng thái",module,Magento_Sales
+Ordered,"Đã đặt hàng",module,Magento_Sales
+Shipped,"Đã vận chuyển",module,Magento_Sales
+Invoiced,"Đã lập hoá đơn",module,Magento_Sales
+Returned,"TrẢ lại",module,Magento_Sales
+Partial,"Một phần",module,Magento_Sales
+"We refunded %1 online.","Chúng tôi hoàn lại %1 trực tuyến.",module,Magento_Sales
+"We refunded %1 offline.","Chúng tôi hoàn lại %1 ngoại tuyến.",module,Magento_Sales
 "Search Term","Cụm từ tìm kiếm",module,Magento_Search
 Uses,"Số Lần Sử Dụng",module,Magento_Search
 "Search Terms","Cụm từ tìm kiếm",module,Magento_Search
@@ -4348,6 +4519,9 @@ Done,"Đã thực hiện",module,Magento_ConfigurableProduct
 "We could not detect a size.","Chúng tôi không xác định một kích thước.",module,Magento_Downloadable
 "Add Products to Group","Thêm sản phẩm vào nhóm",module,Magento_GroupedProduct
 "Add Selected Products","Thêm Sản phẩm được lựa chọn",module,Magento_GroupedProduct
+"Sorry, something went wrong. Please try again later.","Xin lỗi, có gì đó đã đi sai. Xin vui lòng thử lại sau.",module,Magento_Integration
+Allow,"Cho phép",module,Magento_Integration
+Done,"Đã thực hiện",module,Magento_Integration
 "Please choose a payment method.","Chọn một phương thức thanh toán.",module,Magento_Multishipping
 "Video Error","Lỗi video",module,Magento_ProductVideo
 "Unknown video type","Loại video Không biết",module,Magento_ProductVideo
@@ -5080,6 +5254,15 @@ Description,"Mô tả",module,Magento_Indexer
 Mode,"Chế độ",module,Magento_Indexer
 Status,"Trạng thái",module,Magento_Indexer
 Updated,"Đã cập nhật",module,Magento_Indexer
+"Cleanup Settings","Thiết đặt dọn dẹp",module,Magento_Integration
+"Cleanup Probability","Khả năng dọn dẹp",module,Magento_Integration
+"Expiration Period","Khoảng thời gian hết hạn",module,Magento_Integration
+"Consumer Settings","Cài đặt người tiêu dùng",module,Magento_Integration
+"OAuth consumer credentials HTTP Post maxredirects","OAuth người tiêu dùng thông tin đăng nhập HTTP POst tối đa chuyển hướng",module,Magento_Integration
+"OAuth consumer credentials HTTP Post timeout","Thời gian chờ HTTP Post thông tin đăng nhập OAuth người tiêu dùng",module,Magento_Integration
+"Integrations Configuration","Cấu hình tích hợp",module,Magento_Integration
+"Integrations API Configuration","Cấu hình tích hợp API",module,Magento_Integration
+Status,"Tình trạng",module,Magento_Integration
 "Display Product Count","Hiển thị sản phẩm số",module,Magento_LayeredNavigation
 "Price Navigation Step Calculation","Giá Navigation bước tính toán",module,Magento_LayeredNavigation
 "Default Price Navigation Step","Mặc định giá bước chuyển hướng",module,Magento_LayeredNavigation
@@ -5278,6 +5461,9 @@ undefined,"không xác định",module,Magento_Reports
 "Allow Guests to Write Reviews","Cho phép khách viết đánh giá",module,Magento_Review
 Active,"Kích hoạt",module,Magento_Review
 Inactive,"Không hoạt động",module,Magento_Review
+"RSS Feeds","Nguồn cấp dữ liệu RSS",module,Magento_Rss
+"Rss Config","Cấu hình Rss",module,Magento_Rss
+"Enable RSS","Cho phép RSS",module,Magento_Rss
 "Auto Generated Specific Coupon Codes","Tự động tạo ra mã số phiếu giảm giá cụ thể",module,Magento_SalesRule
 "Web Site","Trang Web",module,Magento_SalesRule
 "Search Engine","Công cụ tìm kiếm",module,Magento_Search
