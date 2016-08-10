@@ -2147,7 +2147,23 @@ Never,"Không bao giờ",module,Magento_Paypal
 "The merchant account is not yet verified.","Tài khoản Thương gia chưa được xác nhận.",module,Magento_Paypal
 "The payment was made via credit card. In order to receive funds merchant must upgrade account to Business or Premier status.","Các khoản thanh toán được thực hiện thông qua thẻ tín dụng. Để nhận được tiền thương gia phải nâng cấp tài khoản đến trạng thái doanh nghiệp hoặc Cấp cao.",module,Magento_Paypal
 "Sorry, but something went wrong. Please contact PayPal customer service.","Xin lỗi, nhưng có gì đó đã đi sai. Xin vui lòng liên hệ với dịch vụ khách hàng của PayPal.",module,Magento_Paypal
+"A reversal has occurred on this transaction due to a chargeback by your customer.","Một đảo ngược đã xảy ra trên các giao dịch này do hoàn trả tiền bởi khách hàng của bạn.",module,Magento_Paypal
+"A reversal has occurred on this transaction due to your customer triggering a money-back guarantee.","Một sự đảo ngược đã xảy ra trên các giao dịch này do khách hàng của bạn kích hoạt tiền bảo lãnh.",module,Magento_Paypal
+"A reversal has occurred on this transaction due to a complaint about the transaction from your customer.","Một đảo ngược đã xảy ra trên các giao dịch này do khiếu nại về các giao dịch từ khách hàng của bạn.",module,Magento_Paypal
+"A reversal has occurred on this transaction because you have given the customer a refund.","Một sự đảo ngược về giao dịch này xảy ra bởi vì bạn đã cho khách hàng một khoản hoàn lại.",module,Magento_Paypal
 "Reversal of an adjustment.","Đảo ngược một điều chỉnh.",module,Magento_Paypal
+"Transaction reversal due to fraud detected by PayPal administrators.","đảo ngược Giao dịch do gian lận được phát hiện bởi người quản trị PayPal.",module,Magento_Paypal
+"Transaction reversal by PayPal administrators.","đảo ngược Giao dịch bởi người quản trị PayPal.",module,Magento_Paypal
+"Reimbursement for a chargeback.","Bồi hoàn cho một tiền chiết khấu.",module,Magento_Paypal
+"Settlement of a chargeback.","Quyết toán số tiền chiết khấu.",module,Magento_Paypal
+"A reversal has occurred on this transaction because of a customer dispute suspecting unauthorized spoof.","Một đảo ngược đã xảy ra trên giao dịch này vì một tranh chấp khách hàng nghi ngờ giả mạo không được phép.",module,Magento_Paypal
+"Buyer claims that he did not receive goods or service.","Người mua khiếu nại rằng ông đã không nhận được hàng hóa hoặc dịch vụ.",module,Magento_Paypal
+"Buyer claims that the goods or service received differ from merchant’s description of the goods or service.","Người mua hàng cho rằng hàng hóa hoặc dịch vụ mà họ nhận khác với mô tả của người bán.",module,Magento_Paypal
+"Buyer claims that he/she did not authorize transaction.","Người mua khiếu nại rằng anh/cô ấy đã không cho phép giao dịch.",module,Magento_Paypal
+"A case that has been resolved and close requires a reimbursement.","Một trường hợp đó đã được giải quyết và đóng lại đòi hỏi một bồi hoàn.",module,Magento_Paypal
+"Buyer claims that a possible duplicate payment was made to the merchant.","Người mua khiếu nại rằng một khoản thanh toán trùng lặp có thể được thực hiện cho các thương gia.",module,Magento_Paypal
+"Buyer claims that the received merchandise is unsatisfactory, defective, or damaged.","Người mua khiếu nại rằng hàng hóa đã nhận là không đạt yêu cầu, khiếm khuyết hoặc hư hỏng.",module,Magento_Paypal
+"Unknown reason. Please contact PayPal customer service.","Lý do không rõ. Xin vui lòng liên hệ với dịch vụ khách hàng của PayPal.",module,Magento_Paypal
 "Payer ID","ID Người nộp tiền",module,Magento_Paypal
 "Payer Email","Email Người nộp tiền",module,Magento_Paypal
 "Payer Status","Tình trạng người nộp tiền",module,Magento_Paypal
@@ -2156,12 +2172,22 @@ Never,"Không bao giờ",module,Magento_Paypal
 "Merchant Protection Eligibility","Bảo vệ thương nhân đủ điều kiện",module,Magento_Paypal
 "Triggered Fraud Filters","Bộ lọc lừa đảo được kích hoạt",module,Magento_Paypal
 "Last Correlation ID","ID tương quan Cuối",module,Magento_Paypal
+"Address Verification System Response","Địa chỉ xác minh hệ thống phản ứng",module,Magento_Paypal
+"CVV2 Check Result by PayPal","CVV2 Kết quả kiểm tra bằng PayPal",module,Magento_Paypal
 Chargeback,"Tiền chiết khấu",module,Magento_Paypal
 Complaint,"Khiếu nại",module,Magento_Paypal
 Dispute,"Tranh chấp",module,Magento_Paypal
 "Matched Address only (no ZIP)","Chỉ Kết hợp địa chỉ (không có số ZIP)",module,Magento_Paypal
+"Matched Address only (no ZIP) International","Chỉ Kết hợp địa chỉ (không có số ZIP) quốc tế",module,Magento_Paypal
 "No Details matched","Không có chi tiết phù hợp",module,Magento_Paypal
 "No Details matched. International","Chi tiết không phù hợp. Quốc tế",module,Magento_Paypal
+"Exact Match. Address and Postal Code. International","Kết hợp chính xác. Địa chỉ và mã số bưu chính. Quốc tế",module,Magento_Paypal
+"Exact Match. Address and Postal Code. UK-specific","Kết hợp chính xác. Địa chỉ và mã số bưu chính. Dành riêng cho UK",module,Magento_Paypal
+"N/A. Not allowed for MOTO (Internet/Phone) transactions","Không xác định. Không được phép cho các giao dịch MOTO (Internet/điện thoại)",module,Magento_Paypal
+"N/A. Global Unavailable","Không xác định. toàn cầu không có sẵn",module,Magento_Paypal
+"N/A. International Unavailable","Không xác định. quốc tế không sẵn dùng",module,Magento_Paypal
+"Matched five-digit ZIP only (no Address)","Chỉ Kết hợp 5 chữ số ZIP (không có địa chỉ)",module,Magento_Paypal
+"Matched Postal Code only (no Address)","Chỉ Kết hợp mã bưu chính (không có địa chỉ)",module,Magento_Paypal
 "N/A. Retry","Không xác định thử lại",module,Magento_Paypal
 "N/A. Service not Supported","Dịch vụ không hỗ trợ không xác định",module,Magento_Paypal
 "N/A. Unavailable","Không sẵn dùng không xác định",module,Magento_Paypal
@@ -2170,11 +2196,21 @@ Dispute,"Tranh chấp",module,Magento_Paypal
 "All the address information matched","Tất cả các thông tin địa chỉ phù hợp",module,Magento_Paypal
 "None of the address information matched","Không có thông tin địa chỉ phù hợp",module,Magento_Paypal
 "Part of the address information matched","Phần thông tin địa chỉ phù hợp",module,Magento_Paypal
+"N/A. The merchant did not provide AVS information","Không xác định. Các thương gia đã không cung cấp thông tin AVS",module,Magento_Paypal
+"N/A. Address not checked, or acquirer had no response. Service not available","Không xác định. địa chỉ không chọn, hoặc không có không có phản ứng được yêu cầu. Dịch vụ không có sẵn",module,Magento_Paypal
 "Matched (CVV2CSC)","Phù hợp (CVV2CSC)",module,Magento_Paypal
 "No match","Không phù hợp",module,Magento_Paypal
 "N/A. Not processed","Không xác định. Không xử lý",module,Magento_Paypal
+"N/A. Service not supported","Không xác định. Dịch vụ không hỗ trợ",module,Magento_Paypal
+"N/A. Service not available","Không xác định. Dịch vụ không có sẵn",module,Magento_Paypal
+"N/A. No response","Không xác định. Không có phản ứng",module,Magento_Paypal
 "Matched (CVV2)","Phù hợp (CVV2)",module,Magento_Paypal
+"N/A. The merchant has not implemented CVV2 code handling","Không xác định. Các thương gia đã không thực hiện xử lý mã số CVV2",module,Magento_Paypal
+"N/A. Merchant has indicated that CVV2 is not present on card","Không xác định. thương gia đã chỉ ra rằng CVV2 không phải là hiện nay trên thẻ",module,Magento_Paypal
 "Note: %1","Lưu ý: %1",module,Magento_Paypal
+"IPN ""%1"". Case type ""%2"". Case ID ""%3"" %4","IPN ""%1"". Trường hợp loại ""%2"". Trường hợp ID ""%3"" %4",module,Magento_Paypal
+"IPN ""%1"". A dispute has been resolved and closed. %2 Transaction amount %3.","IPN ""%1"". Một cuộc tranh cãi đã được giải quyết và đóng cửa. %2 giao dịch số tiền %3.",module,Magento_Paypal
+"You notified customer about invoice #%1.","Bạn thông báo khách hàng về hóa đơn #%1.",module,Magento_Paypal
 "IPN ""%1"". %2 Transaction amount %3. Transaction ID: ""%4""","IPN ""%1"". %2 giao dịch số tiền %3. ID giao dịch: ""%4""",module,Magento_Paypal
 "You notified customer about creditmemo #%1.","Bạn thông báo khách hàng về ghi nhớ tín dụng #%1.",module,Magento_Paypal
 "Payflow PNREF: #%1.","Payflow PNREF:%1 #.",module,Magento_Paypal
@@ -2202,9 +2238,108 @@ Custom,"Tùy chỉnh",module,Magento_Paypal
 "Subscription ID","Đăng ký ID",module,Magento_Paypal
 Credit,"Tín dụng",module,Magento_Paypal
 Debit,"Thẻ ghi nợ",module,Magento_Paypal
+"ACH Deposit (Hold for Dispute or Other Investigation)","Gửi tiền ACH (giữ cho tranh chấp hoặc điều tra khác)",module,Magento_Paypal
+"ACH Deposit (Reversal)","Gửi tiền ACH (đảo ngược)",module,Magento_Paypal
+"ACH Funding for Funds Recovery from Account Balance","ACH tài trợ cho các khoản tiền thu hồi từ số dư tài khoản",module,Magento_Paypal
+"ACH Withdrawal","Rút tiền ACH",module,Magento_Paypal
+"Account-to-Account Payment, initiated by PayPal","Thanh toán Tài khoản đến tài khoản, bắt đầu bằng PayPal",module,Magento_Paypal
+"Auction Payment other than through eBay","Bán đấu giá thanh toán khác hơn là thông qua eBay",module,Magento_Paypal
 AutoSweep,"Tự động quét",module,Magento_Paypal
 "Available Balance","Số dư có sẵn",module,Magento_Paypal
+"Balance Manager Account Bonus","Quản lý số dư tài khoản tiền thưởng",module,Magento_Paypal
+"Bonus for first ACH Use","Tiền thưởng cho sử dụng ACH đầu tiên",module,Magento_Paypal
+"Buyer Credit Payment","Thanh toán tín dụng Người mua",module,Magento_Paypal
+Charge-off,"Tính phí",module,Magento_Paypal
+"Coupon Redemption","Phiếu giảm giá để cứu chuộc",module,Magento_Paypal
+"Currency Conversion required to cover negative balance","Chuyển đổi tiền tệ phải bao gồm số dư âm",module,Magento_Paypal
+"Debit Card Cash Back","Thẻ ghi nợ tiền mặt trở lại",module,Magento_Paypal
+"Debit Card Transaction","Giao dịch thẻ ghi nợ",module,Magento_Paypal
+"Direct Payment API","Thanh toán API Trực tiếp",module,Magento_Paypal
+"EFT Funding (German banking)","Kinh phí EFT (ngân hàng Đức)",module,Magento_Paypal
+"Express Checkout APIs","Thanh toán APIs Express",module,Magento_Paypal
+"Fee Reversal","Phí Đảo ngược",module,Magento_Paypal
+"Fee: Foreign ACH Withdrawal","Phí: ACH rút tiền ở nước ngoài",module,Magento_Paypal
+"Fee: Mass Pay Request","Lệ phí: yêu cầu Trả hàng loạt",module,Magento_Paypal
+"Fee: Web Site Payments Pro Account Monthly","Lệ phí: trang Web thanh toán tài khoản Pro hàng tháng",module,Magento_Paypal
+"Fee: WorldLink Check Withdrawal","Lệ phí: WorldLink kiểm tra rút tiền",module,Magento_Paypal
+Funding,"Tài trợ",module,Magento_Paypal
+"General (Authorization)","Tổng hợp (ủy quyền)",module,Magento_Paypal
+"General (Dividend)","Tổng hợp (cổ)",module,Magento_Paypal
+"General (Funds Transfer from PayPal Account to Another)","Tổng hợp (chuyển tiền từ tài khoản PayPal khác)",module,Magento_Paypal
+"General (Purchase with a credit card)","Tổng hợp (mua với một thẻ tín dụng)",module,Magento_Paypal
+"General Adjustment without businessrelated event","Tổng hợp điều chỉnh mà không có sự kiện liên quan đến thương nghiệp",module,Magento_Paypal
+"General Currency Conversion","Chuyển đổi tiền tệ nói chung",module,Magento_Paypal
+"General Redemption","Tổng hợp cứu chuộc",module,Magento_Paypal
+"General Withdrawal from PayPal Account","Tổng hợp rút tiền từ tài khoản PayPal",module,Magento_Paypal
+"General. Product no longer supported","Nói chung. Sản phẩm không còn được hỗ trợ",module,Magento_Paypal
+"General: Use of PayPal account for purchasing as well as receiving payments","Tổng quát: Sử dụng các tài khoản PayPal để mua cũng như nhận được các khoản thanh toán",module,Magento_Paypal
+"General: Withdrawal from PayPal Account","Tổng hợp rút tiền từ tài khoản PayPal",module,Magento_Paypal
+"General: Withdrawal to Non-Bank Entity","Tổng hợp: Thu hồi cho tổ chức phi ngân hàng",module,Magento_Paypal
+"General: adjustment of a type not belonging to the other T12xx categories","Tổng hợp: điều chỉnh một loại không thuộc các danh mục khác của T12xx",module,Magento_Paypal
+"General: bonus of a type not belonging to the other T08xx categories","Tổng hợp: tiền thưởng là một loại không thuộc các danh mục khác của T08xx",module,Magento_Paypal
+"General: event not yet categorized","Chung: sự kiện chưa phân loại",module,Magento_Paypal
+"General: non-payment fee of a type not belonging to the other T01xx categories","Chung: không thanh toán chi phí của một loại không thuộc các danh mục khác của T01xx",module,Magento_Paypal
+"General: received payment of a type not belonging to the other T00xx categories","Chung: nhận được khoản thanh toán của một loại không thuộc các danh mục khác của T00xx",module,Magento_Paypal
+"General: reversal of a type not belonging to the other T11xx categories","Tổng hợp: đảo ngược của một loại không thuộc các danh mục khác của T11xx",module,Magento_Paypal
+"General: temporary hold of a type not belonging to the other T15xx categories","Tổng hợp: tạm giữ một loại không thuộc các danh mục khác của T15xx",module,Magento_Paypal
+"Gift Certificate Payment: purchase of Gift Certificate","Quà tặng giấy chứng nhận thanh toán: mua phiếu quà tặng",module,Magento_Paypal
+"Gift Certificate Redemption","Phiếu quà tặng chứng nhận cứu chuộc",module,Magento_Paypal
+"Hidden Virtual PayPal Debit Card Transaction","Ẩn giao dịch với thẻ ghi nợ ảo PayPal",module,Magento_Paypal
+"Hold for Dispute Investigation","Giữ để điều tra tranh chấp",module,Magento_Paypal
 Incentive,"Ưu đãi",module,Magento_Paypal
+"Mass Pay Payment","Thanh toán số tiền lớn",module,Magento_Paypal
+"Merchant Referral Bonus","Hoa hồng cho thương gia giới thiệu",module,Magento_Paypal
+"Mobile Payment (made via a mobile phone)","Thanh toán bằng di động (thực hiện thông qua điện thoại di động)",module,Magento_Paypal
+"Negative Balance","Số dư âm",module,Magento_Paypal
+"Open Authorization","Mở ủy quyền",module,Magento_Paypal
+"PayPal Balance Manager function of PayPal account","Chức năng quản lý số dư PayPal của tài khoản PayPal",module,Magento_Paypal
+"PayPal Buyer Warranty Bonus","Tiền hoa hồng bảo hiểm cho người mua dùng Paypal",module,Magento_Paypal
+"PayPal Debit Card Cash Advance","Thẻ PayPal ghi nợ tiền mặt nâng cao",module,Magento_Paypal
+"PayPal Debit Card Withdrawal from ATM","PayPal ghi nợ thẻ rút tiền từ ATM",module,Magento_Paypal
+"PayPal Protection Bonus","PayPal bảo vệ tiền thưởng",module,Magento_Paypal
+"Payment Refund initiated by merchant","Thanh toán khoản tiền hoàn lại khởi xướng bởi thương gia",module,Magento_Paypal
+"Points Incentive Redemption","Điểm ưu đãi cứu chuộc",module,Magento_Paypal
+"Postage Payment to either USPS or UPS","Thanh toán bưu chính USPS hoặc UPS",module,Magento_Paypal
+Reauthorization,"Tái ủy quyền",module,Magento_Paypal
+"Reimbursement of Chargeback","Bồi hoàn số tiền chiết khấu",module,Magento_Paypal
+Reversal,"Đảo ngược",module,Magento_Paypal
+"Reversal of General Account Hold","đảo ngược giữ tài khoản chung",module,Magento_Paypal
+"Reversal of Points Usage","Đảo ngược điểm sử dụng",module,Magento_Paypal
+"Reversal of hold for Dispute Investigation","Đảo ngược giữ để điều tra vụ tranh chấp",module,Magento_Paypal
+"Reward Voucher Redemption","Phần thưởng phiếu cứu chuộc",module,Magento_Paypal
+"Settlement Consolidation","Quyết toán hợp nhất",module,Magento_Paypal
+"Subscription Payment, either payment sent or payment received","Đăng ký thanh toán, thanh toán được gửi hoặc các khoản thanh toán đã nhận được",module,Magento_Paypal
+"User-initiated Currency Conversion","Chuyển đổi tiền tệ bắt đầu sử dụng",module,Magento_Paypal
+"Virtual PayPal Debit Card Transaction","Giao dịch qua thẻ PayPal ghi nợ ảo",module,Magento_Paypal
+"Virtual Terminal Payment","Thanh toán giai đoạn cuối Ảo",module,Magento_Paypal
+Void,"Khoảng trống",module,Magento_Paypal
+"WorldLink Withdrawal","Liên kết quốc tế rút tiền",module,Magento_Paypal
+"eBay Auction Payment","eBay bán đấu giá thanh toán",module,Magento_Paypal
+"The PayPal certificate file is empty.","Tệp chứng chỉ PayPal là trống rỗng.",module,Magento_Paypal
+"Header (center)","Tiêu đề (Trung tâm)",module,Magento_Paypal
+"Sidebar (right)","Thanh trượt (bên phải)",module,Magento_Paypal
+"Near PayPal Credit checkout button","Nút Gần thanh toán tín dụng PayPal",module,Magento_Paypal
+"--Please Select--","--Vui lòng chọn--",module,Magento_Paypal
+Daily,"Hàng ngày",module,Magento_Paypal
+"Every 3 days","Mỗi 3 ngày",module,Magento_Paypal
+"Every 7 days","Mỗi 7 ngày",module,Magento_Paypal
+"Every 10 days","Mỗi 10 ngày",module,Magento_Paypal
+"Every 14 days","Mỗi 14 ngày",module,Magento_Paypal
+"Every 30 days","Mỗi 30 ngày",module,Magento_Paypal
+"Every 40 days","Mỗi 40 ngày",module,Magento_Paypal
+"No Logo","Không có biểu tượng",module,Magento_Paypal
+"Created billing agreement #%1.","Tạo thanh toán hợp đồng #%1.",module,Magento_Paypal
+"Pending PayPal","Đang chờ giải quyết PayPal",module,Magento_Paypal
+"Billing Agreement","Thỏa thuận thanh toán",module,Magento_Paypal
+"Please Select","Vui lòng chọn",module,Magento_Paypal
+Customer,"Khách hàng",module,Magento_Paypal
+"Created At","Đã tạo vào",module,Magento_Paypal
+"Updated At","Cập nhật lúc",module,Magento_Paypal
+here,đây,module,Magento_Paypal
+"To use PayPal Payments Advanced, you must configure  your PayPal Payments Advanced account on the PayPal website.","Để sử dụng PayPal thanh toán nâng cao, bạn phải cấu hình tài khoản PayPal thanh toán nâng cao của bạn trên các trang web PayPal.",module,Magento_Paypal
+"Once you log into your PayPal Advanced account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","Một khi bạn đăng nhập vào tài khoản PayPal nâng cao, điều hướng trình đơn cài đặt dịch vụ - tổ chức trang thanh toán - thiết lập và thiết lập tùy chọn mô tả dưới đây",module,Magento_Paypal
+"To use PayPal Payflow Link, you must configure your PayPal Payflow Link account on the PayPal website.","Để sử dụng liên kết PayPal Payflow, bạn phải cấu hình tài khoản PayPal Payflow liên kết trên các trang web PayPal.",module,Magento_Paypal
+"Once you log into your PayPal Payflow Link account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","Một khi bạn đăng nhập vào tài khoản PayPal nâng cao, điều hướng trình đơn cài đặt dịch vụ - tổ chức trang thanh toán - thiết lập và thiết lập tùy chọn mô tả dưới đây",module,Magento_Paypal
 "Agreement Information","Thông tin hợp đồng",module,Magento_Paypal
 "Reference ID:","ID tham khảo:",module,Magento_Paypal
 Status:,"Trạng thái:",module,Magento_Paypal
@@ -2237,8 +2372,10 @@ Edit,"Chỉnh sửa",module,Magento_Paypal
 Price,Giá,module,Magento_Paypal
 Qty,"Số lượng",module,Magento_Paypal
 Subtotal,"Tổng phụ",module,Magento_Paypal
+"Please update order data to get shipping methods and rates","Xin vui lòng Cập Nhật dữ liệu đơn hàng để có được phương pháp vận chuyển và giá",module,Magento_Paypal
 "Checkout with PayPal","Thanh toán với PayPal",module,Magento_Paypal
 "Please do not refresh the page until you complete payment.","Xin vui lòng không làm mới trang cho đến khi bạn hoàn thành thanh toán.",module,Magento_Paypal
+"You will be required to enter your payment details after you place an order.","Bạn sẽ được yêu cầu nhập thông tin thanh toán của bạn sau khi bạn đặt một đơn đặt hàng.",module,Magento_Paypal
 Continue,"Tiếp tục",module,Magento_Paypal
 "Additional Options","Tùy chọn bổ sung",module,Magento_Paypal
 "-- Please Select Billing Agreement--","--Vui lòng chọn thanh toán hợp đồng--",module,Magento_Paypal
@@ -2954,6 +3091,7 @@ Mixed,"Hỗn hợp",module,Magento_Sales
 "We refunded %1 online.","Chúng tôi hoàn lại %1 trực tuyến.",module,Magento_Sales
 "We refunded %1 offline.","Chúng tôi hoàn lại %1 ngoại tuyến.",module,Magento_Sales
 "The credit memo has been created automatically.","Ghi nhớ tín dụng đã được tạo ra tự động.",module,Magento_Sales
+"Registered notification about refunded amount of %1.","Đăng ký thông báo về số tiền hoàn lại của %1.",module,Magento_Sales
 "Canceled order online","Hủy bỏ đơn đặt hàng trực tuyến",module,Magento_Sales
 "Canceled order offline","Hủy bỏ đơn đặt hàng ngoại tuyến",module,Magento_Sales
 "Approved the payment online.","Chấp nhận thanh toán trực tuyến.",module,Magento_Sales
@@ -2968,6 +3106,17 @@ Mixed,"Hỗn hợp",module,Magento_Sales
 "The transaction ""%1"" cannot be captured yet.","Các giao dịch ""%1"" chưa thể được chụp.",module,Magento_Sales
 "We will authorize %1 after the payment is approved at the payment gateway.","Chúng tôi sẽ chấp nhận %1 sau khi việc thanh toán được chấp nhận tại cổng thanh toán.",module,Magento_Sales
 "Authorized amount of %1","Số tiền được ủy quyền của %1",module,Magento_Sales
+"An amount of %1 will be captured after being approved at the payment gateway.","Một số %1 sẽ bị giữ sau khi được chấp nhận tại cổng thanh toán.",module,Magento_Sales
+"Captured amount of %1 online","Số tiền giữ %1 trực tuyến",module,Magento_Sales
+"The order amount of %1 is pending approval on the payment gateway.","Số lượng đặt hàng %1 đang chờ phê duyệt trên cổng thanh toán.",module,Magento_Sales
+"Ordered amount of %1","Số lượng đặt hàng %1",module,Magento_Sales
+"Registered notification about captured amount of %1.","Đăng ký thông báo về số tiền bị giữ %1.",module,Magento_Sales
+"Order is suspended as its capture amount %1 is suspected to be fraudulent.","Lệnh bị đình chỉ vì nó chiếm số lượng %1 bị nghi ngờ là gian lận.",module,Magento_Sales
+"The parent transaction ID must have a transaction ID.","ID giao dịch mẹ phải có một ID giao dịch.",module,Magento_Sales
+"Payment transactions disallow storing objects.","Giao dịch thanh toán không cho phép lưu trữ các đối tượng.",module,Magento_Sales
+"The transaction ""%1"" (%2) is already closed.","Các giao dịch ""%1"" (%2) đã được đóng lại.",module,Magento_Sales
+"Set order for existing transactions not allowed","Thiết lập các đơn đặt hàng cho các giao dịch hiện tại không được phép",module,Magento_Sales
+"At minimum, you need to set a payment ID.","Ở mức tối thiểu, bạn cần phải thiết lập một thanh toán.",module,Magento_Sales
 Order,"Đặt hàng",module,Magento_Sales
 Authorization,"Ủy quyền",module,Magento_Sales
 "We found an unsupported transaction type ""%1"".","Chúng tôi tìm thấy một loại giao dịch không được hỗ trợ ""%1"".",module,Magento_Sales
@@ -2979,10 +3128,16 @@ Authorization,"Ủy quyền",module,Magento_Sales
 Title,"Tiêu đề",module,Magento_Sales
 Number,Số,module,Magento_Sales
 "We found an invalid renderer model.","Chúng tôi tìm thấy một mô hình tái tạo không hợp lệ.",module,Magento_Sales
+"Please define the PDF object before using.","Xin vui lòng xác định đối tượng PDF trước khi sử dụng.",module,Magento_Sales
 Products,"Các sản phẩm",module,Magento_Sales
 "Total (ex)","Tổng cộng (cũ)",module,Magento_Sales
 Qty,"Số lượng",module,Magento_Sales
 "Total (inc)","Tổng cộng (inc)",module,Magento_Sales
+"The order object is not specified.","Các đối tượng đơn hàng không được chỉ định.",module,Magento_Sales
+"The source object is not specified.","Nguồn Đối tượng không xác định.",module,Magento_Sales
+"An item object is not specified.","Một đối tượng sản phẩm không được chỉ định.",module,Magento_Sales
+"A PDF object is not specified.","Một đối tượng PDF không được chỉ định.",module,Magento_Sales
+"A PDF page object is not specified.","Một đối tượng trang PDF không được chỉ định.",module,Magento_Sales
 "Excl. Tax","Chưa bao gồm thuế",module,Magento_Sales
 "Incl. Tax","Đã bao gồm thuế",module,Magento_Sales
 title,"tiêu đề",module,Magento_Sales
@@ -3013,6 +3168,7 @@ Closed,"Đóng cửa",module,Magento_Sales
 "Payment Review","Xem xét thanh toán",module,Magento_Sales
 New,Mới,module,Magento_Sales
 View,"Hiển thị",module,Magento_Sales
+"Changing address information will not recalculate shipping, tax or other order amount.","Thay đổi thông tin địa chỉ sẽ không tính toán lại phí vận chuyển, thuế hoặc số tiền đơn đặt hàng khác.",module,Magento_Sales
 "Comment Text","Văn bản Bình luận",module,Magento_Sales
 "Notify Customer by Email","Thông báo cho khách hàng bằng Email",module,Magento_Sales
 Customer,"Khách hàng",module,Magento_Sales
@@ -3066,6 +3222,8 @@ Item,"Sản phẩm",module,Magento_Sales
 "No Items To Refund","Không có sản phẩm để hoàn lại tiền",module,Magento_Sales
 "Credit Memo Comments","Nhận xét ghi nhớ tín dụng",module,Magento_Sales
 "Refund Totals","Hoàn trả lại tổng số",module,Magento_Sales
+"Email Copy of Credit Memo","Email bản sao của bản ghi nhớ tín dụng",module,Magento_Sales
+"Please enter a positive number in this field.","Vui lòng nhập số dương trong trường này.",module,Magento_Sales
 "Items Refunded","Mặt hàng hoàn trả",module,Magento_Sales
 "No Items","Không có mục nào",module,Magento_Sales
 "Credit Memo History","Bản ghi nhớ lịch sử tín dụng",module,Magento_Sales
@@ -3077,6 +3235,7 @@ Message:,"Tin nhắn:",module,Magento_Sales
 "Shipping &amp; Handling","Vận chuyển &amp; xử lý",module,Magento_Sales
 "Gift Options","Tùy chọn Quà tặng",module,Magento_Sales
 "Create Shipment","Tạo lô hàng",module,Magento_Sales
+"Invoice and shipment types do not match for some items on this order. You can create a shipment only after creating the invoice.","Các loại hóa đơn và vận chuyển không phù hợp cho một số mặt hàng đặt hàng này. Bạn có thể tạo một lô hàng chỉ sau khi tạo hoá đơn.",module,Magento_Sales
 "Qty to Invoice","Số lượng đến hóa đơn",module,Magento_Sales
 "Invoice History","Lịch sử hoá đơn",module,Magento_Sales
 "Invoice Comments","Bình luận của hóa đơn",module,Magento_Sales
@@ -3531,6 +3690,15 @@ Minute,Phút,module,Magento_Theme
 "UPS Express Early A.M.","UPS Express đầu giờ sáng.",module,Magento_Ups
 "UPS Worldwide Express PlusSM","UPS PlusSM nhận trên toàn cầu",module,Magento_Ups
 "UPS Today Standard","UPS tiêu chuẩn hôm nay",module,Magento_Ups
+"UPS Today Intercity","UPS Today liên tỉnh",module,Magento_Ups
+"UPS Today Express Saver","UPS Today Express tiết kiệm",module,Magento_Ups
+"Next Day Air Early AM","Sáng sớm ngày tiếp theo trên không",module,Magento_Ups
+"Next Day Air Early AM Letter","Lá thư Sáng sớm ngày tiếp theo trên không",module,Magento_Ups
+"Next Day Air Letter","Thư Next Day Air",module,Magento_Ups
+"Next Day Air Saver","Next Day Air tiết kiệm",module,Magento_Ups
+"Next Day Air Saver Letter","Next Day Air tiết kiệm thư",module,Magento_Ups
+"2nd Day Air AM","sáng ngày thứ 2 trên không",module,Magento_Ups
+"2nd Day Air AM Letter","Lá thư sáng ngày thứ 2 trên không",module,Magento_Ups
 "2nd Day Air","2 ngày hàng không",module,Magento_Ups
 "2nd Day Air Letter","2 ngày thư hàng không",module,Magento_Ups
 "3 Day Select","Chọn 3 ngày",module,Magento_Ups
@@ -3540,6 +3708,7 @@ Ground,"Mặt đất",module,Magento_Ups
 "Canada Standard","Tiêu chuẩn Canada",module,Magento_Ups
 "Worldwide Express","Express trên toàn thế giới",module,Magento_Ups
 "Worldwide Express Letter","Thư Express trên toàn cầu",module,Magento_Ups
+"Worldwide Express Plus Letter","Worldwide Express Plus thư",module,Magento_Ups
 "Worldwide Expedited","Giải quyết nhanh nhất Toàn cầu",module,Magento_Ups
 "Customer Packaging","Khách hàng đóng gói",module,Magento_Ups
 "UPS Letter Envelope","UPS thư phong bì",module,Magento_Ups
@@ -3710,11 +3879,63 @@ Resources,"Tài nguyên",module,Magento_User
 "Priority Mail Large Flat Rate Box","Hộp ưu tiên tỷ lệ cố định thư loại lớn",module,Magento_Usps
 "Priority Mail Express Sunday/Holiday Delivery","Ưu tiên Mail nhận giao hàng ngày Chủ Nhật/ngày lễ",module,Magento_Usps
 "Priority Mail Express Sunday/Holiday Delivery Flat Rate Envelope","Phong bì Ưu tiên thư nhận chủ nhật/Lễ giao tỷ lệ cố định",module,Magento_Usps
+"Priority Mail Express Flat Rate Envelope Hold For Pickup","Ưu tiên giữ phong bì Mail Express tỷ lệ cố định cho Pickup",module,Magento_Usps
+"Priority Mail Small Flat Rate Box","Hộp Ưu tiên thư nhỏ có tỷ lệ cố định",module,Magento_Usps
+"Priority Mail Padded Flat Rate Envelope","ưu tiên Mail có Phong bì tỷ lệ cố định được bịt kín",module,Magento_Usps
+"Priority Mail Express Legal Flat Rate Envelope","Ưu tiên Mail Express phong bì tỷ lệ cố định hợp lệ",module,Magento_Usps
+"Priority Mail Express Legal Flat Rate Envelope Hold For Pickup","Ưu tiên giữ phong bì Mail Express tỷ lệ cố định hợp lệ cho Pickup",module,Magento_Usps
+"Priority Mail Express Sunday/Holiday Delivery Legal Flat Rate Envelope","Phong bì Ưu tiên thư nhận chủ nhật/Lễ giao tỷ lệ cố định hợp lệ",module,Magento_Usps
+"Priority Mail Hold For Pickup","Ưu tiên Mail giữ cho Pickup",module,Magento_Usps
+"Priority Mail Large Flat Rate Box Hold For Pickup","Ưu tiên hộp Mail tỷ lệ bằng phẳng lớn giữ cho Pickup",module,Magento_Usps
+"Priority Mail Medium Flat Rate Box Hold For Pickup","Ưu tiên Mail tỷ lệ bằng phẳng trung bình hộp giữ cho Pickup",module,Magento_Usps
+"Priority Mail Small Flat Rate Box Hold For Pickup","Ưu tiên hộp thư tỷ lệ cố định nhỏ giữ cho Pickup",module,Magento_Usps
+"Priority Mail Flat Rate Envelope Hold For Pickup","Ưu tiên phong bì Mail tỷ lệ cố định giữ để chọn",module,Magento_Usps
+"Priority Mail Gift Card Flat Rate Envelope","Phong bì mail ưu tiên thẻ quà tặng tỷ lệ cố định",module,Magento_Usps
+"Priority Mail Gift Card Flat Rate Envelope Hold For Pickup","Ưu tiên phong bì Mail thẻ quà tặng tỷ lệ cố định giữ để chọn",module,Magento_Usps
+"Priority Mail Window Flat Rate Envelope","Phong bì Mail ưu tiên cửa số tỷ lệ cố định",module,Magento_Usps
+"Priority Mail Window Flat Rate Envelope Hold For Pickup","Phong bì Mail ưu tiên cửa số tỷ lệ cố định giữ để chọn",module,Magento_Usps
+"Priority Mail Small Flat Rate Envelope","Phong bì Mail ưu tiên tỷ lệ cố định nhỏ",module,Magento_Usps
+"Priority Mail Small Flat Rate Envelope Hold For Pickup","Phong bì Mail ưu tiên tỷ lệ cố định nhỏ giữ để chọn",module,Magento_Usps
+"Priority Mail Legal Flat Rate Envelope","Phong bì Mail ưu tiên tỷ lệ cố định hợp lệ",module,Magento_Usps
+"Priority Mail Legal Flat Rate Envelope Hold For Pickup","Phong bì Mail ưu tiên tỷ lệ cố định hợp lệ giữ để chọn",module,Magento_Usps
+"Priority Mail Padded Flat Rate Envelope Hold For Pickup","Phong bì Mail ưu tiên được bịt kín tỷ lệ cố định giữ để chọn",module,Magento_Usps
+"Priority Mail Regional Rate Box A","Ưu tiên hộp thư tỷ lệ khu vực A",module,Magento_Usps
+"Priority Mail Regional Rate Box A Hold For Pickup","Ưu tiên hộp Mail trong vùng tỷ lệ A giữ để chọn",module,Magento_Usps
+"Priority Mail Regional Rate Box B","Ưu tiên hộp thư tỷ lệ khu vực B",module,Magento_Usps
+"Priority Mail Regional Rate Box B Hold For Pickup","Ưu tiên hộp Mail trong vùng tỷ lệ B giữ để chọn",module,Magento_Usps
+"First-Class Package Service Hold For Pickup","Gói dịch vụ hạng nhất giữ để chọn",module,Magento_Usps
+"Priority Mail Express Sunday/Holiday Delivery Flat Rate Boxes","Hộp Express Mail ưu tiên tỷ lệ cố định vận chuyển chủ nhật/thứ hai",module,Magento_Usps
+"Priority Mail Regional Rate Box C","Ưu tiên hộp thư tỷ lệ khu vực C",module,Magento_Usps
+"Priority Mail Regional Rate Box C Hold For Pickup","Ưu tiên hộp Mail trong vùng tỷ lệ C giữ để chọn",module,Magento_Usps
+"First-Class Package Service","Dịch vụ trọn gói hạng nhất",module,Magento_Usps
+"Priority Mail Express Padded Flat Rate Envelope","Phong bì Express Mail được bịt kín tỷ lệ cố định",module,Magento_Usps
+"Priority Mail Express Padded Flat Rate Envelope Hold For Pickup","Ưu tiên giữ phong bì Mail Express được bịt kín tỷ lệ cố định giữ để chọn",module,Magento_Usps
+"Priority Mail Express Sunday/Holiday Delivery Padded Flat Rate Envelope","Phong bì Ưu tiên Mail express được bịt kín vận chuyển vào chủ nhật/ngày lễ tỷ lệ cố định",module,Magento_Usps
+"Priority Mail Express International","Ưu tiên Mail Express quốc tế",module,Magento_Usps
+"Priority Mail International","Ưu tiên thư quốc tế",module,Magento_Usps
+"Global Express Guaranteed (GXG)","Global Express được đảm bảo (GXG)",module,Magento_Usps
+"Global Express Guaranteed Document","Global Express tài liệu đảm bảo",module,Magento_Usps
+"Global Express Guaranteed Non-Document Rectangular","Global Express đảm bảo những thứ không phải tài tài liệu được gói thành hình chữ nhật",module,Magento_Usps
+"Global Express Guaranteed Non-Document Non-Rectangular","Global Express đảm bảo những thứ không phải tài tài liệu được gói không thành hình chữ nhật",module,Magento_Usps
+"Priority Mail International Flat Rate Envelope","Phong bì Mail ưu tiên tỷ lệ cố định quốc tế",module,Magento_Usps
+"Priority Mail International Medium Flat Rate Box","Hộp Mail quốc tế ưu tiên tỷ lệ cố định trung bình",module,Magento_Usps
+"Priority Mail Express International Flat Rate Envelope","Phong bì Mail Express quốc tế tỷ lệ cố định",module,Magento_Usps
+"Priority Mail International Large Flat Rate Box","Hộp mail ưu tiên quốc tế tỷ lệ cố định lớn",module,Magento_Usps
 "USPS GXG Envelopes","USPS GXG phong bì",module,Magento_Usps
+"First-Class Mail International Letter","Thư gửi quốc tế Hạng nhất",module,Magento_Usps
+"First-Class Mail International Large Envelope","Phong bì thư quốc tế lớn Hạng nhất",module,Magento_Usps
+"First-Class Package International Service","Gói dịch vụ quốc tế Hạng nhất",module,Magento_Usps
+"Priority Mail International Small Flat Rate Box","Thư quốc tế hộp tỷ lệ cố định Ưu tiên",module,Magento_Usps
+"Priority Mail Express International Legal Flat Rate Envelope","Phong bì Mail Express quốc tế tỷ lệ cố định hợp lệ",module,Magento_Usps
+"Priority Mail International Gift Card Flat Rate Envelope","Phong bì Mail quốc tế ưu tiên thẻ quà tặng tỷ lệ cố định",module,Magento_Usps
+"Priority Mail International Window Flat Rate Envelope","Phong bì thư ưu tiên cửa sổ tỷ lệ cố định hợp pháp quốc tế",module,Magento_Usps
+"Priority Mail International Small Flat Rate Envelope","Phong bì thư ưu tiên tỷ lệ cố định nhỏ quốc tế",module,Magento_Usps
 "First-Class Mail International Postcard","Bưu thiếp thư quốc tế Hạng nhất",module,Magento_Usps
 "Priority Mail International Legal Flat Rate Envelope","Phong bì thư ưu tiên tỷ lệ cố định hợp pháp quốc tế",module,Magento_Usps
 "Priority Mail International Padded Flat Rate Envelope","Phong bì thư bị bịt kín ưu tiên tỷ lệ cố định hợp pháp quốc tế",module,Magento_Usps
 "Priority Mail International DVD Flat Rate priced box","Hộp gá ưu tiên thư tỷ lệ cố định DVD quốc tế",module,Magento_Usps
+"Priority Mail International Large Video Flat Rate priced box","Hộp Mail quốc tế ưu tiên tỷ lệ Video cố định lớn",module,Magento_Usps
+"Priority Mail Express International Padded Flat Rate Envelope","Phong bì Mail Express bị bịt kín quốc tế tỷ lệ cố định",module,Magento_Usps
 Letter,Thư,module,Magento_Usps
 Flat,Gốc,module,Magento_Usps
 Parcel,"Bưu kiện",module,Magento_Usps
@@ -4563,6 +4784,20 @@ Import,Nhập,module,Magento_OfflineShipping
 "Payment Methods","Phương thức thanh toán",module,Magento_Payment
 "Merchant Location","Vị trí Thương gia",module,Magento_Paypal
 "Merchant Country","Thương mại quốc gia",module,Magento_Paypal
+"If not specified, Default Country from General Config will be used","Nếu không xác định, mặc định các quốc gia từ cấu hình chung sẽ được sử dụng",module,Magento_Paypal
+"Choose a secure bundled payment solution for your business.","Lựa chọn một giải pháp thanh toán an toàn đóng gói cho các doanh nghiệp của bạn.",module,Magento_Paypal
+"Payments Pro and Express Checkout","Thanh toán Pro và thanh toán Express",module,Magento_Paypal
+"Basic Settings - PayPal Payments Pro","Cài đặt cơ bản - thanh toán PayPal Pro",module,Magento_Paypal
+"PayPal Payment Gateways","Cổng thanh toán PayPal",module,Magento_Paypal
+"Process payments using your own internet merchant account.","Quy trình thanh toán bằng cách sử dụng tài khoản thương gia trên mạng của riêng bạn.",module,Magento_Paypal
+"PayPal Express Checkout","Thanh toán PayPal Express",module,Magento_Paypal
+"Add another payment method to your existing solution or as a stand-alone option.","Thêm phương thức thanh toán khác với giải pháp hiện tại của bạn hoặc như là một lựa chọn riêng lẻ.",module,Magento_Paypal
+"Accept payments with a completely customizable checkout page.","Chấp nhận thanh toán với một thanh toán có thể tùy chỉnh hoàn toàn.",module,Magento_Paypal
+"PayPal Payment Solutions","Giải pháp thanh toán PayPal",module,Magento_Paypal
+"Add PayPal as an additional payment method to your checkout page.","Thêm PayPal như là một phương thức thanh toán bổ sung vào trang web thanh toán của bạn.",module,Magento_Paypal
+"Required PayPal Settings","PayPal yêu cầu cài đặt",module,Magento_Paypal
+"Email Associated with PayPal Merchant Account","Email liên kết với tài khoản PayPal thương gia",module,Magento_Paypal
+"Don't have a PayPal account? Simply enter your email address.","Không có một tài khoản PayPal? Chỉ cần nhập địa chỉ email của bạn.",module,Magento_Paypal
 "API Authentication Methods","Phương pháp xác thực API",module,Magento_Paypal
 "API Username","Tên người dùng API",module,Magento_Paypal
 "API Password","API mật khẩu",module,Magento_Paypal
@@ -4590,6 +4825,13 @@ Title,"Tiêu đề",module,Magento_Paypal
 "It is recommended to set this value to ""Magento_Paypal"" per store views.","Khuyến nghị đặt giá trị ""Magento_Paypal"" cho từng của hàng.",module,Magento_Paypal
 "Sort Order","Thứ tự sắp xếp",module,Magento_Paypal
 "Payment Action","Hành động thanh toán",module,Magento_Paypal
+"Display on Product Details Page","Hiển thị trên trang chi tiết sản phẩm",module,Magento_Paypal
+"Authorization Honor Period (days)","Khoảng thời gian để vinh danh ủy quyền (ngày)",module,Magento_Paypal
+"Specifies what the Authorization Honor Period is on the merchant’s PayPal account. It must mirror the setting in PayPal.","Xác định khoảng thời gian ủy quyền danh dự là trên các thương gia tài khoản PayPal. Nó phải được thiết lập trong PayPal.",module,Magento_Paypal
+"Order Valid Period (days)","Đặt thời gian hợp lệ (ngày)",module,Magento_Paypal
+"Specifies what the Order Valid Period is on the merchant’s PayPal account. It must mirror the setting in PayPal.","Xác định khoảng thời gian hợp lệ cho các tài khoản thương gia PayPal. Nó phải được thiết lập trong PayPal.",module,Magento_Paypal
+"Number of Child Authorizations","Số lượng ủy quyền con",module,Magento_Paypal
+"The default number of child authorizations in your PayPal account is 1. To do multiple authorizations please contact PayPal to request an increase.","Số lượng ủy quyền con trong tài khoản PayPal của bạn mặc định là 1. Để có nhiều ủy quyền xin vui lòng liên hệ với PayPal để yêu cầu tăng.",module,Magento_Paypal
 "Advanced Settings","Cài đặt nâng cao",module,Magento_Paypal
 "Also affects mini-shopping cart.","Cũng ảnh hưởng đến giỏ hàng mua sắm mini.",module,Magento_Paypal
 "Payment Applicable From","Áp dụng thanh toán từ",module,Magento_Paypal
@@ -4598,9 +4840,26 @@ Title,"Tiêu đề",module,Magento_Paypal
 "Enable SSL verification","Cho phép xác minh SSL",module,Magento_Paypal
 "Transfer Cart Line Items","Chuyển sang hàng Giỏ hàng",module,Magento_Paypal
 "Transfer Shipping Options","Tùy chọn vận chuyển",module,Magento_Paypal
+"If this option is enabled, customer can change shipping address and shipping method on PayPal website. In live mode works via HTTPS protocol only.","Nếu tùy chọn này được kích hoạt, khách hàng có thể thay đổi địa chỉ vận chuyển và các phương pháp vận chuyển trên trang web PayPal. Trong chế độ trực tiếp làm việc chỉ thông qua giao thức HTTPS.",module,Magento_Paypal
+"Notice that PayPal can handle up to 10 shipping options. That is why Magento will transfer only first 10 cheapest shipping options if there are more than 10 available.","Chú ý rằng PayPal có thể xử lý lên đến 10 vận chuyển tùy chọn. Đó là lý do tại sao Magento sẽ chuyển tùy chọn vận chuyển với giá rẻ nhất chỉ có 10 lần đầu tiên nếu có nhiều hơn 10.",module,Magento_Paypal
+"Shortcut Buttons Flavor","Nút tắt yêu thích",module,Magento_Paypal
+"Enable PayPal Guest Checkout","Cho phép thanh toán PayPal như khách",module,Magento_Paypal
+"Ability for buyer to purchase without PayPal account.","Khả năng cho người mua để mua mà không cần tài khoản PayPal.",module,Magento_Paypal
+"Require Customer's Billing Address","Yêu cầu địa chỉ thanh toán của khách hàng",module,Magento_Paypal
+"This feature needs be enabled first for the merchant account through PayPal technical support.","Tính năng này cần được kích hoạt lần đầu tiên cho tài khoản thương gia thông qua PayPal hỗ trợ kỹ thuật.",module,Magento_Paypal
+"Billing Agreement Signup","Đăng ký thỏa thuận thanh toán",module,Magento_Paypal
+"Whether to create a billing agreement, if there are no active billing agreements available.","Dùng để để tạo ra một thỏa thuận thanh toán, nếu không có không có thỏa thuận thanh toán hoạt động có sẵn.",module,Magento_Paypal
+"Skip Order Review Step","Bỏ qua bước xem lại đơn hàng",module,Magento_Paypal
+"PayPal Billing Agreement Settings","Thiết lập thỏa thuận thanh toán PayPal",module,Magento_Paypal
 Enabled,"Kích hoạt",module,Magento_Paypal
+"Allow in Billing Agreement Wizard","Cho phép trong thuật sĩ thỏa thuận thanh toán",module,Magento_Paypal
+"Settlement Report Settings","Cài đặt báo cáo quyết toán",module,Magento_Paypal
+"SFTP Credentials","SFTP thông tin đăng nhập",module,Magento_Paypal
 Login,"Đăng nhập",module,Magento_Paypal
 Password,"Mật khẩu",module,Magento_Paypal
+"Custom Endpoint Hostname or IP-Address","Tùy chỉnh điểm kết thúc máy chủ hoặc địa chỉ IP",module,Magento_Paypal
+"By default it is ""reports.paypal.com"".","Theo mặc định nó là ""reports.paypal.com"".",module,Magento_Paypal
+"Use colon to specify port. For example: ""test.example.com:5224"".","Sử dụng colon để chỉ rõ cổng. Ví dụ: ""test.example.com:5224"".",module,Magento_Paypal
 "Custom Path","Tùy chỉnh đường dẫn",module,Magento_Paypal
 "Scheduled Fetching","Dự kiến sẽ tìm nạp",module,Magento_Paypal
 "Enable Automatic Fetching","Sử tìm nạp tự động",module,Magento_Paypal
@@ -4615,6 +4874,7 @@ Schedule,"Lịch trình",module,Magento_Paypal
 "Header Image URL","URL hình ảnh tiêu đề",module,Magento_Paypal
 "Header Background Color","Màu nền Tiêu đề",module,Magento_Paypal
 "Header Border Color","Màu sắc biên giới Tiêu đề",module,Magento_Paypal
+"2-pixel perimeter around the header space.","2-pixel các vành đai xung quanh khoảng trống tiêu đề.",module,Magento_Paypal
 "Page Background Color","Màu nền Trang",module,Magento_Paypal
 "Payments Advanced (Includes Express Checkout)","Thanh toán nâng cao (bao gồm thanh toán Express)",module,Magento_Paypal
 "Accept payments with a PCI-compliant checkout that keeps customers on your site.","Chấp nhận thanh toán với một thanh toán phù hợp PCI giữ khách hàng trên trang web của bạn.",module,Magento_Paypal
@@ -4622,6 +4882,8 @@ Schedule,"Lịch trình",module,Magento_Paypal
 Partner,"Đối tác",module,Magento_Paypal
 Vendor,"Nhà cung cấp",module,Magento_Paypal
 User,"Người Dùng",module,Magento_Paypal
+"PayPal recommends that you set up an additional User on your account at manager.paypal.com","PayPal khuyến cáo rằng bạn thiết lập một người dùng bổ sung vào tài khoản của bạn tại manager.paypal.com",module,Magento_Paypal
+"PayPal recommends you set up an additional User on your account at manager.paypal.com, instead of entering your admin username and password here. This will enhance your security and prevent service interruptions if you later change your password. If you do not want to set up an additional User, you can re-enter your Merchant Login here.","PayPal đề nghị bạn thiết lập một người dùng bổ sung vào tài khoản của bạn tại manager.paypal.com, thay vì nhập admin tên đăng nhập và mật khẩu ở đây của bạn. Điều này sẽ tăng cường an ninh và ngăn chặn gián đoạn dịch vụ nếu sau đó bạn thay đổi mật khẩu. Nếu bạn không muốn để thiết lập một người dùng bổ sung, bạn có thể nhập lại thông tin đăng nhập thương gia ở đây.",module,Magento_Paypal
 "Test Mode","Chế độ dùng thử",module,Magento_Paypal
 "Use Proxy","Sử dụng Proxy",module,Magento_Paypal
 "Basic Settings - PayPal Payments Advanced","Cài đặt cơ bản - nâng cao thanh toán PayPal",module,Magento_Paypal
@@ -4629,6 +4891,29 @@ User,"Người Dùng",module,Magento_Paypal
 "CVV Entry is Editable","CVV nhập là có thể chỉnh sửa",module,Magento_Paypal
 "Require CVV Entry","Yêu cầu nhập cảnh CVV",module,Magento_Paypal
 "Send Email Confirmation","Gửi Email xác nhận",module,Magento_Paypal
+"URL method for Cancel URL and Return URL","Phương pháp hủy URL và hoàn tác URL",module,Magento_Paypal
+"Payflow Link (Includes Express Checkout)","Payflow Link (bao gồm thanh toán Express)",module,Magento_Paypal
+"Connect your merchant account with a PCI-compliant gateway that lets customers pay without leaving your site.","Kết nối tài khoản thương gia của bạn với một cổng PCI tuân thủ cho phép khách hàng trả tiền mà không cần rời khỏi trang web của bạn.",module,Magento_Paypal
+"Payflow Link and Express Checkout","Payflow liên kết và thanh toán Express",module,Magento_Paypal
+"Email Associated with PayPal Merchant Account (Optional)","Email liên kết với tài khoản PayPal thương gia (tùy chọn)",module,Magento_Paypal
+"If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.","Nếu bạn không có nhiều người dùng đã được thiết lập trên tài khoản của bạn, xin vui lòng nhập lại thông tin đăng nhập nhà cung cấp/thương gia ở đây.",module,Magento_Paypal
+"Enable Payflow Link","Cho phép liên kết Payflow",module,Magento_Paypal
+"Enable Express Checkout","Cho phép thanh toán Express",module,Magento_Paypal
+"Basic Settings - PayPal Payflow Link","Cài đặt cơ bản - liên kết PayPal Payflow",module,Magento_Paypal
+"Website Payments Pro Hosted Solution","Trang web thanh toán giải pháp lưu trữ chuyên nghiệp",module,Magento_Paypal
+"Accept payments with a PCI compliant checkout that keeps customers on your site.","Chấp nhận thanh toán với một thanh toán phù hợp PCI giữ khách hàng trên trang web của bạn.",module,Magento_Paypal
+"Payments Pro Hosted Solution","Giải pháp máy chủ Thanh toán chuyên nghiệp",module,Magento_Paypal
+"Basic Settings - PayPal Payments Pro Hosted Solution","Cài đặt cơ bản - các khoản thanh toán PayPal Pro giải pháp lưu trữ",module,Magento_Paypal
+"It is recommended to set this value to ""PayPal"" per store views.","Giá trị này được khuyến khích để đặt vào ""PayPal"" để xem một cửa hàng.",module,Magento_Paypal
+"Display Express Checkout in the Payment Information step","Hiển thị thanh toán Express trong bước thông tin thanh toán",module,Magento_Paypal
+"Website Payments Pro Hosted Solution and Express Checkout","Trang web thanh toán giải pháp lưu trữ Pro và thanh toán Express",module,Magento_Paypal
+"Basic Settings - PayPal Website Payments Pro Hosted Solution","Cài đặt cơ bản - trang web PayPal thanh toán giải pháp lưu trữ chuyên nghiệp",module,Magento_Paypal
+"Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site.","Kết nối tài khoản thương gia của bạn với một cửa ngõ hoàn toàn tùy chỉnh cho phép khách hàng trả tiền mà không cần rời khỏi trang web của bạn.",module,Magento_Paypal
+"Basic Settings - PayPal Payflow Pro","Cài đặt cơ bản - PayPal Payflow Pro",module,Magento_Paypal
+"Credit Card Settings","Cài đặt thẻ tín dụng",module,Magento_Paypal
+"Allowed Credit Card Types","Các loại thẻ tín dụng được cho phép",module,Magento_Paypal
+"Payflow Pro (Includes Express Checkout)","Payflow Pro (bao gồm thanh toán Express)",module,Magento_Paypal
+"Payflow Pro and Express Checkout","Payflow Pro và thanh toán Express",module,Magento_Paypal
 "Persistent Shopping Cart","Giữ nguyên giỏ hàng",module,Magento_Persistent
 "General Options","Tùy chọn chung",module,Magento_Persistent
 "Enable Persistence","Cho phép giữ nguyên",module,Magento_Persistent
@@ -4703,6 +4988,7 @@ General,Chung,module,Magento_Sales
 "Choose whether a customer IP is shown in orders, invoices, shipments, and credit memos.","Chọn một khách hàng IP được thể hiện trong đơn hàng, hóa đơn, các lô hàng và tín dụng ghi nhớ.",module,Magento_Sales
 "Checkout Totals Sort Order","Thứ tự sắp xếp thanh toán tổng số",module,Magento_Sales
 "Allow Reorder","Cho phép đặt hàng lại",module,Magento_Sales
+"Invoice and Packing Slip Design","Hóa đơn và đóng gói thiết kế trượt",module,Magento_Sales
 "Logo for PDF Print-outs (200x50)","Biểu tượng cho in PDF (200 x 50)",module,Magento_Sales
 "Logo for HTML Print View","Biểu tượng cho HTML chế độ xem trước khi in",module,Magento_Sales
 Address,"Địa chỉ",module,Magento_Sales
@@ -4712,7 +4998,9 @@ Enable,"Cho phép",module,Magento_Sales
 "Subtotal after discount","Tổng phụ sau đợt giảm giá",module,Magento_Sales
 "Include Tax to Amount","Bao gồm thuế vào số tiền",module,Magento_Sales
 "Description Message","Thông báo mô tả",module,Magento_Sales
+"This message will be shown in the shopping cart when the subtotal (after discount) is lower than the minimum allowed amount.","Thư này sẽ được hiển thị trong giỏ mua hàng khi tổng phụ (sau khi chiết khấu) là thấp hơn số lượng tối thiểu cho phép.",module,Magento_Sales
 "Error to Show in Shopping Cart","Lỗi hiển thị trong giỏ hàng",module,Magento_Sales
+"Validate Each Address Separately in Multi-address Checkout","Xác nhận mỗi địa chỉ một cách riêng biệt trong nhiều địa chỉ thanh toán",module,Magento_Sales
 "Multi-address Description Message","Thư Mô tả nhiều địa chỉ",module,Magento_Sales
 "We'll use the default description above if you leave this empty.","Chúng tôi sẽ sử dụng mặc định mô tả ở trên nếu bạn để điều này trống.",module,Magento_Sales
 "Multi-address Error to Show in Shopping Cart","Nhiều lỗi địa chỉ để hiển thị trong giỏ hàng",module,Magento_Sales
@@ -4742,14 +5030,31 @@ Comma-separated,"Ngăn cách bởi dấu phẩy",module,Magento_Sales
 "Send Invoice Email Copy Method","Gửi phương pháp sao chép email hóa đơn",module,Magento_Sales
 "Invoice Comment Email Sender","Người gửi Email hóa đơn bình luận",module,Magento_Sales
 "Invoice Comment Email Template","Mẫu Email nhận xét Hoá đơn",module,Magento_Sales
+"Invoice Comment Email Template for Guest","Mẫu Email nhận xét Hoá đơn cho khách",module,Magento_Sales
+"Send Invoice Comment Email Copy To","Gửi Email sao chép nhận xét hoá đơn cho",module,Magento_Sales
+"Send Invoice Comments Email Copy Method","Gửi Email phương pháp sao chép nhận xét hoá đơn",module,Magento_Sales
 Shipment,"Lô hàng",module,Magento_Sales
 "Shipment Email Sender","Lô hàng Email người gửi",module,Magento_Sales
 "Shipment Email Template","Lô hàng Email mẫu",module,Magento_Sales
+"Shipment Email Template for Guest","Mẫu email vận chuyển cho khách",module,Magento_Sales
 "Send Shipment Email Copy To","Gửi bản sao Email lô hàng đến",module,Magento_Sales
 "Send Shipment Email Copy Method","Gửi phương pháp sao chép Email lô hàng",module,Magento_Sales
 "Shipment Comments","Bình luận Vận chuyển",module,Magento_Sales
+"Shipment Comment Email Sender","Người gửi Email bình luận vận chuyển",module,Magento_Sales
+"Shipment Comment Email Template","Mẫu Email bình luận Lô hàng",module,Magento_Sales
+"Shipment Comment Email Template for Guest","Mẫu Email bình luận Lô hàng cho khách",module,Magento_Sales
+"Send Shipment Comment Email Copy To","Gửi Email sao chép bình luận lô hàng cho",module,Magento_Sales
+"Send Shipment Comments Email Copy Method","Gửi Email phương pháp sao chép bình luận lô hàng",module,Magento_Sales
 "Credit Memo Email Sender","Người gửi Email ghi nhớ tín dụng",module,Magento_Sales
+"Credit Memo Email Template","Mẫu Email ghi nhớ tín dụng",module,Magento_Sales
+"Credit Memo Email Template for Guest","Mẫu Email ghi nhớ tín dụng cho khách",module,Magento_Sales
+"Send Credit Memo Email Copy To","Gửi bản sao Email ghi nhớ tín dụng đến",module,Magento_Sales
+"Send Credit Memo Email Copy Method","Gửi phương pháp bản sao Email ghi nhớ tín dụng",module,Magento_Sales
+"Credit Memo Comment Email Sender","Bình luận người gửi Email ghi nhớ tín dụng",module,Magento_Sales
+"Credit Memo Comment Email Template","Mẫu bình luận Email ghi nhớ tín dụng",module,Magento_Sales
 "Credit Memo Comment Email Template for Guest","Mẫu Email bình luận ghi nhớ tín dụng cho khách",module,Magento_Sales
+"Send Credit Memo Comment Email Copy To","Gửi Email bản sao bình luận ghi nhớ tín dụng đến",module,Magento_Sales
+"Send Credit Memo Comments Email Copy Method","Gửi Email phương pháp sao chép bình luận ghi nhớ tín dụng",module,Magento_Sales
 "PDF Print-outs","In bản PDF",module,Magento_Sales
 "Display Order ID in Header","Hiển thị ID đơn hàng trên tiêu đề",module,Magento_Sales
 "Asynchronous indexing","Không đồng bộ chỉ mục",module,Magento_Sales
