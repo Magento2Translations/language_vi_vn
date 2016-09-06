@@ -25,7 +25,7 @@ Remove,"Hủy bỏ",module,Magento_AdminNotification
 "There are no product types available for export","Không có sẵn loại sản phẩm để xuất khẩu",module,Magento_AdvancedPricingImportExport
 "We can't find the role for the user you wanted.","Chúng tôi không thể tìm thấy vai trò cho người dùng bạn muốn.",module,Magento_Authorization
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Có vấn đề xảy ra khi dịch danh sách nguồn được cho phép. Bạn có thể tìm thấy nhiều thông tin trong exceptions log.",module,Magento_Authorization
-"You created the order.","Bạn đã đặt hàng.",module,Magento_Authorizenet
+"You created the order.","Đơn hàng của bạn đã được tạo.",module,Magento_Authorizenet
 "Order saving error: %1","Lỗi lưu đơn hàng: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Chọn một phương thức thanh toán.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","Chúng tôi không thể xử lý đơn hàng của bạn ngay bây giờ. Xin vui lòng thử lại sau.",module,Magento_Authorizenet
@@ -3548,7 +3548,7 @@ Price:,Giá:,module,Magento_ProductAlert
 "Unsubscribe from all price alerts","Hủy đăng ký tất cả các cảnh báo giá",module,Magento_ProductAlert
 "In stock alert! We wanted you to know that these products are now available:","Thông báo còn trong kho! Chúng tôi muốn bạn biết rằng các sản phẩm này đang có sẵn:",module,Magento_ProductAlert
 "Unsubscribe from all stock alerts","Hủy đăng ký tất các thông báo lưu kho",module,Magento_ProductAlert
-Url,"đường dẫn",module,Magento_ProductVideo
+Url,"Đường dẫn",module,Magento_ProductVideo
 Title,"Tiêu đề",module,Magento_ProductVideo
 Description,"Mô tả",module,Magento_ProductVideo
 "Preview Image","Xem trước hình ảnh",module,Magento_ProductVideo
@@ -3959,6 +3959,7 @@ Category,Nhóm,module,Magento_Rule
 "Open Chooser","Chọn mở",module,Magento_Rule
 "Unknown condition operator","Không rõ tình trạng Nhà điều hành",module,Magento_Rule
 "There is no information about associated entity type ""%1"".","Có là không có thông tin về loại hình liên kết thực thể ""%1"".",module,Magento_Rule
+"Cart Price Rules","Quy luật giá trong giỏ hàng",module,Magento_SalesRule
 "Add New Rule","Thêm quy tắc mới",module,Magento_SalesRule
 Delete,"Xóa bỏ",module,Magento_SalesRule
 "Are you sure you want to delete this?","Bạn có chắc là bạn muốn xóa điều này không?",module,Magento_SalesRule
@@ -4079,7 +4080,7 @@ Inactive,"Không hoạt động",module,Magento_SalesRule
 "%1 Cart Price Rules based on ""%2"" attribute have been disabled.","%1 Cart Price Rules dựa trên thuộc tính ""%2"" đã bị vô hiệu.",module,Magento_SalesRule
 "Entity Sequence profile not added to meta active profile","Hồ sơ tổ chức không được thêm vào meta cấu hình hoạt động",module,Magento_SalesSequence
 "Not enough arguments","Đối số không đủ",module,Magento_SalesSequence
-"Credit Memos","Hoàn trả đơn hàng",module,Magento_Sales
+"Credit Memos","Ghi nhớ tín dụng",module,Magento_Sales
 Orders,"Đơn hàng",module,Magento_Sales
 Invoices,"Hoá đơn",module,Magento_Sales
 "We can't get the order instance right now.","Hiện tại không thể lấy đơn đặt hàng ngay bây giờ.",module,Magento_Sales
