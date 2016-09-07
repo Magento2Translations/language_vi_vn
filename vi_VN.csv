@@ -16,7 +16,7 @@ Remove,"Hủy bỏ",module,Magento_AdminNotification
 "Critical System Messages","Hệ thống tin nhắn quan trọng",module,Magento_AdminNotification
 "Major System Messages","Hệ thống tin nhắn chính",module,Magento_AdminNotification
 "System messages","Hệ thống tin nhắn",module,Magento_AdminNotification
-"You created the order.","Bạn đã đặt hàng.",module,Magento_Authorizenet
+"You created the order.","Đơn hàng của bạn đã được tạo.",module,Magento_Authorizenet
 "Order saving error: %1","Lỗi lưu đơn hàng: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Chọn một phương thức thanh toán.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","Thẻ tín dụng: xxxx-%1",module,Magento_Authorizenet
@@ -2398,7 +2398,7 @@ Continue,"Tiếp tục",module,Magento_Paypal
 Price:,Giá:,module,Magento_ProductAlert
 "Unsubscribe from all price alerts","Hủy đăng ký tất cả các cảnh báo giá",module,Magento_ProductAlert
 "Unsubscribe from all stock alerts","Hủy đăng ký tất các thông báo lưu kho",module,Magento_ProductAlert
-Url,"đường dẫn",module,Magento_ProductVideo
+Url,"Đường dẫn",module,Magento_ProductVideo
 "Preview Image","Xem trước hình ảnh",module,Magento_ProductVideo
 "Get Video Information","Nhận thông tin về Video",module,Magento_ProductVideo
 "New Video","Video mới",module,Magento_ProductVideo
@@ -2708,6 +2708,7 @@ FALSE,SAI,module,Magento_Rule
 Category,Nhóm,module,Magento_Rule
 "Open Chooser","Chọn mở",module,Magento_Rule
 "There is no information about associated entity type ""%1"".","Có là không có thông tin về loại hình liên kết thực thể ""%1"".",module,Magento_Rule
+"Cart Price Rules","Quy luật giá trong giỏ hàng",module,Magento_SalesRule
 "Add New Rule","Thêm quy tắc mới",module,Magento_SalesRule
 "Save and Continue Edit","Lưu và tiếp tục chỉnh sửa",module,Magento_SalesRule
 "Edit Rule '%1'","Sửa quy tắc '%1'",module,Magento_SalesRule
@@ -2833,7 +2834,7 @@ is,là,module,Magento_SalesRule
 "Error occurred when generating coupons: %1","Lỗi xảy ra khi tạo ra các phiếu giảm giá: %1",module,Magento_SalesRule
 "Some coupons are invalid.","Một số phiếu giảm giá là không hợp lệ.",module,Magento_SalesRule
 "Item totals are not set for the rule.","Tổng số sản phẩm không được đặt cho quy tắc.",module,Magento_SalesRule
-"Credit Memos","Hoàn trả đơn hàng",module,Magento_Sales
+"Credit Memos","Ghi nhớ tín dụng",module,Magento_Sales
 Orders,"Đơn hàng",module,Magento_Sales
 Invoices,"Hoá đơn",module,Magento_Sales
 "Create New Order","Tạo đơn hàng mới",module,Magento_Sales
