@@ -391,8 +391,6 @@ Country,"Quốc gia",module,Magento_Braintree
 Authorize,"Ủy quyền",module,Magento_Braintree
 "Authorize and Capture","Ủy quyền và chấp nhận giao dịch",module,Magento_Braintree
 "--Please Select--","--Vui lòng chọn--",module,Magento_Braintree
-Sale,Bán,module,Magento_Braintree
-Credit,"Tín dụng",module,Magento_Braintree
 "Credit Card Type","Loại thẻ tín dụng",module,Magento_Braintree
 "Credit Card Number","Số thẻ tín dụng",module,Magento_Braintree
 "Expiration Date","Ngày hết hạn",module,Magento_Braintree
@@ -1540,7 +1538,6 @@ Summary,"Tóm tắt",module,Magento_ConfigurableProduct
 "You need to choose options for your item.","Bạn cần chọn tùy chọn cho sản phẩm của bạn.",module,Magento_ConfigurableProduct
 "Some product variations fields are not valid.","Một số lĩnh vực biến thể sản phẩm là không hợp lệ.",module,Magento_ConfigurableProduct
 "Configuration must have specified attributes","Cấu hình phải có chỉ định thuộc tính",module,Magento_ConfigurableProduct
-"Configurable product ""%1"" does not have sub-products","Sản phẩm cấu hình ""%1"" không có sản phẩm phụ",module,Magento_ConfigurableProduct
 "Type %1 is not an instance of %2","Loại %1 không phải là một trường hợp của %2",module,Magento_ConfigurableProduct
 "Choose Affected Attribute Set","Chọn bộ thuộc tính bị ảnh hưởng",module,Magento_ConfigurableProduct
 "Add configurable attributes to the current Attribute Set","Thêm thuộc tính cấu hình vào bộ thuộc tính hiện tại",module,Magento_ConfigurableProduct
@@ -4394,6 +4391,7 @@ Canceled,"Đã hủy bỏ",module,Magento_Sales
 "Unknown State","Không rõ bang",module,Magento_Sales
 "We found an invalid quantity to refund item ""%1"".","Chúng tôi tìm thấy một số lượng không hợp lệ để hoàn trả các sản phẩm ""%1"".",module,Magento_Sales
 "Maximum shipping amount allowed to refund is: %1","Số tiền vận chuyển tối đa được cho phép để hoàn trả là: %1",module,Magento_Sales
+"The most money available to refund is %1.","Số tiền Nhiều nhất có sẵn để hoàn trả là %1.",module,Magento_Sales
 "Could not delete credit memo","Không thể xoá bản ghi nhớ tín dụng",module,Magento_Sales
 "Could not save credit memo","Không thể lưu ghi nhớ tín dụng",module,Magento_Sales
 "This order already has associated customer account","Đơn hàng này đã kết hợp tài khoản khách hàng",module,Magento_Sales
@@ -4429,13 +4427,9 @@ Mixed,"Hỗn hợp",module,Magento_Sales
 "The payment method you requested is not available.","Phương thức thanh toán bạn đã yêu cầu không có sẵn.",module,Magento_Sales
 "The payment disallows storing objects.","Các khoản thanh toán không cho phép lưu trữ các đối tượng.",module,Magento_Sales
 "The transaction ""%1"" cannot be captured yet.","Các giao dịch ""%1"" chưa thể được chụp.",module,Magento_Sales
-"We will authorize %1 after the payment is approved at the payment gateway.","Chúng tôi sẽ chấp nhận %1 sau khi việc thanh toán được chấp nhận tại cổng thanh toán.",module,Magento_Sales
-"Order is suspended as its authorizing amount %1 is suspected to be fraudulent.","Đơn hàng bị đình chỉ là %1 số tiền được ủy quyền của nó nghi ngờ là lừa đảo.",module,Magento_Sales
-"Authorized amount of %1","Số tiền được ủy quyền của %1",module,Magento_Sales
-"An amount of %1 will be captured after being approved at the payment gateway.","Một số %1 sẽ bị giữ sau khi được chấp nhận tại cổng thanh toán.",module,Magento_Sales
-"Captured amount of %1 online","Số tiền giữ %1 trực tuyến",module,Magento_Sales
 "The order amount of %1 is pending approval on the payment gateway.","Số lượng đặt hàng %1 đang chờ phê duyệt trên cổng thanh toán.",module,Magento_Sales
 "Ordered amount of %1","Số lượng đặt hàng %1",module,Magento_Sales
+"An amount of %1 will be captured after being approved at the payment gateway.","Một số %1 sẽ bị giữ sau khi được chấp nhận tại cổng thanh toán.",module,Magento_Sales
 "Registered notification about captured amount of %1.","Đăng ký thông báo về số tiền bị giữ %1.",module,Magento_Sales
 "Order is suspended as its capture amount %1 is suspected to be fraudulent.","Lệnh bị đình chỉ vì nó chiếm số lượng %1 bị nghi ngờ là gian lận.",module,Magento_Sales
 "The parent transaction ID must have a transaction ID.","ID giao dịch mẹ phải có một ID giao dịch.",module,Magento_Sales
@@ -4474,7 +4468,6 @@ Tax,Thuế,module,Magento_Sales
 title,"tiêu đề",module,Magento_Sales
 "The PDF total model %1 must be or extend \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.","%1 tất cả mẫu PDF phải hoặc mở rộng \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.",module,Magento_Sales
 "We cannot register an existing shipment","Chúng tôi không thể đăng ký một lô hàng sẵn có",module,Magento_Sales
-"We found an invalid quantity to ship for item ""%1"".","Chúng tôi tìm thấy một số lượng không hợp lệ để vận chuyển sản phẩm ""%1"".",module,Magento_Sales
 "Parent shipment cannot be loaded for track object.","Vận chuyển mẹ không thể nạp được cho các đối tượng theo dõi.",module,Magento_Sales
 "Please enter a tracking number.","Vui lòng nhập một số theo dõi.",module,Magento_Sales
 "Could not delete shipment","Không thể xóa bỏ lô hàng",module,Magento_Sales
@@ -4509,7 +4502,6 @@ State/Province,Bang/tỉnh,module,Magento_Sales
 "You can not cancel Credit Memo","Bạn có thể không hủy Ghi nhớ tín dụng",module,Magento_Sales
 "Could not cancel creditmemo","Không thể hủy bỏ ghi nhớ tín dụng",module,Magento_Sales
 "We cannot register an existing credit memo.","Chúng tôi không thể đăng ký một bản ghi nhớ tín dụng hiện tại.",module,Magento_Sales
-"The most money available to refund is %1.","Số tiền Nhiều nhất có sẵn để hoàn trả là %1.",module,Magento_Sales
 "We found an invalid quantity to invoice item ""%1"".","Chúng tôi tìm thấy một số lượng không hợp lệ với hóa đơn sản phẩm ""%1"".",module,Magento_Sales
 "The Order State ""%1"" must not be set manually.","Trạng thái đơn đặt hàng ""%1"" không phải được thiết lập theo cách thủ công.",module,Magento_Sales
 "VAT Request Identifier","Yêu cầu xác nhận VAT",module,Magento_Sales
@@ -4524,6 +4516,8 @@ Closed,"Đóng cửa",module,Magento_Sales
 New,Mới,module,Magento_Sales
 "test message","kiểm tra tin nhắn",module,Magento_Sales
 "Email has not been sent","Email chưa được gửi",module,Magento_Sales
+"We will authorize %1 after the payment is approved at the payment gateway.","Chúng tôi sẽ chấp nhận %1 sau khi việc thanh toán được chấp nhận tại cổng thanh toán.",module,Magento_Sales
+"Authorized amount of %1","Số tiền được ủy quyền của %1",module,Magento_Sales
 View,"Hiển thị",module,Magento_Sales
 "Group was removed","Nhóm đã được gỡ bỏ",module,Magento_Sales
 "Changing address information will not recalculate shipping, tax or other order amount.","Thay đổi thông tin địa chỉ sẽ không tính toán lại phí vận chuyển, thuế hoặc số tiền đơn đặt hàng khác.",module,Magento_Sales
@@ -4946,22 +4940,16 @@ Error:,Lỗi:,module,Magento_Shipping
 "contact us","liên hệ với chúng tôi",module,Magento_Shipping
 Info:,"Thông tin:",module,Magento_Shipping
 Track:,"Theo dõi:",module,Magento_Shipping
-Status:,"Trạng thái:",module,Magento_Shipping
 "Delivered on:","Gửi vào:",module,Magento_Shipping
-"Signed by:","Đăng bởi:",module,Magento_Shipping
-"Delivered to:","Gửi đến:",module,Magento_Shipping
-"Shipped or billed on:","Vận chuyển hoặc hóa đơn trên:",module,Magento_Shipping
-"Service Type:","Loại dịch vụ:",module,Magento_Shipping
-Weight:,"Trọng lượng:",module,Magento_Shipping
 N/A,"Không xác định",module,Magento_Shipping
+"There is no tracking available for this shipment.","Không Có sẵn theo dõi cho lô hàng này.",module,Magento_Shipping
+"There is no tracking available.","Đó là theo dõi không có sẵn.",module,Magento_Shipping
+"Close Window","Đóng cửa sổ",module,Magento_Shipping
 "Track history","Theo dõi lịch sử",module,Magento_Shipping
 Location,"Vị trí",module,Magento_Shipping
 Date,Ngày,module,Magento_Shipping
 "Local Time","Thời gian địa phương",module,Magento_Shipping
 Description,"Mô tả",module,Magento_Shipping
-"There is no tracking available for this shipment.","Không Có sẵn theo dõi cho lô hàng này.",module,Magento_Shipping
-"There is no tracking available.","Đó là theo dõi không có sẵn.",module,Magento_Shipping
-"Close Window","Đóng cửa sổ",module,Magento_Shipping
 "Save & Generate","Lưu trữ & tạo",module,Magento_Sitemap
 "Edit Sitemap","Chỉnh sửa sơ đồ trang web",module,Magento_Sitemap
 "New Sitemap","Sơ đồ trang web mới",module,Magento_Sitemap
@@ -5006,7 +4994,6 @@ All,"Tất Cả",module,Magento_Sitemap
 "Requested store is inactive","Cửa hàng yêu cầu là không hoạt động",module,Magento_Store
 "Requested store is not found","Cửa hàng được yêu cầu không được tìm thấy",module,Magento_Store
 "Environment emulation nesting is not allowed.","Môi trường tổ thi đua không được cho phép.",module,Magento_Store
-"Only default scope allowed","Chỉ cho phép phạm vi mặc định",module,Magento_Store
 "Invalid scope object","Đối tượng phạm vi không hợp lệ",module,Magento_Store
 "Store with the same code","Cửa hàng với mã giống nhau",module,Magento_Store
 "Website with the same code","Các trang web với cùng mã",module,Magento_Store
@@ -5018,8 +5005,8 @@ All,"Tất Cả",module,Magento_Sitemap
 "All Store Views","Tất cả lượt xem cửa hàng",module,Magento_Store
 "-- Please Select --","-- Vui lòng chọn --",module,Magento_Store
 Admin,"Quản trị",module,Magento_Store
-"More than one default website is defined","Nhiều hơn một trang web mặc định được xác định",module,Magento_Store
 "Default website is not defined","Trang web mặc định không được xác định",module,Magento_Store
+"More than one default website is defined","Nhiều hơn một trang web mặc định được xác định",module,Magento_Store
 "no such entity exception","không có thực thể ngoại lệ như vậy",module,Magento_Store
 "Your Language:","Ngôn ngữ của bạn:",module,Magento_Store
 "Your Language","Ngôn ngữ của bạn",module,Magento_Store
@@ -5682,12 +5669,9 @@ Yes,Có,module,Magento_Variable
 "No token found.","Mã thông báo không tìm thấy.",module,Magento_Vault
 "Wrong request.","Yêu cầu sai.",module,Magento_Vault
 "Deletion failure. Please try again.","Xóa bỏ thất bại. Xin vui lòng thử lại.",module,Magento_Vault
-"Credit Card was successfully removed","Thẻ tín dụng đã được gỡ bỏ thành công",module,Magento_Vault
-"My Credit Cards","Thẻ tín dụng của tôi",module,Magento_Vault
 "Card Number","Số thẻ",module,Magento_Vault
 "Expiration Date","Ngày hết hạn",module,Magento_Vault
 Type,Loại,module,Magento_Vault
-"You have no credit cards.","Bạn không có thẻ tín dụng.",module,Magento_Vault
 ending,"kết thúc",module,Magento_Vault
 Actions,"Thao tác",module,Magento_Vault
 Delete,Xóa,module,Magento_Vault
@@ -5911,7 +5895,6 @@ items,"sản phẩm",module,Magento_Checkout
 "Options Details","Tùy chọn chi tiết",module,Magento_Checkout
 Remove,"Hủy bỏ",module,Magento_Checkout
 "Cart Subtotal","Tổng phụ giỏ hàng",module,Magento_Checkout
-"No Payment Methods","Không có phương thức thanh toán",module,Magento_Checkout
 "Payment Information","Thông tin thanh toán",module,Magento_Checkout
 "No Payment method available.","Không có phương thức thanh toán có sẵn.",module,Magento_Checkout
 "You can track your order status by creating an account.","Bạn có thể theo dõi tình trạng đơn hàng của bạn bằng cách tạo một tài khoản.",module,Magento_Checkout
@@ -6487,10 +6470,10 @@ Debug,"Sửa Lỗi",module,Magento_Braintree
 Select...,Chọn...,module,Magento_Braintree
 Status,"Tình trạng",module,Magento_Braintree
 "Transaction Type","Loại giao dịch",module,Magento_Braintree
+"Created At","Đã tạo vào",module,Magento_Braintree
 "Transaction ID","ID giao dịch",module,Magento_Braintree
 "Order ID","ID đặt hàng",module,Magento_Braintree
 Type,Loại,module,Magento_Braintree
-"Created At","Đã tạo vào",module,Magento_Braintree
 Amount,"Số lượng",module,Magento_Braintree
 Currency,"Ngoại tệ",module,Magento_Braintree
 Select...,Chọn...,module,Magento_Bundle
@@ -7246,18 +7229,17 @@ Manage,"Quản lý",module,Magento_Paypal
 "Merchant Location","Vị trí Thương gia",module,Magento_Paypal
 "Merchant Country","Thương mại quốc gia",module,Magento_Paypal
 "If not specified, Default Country from General Config will be used","Nếu không xác định, mặc định các quốc gia từ cấu hình chung sẽ được sử dụng",module,Magento_Paypal
+"PayPal Express Checkout","Thanh toán PayPal Express",module,Magento_Paypal
+"Add another payment method to your existing solution or as a stand-alone option.","Thêm phương thức thanh toán khác với giải pháp hiện tại của bạn hoặc như là một lựa chọn riêng lẻ.",module,Magento_Paypal
 "Choose a secure bundled payment solution for your business.","Lựa chọn một giải pháp thanh toán an toàn đóng gói cho các doanh nghiệp của bạn.",module,Magento_Paypal
 "Payments Pro and Express Checkout","Thanh toán Pro và thanh toán Express",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro","Cài đặt cơ bản - thanh toán PayPal Pro",module,Magento_Paypal
-"PayPal Payment Gateways","Cổng thanh toán PayPal",module,Magento_Paypal
-"Process payments using your own internet merchant account.","Quy trình thanh toán bằng cách sử dụng tài khoản thương gia trên mạng của riêng bạn.",module,Magento_Paypal
-"PayPal Express Checkout","Thanh toán PayPal Express",module,Magento_Paypal
-"Add another payment method to your existing solution or as a stand-alone option.","Thêm phương thức thanh toán khác với giải pháp hiện tại của bạn hoặc như là một lựa chọn riêng lẻ.",module,Magento_Paypal
+"PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>","Giải pháp thanh toán PayPal All-in-One &nbsp;&nbsp;<i>chấp nhận và quá trình thẻ tín dụng và thanh toán PayPal.</i>",module,Magento_Paypal
 "Accept payments with a completely customizable checkout page.","Chấp nhận thanh toán với một thanh toán có thể tùy chỉnh hoàn toàn.",module,Magento_Paypal
-"PayPal Payment Solutions","Giải pháp thanh toán PayPal",module,Magento_Paypal
+"Process payments using your own internet merchant account.","Quy trình thanh toán bằng cách sử dụng tài khoản thương gia trên mạng của riêng bạn.",module,Magento_Paypal
 "Add PayPal as an additional payment method to your checkout page.","Thêm PayPal như là một phương thức thanh toán bổ sung vào trang web thanh toán của bạn.",module,Magento_Paypal
 "Required PayPal Settings","PayPal yêu cầu cài đặt",module,Magento_Paypal
-"Email Associated with PayPal Merchant Account","Email liên kết với tài khoản PayPal thương gia",module,Magento_Paypal
+"Email Associated with PayPal Merchant Account (Optional)","Email liên kết với tài khoản PayPal thương gia (tùy chọn)",module,Magento_Paypal
 "Don't have a PayPal account? Simply enter your email address.","Không có một tài khoản PayPal? Chỉ cần nhập địa chỉ email của bạn.",module,Magento_Paypal
 "API Authentication Methods","Phương pháp xác thực API",module,Magento_Paypal
 "API Username","Tên người dùng API",module,Magento_Paypal
@@ -7340,8 +7322,6 @@ Schedule,"Lịch trình",module,Magento_Paypal
 "Header Border Color","Màu sắc biên giới Tiêu đề",module,Magento_Paypal
 "2-pixel perimeter around the header space.","2-pixel các vành đai xung quanh khoảng trống tiêu đề.",module,Magento_Paypal
 "Page Background Color","Màu nền Trang",module,Magento_Paypal
-"Payments Advanced (Includes Express Checkout)","Thanh toán nâng cao (bao gồm thanh toán Express)",module,Magento_Paypal
-"Accept payments with a PCI-compliant checkout that keeps customers on your site.","Chấp nhận thanh toán với một thanh toán phù hợp PCI giữ khách hàng trên trang web của bạn.",module,Magento_Paypal
 "Payments Advanced and Express Checkout","Thanh toán nâng cao và thanh toán Express",module,Magento_Paypal
 Partner,"Đối tác",module,Magento_Paypal
 Vendor,"Nhà cung cấp",module,Magento_Paypal
@@ -7356,22 +7336,17 @@ User,"Người Dùng",module,Magento_Paypal
 "Require CVV Entry","Yêu cầu nhập cảnh CVV",module,Magento_Paypal
 "Send Email Confirmation","Gửi Email xác nhận",module,Magento_Paypal
 "URL method for Cancel URL and Return URL","Phương pháp hủy URL và hoàn tác URL",module,Magento_Paypal
-"Payflow Link (Includes Express Checkout)","Payflow Link (bao gồm thanh toán Express)",module,Magento_Paypal
-"Connect your merchant account with a PCI-compliant gateway that lets customers pay without leaving your site.","Kết nối tài khoản thương gia của bạn với một cổng PCI tuân thủ cho phép khách hàng trả tiền mà không cần rời khỏi trang web của bạn.",module,Magento_Paypal
 "Payflow Link and Express Checkout","Payflow liên kết và thanh toán Express",module,Magento_Paypal
-"Email Associated with PayPal Merchant Account (Optional)","Email liên kết với tài khoản PayPal thương gia (tùy chọn)",module,Magento_Paypal
 "If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.","Nếu bạn không có nhiều người dùng đã được thiết lập trên tài khoản của bạn, xin vui lòng nhập lại thông tin đăng nhập nhà cung cấp/thương gia ở đây.",module,Magento_Paypal
 "Enable Payflow Link","Cho phép liên kết Payflow",module,Magento_Paypal
 "Enable Express Checkout","Cho phép thanh toán Express",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Link","Cài đặt cơ bản - liên kết PayPal Payflow",module,Magento_Paypal
 "Website Payments Pro Hosted Solution","Trang web thanh toán giải pháp lưu trữ chuyên nghiệp",module,Magento_Paypal
-"Accept payments with a PCI compliant checkout that keeps customers on your site.","Chấp nhận thanh toán với một thanh toán phù hợp PCI giữ khách hàng trên trang web của bạn.",module,Magento_Paypal
 "Payments Pro Hosted Solution","Giải pháp máy chủ Thanh toán chuyên nghiệp",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro Hosted Solution","Cài đặt cơ bản - các khoản thanh toán PayPal Pro giải pháp lưu trữ",module,Magento_Paypal
 "Display Express Checkout in the Payment Information step","Hiển thị thanh toán Express trong bước thông tin thanh toán",module,Magento_Paypal
 "Website Payments Pro Hosted Solution and Express Checkout","Trang web thanh toán giải pháp lưu trữ Pro và thanh toán Express",module,Magento_Paypal
 "Basic Settings - PayPal Website Payments Pro Hosted Solution","Cài đặt cơ bản - trang web PayPal thanh toán giải pháp lưu trữ chuyên nghiệp",module,Magento_Paypal
-"Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site.","Kết nối tài khoản thương gia của bạn với một cửa ngõ hoàn toàn tùy chỉnh cho phép khách hàng trả tiền mà không cần rời khỏi trang web của bạn.",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Pro","Cài đặt cơ bản - PayPal Payflow Pro",module,Magento_Paypal
 "Vault Title","Tiêu đề Vault",module,Magento_Paypal
 "Credit Card Settings","Cài đặt thẻ tín dụng",module,Magento_Paypal
@@ -7382,7 +7357,6 @@ User,"Người Dùng",module,Magento_Paypal
 "AVS Zip Does Not Match","AVS Zip không phù hợp",module,Magento_Paypal
 "International AVS Indicator Does Not Match","Chỉ số quốc tế AVS không phù hợp",module,Magento_Paypal
 "Card Security Code Does Not Match","Mã bảo vệ thẻ không khớp",module,Magento_Paypal
-"Payflow Pro (Includes Express Checkout)","Payflow Pro (bao gồm thanh toán Express)",module,Magento_Paypal
 "Payflow Pro and Express Checkout","Payflow Pro và thanh toán Express",module,Magento_Paypal
 "Persistent Shopping Cart","Giữ nguyên giỏ hàng",module,Magento_Persistent
 "General Options","Tùy chọn chung",module,Magento_Persistent
