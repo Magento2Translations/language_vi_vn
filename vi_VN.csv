@@ -296,7 +296,6 @@ Minute,Phút,module,Magento_Backend
 "JavaScript may be disabled in your browser.","JavaScript có thể bị hiệu hóa trong trình duyệt của bạn.",module,Magento_Backend
 "To use this website you must first enable JavaScript in your browser.","Để dùng được trang Web, trước tiên, bạn phải kích hoạt JavaScript trong trình duyệt của bạn.",module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Đây chỉ là cửa hàng dùng thử. Bạn có thể xem theo và đặt đơn hàng, nhưng không có hoạt động nào được thực hiện.",module,Magento_Backend
-"Report Bugs","Báo cáo lỗi",module,Magento_Backend
 "Store View:","Cửa hàng:",module,Magento_Backend
 "Stores Configuration","Thuộc tính của cửa hàng",module,Magento_Backend
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Xin vui lòng xác nhận lại việc di chuyển. Các dữ liệu chưa lưu sẽ bị mất.",module,Magento_Backend
@@ -395,6 +394,8 @@ Authorize,"Ủy quyền",module,Magento_Braintree
 "Credit Card Number","Số thẻ tín dụng",module,Magento_Braintree
 "Expiration Date","Ngày hết hạn",module,Magento_Braintree
 "Card Verification Number","Số xác minh thẻ",module,Magento_Braintree
+Actions,"Hành động",module,Magento_Braintree
+Delete,Xóa,module,Magento_Braintree
 "Percent Discount","Phần trăm giảm giá",module,Magento_Bundle
 "-- Select --","- Chọn -",module,Magento_Bundle
 Fixed,"Cố định",module,Magento_Bundle
@@ -487,7 +488,6 @@ Always,"Luôn chọn",module,Magento_Captcha
 "Entity type model '%1' is not found","Mô hình thực thể loại '%1' không được tìm thấy",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Loại thực thể mẫu phải là ví dụ của \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "There are no product types available for export.","Không có sẵn loại sản phẩm để xuất.",module,Magento_CatalogImportExport
-"Entity type model must be an instance of Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType","Loại thực thể mẫu phải là ví dụ của Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "Category ""%1"" has not been created.","Nhóm ""%1"" đã không được tạo.",module,Magento_CatalogImportExport
 "File directory '%1' is not readable.","Tập tin thư mục '%1' là không thể đọc được.",module,Magento_CatalogImportExport
 "File directory '%1' is not writable.","Tập tin thư mục '%1' không phải là có thể ghi được.",module,Magento_CatalogImportExport
@@ -821,7 +821,6 @@ Categories,Nhóm,module,Magento_Catalog
 "Category is not available for requested store.","Mục không có sẵn cho các cửa hàng được yêu cầu.",module,Magento_Catalog
 "There was a category move error. %1","Đã có một lỗi di chuyển mục. %1",module,Magento_Catalog
 "There was a category move error.","Đã có một lỗi di chuyển mục.",module,Magento_Catalog
-"You moved the category","Bạn di chuyển mục này",module,Magento_Catalog
 "Attribute ""%1"" is required.","Thuộc tính ""%1"" là bắt buộc.",module,Magento_Catalog
 "You saved the category.","Bạn đã lưu mục này.",module,Magento_Catalog
 "Something went wrong while saving the category.","Một điềugì đó đã sai trong khi lưu mục này.",module,Magento_Catalog
@@ -967,7 +966,6 @@ Disabled,"Vô hiệu hóa",module,Magento_Catalog
 "The image does not exist.","Hình ảnh không tồn tại.",module,Magento_Catalog
 "Please correct the image file type.","Xin vui lòng sửa đúng các loại tập tin hình ảnh.",module,Magento_Catalog
 "We couldn't move this file: %1.","Chúng tôi không thể di chuyển tệp này: %1.",module,Magento_Catalog
-"We can't find the image file.","Chúng tôi không thể tìm thấy các tập tin hình ảnh.",module,Magento_Catalog
 "The option type to get group instance is incorrect.","Các loại tùy chọn để có được trường hợp nhóm là không chính xác.",module,Magento_Catalog
 "Select type options required values rows.","Chọn loại tùy chọn được yêu cầu giá trị hàng.",module,Magento_Catalog
 "ProductSku should be specified","Mã sản phẩm nên cụ thể",module,Magento_Catalog
@@ -1042,7 +1040,6 @@ message,"tin nhắn",module,Magento_Catalog
 Images,"Hình ảnh",module,Magento_Catalog
 Select...,"Lựa chọn...",module,Magento_Catalog
 "Advanced Pricing","Giá ưu việt",module,Magento_Catalog
-"Tier Price","Tầng giá",module,Magento_Catalog
 "Customer Group","Nhóm khách hàng",module,Magento_Catalog
 "Special Price From","Giá đặc biệt từ",module,Magento_Catalog
 To,Đến,module,Magento_Catalog
@@ -1083,7 +1080,6 @@ Thumbnail,"Hình ảnh thu nhỏ",module,Magento_Catalog
 Actions,"Thao tác",module,Magento_Catalog
 "Schedule Update From","Lịch trình Cập Nhật từ",module,Magento_Catalog
 "Product in Websites","Các sản phẩm trong trang web",module,Magento_Catalog
-"If your Magento site has multiple views, you can set the scope to apply to a specific view.","Nếu trang Magento của bạn có nhiều lượt xem, bạn có thể thiết lập phạm vi áp dụng cho một cái nhìn cụ thể.",module,Magento_Catalog
 name,tên,module,Magento_Catalog
 "Copy Data from","Sao chép dữ liệu từ",module,Magento_Catalog
 "If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products &gt; Categories</a>.","Nếu không có danh mục cha, xin vui lòng sử dụng các danh mục cha mặc định. Bạn có thể gán các loại tại bất kỳ thời điểm nào trong <a href=""%1"" target=""_blank""> Products > Categoriesi</a>.",module,Magento_Catalog
@@ -1102,7 +1098,6 @@ Groups,Nhóm,module,Magento_Catalog
 "A name is required.","Tên là bắt buộc.",module,Magento_Catalog
 "This group contains system attributes. Please move system attributes to another group and try again.","Nhóm này chứa thuộc tính hệ thống. Xin vui lòng di chuyển thuộc tính hệ thống nhóm khác và thử lại.",module,Magento_Catalog
 "Please enter a new group name.","Vui lòng nhập một tên mới của nhóm.",module,Magento_Catalog
-"An attribute group named ""/name/"" already exists"".","Một nhóm thuộc tính tên ""tên /"" đã tồn tại"".",module,Magento_Catalog
 "Sorry, we're unable to complete this request.","Xin lỗi, chúng tôi không thể hoàn tất yêu cầu này.",module,Magento_Catalog
 "You can't remove attributes from this attribute set.","Bạn không thể loại bỏ thuộc tính khỏi thiết lập thuộc tính này.",module,Magento_Catalog
 "Custom Options","Tùy chọn tùy chỉnh",module,Magento_Catalog
@@ -1273,6 +1268,7 @@ Checkout,"Thanh toán",module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","Vui lòng đồng ý tất cả các điều khoản và điều kiện trước khi đặt hàng.",module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","Có lỗi xảy ra khi xử lý đơn hàng của bạn. Xin vui lòng thử lại sau.",module,Magento_Checkout
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 không được kế thừa từ \Magento\Checkout\CustomerData\ItemInterface",module,Magento_Checkout
+"Payment Method","Phương thức thanh toán",module,Magento_Checkout
 "We can't find the product.","Chúng tôi không thể tìm thấy sản phẩm.",module,Magento_Checkout
 "The product does not exist.","Sản phẩm không tồn tại.",module,Magento_Checkout
 "We don't have some of the products you want.","Chúng tôi không có một số sản phẩm mà bạn muốn.",module,Magento_Checkout
@@ -1297,7 +1293,6 @@ Checkout,"Thanh toán",module,Magento_Checkout
 "Error message!","Thông báo lỗi!",module,Magento_Checkout
 Error!,Lỗi!,module,Magento_Checkout
 "DB exception","Ngoại lệ cơ sở dữ liệu",module,Magento_Checkout
-"Wrong minimum amount.","Sai số tiền tối thiểu.",module,Magento_Checkout
 Message,"Tin nhắn",module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print""> In hóa đơn</a>",module,Magento_Checkout
 "Apply Discount Code","Áp dụng mã giảm giá",module,Magento_Checkout
@@ -1418,10 +1413,6 @@ Exception,"Ngoại lệ",module,Magento_Cms
 "All Store Views","Tất cả lượt xem cửa hàng",module,Magento_Cms
 Edit,"Chỉnh sửa",module,Magento_Cms
 Delete,Xóa,module,Magento_Cms
-"Delete ${ $.$data.title }","Xóa ${ $.$data.title }",module,Magento_Cms
-"Are you sure you wan't to delete a ${ $.$data.title } record?","Bạn chắc chắn muốn xóa bản ghi ${ $.$data.title } ?",module,Magento_Cms
-"Delete ""${ $.$data.title }""","Xóa ""${ $.$data.title }""",module,Magento_Cms
-"Are you sure you wan't to delete a ""${ $.$data.title }"" record?","Bạn chắc chắn muốn xóa bản ghi ""${ $.$data.title }""?",module,Magento_Cms
 View,"Hiển thị",module,Magento_Cms
 "No files found","Không tìm thấy tập tin",module,Magento_Cms
 "Browse Files...","Xem theo tệp...",module,Magento_Cms
@@ -1566,7 +1557,6 @@ Actions,"Thao tác",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products. You cannot remove it from the attribute set.","Thuộc tính này được sử dụng trong cấu hình sản phẩm. Bạn không thể gỡ bỏ nó từ các thiết lập thuộc tính.",module,Magento_ConfigurableProduct
 "Associated Products","Sản phẩm liên kết",module,Magento_ConfigurableProduct
 "Step 2: Attribute Values","Bước 2: Tính giá trị",module,Magento_ConfigurableProduct
-"Select values from each attribute to include in this product. Each unique combination of values creates a unigue product SKU.","Chọn giá trị mỗi thuộc tính bao gồm trong sản phẩm này. Mỗi sự kết hợp độc đáo của giá trị tạo ra một độc đáo sản phẩm.",module,Magento_ConfigurableProduct
 "Sort Variations","Sắp xếp các biến thể",module,Magento_ConfigurableProduct
 Options,"Tùy chọn",module,Magento_ConfigurableProduct
 "Select All","Chọn tất cả",module,Magento_ConfigurableProduct
@@ -1792,7 +1782,6 @@ Download,"Tải về",module,Magento_Customer
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Nếu bạn là một khách hàng đã đăng ký thuế VAT, xin vui lòng bấm vào <a href=""%1""> đây</a> để nhập vào địa chỉ vận chuyển thích hợp để tính thuế VAT.",module,Magento_Customer
 "Account Information","Thông tin tài khoản",module,Magento_Customer
 "You saved the account information.","Bạn đã lưu thông tin tài khoản.",module,Magento_Customer
-"The account is locked. Please wait and try again or contact %1.","Tài khoản bị khóa. Xin vui lòng chờ và thử lại hoặc liên hệ với %1.",module,Magento_Customer
 "Password confirmation doesn't match entered password.","Mật khẩu Xác nhận không khớp với mật khẩu đã nhập.",module,Magento_Customer
 "The password doesn't match this account.","Mật khẩu không khớp với tài khoản này.",module,Magento_Customer
 "Please correct the email address.","Xin vui lòng nhập chính xác địa chỉ email.",module,Magento_Customer
@@ -1861,13 +1850,6 @@ Customers,"Khách hàng",module,Magento_Customer
 "Reset password token mismatch.","Đặt lại thẻ mật khẩu không khớp.",module,Magento_Customer
 "Reset password token expired.","Đặt lại thẻ mật khẩu hết hạn.",module,Magento_Customer
 "Please correct the transactional account email type.","Xin vui lòng nhập chính xác vào loại email tài khoản giao dịch.",module,Magento_Customer
-"Please enter the first name.","Vui lòng nhập tên.",module,Magento_Customer
-"Please enter the last name.","Vui lòng nhập họ.",module,Magento_Customer
-"Please enter the street.","Vui lòng nhập tên đường.",module,Magento_Customer
-"Please enter the city.","Vui lòng nhập thành phố.",module,Magento_Customer
-"Please enter the phone number.","Vui lòng nhập số điện thoại.",module,Magento_Customer
-"Please enter the zip/postal code.","Vui lòng nhập mã bưu chính.",module,Magento_Customer
-"Please enter the country.","Vui lòng nhập quốc gia.",module,Magento_Customer
 "Please enter the state/province.","Vui lòng nhập tiểu bang/tỉnh.",module,Magento_Customer
 """%1"" is a required value.","""%1"" là một giá trị bắt buộc.",module,Magento_Customer
 Global,"Toàn cầu",module,Magento_Customer
@@ -3623,7 +3605,6 @@ Tax,Thuế,module,Magento_Quote
 "Cannot set shipping method. %1","Không thể đặt vận phương pháp chuyển. %1",module,Magento_Quote
 "Shipping method is not applicable for empty cart","Phương pháp Vận chuyển không áp dụng cho giỏ hàng rỗng",module,Magento_Quote
 "Cart contains virtual product(s) only. Shipping method is not applicable.","Giỏ hàng chỉ có sản phẩm thực. Phương thức vận chuyển không thể áp dụng.",module,Magento_Quote
-error123,lỗi123,module,Magento_Quote
 error345,lỗi345,module,Magento_Quote
 "New Accounts","Tài khoản mới",module,Magento_Reports
 "Customers by number of orders","Khách hàng bằng số lượng đơn đặt hàng",module,Magento_Reports
@@ -4034,7 +4015,6 @@ Auto,"Tự động",module,Magento_SalesRule
 Subtotal,"Tổng phụ",module,Magento_SalesRule
 "Total Items Quantity","Số lượng tất cả các mục",module,Magento_SalesRule
 "Total Weight","Tổng trọng lượng",module,Magento_SalesRule
-"Payment Method","Phương thức thanh toán",module,Magento_SalesRule
 "Shipping Method","Phương thức vận chuyển",module,Magento_SalesRule
 "Shipping Postcode","Mã bưu chính Vận chuyển",module,Magento_SalesRule
 "Shipping Region","Khu vực Vận chuyển",module,Magento_SalesRule
@@ -5419,10 +5399,7 @@ Store,"Cửa hàng",module,Magento_UrlRewrite
 "URL Rewrite Management","Quản lý viết lại mã URL",module,Magento_UrlRewrite
 "Add URL Rewrite","Thêm chỉnh sửa URL",module,Magento_UrlRewrite
 Custom,"Tùy chỉnh",module,Magento_UrlRewrite
-"For category","Đối với nhóm",module,Magento_UrlRewrite
-"For product","Đối với sản phẩm",module,Magento_UrlRewrite
 "For CMS page","Đối với trang CMS",module,Magento_UrlRewrite
-"Create URL Rewrite:","Tạo chỉnh sửa URL:",module,Magento_UrlRewrite
 "You deleted the URL rewrite.","Bạn đã xoá URL rewrite.",module,Magento_UrlRewrite
 "We can't delete URL Rewrite right now.","Hiện tại không thể xóa URL ngay bây giờ.",module,Magento_UrlRewrite
 "URL Rewrites","Viết lại URL",module,Magento_UrlRewrite
@@ -5627,7 +5604,6 @@ Letter,Thư,module,Magento_Usps
 Flat,Gốc,module,Magento_Usps
 Parcel,"Bưu kiện",module,Magento_Usps
 Variable,Biến,module,Magento_Usps
-"Flat-Rate Box","Hộp tỷ lệ cố định",module,Magento_Usps
 "Flat-Rate Envelope","Phong bì tỷ lệ cố định",module,Magento_Usps
 Rectangular,"Hình chữ nhật",module,Magento_Usps
 Non-rectangular,"Không phải hình chữ nhật",module,Magento_Usps
@@ -5885,12 +5861,8 @@ Cancel,"Hủy bỏ",module,Magento_Checkout
 "You can create an account after checkout.","Bạn có thể tạo một tài khoản sau khi thanh toán.",module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.","Bạn đã có một tài khoản trên hệ thống của chúng tôi. Đăng nhập hoặc tiếp tục như là khách.",module,Magento_Checkout
 Login,"Đăng nhập",module,Magento_Checkout
-Close,Đóng,module,Magento_Checkout
 item,"sản phẩm",module,Magento_Checkout
 items,"sản phẩm",module,Magento_Checkout
-"Go to Checkout","Đi đến thanh toán",module,Magento_Checkout
-"Recently added item(s)","Sản phẩm thêm vào gần đây",module,Magento_Checkout
-"View and edit cart","Xem và sửa giỏ hàng",module,Magento_Checkout
 "See Details","Xem chi tiết",module,Magento_Checkout
 "Options Details","Tùy chọn chi tiết",module,Magento_Checkout
 Remove,"Hủy bỏ",module,Magento_Checkout
@@ -5913,8 +5885,6 @@ edit,sửa,module,Magento_Checkout
 Next,"Tiếp theo",module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Xin lỗi, không có trích dẫn nào có sẵn cho đơn hàng lúc này",module,Magento_Checkout
 "Order Summary","Tóm tắt đơn hàng",module,Magento_Checkout
-"Item in Cart","Sản phẩm trong giỏ",module,Magento_Checkout
-"Items in Cart","Sản phẩm trong giỏ",module,Magento_Checkout
 "View Details","Xem chi tiết",module,Magento_Checkout
 "Contact Form","Mẫu liên hệ",module,Magento_Contact
 "Name: %name","Tên: %name",module,Magento_Contact
@@ -6648,16 +6618,13 @@ Content,"Nội dung",module,Magento_Catalog
 "Category Image","Hình ảnh danh mục",module,Magento_Catalog
 "Add CMS Block","Thêm khối CMS",module,Magento_Catalog
 "Display Settings","Thiết đặt hiển thị",module,Magento_Catalog
-"Sort Products By","Sắp xếp sản phẩm theo",module,Magento_Catalog
 "Use All","Sử dụng tất cả",module,Magento_Catalog
-"Default Product Sorting","Sắp xếp sản phẩm mặc định",module,Magento_Catalog
 "Layered Navigation Price Step","Các bước giá Layered Navigation",module,Magento_Catalog
 "Meta Title","Tiêu đề Meta",module,Magento_Catalog
 "Meta Keywords","Từ khoá Meta",module,Magento_Catalog
 "Meta Description","Mô tả meta",module,Magento_Catalog
 "Products in Category","Các sản phẩm trong nhóm",module,Magento_Catalog
 Design,"Thiết kế",module,Magento_Catalog
-"Use Parent Category Settings","Sử dụng thiết lập nhóm mẹ",module,Magento_Catalog
 Theme,"Chủ đề",module,Magento_Catalog
 Layout,"Giao diện",module,Magento_Catalog
 "Layout Update XML","Cập Nhật giao diện XML",module,Magento_Catalog
@@ -6701,7 +6668,6 @@ Details,"Chi tiết",module,Magento_Catalog
 "Display Cart Summary","Hiển thị tóm tắt giỏ hàng",module,Magento_Checkout
 "Shopping Cart Sidebar","Dải tiện ích hiển thị giỏ hàng",module,Magento_Checkout
 "Display Shopping Cart Sidebar","Hiển thị dải tiện ích giỏ hàng mua sắm",module,Magento_Checkout
-"Maximum Display Recently Added Item(s)","Màn hình hiển thị tối đa sản phẩm mới thêm gần đây",module,Magento_Checkout
 "Payment Failed Emails","Email thông báo thanh toán thất bại",module,Magento_Checkout
 "Payment Failed Email Sender","Người gửi email thanh toán thất bại",module,Magento_Checkout
 "Payment Failed Email Receiver","Người nhận email thanh toán thất bại",module,Magento_Checkout
@@ -6914,7 +6880,6 @@ ZIP,"SỐ ZIP",module,Magento_Customer
 "Last Activity","Lần hoạt động cuối",module,Magento_Customer
 Type,Loại,module,Magento_Customer
 "Customer Information","Thông tin khách hàng",module,Magento_Customer
-"If your Magento site has multiple views, you can set the scope to apply to a specific view.","Nếu trang Magento của bạn có nhiều lượt xem, bạn có thể thiết lập phạm vi áp dụng cho một cái nhìn cụ thể.",module,Magento_Customer
 "Disable Automatic Group Change Based on VAT ID","Vô hiệu hoá tự động thay đổi nhóm dựa trên ID thuế VAT",module,Magento_Customer
 "Send Welcome Email From","Gửi Email chào mừng từ",module,Magento_Customer
 Addresses,"Địa chỉ",module,Magento_Customer
@@ -7234,7 +7199,6 @@ Manage,"Quản lý",module,Magento_Paypal
 "Choose a secure bundled payment solution for your business.","Lựa chọn một giải pháp thanh toán an toàn đóng gói cho các doanh nghiệp của bạn.",module,Magento_Paypal
 "Payments Pro and Express Checkout","Thanh toán Pro và thanh toán Express",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro","Cài đặt cơ bản - thanh toán PayPal Pro",module,Magento_Paypal
-"PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>","Giải pháp thanh toán PayPal All-in-One &nbsp;&nbsp;<i>chấp nhận và quá trình thẻ tín dụng và thanh toán PayPal.</i>",module,Magento_Paypal
 "Accept payments with a completely customizable checkout page.","Chấp nhận thanh toán với một thanh toán có thể tùy chỉnh hoàn toàn.",module,Magento_Paypal
 "Process payments using your own internet merchant account.","Quy trình thanh toán bằng cách sử dụng tài khoản thương gia trên mạng của riêng bạn.",module,Magento_Paypal
 "Add PayPal as an additional payment method to your checkout page.","Thêm PayPal như là một phương thức thanh toán bổ sung vào trang web thanh toán của bạn.",module,Magento_Paypal
@@ -7572,7 +7536,6 @@ Phone,"Điện thoại",module,Magento_Sales
 "ZIP/Post Code","Số ZIP/Post Code",module,Magento_Sales
 "Signed-up Point","Đã đăng lên điểm",module,Magento_Sales
 Website,"Trang web",module,Magento_Sales
-order-header,"Đặt hàng-tiêu đề",module,Magento_Sales
 "Bill-to Name","Tên người thanh toán",module,Magento_Sales
 Created,"Đã tạo",module,Magento_Sales
 "Invoice Date","Ngày Hoá đơn",module,Magento_Sales
@@ -7711,7 +7674,6 @@ Taxes,"Các thuế",module,Magento_Tax
 "This sets whether shipping amounts entered from Magento Admin or obtained from gateways include tax.","Điều này được đặt nếu số lượng vận chuyển nhập từ Magento Admin hoặc thu được từ cổng bao gồm thuế.",module,Magento_Tax
 "Apply Customer Tax","Áp dụng thuế khách hàng",module,Magento_Tax
 "Apply Discount On Prices","Áp dụng giảm giá về giá",module,Magento_Tax
-"Apply discount on price including tax is calculated based on store tax if ""Apply Tax after Discount"" is selected.","Áp dụng giảm giá trên mức giá bao gồm thuế được tính dựa trên thuế cửa hàng, nếu ""Áp dụng thuế sau khi giảm giá"" được chọn.",module,Magento_Tax
 "Apply Tax On","Áp dụng thuế trên",module,Magento_Tax
 "Enable Cross Border Trade","Cho phép thương mại vượt qua biên giới",module,Magento_Tax
 "When catalog price includes tax, enable this setting to fix the price no matter what the customer's tax rate.","Khi giá theo danh mục đã bao gồm thuế, cho phép thiết đặt này sửa chữa giá bất kể thuế suất khách hàng là gì.",module,Magento_Tax
@@ -7742,15 +7704,12 @@ Rate,"Tỷ lệ",module,Magento_Tax
 Empty,Trống,module,Magento_Theme
 "1 column","1 cột",module,Magento_Theme
 Configuration,"Cấu hình",module,Magento_Theme
-"Search Engine Robots","Tìm kiếm robot",module,Magento_Theme
 "Default Robots","Mặc định robot",module,Magento_Theme
 "This will be included before head closing tag in page HTML.","Điều này sẽ được bao gồm trước khi đóng cửa từ khóa trong trang HTML.",module,Magento_Theme
 "Edit custom instruction of robots.txt File","Chỉnh sửa các hướng dẫn tùy chỉnh của robots.txt tập tin",module,Magento_Theme
-"Reset to Defaults","Thiết lập về mặc định",module,Magento_Theme
 "This action will delete your custom instructions and reset robots.txt file to system's default settings.","Hành động này sẽ xóa bỏ hướng dẫn tùy chỉnh của bạn và thiết lập lại các tập tin robots.txt thiết đặt mặc định của hệ thống.",module,Magento_Theme
 "Default Description","Mô tả mặc định",module,Magento_Theme
 "Default welcome msg!","Chào mừng bạn đến tin nhắn mặc định!",module,Magento_Theme
-"Copyright © 2016 Magento. All rights reserved.","Tất cả các bản quyền © 2016 thuộc về Magento.",module,Magento_Theme
 "Design Config Grid","Thiết kế cấu hình mạng lưới",module,Magento_Theme
 "Rebuild design config grid index","Xây dựng lại thiết kế cấu hình mạng lưới chỉ số",module,Magento_Theme
 "Admin empty","Quản trị trống",module,Magento_Theme
@@ -7769,8 +7728,6 @@ Configuration,"Cấu hình",module,Magento_Theme
 Header,"Tiêu đề",module,Magento_Theme
 "Logo Image","Hình ảnh biểu tượng",module,Magento_Theme
 "Allowed file types: png, gif, jpg, jpeg, svg.","Cho phép các loại tập tin: png, gif, jpg, jpeg, svg.",module,Magento_Theme
-"Logo Image Width","Biểu tượng hình ảnh rộng",module,Magento_Theme
-"Logo Image Height","Biểu tượng hình ảnh chiều cao",module,Magento_Theme
 "Welcome Text","Chào mừng bạn đến văn bản",module,Magento_Theme
 "Logo Image Alt","Hình ảnh Logo thay thế",module,Magento_Theme
 Footer,"Chân trang",module,Magento_Theme
