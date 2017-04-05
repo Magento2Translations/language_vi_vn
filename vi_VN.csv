@@ -845,6 +845,7 @@ Catalog,"Danh mục",module,Magento_Catalog
 "You saved the product attribute.","Bạn đã lưu các thuộc tính của sản phẩm.",module,Magento_Catalog
 "An attribute with this code already exists.","Một thuộc tính với mã này đã tồn tại.",module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","Một thuộc tính với cùng mã (%1) đã tồn tại.",module,Magento_Catalog
+"The value of Admin must be unique.","Giá trị của Admin phải là duy nhất.",module,Magento_Catalog
 "You duplicated the product.","Bạn lặp lại các sản phẩm.",module,Magento_Catalog
 "This product doesn't exist.","Sản phẩm này không tồn tại.",module,Magento_Catalog
 "Invalid product id. Should be numeric value greater than 0","Id sản phẩm không hợp lệ. Nên giá trị số lớn hơn 0",module,Magento_Catalog
