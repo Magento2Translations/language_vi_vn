@@ -5864,6 +5864,7 @@ Cancel,"Hủy bỏ",module,Magento_Checkout
 Login,"Đăng nhập",module,Magento_Checkout
 item,"sản phẩm",module,Magento_Checkout
 items,"sản phẩm",module,Magento_Checkout
+"Go to Checkout","Đi đến thanh toán",module,Magento_Checkout
 "See Details","Xem chi tiết",module,Magento_Checkout
 "Options Details","Tùy chọn chi tiết",module,Magento_Checkout
 Remove,"Hủy bỏ",module,Magento_Checkout
