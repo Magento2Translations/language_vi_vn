@@ -5889,6 +5889,7 @@ Next,"Tiếp theo",module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Xin lỗi, không có trích dẫn nào có sẵn cho đơn hàng lúc này",module,Magento_Checkout
 "Order Summary","Tóm tắt đơn hàng",module,Magento_Checkout
 "Item in Cart","Sản phẩm trong giỏ",module,Magento_Checkout
+"Items in Cart","Sản phẩm trong giỏ",module,Magento_Checkout
 "View Details","Xem chi tiết",module,Magento_Checkout
 "Contact Form","Mẫu liên hệ",module,Magento_Contact
 "Name: %name","Tên: %name",module,Magento_Contact
