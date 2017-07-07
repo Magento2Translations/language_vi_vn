@@ -29,6 +29,7 @@ Remove,"Hủy bỏ",module,Magento_AdminNotification
 "Order saving error: %1","Lỗi lưu đơn hàng: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Chọn một phương thức thanh toán.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","Chúng tôi không thể xử lý đơn hàng của bạn ngay bây giờ. Xin vui lòng thử lại sau.",module,Magento_Authorizenet
+"An error occurred on the server. Please try to place the order again.","Lỗi xuất hiện trên máy chủ. Hãy thử đặt một lần nữa.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","Thẻ tín dụng: xxxx-%1",module,Magento_Authorizenet
 "amount %1","số tiền %1",module,Magento_Authorizenet
 failed.,"thất bại.",module,Magento_Authorizenet
