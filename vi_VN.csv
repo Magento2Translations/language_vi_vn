@@ -2345,6 +2345,7 @@ label,nhãn,module,Magento_Eav
 "Wrong entity ID","Sai ID thực thể",module,Magento_Eav
 "Wrong attribute set ID","Sai ID bộ thuộc tính",module,Magento_Eav
 "Wrong attribute group ID","Sai ID nhóm thuộc tính",module,Magento_Eav
+"An attribute code must not be less than %1 and more than %2 characters.","Một mã số thuộc tính không thể ít hơn %1 và nhiều hơn %2 ký tự.",module,Magento_Eav
 "AttributeSet does not exist.","Bộ thuộc tính không tồn tại.",module,Magento_Eav
 hello,"xin chào",module,Magento_Eav
 "Some internal exception message.","Một số tin nhắn nội bộ ngoại lệ.",module,Magento_Eav
@@ -4372,6 +4373,8 @@ Pending,"Đợi duyệt",module,Magento_Sales
 Refunded,"Đã hoàn trả",module,Magento_Sales
 Canceled,"Đã hủy bỏ",module,Magento_Sales
 "Unknown State","Không rõ bang",module,Magento_Sales
+"Could not delete the comment.","Không thể xoá nhận xét.",module,Magento_Sales
+"Could not save the comment.","Không thể lưu bình luận.",module,Magento_Sales
 "We found an invalid quantity to refund item ""%1"".","Chúng tôi tìm thấy một số lượng không hợp lệ để hoàn trả các sản phẩm ""%1"".",module,Magento_Sales
 "Maximum shipping amount allowed to refund is: %1","Số tiền vận chuyển tối đa được cho phép để hoàn trả là: %1",module,Magento_Sales
 "The most money available to refund is %1.","Số tiền Nhiều nhất có sẵn để hoàn trả là %1.",module,Magento_Sales
@@ -4380,6 +4383,8 @@ Canceled,"Đã hủy bỏ",module,Magento_Sales
 "This order already has associated customer account","Đơn hàng này đã kết hợp tài khoản khách hàng",module,Magento_Sales
 Paid,"Đã trả",module,Magento_Sales
 "We cannot register an existing invoice","Chúng tôi không thể đăng ký hóa đơn hiện tại",module,Magento_Sales
+"Could not delete the invoice comment.","Không thể xoá nhận xét của hóa đơn.",module,Magento_Sales
+"Could not save the invoice comment.","Không thể lưu các bình luận của hóa đơn.",module,Magento_Sales
 "ID required","Id bắt buộc",module,Magento_Sales
 "Unknown Status","Không rõ trạng thái",module,Magento_Sales
 Ordered,"Đã đặt hàng",module,Magento_Sales
@@ -4446,12 +4451,18 @@ Tax,Thuế,module,Magento_Sales
 title,"tiêu đề",module,Magento_Sales
 "The PDF total model %1 must be or extend \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.","%1 tất cả mẫu PDF phải hoặc mở rộng \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.",module,Magento_Sales
 "We cannot register an existing shipment","Chúng tôi không thể đăng ký một lô hàng sẵn có",module,Magento_Sales
+"Could not delete the shipment comment.","Không thể xoá nhận xét của lô hàng.",module,Magento_Sales
+"Could not save the shipment comment.","Không thể lưu các bình luận của lô hàng.",module,Magento_Sales
 "Parent shipment cannot be loaded for track object.","Vận chuyển mẹ không thể nạp được cho các đối tượng theo dõi.",module,Magento_Sales
+"Could not delete the shipment tracking.","Không thể xóa bỏ mã theo dõi của lô hàng.",module,Magento_Sales
+"Could not save the shipment tracking.","Không thể lưu mã theo dõi của lô hàng.",module,Magento_Sales
 "Please enter a tracking number.","Vui lòng nhập một số theo dõi.",module,Magento_Sales
 "Could not delete shipment","Không thể xóa bỏ lô hàng",module,Magento_Sales
 "Could not save shipment","Không thể lưu các lô hàng",module,Magento_Sales
 "The last status can't be unassigned from its current state.","Trạng thái cuối cùng không thể được chỉ định từ trạng thái hiện tại của nó.",module,Magento_Sales
 "Status can't be unassigned, because it is used by existing order(s).","Trạng thái không thể được cập nhật do nó đang được sử dụng bới một đơn hàng khác (s).",module,Magento_Sales
+"Could not delete the order status history.","Không thể xoá lịch sử trạng thái của đơn hàng.",module,Magento_Sales
+"Could not save the order status history.","Không thể lưu lịch sử trạng thái của đơn hàng.",module,Magento_Sales
 "The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.","Các mô hình tổng số nên được mở rộng từ \Magento\Sales\Model\Order\Total\AbstractTotal.",module,Magento_Sales
 "We cannot determine the field name.","Chúng tôi không thể xác định tên trường.",module,Magento_Sales
 City,"Thành phố",module,Magento_Sales
@@ -4606,6 +4617,7 @@ Comment,"Bình luận",module,Magento_Sales
 "Link to the Previous Order","Liên kết để đặt hàng trước",module,Magento_Sales
 "Placed from IP","Đặt từ IP",module,Magento_Sales
 "%1 / %2 rate:","%1 / %2 tỷ lệ:",module,Magento_Sales
+"Edit Customer","Chỉnh sửa thông tin khách hàng",module,Magento_Sales
 "Customer Name","Tên khách hàng",module,Magento_Sales
 "Customer Group","Nhóm khách hàng",module,Magento_Sales
 "Notes for this Order","Ghi chú về đơn hàng này",module,Magento_Sales
@@ -5903,10 +5915,12 @@ Password:,"Mật khẩu:",module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","Nếu bạn đã không thực hiện yêu cầu này, bạn có thể bỏ qua, email và mật khẩu của bạn sẽ vẫn như cũ.",module,Magento_Customer
 "Your %store_name password has been changed","%store_name mật khẩu của bạn đã bị thay đổi",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: password.","Chúng tôi đã nhận được một yêu cầu để thay đổi các thông tin liên kết với tài khoản của bạn tại %store_name: mật khẩu.",module,Magento_Customer
+"Checkout out as a new customer","Thanh toán ra như là một khách hàng mới",module,Magento_Customer
 "Creating an account has many benefits:","Tạo một tài khoản có nhiều lợi ích:",module,Magento_Customer
 "See order and shipping status","Xem trạng thái đơn đặt hàng và vận chuyển",module,Magento_Customer
 "Track order history","Theo dõi lịch sử đặt hàng",module,Magento_Customer
 "Check out faster","Kiểm tra nhanh hơn",module,Magento_Customer
+"Checkout out using your account","Thanh toán bằng cách sử dụng tài khoản của bạn",module,Magento_Customer
 "Email Address","Địa chỉ email",module,Magento_Customer
 "Currency Update Warnings","Cảnh báo cập nhật tiền tệ",module,Magento_Directory
 Footer,"Chân trang",module,Magento_Email
@@ -6857,6 +6871,7 @@ Currency,"Ngoại tệ",module,Magento_CurrencySymbol
 "Leave empty for default (15 minutes).","Để trống để mặc định (15 phút).",module,Magento_Customer
 "Customer Notification","Thông báo khách hàng",module,Magento_Customer
 "Assign a Customer Group","Chỉ định một nhóm khách hàng",module,Magento_Customer
+"Are you sure to assign selected customers to new group?","Bạn có chắc để gán các khách hàng đã chọn cho nhóm mới?",module,Magento_Customer
 "Customer Grid","Mạng lưới khách hàng",module,Magento_Customer
 "Rebuild Customer grid index","Xây dựng lại các chỉ số lưới khách hàng",module,Magento_Customer
 Group,Nhóm,module,Magento_Customer
