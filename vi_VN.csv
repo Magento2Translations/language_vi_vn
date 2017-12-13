@@ -654,7 +654,7 @@ Promotions,"Khuyến mãi",module,Magento_CatalogRule
 "We can't delete this rule right now. Please review the log and try again.","Chúng tôi không thể xoá quy tắc này ngay bây giờ. Xin vui lòng xem lại các bản ghi và thử lại.",module,Magento_CatalogRule
 "We can't find a rule to delete.","Chúng tôi không thể tìm thấy một quy tắc để xóa.",module,Magento_CatalogRule
 "This rule no longer exists.","Quy tắc này không còn tồn tại.",module,Magento_CatalogRule
-"New Catalog Price Rule","Quy tắc Catalog Price mới",module,Magento_CatalogRule
+"New Catalog Price Rule","Chỉnh sửa danh mục giá quy định",module,Magento_CatalogRule
 "Edit Rule","Sửa quy tắc",module,Magento_CatalogRule
 Catalog,"Danh mục",module,Magento_CatalogRule
 "Wrong rule specified.","Sai quy tắc chỉ định.",module,Magento_CatalogRule
@@ -6216,7 +6216,7 @@ Quantity,"Số lượng",module,Magento_CatalogInventory
 "Catalog Rule Product","Quy tắc Danh mục sản phẩm",module,Magento_CatalogRule
 "Indexed rule/product association","Hiệp hội được đánh chỉ mục quy tắc/sản phẩm",module,Magento_CatalogRule
 "Catalog Product Rule","Quy tắc Danh mục sản phẩm",module,Magento_CatalogRule
-"Indexed product/rule association","Hiệp hội sản phẩm/quy tắc được lập chỉ mục",module,Magento_CatalogRule
+"Indexed product/rule association","Hiệp hội sản phẩm/mục được đánh chỉ mục",module,Magento_CatalogRule
 Rule,"Quy tắc",module,Magento_CatalogRule
 Start,"Bắt đầu",module,Magento_CatalogRule
 End,"Kết thúc",module,Magento_CatalogRule
