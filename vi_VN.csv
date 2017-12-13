@@ -574,7 +574,7 @@ Promotions,"Khuyến mãi",module,Magento_CatalogRule
 "We can't delete this rule right now. Please review the log and try again.","Chúng tôi không thể xoá quy tắc này ngay bây giờ. Xin vui lòng xem lại các bản ghi và thử lại.",module,Magento_CatalogRule
 "We can't find a rule to delete.","Chúng tôi không thể tìm thấy một quy tắc để xóa.",module,Magento_CatalogRule
 "This rule no longer exists.","Quy tắc này không còn tồn tại.",module,Magento_CatalogRule
-"New Catalog Price Rule","Quy tắc Catalog Price mới",module,Magento_CatalogRule
+"New Catalog Price Rule","Chỉnh sửa danh mục giá quy định",module,Magento_CatalogRule
 "Edit Rule","Sửa quy tắc",module,Magento_CatalogRule
 "New Rule","Quy tắc mới",module,Magento_CatalogRule
 Catalog,"Danh mục",module,Magento_CatalogRule
@@ -586,6 +586,7 @@ Promo,"Quảng cáo",module,Magento_CatalogRule
 "Unable to remove rule %1","Không thể loại bỏ quy tắc %1",module,Magento_CatalogRule
 "Could not rebuild index for empty products array","Không thể xây dựng lại các chỉ số cho mảng sản phẩm trống rỗng",module,Magento_CatalogRule
 "We can't rebuild the index for an undefined product.","Chúng tôi không thể xây dựng lại các chỉ số cho một sản phẩm không xác định.",module,Magento_CatalogRule
+"Catalog rule indexing failed. See details in exception log.","Cửa hàng quy tắc chỉ mục đã thất bại. Xem chi tiết trong đăng nhập ngoại lệ.",module,Magento_CatalogRule
 "Percentage discount should be between 0 and 100.","Tỷ lệ phần trăm giảm giá nên giữa 0 và 100.",module,Magento_CatalogRule
 "Discount value should be 0 or greater.","Giá trị giảm giá nên bằng 0 hoặc lớn hơn.",module,Magento_CatalogRule
 "Unknown action.","Thao tác không rõ.",module,Magento_CatalogRule
@@ -5299,6 +5300,8 @@ Hour,Giờ,module,Magento_Theme
 Minute,Phút,module,Magento_Theme
 "Dictionary (Translation on Storefront side)","Từ điển (dịch bên cửa hàng)",module,Magento_Translation
 "Embedded (Translation on Admin side)","Nhúng (bản dịch bên Admin)",module,Magento_Translation
+"Error while translating phrase ""%s"" in file %s.","Lỗi trong khi dịch cụm từ ""%s"" trong file %s.",module,Magento_Translation
+"Error while generating js translation dictionary: ""%s""","Lỗi khi tạo js dịch từ điển: ""%s""",module,Magento_Translation
 "Condition type ""%1"" is not allowed","Điều kiện loại ""%1"" là không được phép",module,Magento_Ui
 "The configuration parameter ""formElement"" is a required for ""%1"" field.","Các tham số cấu hình ""Yếu tố chính"" là một yêu cầu dành cho trường ""%1"".",module,Magento_Ui
 "Remove %1","Loại bỏ %1",module,Magento_Ui
@@ -6490,7 +6493,7 @@ Stock,"Lưu kho",module,Magento_CatalogInventory
 "Catalog Rule Product","Quy tắc Danh mục sản phẩm",module,Magento_CatalogRule
 "Indexed rule/product association","Hiệp hội được đánh chỉ mục quy tắc/sản phẩm",module,Magento_CatalogRule
 "Catalog Product Rule","Quy tắc Danh mục sản phẩm",module,Magento_CatalogRule
-"Indexed product/rule association","Hiệp hội sản phẩm/quy tắc được lập chỉ mục",module,Magento_CatalogRule
+"Indexed product/rule association","Hiệp hội sản phẩm/mục được đánh chỉ mục",module,Magento_CatalogRule
 Rule,"Quy tắc",module,Magento_CatalogRule
 Start,"Bắt đầu",module,Magento_CatalogRule
 End,"Kết thúc",module,Magento_CatalogRule
