@@ -480,7 +480,7 @@ SKU,"MÃ SẢN PHẨM",module,Magento_CatalogRule
 Product,"Sản phẩm",module,Magento_CatalogRule
 Promotions,"Khuyến mãi",module,Magento_CatalogRule
 "This rule no longer exists.","Quy tắc này không còn tồn tại.",module,Magento_CatalogRule
-"New Catalog Price Rule","Quy tắc Catalog Price mới",module,Magento_CatalogRule
+"New Catalog Price Rule","Chỉnh sửa danh mục giá quy định",module,Magento_CatalogRule
 "Edit Rule","Sửa quy tắc",module,Magento_CatalogRule
 Catalog,"Danh mục",module,Magento_CatalogRule
 "Wrong rule specified.","Sai quy tắc chỉ định.",module,Magento_CatalogRule
