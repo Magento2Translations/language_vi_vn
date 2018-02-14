@@ -264,9 +264,6 @@ System,"Hệ thống",module,Magento_Backend
 "Authentication error occurred.","Xảy ra lỗi xác thực.",module,Magento_Backend
 Order,"Đơn hàng",module,Magento_Backend
 "Order #%1","Đơn hàng #%1",module,Magento_Backend
-"Access denied","Truy cập bị từ chối",module,Magento_Backend
-"Please try to sign out and sign in again.","Vui lòng thoát ra và đăng nhập lại.",module,Magento_Backend
-"If you continue to receive this message, please contact the store owner.","Nếu bạn tiếp tục nhận được tin nhắn này, vui lòng liên lạc với chủ cửa hàng.",module,Magento_Backend
 "You need more permissions to access this.","Bạn cần thêm quyền truy cập.",module,Magento_Backend
 "Welcome, please sign in","Xin chào, vui lòng đăng ký",module,Magento_Backend
 Username,"Tên đăng nhập",module,Magento_Backend
@@ -1309,7 +1306,6 @@ Checkout,"Thanh toán",module,Magento_Checkout
 Error!,Lỗi!,module,Magento_Checkout
 "DB exception","Ngoại lệ cơ sở dữ liệu",module,Magento_Checkout
 Message,"Tin nhắn",module,Magento_Checkout
-"<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print""> In hóa đơn</a>",module,Magento_Checkout
 "Apply Discount Code","Áp dụng mã giảm giá",module,Magento_Checkout
 "Enter discount code","Nhập mã giảm giá",module,Magento_Checkout
 "Apply Discount","Áp dụng giảm giá",module,Magento_Checkout
