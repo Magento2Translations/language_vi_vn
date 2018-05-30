@@ -397,6 +397,7 @@ Authorize,"Ủy quyền",module,Magento_Braintree
 "Credit Card Number","Số thẻ tín dụng",module,Magento_Braintree
 "Expiration Date","Ngày hết hạn",module,Magento_Braintree
 "Card Verification Number","Số xác minh thẻ",module,Magento_Braintree
+"PayPal Account","Tài khoản PayPal",module,Magento_Braintree
 Actions,"Hành động",module,Magento_Braintree
 Delete,Xóa,module,Magento_Braintree
 "Percent Discount","Phần trăm giảm giá",module,Magento_Bundle
@@ -1037,6 +1038,7 @@ Search,"Tìm kiếm",module,Magento_Catalog
 "We cannot determine the field name.","Chúng tôi không thể xác định tên trường.",module,Magento_Catalog
 "Attribute '%1' is locked. %2","Thuộc tính '%1' đã bị khoá. %2",module,Magento_Catalog
 "Do not change the scope. %1","Không thay đổi phạm vi. %1",module,Magento_Catalog
+"Processor %1 doesn't implement BaseSelectProcessorInterface","Bộ xử lý %1 không triển khai BaseSelectProcessorInterface",module,Magento_Catalog
 "A product type is not defined for the indexer.","Một loại sản phẩm không phải xác định cho các indexer.",module,Magento_Catalog
 "%1 doesn't extend \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice","%1 không mở rộng \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice",module,Magento_Catalog
 "Product with SKU %1 is not linked to product with SKU %2","Sản phẩm với mã %1 không được liên kết đến các sản phẩm với mã %2",module,Magento_Catalog
@@ -1044,6 +1046,7 @@ Search,"Tìm kiếm",module,Magento_Catalog
 Dropdown,"Trình đơn xổ dọc",module,Magento_Catalog
 "%1 doesn't extend \Magento\Framework\Filter\Template","%1 không mở rộng \Magento\Framework\Filter\Template",module,Magento_Catalog
 "As low as","Thấp nhất như",module,Magento_Catalog
+test,"thử nghiệm",module,Magento_Catalog
 message,"tin nhắn",module,Magento_Catalog
 Images,"Hình ảnh",module,Magento_Catalog
 Select...,"Lựa chọn...",module,Magento_Catalog
@@ -1280,7 +1283,9 @@ Checkout,"Thanh toán",module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","Có lỗi xảy ra khi xử lý đơn hàng của bạn. Xin vui lòng thử lại sau.",module,Magento_Checkout
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 không được kế thừa từ \Magento\Checkout\CustomerData\ItemInterface",module,Magento_Checkout
 "Payment Method","Phương thức thanh toán",module,Magento_Checkout
+"Payment Page","Kiểu thanh toán",module,Magento_Checkout
 "We can't find the product.","Chúng tôi không thể tìm thấy sản phẩm.",module,Magento_Checkout
+"We found an invalid request for adding product to quote.","Chúng tôi tìm thấy một yêu cầu không hợp lệ cho việc thêm sản phẩm để báo giá.",module,Magento_Checkout
 "The product does not exist.","Sản phẩm không tồn tại.",module,Magento_Checkout
 "We don't have some of the products you want.","Chúng tôi không có một số sản phẩm mà bạn muốn.",module,Magento_Checkout
 "We don't have as many of some products as you want.","Chúng tôi không có nhiều sản phẩm như bạn muốn.",module,Magento_Checkout
@@ -1289,6 +1294,7 @@ Checkout,"Thanh toán",module,Magento_Checkout
 "This quote item does not exist.","Mục báo giá này không tồn tại.",module,Magento_Checkout
 "Display number of items in cart","Hiển thị số lượng sản phẩm trong giỏ hàng",module,Magento_Checkout
 "Display item quantities","Hiển thị số lượng sản phẩm",module,Magento_Checkout
+"An error occurred on the server. Please try to place the order again.","Lỗi xuất hiện trên máy chủ. Hãy thử đặt hàng lại một lần nữa.",module,Magento_Checkout
 "Shipping address is not set","Địa chỉ giao hàng không được thiết lập",module,Magento_Checkout
 "Unable to save shipping information. Please check input data.","Không thể lưu thông tin vận chuyển. Vui lòng kiểm tra lại thông tin.",module,Magento_Checkout
 "Carrier with such method not found: %1, %2","Phương pháp vận chuyển: %1, %2 không tìm thấy",module,Magento_Checkout
@@ -1499,6 +1505,8 @@ Yes,Có,module,Magento_Config
 Specified,"Quy định",module,Magento_Config
 "Config form fieldset clone model required to be able to clone fields","Cấu hình dạng mẫu bộ trường vô tính cần thiết để có thể sao chép các trường vô tính",module,Magento_Config
 "Invalid XML in file %1:\n%2","XML không hợp lệ trong tập tin %1:\n%2",module,Magento_Config
+"'There is no defined type ' .","'Đó là kiểu không được xác định '.",module,Magento_Config
+"'Object is not instance of ' .","' Đối tượng không phải là trường hợp của'.",module,Magento_Config
 "some prefix","một số tiền tố",module,Magento_Config
 "element label","nhãn hiệu nguyên tố",module,Magento_Config
 "element hint","yếu tố gợi ý",module,Magento_Config
@@ -1527,6 +1535,8 @@ Summary,"Tóm tắt",module,Magento_ConfigurableProduct
 "Choose an Option...","Chọn một tùy chọn...",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products.","Thuộc tính này được sử dụng trong sản phẩm cấu hình.",module,Magento_ConfigurableProduct
 "Product has been already attached","Sản phẩm đã được đính kèm",module,Magento_ConfigurableProduct
+"Parent product does not have configurable product options","Sản phẩm cha không có các lựa chọn cấu hình sản phẩm",module,Magento_ConfigurableProduct
+"Child product does not have attribute value %1","Sản phẩm con không có giá trị thuộc tính %1",module,Magento_ConfigurableProduct
 "Product with specified sku: %1 is not a configurable product","Sản phẩm với chỉ định mã sản phẩm: %1 không phải là một sản phẩm cấu hình",module,Magento_ConfigurableProduct
 "Requested option doesn't exist","Tùy chọn yêu cầu không tồn tại",module,Magento_ConfigurableProduct
 "Requested option doesn't exist: %1","Yêu cầu lựa chọn không tồn tại: %1",module,Magento_ConfigurableProduct
@@ -1619,6 +1629,8 @@ Select,Chọn,module,Magento_ConfigurableProduct
 "Remove Product","Loại bỏ sản phẩm",module,Magento_ConfigurableProduct
 "Create Product Configurations","Tạo cấu hình sản phẩm",module,Magento_ConfigurableProduct
 Cancel,"Từ bỏ",module,Magento_ConfigurableProduct
+"Special Price","Giá đặc biệt",module,Magento_ConfigurableProduct
+"Regular Price","Giá thông thường",module,Magento_ConfigurableProduct
 "Page not found.","Không tìm thấy trang.",module,Magento_Contact
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Cảm ơn bạn đã liên hệ với chúng tôi với các ý kiến và câu hỏi của bạn. Chúng tôi sẽ sớm trả lời bạn.",module,Magento_Contact
 "We can't process your request right now. Sorry, that's all we know.","Chúng tôi không thể xử lý yêu cầu của bạn ngay bây giờ. Xin lỗi, đó là tất cả chúng tôi biết.",module,Magento_Contact
@@ -3616,6 +3628,7 @@ Subtotal,"Tổng phụ",module,Magento_Quote
 "Cannot assign customer to the given cart. The cart belongs to different store.","Không thể chỉ định khách hàng vào giỏ hàng nhất định. Giỏ hàng thuộc cửa hàng khác nhau.",module,Magento_Quote
 "Cannot assign customer to the given cart. The cart is not anonymous.","Không thể chỉ định khách hàng vào giỏ hàng nhất định. Giỏ hàng không phải là vô danh.",module,Magento_Quote
 "Cannot assign customer to the given cart. Customer already has active cart.","Không thể chỉ định khách hàng vào giỏ hàng nhất định. Khách hàng đã kích hoạt giỏ hàng.",module,Magento_Quote
+"An error occurred on the server. Please try to place the order again.","Có lỗi xuất hiện trên máy chủ. Bạn hãy thử đặt hàng lại một lần nữa.",module,Magento_Quote
 "Only 1 shipping assignment can be set","Chuyển nhượng chỉ có 1 vận chuyển có thể được thiết lập",module,Magento_Quote
 "This item price or quantity is not valid for checkout.","Giá hoặc số lượng sản phẩm này là không hợp lệ để thanh toán.",module,Magento_Quote
 "Please check the shipping address information. %1","Vui lòng kiểm tra thông tin địa chỉ vận chuyển. %1",module,Magento_Quote
@@ -5034,6 +5047,7 @@ Swatch,Mẫu,module,Magento_Swatches
 "Add Swatch","Thêm mẫu",module,Magento_Swatches
 "Sort Option","Tùy chọn sắp xếp",module,Magento_Swatches
 Delete,Xóa,module,Magento_Swatches
+"The value of Admin must be unique.","Giá trị của Admin phải là duy nhất.",module,Magento_Swatches
 "Choose a color","Chọn một màu",module,Magento_Swatches
 "Upload a file","Tải lên một tập tin",module,Magento_Swatches
 Clear,Xóa,module,Magento_Swatches
@@ -6127,6 +6141,7 @@ Close,"Đóng lại",module,Magento_CheckoutAgreements
 "Provided Zip/Postal Code seems to be invalid.","Mã Zip/bưu điện được cung cấp dường như không hợp lệ.",module,Magento_Checkout
 "If you believe it is the right one you can ignore this notice.","Nếu bạn tin rằng nó là đúng, bạn có thể bỏ qua thông báo này.",module,Magento_Checkout
 "Review & Payments","đánh giá và thanh toán",module,Magento_Checkout
+"Select a new payment method","Chọn một phương thức thanh toán mới",module,Magento_Checkout
 Shipping,"Vận chuyển",module,Magento_Checkout
 "Save Address","Lưu địa chỉ",module,Magento_Checkout
 "We could not detect a size.","Chúng tôi không thể xác định kích thước.",module,Magento_Cms
@@ -6449,8 +6464,10 @@ Type,Loại,module,Magento_Backup
 Download,"Tải về",module,Magento_Backup
 Action,"Thao tác",module,Magento_Backup
 Braintree,"Cổng Thanh Toán Braintree",module,Magento_Braintree
+"Accept credit/debit cards and PayPal in your Magento store.<br/>No setup or monthly fees and your customers never leave your store to complete the purchase.","Chấp nhận thẻ tín dụng/ghi nợ và PayPal ở cửa hàng Magento của bạn.<br/>không có lệ phí thiết lập hoặc hàng tháng và khách hàng tự hoàn tất việc mua hàng.",module,Magento_Braintree
 "Enable this Solution","Kích hoạt giải pháp này",module,Magento_Braintree
 "Enable PayPal through Braintree","Bật Cổng Thanh Toán PayPal qua Braintree",module,Magento_Braintree
+"Vault Enabled","Vault đã được bật",module,Magento_Braintree
 "Basic Braintree Settings","Cấu Hình Braintree Cơ Bản",module,Magento_Braintree
 Title,"Tiêu đề",module,Magento_Braintree
 Environment,"Môi Trường",module,Magento_Braintree
@@ -6474,8 +6491,12 @@ Debug,"Sửa Lỗi",module,Magento_Braintree
 "Require Customer's Billing Address","Yêu cầu địa chỉ thanh toán của khách hàng",module,Magento_Braintree
 "Allow to Edit Shipping Address Entered During Checkout on PayPal Side","Cho Phép Thay Đổi Địa Chỉ Giao Hàng Đã Nhập Khi Đang Thanh Toán trên cCổng PayPal",module,Magento_Braintree
 "Display on Shopping Cart","Hiển thị trên Giỏ hàng",module,Magento_Braintree
+"Skip Order Review","Bỏ qua xem lại đơn đặt hàng",module,Magento_Braintree
 "3D Secure Verification Settings","Cấu Hình Xác Nhận Cổng Thanh Toán 3D Secure",module,Magento_Braintree
 "3D Secure Verification","Xác Nhận Cổng Thanh Toán 3D Secure",module,Magento_Braintree
+"Dynamic Descriptors","Mô tả động",module,Magento_Braintree
+Name,Tên,module,Magento_Braintree
+Phone,"Điện thoại",module,Magento_Braintree
 Select...,Chọn...,module,Magento_Braintree
 Status,"Tình trạng",module,Magento_Braintree
 "Transaction Type","Loại giao dịch",module,Magento_Braintree
@@ -6704,6 +6725,7 @@ Details,"Chi tiết",module,Magento_Catalog
 "Checkout Options","Tùy chọn thanh toán",module,Magento_Checkout
 "Enable Onepage Checkout","Cho phép Onepage checkout",module,Magento_Checkout
 "Allow Guest Checkout","Cho phép thanh toán như khách",module,Magento_Checkout
+"Display Billing Address On","Hiển thị địa chỉ thanh toán trên",module,Magento_Checkout
 "Quote Lifetime (days)","Dòng đời trích dẫn (ngày)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","Sau khi thêm một trang chuyển hướng sản phẩm vào giỏ hàng",module,Magento_Checkout
 "My Cart Link","Liên kết giỏ hàng của tôi",module,Magento_Checkout
