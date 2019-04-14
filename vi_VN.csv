@@ -12,6 +12,7 @@ Remove,"Hủy bỏ",module,Magento_AdminNotification
 "The message has been removed.","Thư đã được xóa.",module,Magento_AdminNotification
 "Wrong message type","Sai loại tin nhắn",module,Magento_AdminNotification
 "Wrong notification ID specified.","Sai thông báo ID.",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","Một hoặc nhiều Cache Types không đúng: %1. ",module,Magento_AdminNotification
 "We were unable to synchronize one or more media files. Please refer to the log file for details.","Chúng tôi không thể đồng bộ hóa một hoặc nhiều tệp phương tiện. Vui lòng tham khảo tệp log để biết thêm chi tiết.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Đồng bộ hóa bộ nhớ phương tiện đã hoàn tất.",module,Magento_AdminNotification
 "Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","Máy chủ web của bạn bị thiết lập không đúng và cho phép truy cập trái phép vào những tệp nhạy cảm.",module,Magento_AdminNotification
@@ -60,6 +61,7 @@ void,hủy,module,Magento_Authorizenet
 "Credit Card Number","Số thẻ tín dụng",module,Magento_Authorizenet
 "Expiration Date","Ngày hết hạn",module,Magento_Authorizenet
 "Card Verification Number","Số xác minh thẻ",module,Magento_Authorizenet
+"Fraud Detection ","Phát hiện gian lận ",module,Magento_Authorizenet
 "FDS Filter Action","Hoạt động lọc FDS",module,Magento_Authorizenet
 "AVS Response","Phản hồi AVS Response",module,Magento_Authorizenet
 "Card Code Response","Phản hồi mã thẻ",module,Magento_Authorizenet
@@ -111,7 +113,7 @@ Shipping,"Vận chuyển",module,Magento_Backend
 "Current User Identity Verification","Xác minh danh tính người dùng hiện tại",module,Magento_Backend
 "Your Password","Mật khẩu của bạn",module,Magento_Backend
 "Save Cache Settings","Lưu thiết lập đệm",module,Magento_Backend
-"Catalog Rewrites","Viết lại danh mục",module,Magento_Backend
+"Catalog Rewrites","Viết lại danh mục ",module,Magento_Backend
 Refresh,"Tải lại",module,Magento_Backend
 "Images Cache","Hình ảnh Cache",module,Magento_Backend
 Clear,Xóa,module,Magento_Backend
@@ -192,6 +194,7 @@ To,Đến,module,Magento_Backend
 "Date selector","Chọn ngày",module,Magento_Backend
 "[ deleted ]","[ xóa ]",module,Magento_Backend
 "Select All","Chọn tất cả",module,Magento_Backend
+" [deleted]"," [xóa]",module,Magento_Backend
 "We couldn't find any records.","Không có kết quả tìm kiếm.",module,Magento_Backend
 "Add New","Thêm sản phẩm mới",module,Magento_Backend
 "Invalid export type supplied for grid export block","Loại xuất khẩu được cung cấp cho khối xuất khẩu dạng lưới",module,Magento_Backend
@@ -251,6 +254,7 @@ System,"Hệ thống",module,Magento_Backend
 "Before modifying the website code please make sure it is not used in index.php.","Trước khi sửa lỗi mã website hãy chắc chắn rằng nó không được sử dụng trong index.php.",module,Magento_Backend
 "The store does not exist","Cửa hàng không tồn tại",module,Magento_Backend
 "Before modifying the store view code please make sure it is not used in index.php.","Trước khi sửa lỗi mã cửa hàng , hãy chắc chắn rằng nó không được sử dụng trong index.php.",module,Magento_Backend
+"New ","Mới ",module,Magento_Backend
 "You saved the website.","Bạn đã lưu trang web.",module,Magento_Backend
 "You saved the store.","Bạn đã lưu cửa hàng.",module,Magento_Backend
 "You saved the store view.","Bạn đã lưu thông tin cửa hàng.",module,Magento_Backend
@@ -1176,6 +1180,7 @@ Role,"Vai trò",module,Magento_Catalog
 "Unselect Visible","Bỏ chọn Hiển thị",module,Magento_Catalog
 "Special Price","Giá đặc biệt",module,Magento_Catalog
 "Regular Price","Giá thông thường",module,Magento_Catalog
+"Buy %1 for: ","Mua %1 cho: ",module,Magento_Catalog
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Mua %1 cho %2 mỗi và <strong class=""benefit""> save <span class=""percent tier-%3"">%4%</span></strong>",module,Magento_Catalog
 "Buy %1 for %2 each","Mua %1 cho %2 mỗi",module,Magento_Catalog
 "Shop By","Mua sắm bằng",module,Magento_Catalog
@@ -1299,6 +1304,8 @@ Checkout,"Thanh toán",module,Magento_Checkout
 "Unable to save shipping information. Please check input data.","Không thể lưu thông tin vận chuyển. Vui lòng kiểm tra lại thông tin.",module,Magento_Checkout
 "Carrier with such method not found: %1, %2","Phương pháp vận chuyển: %1, %2 không tìm thấy",module,Magento_Checkout
 "Shipping method is not applicable for empty cart","Phương pháp Vận chuyển không áp dụng cho giỏ hàng rỗng",module,Magento_Checkout
+" item"," sản phẩm",module,Magento_Checkout
+" items"," sản phẩm",module,Magento_Checkout
 "Totals calculation is not applicable to empty cart","Tính toán tổng số không áp dụng với giỏ hàng rỗng",module,Magento_Checkout
 "Invalid data","Dữ liệu không hợp lệ",module,Magento_Checkout
 "The customer address is not valid.","Địa chỉ khách hàng không hợp lệ.",module,Magento_Checkout
@@ -2628,6 +2635,7 @@ Status,"Tình trạng",module,Magento_ImportExport
 "Show more","Hiển thị thêm",module,Magento_ImportExport
 "Additional data","Dữ liệu bổ sung",module,Magento_ImportExport
 "Following Error(s) has been occurred during importing process:","Lỗi sau đây đã xuất hiện trong quá trình xuất nhập dữ liệu:",module,Magento_ImportExport
+"Only the first 100 errors are shown. ","Chỉ có các lỗi đầu tiên 100 được hiển thị. ",module,Magento_ImportExport
 "Download full report","Tải về báo cáo đầy đủ",module,Magento_ImportExport
 "in row(s):","trong (các) hàng:",module,Magento_ImportExport
 "Make sure your file isn't more than %1M.","Đảm bảo rằng độ lớn tệp tin của bạn không lớn hơn %1M.",module,Magento_ImportExport
@@ -2687,7 +2695,7 @@ Delete,Xóa,module,Magento_ImportExport
 "Entity Attributes","Thuộc tính tổ chức",module,Magento_ImportExport
 Continue,"Tiếp tục",module,Magento_ImportExport
 "Validation Results","Xác nhận kết quả",module,Magento_ImportExport
-"Indexer Management","Quản lý Chỉ mục",module,Magento_Indexer
+"Indexer Management","Quản lý Chỉ mục ",module,Magento_Indexer
 "Update by Schedule","Cập Nhật theo lịch biểu",module,Magento_Indexer
 "Update on Save","Cập Nhật ngày lưu",module,Magento_Indexer
 "Reindex required","Lập chỉ mục lại yêu cầu",module,Magento_Indexer
@@ -2942,6 +2950,8 @@ Items,"Sản phẩm",module,Magento_Multishipping
 "Back to Select Addresses","Quay lại chọn địa chỉ",module,Magento_Multishipping
 "Thank you for your purchase!","Cảm ơn bạn đã mua hàng!",module,Magento_Multishipping
 "Thanks for your order. We'll email you order details and tracking information.","Cảm ơn đơn đặt hàng của bạn. Chúng tôi sẽ gửi email cho bạn thông tin chi tiết và thông tin theo dõi đơn đặt hàng.",module,Magento_Multishipping
+"Your order numbers are: ","Số đơn đặt hàng của bạn là: ",module,Magento_Multishipping
+"Your order number is: ","Số đơn hàng của bạn là: ",module,Magento_Multishipping
 "Continue Shopping","Tiếp tục mua sắm",module,Magento_Multishipping
 "No New Relic Application ID configured, cannot continue with Cron Event reporting","Không có di tích mới ứng dụng ID cấu hình, không thể tiếp tục với sự kiện định kỳ báo cáo",module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
@@ -3044,6 +3054,7 @@ Paused,"Tạm dừng",module,Magento_Newsletter
 "Add to Queue","Thêm vào hàng đợi",module,Magento_Newsletter
 "Are you sure that you want to strip all tags?","Bạn có chắc rằng bạn muốn bỏ tất cả tags?",module,Magento_Newsletter
 "Please enter a new template name.","Vui lòng nhập tên mẫu mới.",module,Magento_Newsletter
+" Copy"," Sao chép",module,Magento_Newsletter
 "Are you sure you want to delete this template?","Bạn có chắc muốn xóa bỏ mẫu này?",module,Magento_Newsletter
 "Sign Up for Our Newsletter:","Đăng ký để nhận bản tin của chúng tôi:",module,Magento_Newsletter
 "Enter your email address","Nhập địa chỉ email của bạn",module,Magento_Newsletter
@@ -3133,6 +3144,7 @@ No,Không,module,Magento_Payment
 "Failure #2","Thất bại #2",module,Magento_Payment
 "Expiration Date","Ngày hết hạn",module,Magento_Payment
 "Card Verification Number","Số xác minh thẻ",module,Magento_Payment
+" is not available. You still can process offline actions."," không có sẵn. Bạn vẫn có thể xử lý các hành động trong khi ngoại tuyến.",module,Magento_Payment
 "Please Select","Vui lòng chọn",module,Magento_Payment
 "We'll ask for your payment details before you place an order.","Chúng tôi sẽ yêu cầu chi tiết thanh toán của bạn trước khi bạn đặt một đơn đặt hàng.",module,Magento_Payment
 "--Please Select--","--Vui lòng chọn--",module,Magento_Payment
@@ -3405,6 +3417,7 @@ Funding,"Tài trợ",module,Magento_Paypal
 "General (Purchase with a credit card)","Tổng hợp (mua với một thẻ tín dụng)",module,Magento_Paypal
 "General Adjustment without businessrelated event","Tổng hợp điều chỉnh mà không có sự kiện liên quan đến thương nghiệp",module,Magento_Paypal
 "General Currency Conversion","Chuyển đổi tiền tệ nói chung",module,Magento_Paypal
+"General Funding of PayPal Account ","Tổng hợp kinh phí trong tài khoản PayPal ",module,Magento_Paypal
 "General Redemption","Tổng hợp cứu chuộc",module,Magento_Paypal
 "General Withdrawal from PayPal Account","Tổng hợp rút tiền từ tài khoản PayPal",module,Magento_Paypal
 "General. Product no longer supported","Nói chung. Sản phẩm không còn được hỗ trợ",module,Magento_Paypal
@@ -3479,7 +3492,10 @@ Customer,"Khách hàng",module,Magento_Paypal
 "Updated At","Cập nhật lúc",module,Magento_Paypal
 ending,"kết thúc",module,Magento_Paypal
 expires,"hết hạn",module,Magento_Paypal
+"Not sure what PayPal payment method to use? Click ","Bạn không chắc chắn dùng phương thức thanh toán PayPal để sử dụng? Nhấp vào ",module,Magento_Paypal
 here,đây,module,Magento_Paypal
+" to learn more."," để tìm hiểu thêm.",module,Magento_Paypal
+"Important: ","Quan trọng: ",module,Magento_Paypal
 "To use PayPal Payments Advanced, you must configure  your PayPal Payments Advanced account on the PayPal website.","Để sử dụng PayPal thanh toán nâng cao, bạn phải cấu hình tài khoản PayPal thanh toán nâng cao của bạn trên các trang web PayPal.",module,Magento_Paypal
 "Once you log into your PayPal Advanced account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","Một khi bạn đăng nhập vào tài khoản PayPal nâng cao, điều hướng trình đơn cài đặt dịch vụ - tổ chức trang thanh toán - thiết lập và thiết lập tùy chọn mô tả dưới đây",module,Magento_Paypal
 "To use PayPal Payflow Link, you must configure your PayPal Payflow Link account on the PayPal website.","Để sử dụng liên kết PayPal Payflow, bạn phải cấu hình tài khoản PayPal Payflow liên kết trên các trang web PayPal.",module,Magento_Paypal
@@ -3488,6 +3504,7 @@ here,đây,module,Magento_Paypal
 "Credit Card Number","Số thẻ tín dụng",module,Magento_Paypal
 "Expiration Date","Ngày hết hạn",module,Magento_Paypal
 "Card Verification Number","Số xác minh thẻ",module,Magento_Paypal
+"Billing Agreement # ","Thỏa thuận Thanh toán # ",module,Magento_Paypal
 "Agreement Information","Thông tin hợp đồng",module,Magento_Paypal
 "Reference ID:","ID tham khảo:",module,Magento_Paypal
 Status:,"Trạng thái:",module,Magento_Paypal
@@ -3508,6 +3525,7 @@ View,"Hiển thị",module,Magento_Paypal
 "-- Please Select --","-- Vui lòng chọn --",module,Magento_Paypal
 Create...,Tạo...,module,Magento_Paypal
 "Your credit card will be charged for","Thẻ tín dụng của bạn sẽ bị tính phí cho",module,Magento_Paypal
+"Your billing agreement # is: ","Thỏa thuận thanh toán của bạn # là: ",module,Magento_Paypal
 "Shipping Method","Phương thức vận chuyển",module,Magento_Paypal
 "Please select a shipping method...","Hãy lựa chọn một phương pháp vận chuyển...",module,Magento_Paypal
 "Update Shipping Method","Cập Nhật phương pháp vận chuyển",module,Magento_Paypal
@@ -4234,6 +4252,7 @@ Reorder,"Đặt lại",module,Magento_Sales
 "This order contains (%1) items and therefore cannot be edited through the admin interface. If you wish to continue editing, the (%2) items will be removed,  the order will be canceled and a new order will be placed.","Đơn hàng này chứa các sản phẩm (%1) và do đó không thể sửa thông qua giao diện quản trị. '' Nếu bạn muốn tiếp tục chỉnh sửa, các mặt hàng (%2) sẽ được gỡ bỏ, đơn đặt hàng sẽ bị hủy bỏ và một đơn hàng mới sẽ được đặt.",module,Magento_Sales
 "Are you sure? This order will be canceled and a new one will be created instead.","Bạn có chắc không? Đơn hàng này sẽ bị hủy bỏ và một đơn mới sẽ được tạo ra để thay thế.",module,Magento_Sales
 "Save Gift Message","Lưu tin nhắn Quà tặng",module,Magento_Sales
+" [deleted]"," [xóa]",module,Magento_Sales
 "Order Credit Memos","Tín dụng ghi nhớ đơn Đặt hàng",module,Magento_Sales
 "Credit memo #%1 created","Ghi nhớ tín dụng #%1được tạo",module,Magento_Sales
 "Credit memo #%1 comment added","Bình luận Ghi nhớ tín dụng #%1 được thêm",module,Magento_Sales
@@ -4378,6 +4397,8 @@ Home,"Trang chủ",module,Magento_Sales
 "We can't find this wish list.","Chúng tôi không tìm thấy danh sách cần mua này.",module,Magento_Sales
 "We could not add a product to cart by the ID ""%1"".","Chúng tôi không thể thêm một sản phẩm vào giỏ hàng bởi ID ""%1"".",module,Magento_Sales
 "There is an error in one of the option rows.","Đó là lỗi trong các tùy chọn hàng.",module,Magento_Sales
+"Shipping Address: ","Địa chỉ giao hàng: ",module,Magento_Sales
+"Billing Address: ","Địa chỉ thanh toán: ",module,Magento_Sales
 "Please specify order items.","Xin vui lòng chỉ ra khoản mục đặt hàng.",module,Magento_Sales
 "Please specify a shipping method.","Hãy chỉ ra một phương pháp vận chuyển.",module,Magento_Sales
 "Please specify a payment method.","Xin vui lòng chỉ rõ phương thức thanh toán.",module,Magento_Sales
@@ -4461,6 +4482,8 @@ Authorization,"Ủy quyền",module,Magento_Sales
 "Please set a proper payment and order id.","Vui lòng đặt một id đơn đặt hàng và thanh toán phù hợp.",module,Magento_Sales
 "Please enter a Transaction ID.","Vui lòng nhập một ID giao dịch.",module,Magento_Sales
 "You can't do this without a transaction object.","Bạn không thể làm điều này mà không có một đối tượng của giao dịch.",module,Magento_Sales
+"Order # ","Đơn hàng # ",module,Magento_Sales
+"Order Date: ","Ngày đặt hàng: ",module,Magento_Sales
 "Sold to:","Bán cho:",module,Magento_Sales
 "Ship to:","Gửi đến:",module,Magento_Sales
 "Payment Method:","Phương thức thanh toán:",module,Magento_Sales
@@ -4476,6 +4499,8 @@ Products,"Các sản phẩm",module,Magento_Sales
 Qty,"Số lượng",module,Magento_Sales
 Tax,Thuế,module,Magento_Sales
 "Total (inc)","Tổng cộng (inc)",module,Magento_Sales
+"Credit Memo # ","Ghi nhớ Tín dụng # ",module,Magento_Sales
+"Invoice # ","Số hóa đơn ",module,Magento_Sales
 "The order object is not specified.","Các đối tượng đơn hàng không được chỉ định.",module,Magento_Sales
 "The source object is not specified.","Nguồn Đối tượng không xác định.",module,Magento_Sales
 "An item object is not specified.","Một đối tượng sản phẩm không được chỉ định.",module,Magento_Sales
@@ -4483,6 +4508,7 @@ Tax,Thuế,module,Magento_Sales
 "A PDF page object is not specified.","Một đối tượng trang PDF không được chỉ định.",module,Magento_Sales
 "Excl. Tax","Chưa bao gồm thuế",module,Magento_Sales
 "Incl. Tax","Đã bao gồm thuế",module,Magento_Sales
+"Packing Slip # ","Bao bì trượt # ",module,Magento_Sales
 title,"tiêu đề",module,Magento_Sales
 "The PDF total model %1 must be or extend \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.","%1 tất cả mẫu PDF phải hoặc mở rộng \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.",module,Magento_Sales
 "We cannot register an existing shipment","Chúng tôi không thể đăng ký một lô hàng sẵn có",module,Magento_Sales
@@ -4536,6 +4562,7 @@ New,Mới,module,Magento_Sales
 "Email has not been sent","Email chưa được gửi",module,Magento_Sales
 "We will authorize %1 after the payment is approved at the payment gateway.","Chúng tôi sẽ chấp nhận %1 sau khi việc thanh toán được chấp nhận tại cổng thanh toán.",module,Magento_Sales
 "Authorized amount of %1","Số tiền được ủy quyền của %1",module,Magento_Sales
+" Transaction ID: ""%1"""," ID giao dịch: ""%1""",module,Magento_Sales
 "Something went wrong","Xảy ra lỗi",module,Magento_Sales
 View,"Hiển thị",module,Magento_Sales
 "Group was removed","Nhóm đã được gỡ bỏ",module,Magento_Sales
@@ -4756,7 +4783,8 @@ Reports,"Báo cáo",module,Magento_Search
 "Synonym group with id %1 cannot be deleted. %2","Nhóm từ đồng nghĩa với id %1 không thể bị xóa. %2",module,Magento_Search
 "Merge conflict with existing synonym group(s): %1","Kết hợp các cuộc xung đột với nhóm từ đồng nghĩa sẵn có: %1",module,Magento_Search
 "All Websites","Tất cả trang Web",module,Magento_Search
-"All Store Views","Tất cả lượt xem cửa hàng",module,Magento_Search
+"    All Store Views","    Tất cả lượt xem cửa hàng",module,Magento_Search
+"All Store Views","Tất cả lượt xem cửa hàng",module,Magento_Search
 Delete,Xóa,module,Magento_Search
 "Are you sure you want to delete synonym group with id: %1?","Bạn có chắc bạn muốn xóa bỏ nhóm từ đồng nghĩa với id: %1?",module,Magento_Search
 View/Edit,"Xem/chỉnh sửa",module,Magento_Search
@@ -4956,7 +4984,10 @@ SKU,"MÃ SẢN PHẨM",module,Magento_Shipping
 "Tracking Number:","Số theo dõi:",module,Magento_Shipping
 Carrier:,"Đơn vị vận chuyển:",module,Magento_Shipping
 Error:,Lỗi:,module,Magento_Shipping
+"Tracking information is currently not available. Please ","Thông tin Theo dõi là hiện nay không có sẵn. Vui lòng ",module,Magento_Shipping
 "contact us","liên hệ với chúng tôi",module,Magento_Shipping
+" for more information or "," để biết thêm thông tin hoặc ",module,Magento_Shipping
+"email us at ","gửi email cho chúng tôi tại ",module,Magento_Shipping
 Info:,"Thông tin:",module,Magento_Shipping
 Track:,"Theo dõi:",module,Magento_Shipping
 "Delivered on:","Gửi vào:",module,Magento_Shipping
@@ -5182,7 +5213,9 @@ Total,Tổng,module,Magento_Tax
 "Including Tax","Bao gồm cả thuế",module,Magento_Tax
 None,"Không cái nào",module,Magento_Tax
 "Including and Excluding Tax","Bao gồm và không bao gồm thuế",module,Magento_Tax
+"Store(s) affected: ","Cửa hàng bị ảnh hưởng: ",module,Magento_Tax
 "Click on the link to <a href=""%1"">ignore this notification</a>","Nhấp vào liên kết để <a href=""%1""> bỏ qua thông báo này</a>",module,Magento_Tax
+"Please see <a href=""%1"">documentation</a> for more details. ","Xin vui lòng xem <a href=""%1""> tài liệu hướng dẫn</a> chi tiết hơn. ",module,Magento_Tax
 "Click here to go to <a href=""%1"">Tax Configuration</a> and change your settings.","Nhấn vào đây để đi đến <a href=""%1""> cấu hình Thuế</a> và thay đổi cài đặt của bạn.",module,Magento_Tax
 "Invalid type of tax class ""%1""","Loại lớp thuế không hợp lệ ""%1""",module,Magento_Tax
 "Updating classType is not allowed.","Cập Nhật lớp là không được phép.",module,Magento_Tax
@@ -5870,13 +5903,6 @@ Back,"Quay lại",module,Magento_Wishlist
 "Remove This Item","Loại bỏ mục này",module,Magento_Wishlist
 "Go to Wish List","Đi đến danh sách yêu thích",module,Magento_Wishlist
 "You have no items in your wish list.","Bạn không có sản phẩm nào trong danh sách yêu thích.",module,Magento_Wishlist
-"Now Shopping by","Bây giờ mua sắm bằng",theme,frontend/Magento/luma
-Previous,Trước,theme,frontend/Magento/luma
-Remove,"Hủy bỏ",theme,frontend/Magento/luma
-"Remove This Item","Loại bỏ mục này",theme,frontend/Magento/luma
-"Shop By","Mua sắm bằng",theme,frontend/Magento/luma
-"Clear All","Xóa tất cả",theme,frontend/Magento/luma
-"Shopping Options","Lựa chọn mua sắm",theme,frontend/Magento/luma
 "Place Order","Đặt hàng",module,Magento_Authorizenet
 "Credit Card Information","Thông tin thẻ tín dụng",module,Magento_Braintree
 "What is this?","Đây là gì?",module,Magento_Braintree
@@ -6075,51 +6101,9 @@ Filters,"Bộ lọc",module,Magento_Ui
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name muốn chia sẻ danh sách yêu thích này từ %store_name với bạn:",module,Magento_Wishlist
 "Message from %customer_name:","Tin nhắn từ %customer_name:",module,Magento_Wishlist
 "View all Wish List items","Xem tất cả các sản phẩm trong danh sách yêu thích",module,Magento_Wishlist
-"Welcome to %store_name","Chào mừng đến với %store_name",theme,frontend/Magento/luma
-"Welcome to %store_name.","Chào mừng đến với %store_name.",theme,frontend/Magento/luma
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Để đăng nhập vào trang web của chúng tôi, sử dụng các thông tin đăng nhập khi checkout hoặc trên trang<a href=""%customer_url""> Tài khoản của tôi</a>:",theme,frontend/Magento/luma
-Password:,"Mật khẩu:",theme,frontend/Magento/luma
-"Password you set when creating account","Mật khẩu bạn thiết lập khi tạo tài khoản",theme,frontend/Magento/luma
-"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Quên mật khẩu tài khoản? Bấm vào <a href=""%reset_url""> đây</a> để đặt lại nó.",theme,frontend/Magento/luma
-"When you sign in to your account, you will be able to:","Khi bạn đăng nhập vào tài khoản, bạn có thể:",theme,frontend/Magento/luma
-"Quick Checkout","Thanh toán nhanh chóng",theme,frontend/Magento/luma
-"Proceed through checkout faster","Tiến hành checkout nhanh hơn",theme,frontend/Magento/luma
-"Order Status","Tình trạng đơn hàng",theme,frontend/Magento/luma
-"Check the status of orders","Kiểm tra tình trạng đơn hàng",theme,frontend/Magento/luma
-"Manage Addresses","Quản lý địa chỉ",theme,frontend/Magento/luma
-"Store alternative addresses","Lưu trữ địa chỉ thay thế",theme,frontend/Magento/luma
-"For shipping to multiple family members and friends","Để vận chuyển đến nhiều thành viên gia đình và bạn bè",theme,frontend/Magento/luma
-"Order History","Lịch sử đặt hàng",theme,frontend/Magento/luma
-"View past orders","Xem các đơn hàng đã đặt",theme,frontend/Magento/luma
-"About Us","Giới Thiệu Về Chúng Tôi",theme,frontend/Magento/luma
-"Customer Service","Dịch vụ khách hàng",theme,frontend/Magento/luma
-"<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone""> %store_phone</a>",theme,frontend/Magento/luma
-"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Giờ hoạt động: <br /><span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
-"Credit memo for your %store_name order","Bản ghi nhớ tín dụng cho đơn đặt hàng %store_name",theme,frontend/Magento/luma
-"Thank you for your order from %store_name.","Cảm ơn bạn đã đặt hàng từ %store_name.",theme,frontend/Magento/luma
-"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Bạn có thể kiểm tra tình trạng đơn hàng của bạn bằng cách <a href=""%account_url""> đăng nhập vào tài khoản của bạn</a>.",theme,frontend/Magento/luma
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Nếu bạn có thắc mắc về đơn hàng, bạn có thể gửi email cho chúng tôi tại <a href=""mailto:%store_email""> %store_email</a>.",theme,frontend/Magento/luma
-"Your Credit Memo #%creditmemo_id for Order #%order_id","Bản ghi nhớ tín dụng của bạn #%creditmemo_id cho đơn đặt hàng #%order_id",theme,frontend/Magento/luma
-"Billing Info","Thông tin thanh toán",theme,frontend/Magento/luma
-"Shipping Info","Thông tin vận chuyển",theme,frontend/Magento/luma
-"Payment Method","Phương thức thanh toán",theme,frontend/Magento/luma
-"Shipping Method","Phương thức vận chuyển",theme,frontend/Magento/luma
-"Update to your %store_name credit memo","Cập nhật các bản ghi nhớ tín dụng %store_name của bạn",theme,frontend/Magento/luma
-"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Đơn đặt hàng của bạn #%increment_id đã được cập nhật với trạng thái <strong>%order_status</strong>.",theme,frontend/Magento/luma
-"Invoice for your %store_name order","Các hóa đơn cho các đơn đặt hàng %store_name",theme,frontend/Magento/luma
-"Your Invoice #%invoice_id for Order #%order_id","Hoá đơn %invoice_id # cho các đơn đặt hàng #%order_id",theme,frontend/Magento/luma
-"Update to your %store_name invoice","Cập nhật các hoá đơn của bạn %store_name",theme,frontend/Magento/luma
-"Your %store_name order confirmation","Xác nhận đơn đặt hàng của bạn %store_name",theme,frontend/Magento/luma
-"Once your package ships we will send you a tracking number.","Khi hàng của bạn được vận chuyển chúng tôi sẽ gửi cho bạn dãy số theo dõi.",theme,frontend/Magento/luma
-"Your Order <span class=""no-link"">#%increment_id</span>","Đơn đặt hàng của bạn <span class=""no-link""> #%increment_id</span>",theme,frontend/Magento/luma
-"Placed on <span class=""no-link"">%created_at</span>","Đặt trên <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
-"Update to your %store_name order","Cập nhật %store_name các đơn đặt hàng",theme,frontend/Magento/luma
-"Your %store_name order has shipped","Đơn đặt hàng %store_name đã vận chuyển",theme,frontend/Magento/luma
-"Your shipping confirmation is below. Thank you again for your business.","Sự xác nhận vận chuyển của bạn ở dưới đây. Cảm ơn vì giao dịch của bạn.",theme,frontend/Magento/luma
-"Your Shipment #%shipment_id for Order #%order_id","Vận chuyển #%shipment_id cho đơn hàng #%order_id",theme,frontend/Magento/luma
-"Update to your %store_name shipment","Cập Nhật cho %store_name sự gửi hàng của bạn",theme,frontend/Magento/luma
 "We could not detect a size.","Chúng tôi không xác định một kích thước.",module,Magento_Backend
 "We don't recognize or support this file extension type.","Chúng tôi không nhận diện được hoặc định dạng tập tin không được hỗ trợ.",module,Magento_Backend
+"Payment ","Thanh toán ",module,Magento_Braintree
 "Add Products to New Option","Thêm sản phẩm vào Tùy chọn mới",module,Magento_Bundle
 "Warning message","Thông báo cảnh báo",module,Magento_Catalog
 Submit,Gửi,module,Magento_Catalog
@@ -6136,6 +6120,7 @@ Added,"đã thêm",module,Magento_Catalog
 "unselect all","bỏ chọn tất cả",module,Magento_Catalog
 Close,"Đóng lại",module,Magento_CheckoutAgreements
 "Provided Zip/Postal Code seems to be invalid.","Mã Zip/bưu điện được cung cấp dường như không hợp lệ.",module,Magento_Checkout
+" Example: "," Ví dụ: ",module,Magento_Checkout
 "If you believe it is the right one you can ignore this notice.","Nếu bạn tin rằng nó là đúng, bạn có thể bỏ qua thông báo này.",module,Magento_Checkout
 "Review & Payments","đánh giá và thanh toán",module,Magento_Checkout
 "Select a new payment method","Chọn một phương thức thanh toán mới",module,Magento_Checkout
@@ -6169,19 +6154,26 @@ Medium,"Trung bình",module,Magento_Customer
 Strong,"Mạnh mẽ",module,Magento_Customer
 "Very Strong","Rất mạnh",module,Magento_Customer
 "Guest checkout is disabled.","Thanh toán như khách đã bị tắt.",module,Magento_Customer
+"Field ","Trường ",module,Magento_Dhl
+" is required."," là bắt buộc.",module,Magento_Dhl
 "We could not detect a size.","Chúng tôi không xác định một kích thước.",module,Magento_Downloadable
+"Field ","Trường ",module,Magento_Fedex
+" is required."," là bắt buộc.",module,Magento_Fedex
 "Sorry, something went wrong. Please try again later.","Xin lỗi, có gì đó đã đi sai. Xin vui lòng thử lại sau.",module,Magento_Integration
 "Popup Blocker is enabled! Please add this site to your exception list.","Popup Blocker được kích hoạt! Xin vui lòng thêm trang này vào danh sách ngoại lệ.",module,Magento_Integration
 Allow,"Cho phép",module,Magento_Integration
 Done,"Đã thực hiện",module,Magento_Integration
 "We can't complete your order because you don't have a payment method set up.","Chúng tôi không thể hoàn thành đơn đặt hàng của bạn bởi vì bạn chưa thiết lập phương thức thanh toán nào.",module,Magento_Multishipping
 "Please choose a payment method.","Chọn một phương thức thanh toán.",module,Magento_Multishipping
+"Field ","Trường ",module,Magento_OfflineShipping
+" is required."," là bắt buộc.",module,Magento_OfflineShipping
 "Sorry, something went wrong.","Xin lỗi, có gì đó đã đi sai.",module,Magento_Paypal
 "Sorry, something went wrong. Please try again later.","Xin lỗi, có gì đó đã đi sai. Xin vui lòng thử lại sau.",module,Magento_Paypal
 "Video Error","Lỗi video",module,Magento_ProductVideo
 "Unknown video type","Loại video Không biết",module,Magento_ProductVideo
 "Invalid video url","Video url không hợp lệ",module,Magento_ProductVideo
 "Youtube API key is invalid","YouTube API key không hợp lệ",module,Magento_ProductVideo
+"Video cant be shown due to the following reason: ","Video không thể hiển thị do lý do sau: ",module,Magento_ProductVideo
 "Video not found","Không tìm thấy Video",module,Magento_ProductVideo
 "New Video","Video mới",module,Magento_ProductVideo
 Save,Lưu,module,Magento_ProductVideo
@@ -6192,6 +6184,7 @@ Delete,Xóa,module,Magento_ProductVideo
 "This won't take long . . .","Hãy vui lòng đợi một chút . . .",module,Magento_Rule
 "Your coupon was successfully removed.","Phiếu mua hàng của bạn đã được loại bỏ thành công.",module,Magento_SalesRule
 "Your coupon was successfully applied.","Phiếu mua hàng của bạn được áp dụng thành công.",module,Magento_SalesRule
+"Gift Options for ","Tùy chọn Quà tặng cho ",module,Magento_Sales
 "Add Products","Thêm sản phẩm",module,Magento_Sales
 "You have item changes","Bạn có sản phẩm thay đổi",module,Magento_Sales
 Ok,"đồng ý",module,Magento_Sales
@@ -6287,6 +6280,10 @@ Attention,"Chú ý",module,Magento_Ui
 OK,"Đồng ý",module,Magento_Ui
 Close,"Đóng lại",module,Magento_Ui
 Ok,"đồng ý",module,Magento_Ui
+"Field ","Trường ",module,Magento_Ups
+" is required."," là bắt buộc.",module,Magento_Ups
+"Field ","Trường ",module,Magento_Usps
+" is required."," là bắt buộc.",module,Magento_Usps
 Cancel,Hủy,module,Magento_Vault
 "Use HTTPS to Get Feed","Dùng HTTPS Để Lấy Nguồn Cấp Dữ Liệu Feed",module,Magento_AdminNotification
 "Update Frequency","Tần Suất Nâng Cấp",module,Magento_AdminNotification
@@ -6427,7 +6424,7 @@ Security,"Bảo Mật",module,Magento_Backend
 "Offloader header","Giảm Tải Đầu Trang",module,Magento_Backend
 "Default Pages","Các Trang Mặc Định",module,Magento_Backend
 "Default Web URL","Đường Dẫn URL Mặc Định của Web",module,Magento_Backend
-"Default No-route URL","Đường Dẫn URL Không Định Tuyến Mặc Định",module,Magento_Backend
+"Default No-route URL","Đường Dẫn URL Không Định Tuyến Mặc Định ",module,Magento_Backend
 "Session Validation Settings","Cấu Hình Phiên Xác Nhận",module,Magento_Backend
 "Validate REMOTE_ADDR","Xác Nhận REMOTE_ADDR",module,Magento_Backend
 "Validate HTTP_VIA","Xác Nhận HTTP_VIA",module,Magento_Backend
@@ -6517,6 +6514,10 @@ Forms,"Mẫu đơn",module,Magento_Captcha
 "Number of Symbols","Số các biểu tượng",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Vui lòng xác định 8 biểu tượng trong phần lớn. Phạm vi cho phép (ví dụ: 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","Biểu tượng được sử dụng trong CAPTCHA",module,Magento_Captcha
+"
+                        Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.
+                    ","
+Vui lòng chỉ sử dụng chữ cái (a-z hoặc A-Z) hay số (0-9) trong trường này. cách trống hay không có ký tự nào khác được cho phép.<br /> ký tự nhìn giống nhau (ví dụ ""i"", ""l"", ""1"") giảm cơ hội nhận dạng chính xác của khác hàng.                    ",module,Magento_Captcha
 "Case Sensitive","Trường hợp nhạy cảm",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Cho phép CAPTCHA trên Storefront",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA cho hình thức ""tạo người dùng"" và ""Quên mật khẩu""luôn luôn được kích hoạt nếu được lựa chọn.",module,Magento_Captcha
@@ -6530,6 +6531,10 @@ Inventory,"Hàng tồn kho",module,Magento_CatalogInventory
 "Only X left Threshold","Chỉ còn lại mức X",module,Magento_CatalogInventory
 "Display Products Availability in Stock on Storefront","Hiển thị các sản phẩm sẵn có trong kho ở Storefront",module,Magento_CatalogInventory
 "Product Stock Options","Tùy chọn kho sản phẩm",module,Magento_CatalogInventory
+"
+                    Please note that these settings apply to individual items in the cart, not to the entire cart.
+                ","
+Xin lưu ý rằng các cài đặt này áp dụng cho từng sản phẩm trong giỏ hàng, không phải toàn bộ giỏ hàng.                ",module,Magento_CatalogInventory
 "Manage Stock","Quản lý kho",module,Magento_CatalogInventory
 Backorders,"Đơn hàng tồn đọng",module,Magento_CatalogInventory
 "Maximum Qty Allowed in Shopping Cart","Số lượng tối đa được cho phép trong giỏ hàng",module,Magento_CatalogInventory
@@ -6849,6 +6854,7 @@ Contacts,"Liên hệ",module,Magento_Contact
 "Cookie Restriction Mode","Chế độ giới hạn cookie",module,Magento_Cookie
 "Cron (Scheduled Tasks)","Định kỳ (theo lịch trình công việc)",module,Magento_Cron
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set. All the times are in minutes.","Cho đúng các URL được tạo ra trong cron chạy Hãy chắc chắn rằng Web > Secure và Unsecure căn cứ URL được thiết lập một cách rõ ràng. Tất cả thời gian trong vài phút.",module,Magento_Cron
+"Cron configuration options for group: ","Cron tùy chọn cấu hình cho các Nhóm: ",module,Magento_Cron
 "Generate Schedules Every","Tạo lịch trình",module,Magento_Cron
 "Schedule Ahead for","Lên lịch trước cho",module,Magento_Cron
 "Missed if Not Run Within","Bỏ qua nếu không chạy trong vòng",module,Magento_Cron
@@ -6879,10 +6885,20 @@ Currency,"Ngoại tệ",module,Magento_CurrencySymbol
 "Default Welcome Email","Email chào mừng Mặc định",module,Magento_Customer
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Mẫu Email được lựa chọn dựa trên chủ đề dự phòng khi tùy chọn ""Mặc định"" được chọn.",module,Magento_Customer
 "Default Welcome Email Without Password","Email Chào mừng mặc định mà không cần mật khẩu",module,Magento_Customer
+"
+                        This email will be sent instead of the Default Welcome Email, if a customer was created without password. <br /><br />
+                        Email template chosen based on theme fallback when ""Default"" option is selected.
+                    ","
+Email này sẽ được gửi thay vì Email chào mừng mặc định, nếu một khách hàng được tạo ra mà không có mật khẩu.<br /> <br />Email mẫu được lựa chọn dựa trên chủ đề dự phòng khi ""Mặc định"" tùy chọn được chọn.                    ",module,Magento_Customer
 "Email Sender","Người gửi Email",module,Magento_Customer
 "Require Emails Confirmation","Yêu cầu xác nhận email",module,Magento_Customer
 "Confirmation Link Email","Liên kết Xác nhận Email",module,Magento_Customer
 "Welcome Email","Email Chào mừng",module,Magento_Customer
+"
+                        This email will be sent instead of the Default Welcome Email, after account confirmation. <br /><br />
+                        Email template chosen based on theme fallback when ""Default"" option is selected.
+                    ","
+Email này sẽ được gửi thay vì mặc định chào mừng Email, sau khi xác nhận tài khoản. <br /><br /> Email mẫu được lựa chọn dựa trên chủ đề dự phòng khi ""Mặc định"" tùy chọn được chọn.                    ",module,Magento_Customer
 "Generate Human-Friendly Customer ID","Tạo ID khách hàng thân thiện",module,Magento_Customer
 "Password Options","Tùy chọn mật khẩu",module,Magento_Customer
 "Forgot Email Template","Quên mẫu Email",module,Magento_Customer
@@ -6903,6 +6919,10 @@ Currency,"Ngoại tệ",module,Magento_CurrencySymbol
 "Show Prefix","Hiển thị tiền tố",module,Magento_Customer
 "The title that goes before name (Mr., Mrs., etc.)","Tiêu đề đi trước tên (ông, bà, vv)",module,Magento_Customer
 "Prefix Dropdown Options","Tiền tố tùy chọn trình đơn xổ dọc",module,Magento_Customer
+"
+                        Semicolon (;) separated values.<br/>Put semicolon in the beginning for empty first option.<br/>Leave empty for open text field.
+                    ","
+Dấu chấm phẩy (;) là giá trị phân tách. <br/> Đặt dấu chấm phẩy để bắt đầu cho các tùy chọn đầu tiên. <br/> Để trống cho trường văn bản mở.                    ",module,Magento_Customer
 "Show Middle Name (initial)","Hiển thị tên đệm (ban đầu)",module,Magento_Customer
 "Always optional.","Luôn tùy chọn.",module,Magento_Customer
 "Show Suffix","Hiển thị các hậu tố",module,Magento_Customer
@@ -6989,6 +7009,10 @@ Debug,"Sửa Lỗi",module,Magento_Dhl
 "Currency Setup","Thiết lập tiền tệ",module,Magento_Directory
 "Currency Options","Lựa chọn tiền tệ",module,Magento_Directory
 "Base Currency","Tiền tệ cơ sở",module,Magento_Directory
+"
+                        Base currency is used for all online payment transactions. The base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").
+                    ","
+Tiền tệ cơ sở được sử dụng cho tất cả các giao dịch thanh toán trực tuyến. Phạm vi cơ sở tiền tệ được xác định bởi phạm vi giá của cửa hàng (""Danh mục"" > ""Giá"" > ""Phạm vi giá Catalog"").                    ",module,Magento_Directory
 "Default Display Currency","Mặc định Hiển thị tiền tệ",module,Magento_Directory
 "Allowed Currencies","Cho phép các loại tiền tệ",module,Magento_Directory
 "Yahoo Finance Exchange","Trao đổi tài chính yahoo",module,Magento_Directory
@@ -7246,6 +7270,7 @@ Import,Nhập,module,Magento_OfflineShipping
 "Backend port","Cổng Backend",module,Magento_PageCache
 "Specify backend port for config file generation. If field is empty default value 8080 will be saved.","Chỉ định cổng phụ trợ cho thế hệ tập tin cấu hình. Nếu lĩnh vực là trống rỗng, giá trị mặc định 8080 sẽ được lưu.",module,Magento_PageCache
 "TTL for public content","TTL cho nội dung công khai",module,Magento_PageCache
+"Public content cache lifetime in seconds. If field is empty default value 86400 will be saved. ","Dòng đời nội dung Bộ nhớ cache công khai trong vài giây. Nếu lĩnh vực là trống rỗng, giá trị mặc định 86400 sẽ được lưu. ",module,Magento_PageCache
 "Page Cache","Trang Bộ nhớ Cache",module,Magento_PageCache
 "Full page caching","Bộ nhớ đệm đầy đủ trang",module,Magento_PageCache
 "Payment Methods Section","Phần phương pháp thanh toán",module,Magento_Payment
@@ -7270,6 +7295,10 @@ Manage,"Quản lý",module,Magento_Paypal
 "Add PayPal as an additional payment method to your checkout page.","Thêm PayPal như là một phương thức thanh toán bổ sung vào trang web thanh toán của bạn.",module,Magento_Paypal
 "Required PayPal Settings","PayPal yêu cầu cài đặt",module,Magento_Paypal
 "Email Associated with PayPal Merchant Account (Optional)","Email liên kết với tài khoản PayPal thương gia (tùy chọn)",module,Magento_Paypal
+"
+                        <a href=""http://www.magentocommerce.com/paypal"">Start accepting payments via PayPal!</a>
+                    ","
+<a href=""http://www.magentocommerce.com/paypal""> bắt đầu chấp nhận thanh toán qua PayPal!</a>                    ",module,Magento_Paypal
 "Don't have a PayPal account? Simply enter your email address.","Không có một tài khoản PayPal? Chỉ cần nhập địa chỉ email của bạn.",module,Magento_Paypal
 "API Authentication Methods","Phương pháp xác thực API",module,Magento_Paypal
 "API Username","Tên người dùng API",module,Magento_Paypal
@@ -7281,10 +7310,30 @@ Manage,"Quản lý",module,Magento_Paypal
 "Proxy Port","Cổng proxy",module,Magento_Paypal
 "Enable this Solution","Kích hoạt giải pháp này",module,Magento_Paypal
 "Enable In-Context Checkout Experience","Cho phép thanh toán trong bối cảnh kiểm nghiệm",module,Magento_Paypal
+"
+                    See PayPal Feature Support details and list of supported regions
+                    <a href=""https://developer.paypal.com/docs/classic/express-checkout/in-context/"" target=""_blank"">here</a>.
+                ","
+Xem chi tiết hỗ trợ tính năng PayPal và danh sách các khu vực được hỗ trợ <a href=""https://developer.paypal.com/docs/classic/express-checkout/in-context/"" target=""_blank""> ở đây</a>.                ",module,Magento_Paypal
 "Merchant Account ID","ID tài khoản thương gia",module,Magento_Paypal
 "Enable PayPal Credit","Cho phép tín dụng PayPal",module,Magento_Paypal
+"PayPal Express Checkout lets you give customers access to financing through PayPal Credit&#174; - at no additional cost to you.
+                        You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with PayPal Credit&#174;.
+                        <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>
+                ","PayPal nhận thanh toán cho phép bạn cung cấp cho khách truy cập đến nguồn tài chính thông qua PayPal Credit&#174; - không có chi phí bổ sung cho bạn.                         Bạn được trả tiền lên phía trước, ngay cả khi khách hàng có thêm thời gian để trả tiền. Một nút pre-tích hợp thanh toán cho phép khách hàng thanh toán nhanh chóng với PayPal Credit&#174;.                         <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank""> Tìm hiểu thêm</a>
+                ",module,Magento_Paypal
 "Sort Order PayPal Credit","Sắp xếp thứ tự tín dụng PayPal",module,Magento_Paypal
 "Advertise PayPal Credit","Quảng cáo tín dụng PayPal",module,Magento_Paypal
+"
+                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
+                        <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                        from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                        Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                        The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                        or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
+                ","
+                    <a href=\"https:/financing.paypal.com/ppfinportal/content/whyUseFinancing\" target=\"_blank\"> Tại sao nên quảng cáo tài trợ?</a> <br/>                         <strong> Cho một phiên bán hàng của bạn khi bạn quảng cáo tài trợ.</strong> <br/> PayPal sẽ giúp biến trình duyệt thành người mua với tài trợ từ PayPal Credit®&#174;. Khách hàng của bạn có nhiều thời gian hơn để trả tiền, trong khi bạn được trả nhiều tiền hơn nhưng phát sinh thêm.                         Sử dụng các quảng cáo biểu ngữ miễn phí của PayPal cho phép bạn quảng cáo tài trợ PayPal Credit® &#174; như là một lựa chọn thanh toán khi khách hàng của bạn tải về sản phẩm có  PayPal.                         Chương trình quảng cáo PayPal đã được hiển thị để tạo mua bổ sung, cũng như tăng lượng trung bình mua của người tiêu dùng bằng 15% hoặc nhiều hơn. <a href=\"https:/financing.paypal.com/ppfinportal/content/forrester\" target=\"_blank\"> Xem thông tin chi tiết</a>.
+                ",module,Magento_Paypal
 "Publisher ID","Nhà xuất bản ID",module,Magento_Paypal
 "Required to display a banner","Yêu cầu để hiển thị một biểu ngữ",module,Magento_Paypal
 "Get Publisher ID from PayPal","Có được nhà xuất bản ID từ PayPal",module,Magento_Paypal
@@ -7325,9 +7374,19 @@ Title,"Tiêu đề",module,Magento_Paypal
 "This feature needs be enabled first for the merchant account through PayPal technical support.","Tính năng này cần được kích hoạt lần đầu tiên cho tài khoản thương gia thông qua PayPal hỗ trợ kỹ thuật.",module,Magento_Paypal
 "Billing Agreement Signup","Đăng ký thỏa thuận thanh toán",module,Magento_Paypal
 "Whether to create a billing agreement, if there are no active billing agreements available.","Dùng để để tạo ra một thỏa thuận thanh toán, nếu không có không có thỏa thuận thanh toán hoạt động có sẵn.",module,Magento_Paypal
+"
+                        Merchants need to apply to PayPal for enabling billing agreements feature. Do not enable this option until PayPal confirms that billing agreements are enabled for your merchant account.
+                    ","
+                        Thương nhân cần phải áp dụng PayPal để cho phép chức năng thanh toán hợp đồng. Không nên bật tùy chọn này, cho đến khi PayPal xác nhận thỏa thuận thanh toán được kích hoạt cho tài khoản thương gia của bạn.
+                    ",module,Magento_Paypal
 "Skip Order Review Step","Bỏ qua bước xem lại đơn hàng",module,Magento_Paypal
 "PayPal Billing Agreement Settings","Thiết lập thỏa thuận thanh toán PayPal",module,Magento_Paypal
 Enabled,"Kích hoạt",module,Magento_Paypal
+"
+                            Will appear as a payment option only for customers who have at least one active billing agreement.
+                        ","
+                            Sẽ xuất hiện như là một lựa chọn thanh toán chỉ dành cho khách hàng có ít nhất một thỏa thuận hoạt động thanh toán.
+                        ",module,Magento_Paypal
 "Allow in Billing Agreement Wizard","Cho phép trong thuật sĩ thỏa thuận thanh toán",module,Magento_Paypal
 "Settlement Report Settings","Cài đặt báo cáo quyết toán",module,Magento_Paypal
 "SFTP Credentials","SFTP thông tin đăng nhập",module,Magento_Paypal
@@ -7347,11 +7406,30 @@ Schedule,"Lịch trình",module,Magento_Paypal
 "Displays on catalog pages and homepage.","Hiển thị trên các trang danh mục và trang chủ.",module,Magento_Paypal
 "PayPal Merchant Pages Style","Trang loại doanh nghiệp Paypal",module,Magento_Paypal
 "Page Style","Trang loại",module,Magento_Paypal
+"
+                            Allowable values: ""paypal"", ""primary"" (default), your_custom_value (a custom payment page style from your merchant account profile).
+                        ","
+                            Giá trị cho phép: ""paypal"", ""chính"" (mặc định), your_custom_value (thanh toán tùy chỉnh trang phong cách từ hồ sơ thương gia tài khoản của bạn).
+                        ",module,Magento_Paypal
 "Header Image URL","URL hình ảnh tiêu đề",module,Magento_Paypal
+"
+                            The image at the top left of the checkout page. Max size is 750x90-pixel. <strong style=""color:red"">https</strong> is highly encouraged.
+                        ","
+                            Hình ảnh ở phía trên bên trái của trang thanh toán. Kích thước tối đa là 750 x 90 pixel. <strong style=""color:red""> https</strong> rất được khuyến khích.
+                        ",module,Magento_Paypal
 "Header Background Color","Màu nền Tiêu đề",module,Magento_Paypal
+"
+                            The background color for the header of the checkout page. Case-insensitive six-character HTML hexadecimal color code in ASCII.
+                        ","
+                            Màu nền cho các tiêu đề của trang thanh toán. Quản sáu ký tự thập lục phân màu mã HTML trong ASCII.
+                        ",module,Magento_Paypal
 "Header Border Color","Màu sắc biên giới Tiêu đề",module,Magento_Paypal
 "2-pixel perimeter around the header space.","2-pixel các vành đai xung quanh khoảng trống tiêu đề.",module,Magento_Paypal
 "Page Background Color","Màu nền Trang",module,Magento_Paypal
+"
+                            The background color for the checkout page around the header and payment form.
+                        ","
+Màu nền cho các trang thanh toán xung quanh các hình thức tiêu đề và thanh toán.                        ",module,Magento_Paypal
 "Payments Advanced and Express Checkout","Thanh toán nâng cao và thanh toán Express",module,Magento_Paypal
 Partner,"Đối tác",module,Magento_Paypal
 Vendor,"Nhà cung cấp",module,Magento_Paypal
@@ -7360,6 +7438,16 @@ User,"Người Dùng",module,Magento_Paypal
 "PayPal recommends you set up an additional User on your account at manager.paypal.com, instead of entering your admin username and password here. This will enhance your security and prevent service interruptions if you later change your password. If you do not want to set up an additional User, you can re-enter your Merchant Login here.","PayPal đề nghị bạn thiết lập một người dùng bổ sung vào tài khoản của bạn tại manager.paypal.com, thay vì nhập admin tên đăng nhập và mật khẩu ở đây của bạn. Điều này sẽ tăng cường an ninh và ngăn chặn gián đoạn dịch vụ nếu sau đó bạn thay đổi mật khẩu. Nếu bạn không muốn để thiết lập một người dùng bổ sung, bạn có thể nhập lại thông tin đăng nhập thương gia ở đây.",module,Magento_Paypal
 "Test Mode","Chế độ dùng thử",module,Magento_Paypal
 "Use Proxy","Sử dụng Proxy",module,Magento_Paypal
+"
+                    <a href=""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
+                                            <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                                            from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                                            Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                                            The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                                            or more. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
+                ","
+                    href=\"https:/financing.paypal.com/ppfinportal/content/whyUseFinancing\" target=\"_blank\"> Tại sao nên quảng cáo tài trợ?</a> <br/>                         <strong> Cho một phiên bán hàng của bạn khi bạn quảng cáo tài trợ.</strong> <br/> PayPal sẽ giúp biến trình duyệt thành người mua với tài trợ từ PayPal Credit®&#174;. Khách hàng của bạn có nhiều thời gian hơn để trả tiền, trong khi bạn được trả nhiều tiền hơn nhưng phát sinh thêm.                         Sử dụng các quảng cáo biểu ngữ miễn phí của PayPal cho phép bạn quảng cáo tài trợ PayPal Credit® &#174; như là một lựa chọn thanh toán khi khách hàng của bạn tải về sản phẩm có  PayPal.                         Chương trình quảng cáo PayPal đã được hiển thị để tạo mua bổ sung, cũng như tăng lượng trung bình mua của người tiêu dùng bằng 15% hoặc nhiều hơn. <a href=\"https:/financing.paypal.com/ppfinportal/content/forrester\" target=\"_blank\"> Xem thông tin chi tiết</a>.
+                ",module,Magento_Paypal
 "Basic Settings - PayPal Payments Advanced","Cài đặt cơ bản - nâng cao thanh toán PayPal",module,Magento_Paypal
 "It is recommended to set this value to ""Debit or Credit Card"" per store views.","Nó được khuyến khích để đặt giá trị này để ""ghi nợ hoặc thẻ tín dụng"" cho một cửa hàng.",module,Magento_Paypal
 "CVV Entry is Editable","CVV nhập là có thể chỉnh sửa",module,Magento_Paypal
@@ -7373,6 +7461,16 @@ User,"Người Dùng",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Link","Cài đặt cơ bản - liên kết PayPal Payflow",module,Magento_Paypal
 "Website Payments Pro Hosted Solution","Trang web thanh toán giải pháp lưu trữ chuyên nghiệp",module,Magento_Paypal
 "Payments Pro Hosted Solution","Giải pháp máy chủ Thanh toán chuyên nghiệp",module,Magento_Paypal
+"
+                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
+                            <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                            from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                            Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                            The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                            or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
+                ","
+                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank""> Tại sao nên quảng cáo tài trợ?</a> <br/>                         <strong> Tăng doanh thu của bạn khi bạn quảng cáo tài trợ.</strong> <br/> PayPal sẽ giúp biến người xem thành người mua với tài trợ từ PayPal Credit®&#174;. Khách hàng của bạn có nhiều thời gian hơn để trả tiền, trong khi bạn được trả nhiều tiền hơn.                         Sử dụng các quảng cáo biểu ngữ miễn phí của PayPal cho phép bạn quảng cáo tài trợ PayPal Credit® &#174; như là một lựa chọn thanh toán khi khách hàng của bạn tải về sản phẩm có thể thanh toán bằng PayPal.                         Chương trình quảng cáo PayPal đã được hiển thị để tạo mua bổ sung, cũng như tăng lượng trung bình mua của người tiêu dùng bằng 15% hoặc nhiều hơn. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank""> Xem thông tin chi tiết</a>.
+                ",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro Hosted Solution","Cài đặt cơ bản - các khoản thanh toán PayPal Pro giải pháp lưu trữ",module,Magento_Paypal
 "Display Express Checkout in the Payment Information step","Hiển thị thanh toán Express trong bước thông tin thanh toán",module,Magento_Paypal
 "Website Payments Pro Hosted Solution and Express Checkout","Trang web thanh toán giải pháp lưu trữ Pro và thanh toán Express",module,Magento_Paypal
@@ -7381,6 +7479,11 @@ User,"Người Dùng",module,Magento_Paypal
 "Vault Title","Tiêu đề Vault",module,Magento_Paypal
 "Credit Card Settings","Cài đặt thẻ tín dụng",module,Magento_Paypal
 "Allowed Credit Card Types","Các loại thẻ tín dụng được cho phép",module,Magento_Paypal
+"
+                    Supporting of American Express cards require additional agreement. Learn more at <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>.
+                ","
+                    Hỗ trợ của thẻ American Express yêu cầu thỏa thuận bổ sung. Tìm hiểu thêm tại <a href=""http://www.paypal.com/amexupdate""> http://www.paypal.com/amexupdate</a>.
+                ",module,Magento_Paypal
 "CVV and AVS Settings","CVV và cài đặt AVS",module,Magento_Paypal
 "Reject Transaction if:","Từ chối giao dịch nếu:",module,Magento_Paypal
 "AVS Street Does Not Match","AVS Street không phù hợp",module,Magento_Paypal
@@ -7388,6 +7491,16 @@ User,"Người Dùng",module,Magento_Paypal
 "International AVS Indicator Does Not Match","Chỉ số quốc tế AVS không phù hợp",module,Magento_Paypal
 "Card Security Code Does Not Match","Mã bảo vệ thẻ không khớp",module,Magento_Paypal
 "Payflow Pro and Express Checkout","Payflow Pro và thanh toán Express",module,Magento_Paypal
+"
+                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
+                                <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                                from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                                Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                                The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                                or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
+                ","
+                    <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank""> Tại sao nên quảng cáo tài trợ?</a> <br/>                         <strong> Tăng doanh thu của bạn khi bạn quảng cáo tài trợ.</strong> <br/> PayPal sẽ giúp biến người xem thành người mua với tài trợ từ PayPal Credit®&#174;. Khách hàng của bạn có nhiều thời gian hơn để trả tiền, trong khi bạn được trả nhiều tiền hơn.                         Sử dụng các quảng cáo biểu ngữ miễn phí của PayPal cho phép bạn quảng cáo tài trợ PayPal Credit® &#174; như là một lựa chọn thanh toán khi khách hàng của bạn tải về sản phẩm có thể thanh toán bằng PayPal.                         Chương trình quảng cáo PayPal đã được hiển thị để tạo mua bổ sung, cũng như tăng lượng trung bình mua của người tiêu dùng bằng 15% hoặc nhiều hơn. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank""> Xem thông tin chi tiết</a>.
+                ",module,Magento_Paypal
 "Persistent Shopping Cart","Giữ nguyên giỏ hàng",module,Magento_Persistent
 "General Options","Tùy chọn chung",module,Magento_Persistent
 "Enable Persistence","Cho phép giữ nguyên",module,Magento_Persistent
@@ -7495,8 +7608,16 @@ Description,"Mô tả",module,Magento_SalesRule
 Websites,"Các trang web",module,Magento_SalesRule
 "Customer Groups","Nhóm khách hàng",module,Magento_SalesRule
 "Use Auto Generation","Sử dụng thế hệ tự động",module,Magento_SalesRule
+"
+                        If you select and save the rule you will be able to generate multiple coupon codes.
+                    ","
+Nếu bạn chọn và lưu quy tắc, bạn sẽ có thể tạo ra nhiều mã phiếu mua hàng.                    ",module,Magento_SalesRule
 "Uses per Coupon","Số lần sử dụng một phiếu giảm giá",module,Magento_SalesRule
 "Uses per Customer","Số lần sử dụng cho mỗi khách hàng",module,Magento_SalesRule
+"
+                        Usage limit enforced for logged in customers only.
+                    ","
+Cách sử dụng giới hạn áp dụng chỉ cho khách hàng đã đăng nhập.                    ",module,Magento_SalesRule
 From,Từ,module,Magento_SalesRule
 To,Đến,module,Magento_SalesRule
 "Public In RSS Feed","Các khu vực trong RSS Feed",module,Magento_SalesRule
@@ -7523,7 +7644,15 @@ General,Chung,module,Magento_Sales
 "Allow Reorder","Cho phép đặt hàng lại",module,Magento_Sales
 "Invoice and Packing Slip Design","Hóa đơn và đóng gói thiết kế trượt",module,Magento_Sales
 "Logo for PDF Print-outs (200x50)","Biểu tượng cho in PDF (200 x 50)",module,Magento_Sales
+"
+                        Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.
+                    ","
+Biểu tượng mặc định của bạn sẽ được sử dụng trong PDF và HTML tài liệu. < br />(jpeg, tiff, png) nếu hình ảnh pdf của bạn bị bóp méo, hãy thử sử dụng kích thước tập tin hình ảnh lớn hơn.                    ",module,Magento_Sales
 "Logo for HTML Print View","Biểu tượng cho HTML chế độ xem trước khi in",module,Magento_Sales
+"
+                        Logo for HTML documents only. If empty, default will be used.<br />(jpeg, gif, png)
+                    ","
+Biểu tượng cho văn bản HTML. Nếu trống, mặc định sẽ được sử dụng. < br />(jpeg, gif, png)                    ",module,Magento_Sales
 Address,"Địa chỉ",module,Magento_Sales
 "Minimum Order Amount","Số lượng đặt hàng tối thiểu",module,Magento_Sales
 Enable,"Cho phép",module,Magento_Sales
@@ -7866,6 +7995,7 @@ Edit,"Chỉnh sửa",module,Magento_UrlRewrite
 "We will disable this feature if the value is empty.","Chúng tôi sẽ vô hiệu hóa tính năng này nếu giá trị là trống rỗng.",module,Magento_User
 "Lockout Time (minutes)","Khóa thời gian (phút)",module,Magento_User
 "Password Lifetime (days)","Mật khẩu trọn đời (ngày)",module,Magento_User
+"We will disable this feature if the value is empty. ","Chúng tôi sẽ vô hiệu hóa tính năng này nếu giá trị là trống rỗng. ",module,Magento_User
 "Password Change","Thay đổi mật khẩu",module,Magento_User
 Unlock,"Mở khoá",module,Magento_User
 Username,"Tên đăng nhập",module,Magento_User
@@ -7959,6 +8089,3 @@ Action,"Thao tác",module,Magento_Wishlist
 Configure,"Cấu hình",module,Magento_Wishlist
 Delete,Xóa,module,Magento_Wishlist
 "Product Details and Comment","Chi tiết và bình luận về sản phẩm",module,Magento_Wishlist
-"Account Dashboard","Trang tổng quan tài khoản",theme,frontend/Magento/luma
-"Account Information","Thông tin tài khoản",theme,frontend/Magento/luma
-"Address Book","Sổ địa chỉ",theme,frontend/Magento/luma
